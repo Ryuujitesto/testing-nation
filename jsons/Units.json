@@ -5,8 +5,8 @@
 		"replaces": "Assault Mecha",
 		"uniqueTo": "Alliance of New Federation",
 		"unitType": "Close Range Mech",
-		"movement": 4,
-		"strength": 80,
+		"movement": 3,
+		"strength": 75,
 		"cost": 900,
 		"requiredTech": "Combat Mechas",
 		"requiredResource": "Titanium",
@@ -19,7 +19,8 @@
 			"[+50]% Strength <vs [Armored] units>",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Consumes [4] [Titanium]",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+                        "Ignore terrain cost"
 		],
 		"promotions": ["ATLAS"],
 		"hurryCostModifier": 20,

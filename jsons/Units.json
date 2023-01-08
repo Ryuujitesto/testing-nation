@@ -104,8 +104,7 @@
                         "Can see invisible [Stealth Infantry] units",
                         "Can see invisible [Submarine] units",
                         "Can see invisible [Xeno Stealth Water] units",
-			"Consumes [1] [Gravitix]",
-                        "Consumes [1] [Antimatter]",
+			"Consumes [2] [Antimatter]",
                         "Ranged attacks may be performed over obstacles",
                         "Can see over obstacles",
 			"Never appears as a Barbarian unit"
@@ -122,7 +121,7 @@
 				"Separator": true
 			},
 			{
-				"text": "The alliance artillery mech, Death walker is artillery quad walking machine equipped with alliance heavy long railgun and ultra long range sensor. The enemy will never see what kill them"
+		         	"text": "The alliance artillery mech, Death walker is artillery quadruple mech equipped with Alliance heavy long railgun powered by antimatter reactor and ultra long range photon sensor. The enemy will never see what kill them"
 			}
 		]
 	},
@@ -180,7 +179,7 @@
 				"Separator": true
 			},
 			{
-				"text": "The alliance massive hover fortress, this machine serve as a military fortress in the battlefield for alliance. Aircraft deck, satellite lauch pad, missile silos, machine repair unit and satellite uplink is all you need for a front line base "
+				"text": "The alliance massive hover fortress, this pinnacle machine serve as a military fortress in the battlefield for the Alliance. This machine use antimatter reactor, harnessing gravitix for hovering, equiped with quantum entanglement shield from yairmite. Beside that, this behemoth have Aircraft deck, satellite lauch pad, missile silos, machine repair unit, all terrain defense weaponry and satellite uplink is all you need for a indestructible front line base "
 			}
 		]
 	},

@@ -36,7 +36,7 @@
 			"[+3] Movement <for [Civilian] units>",
 			"[+25]% Production when constructing [Military] units [in all cities]",
 			"[-75]% tile improvement construction time",
-			"Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns."
+			"Can spend Gold to annex or puppet a City-State that has been your ally for [10] turns",
                         "[+2] Sight <for [Civilian] units>",
                         "[-25]% Unhappiness from [Population] [in all cities]",
                         "Damage is ignored when determining unit Strength <for [All] units>",

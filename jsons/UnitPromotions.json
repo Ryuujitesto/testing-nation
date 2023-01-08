@@ -1,14 +1,13 @@
 [
 	{
 		"name": "APD Center Kit",
-		"uniques": ["Can construct [ARK District]"],
+		"uniques": ["Can construct [APD Center Kit]"],
 	},
 	{
 		"name": "ATLAS",
 		"uniques": [
 			"[+75]% Strength <when defending>",
-			"[+15] HP when healing <in [all] tiles>",
-			"[+15] HP when healing <in [all] tiles>",
+			"[+15] HP when healing <in [Foreign Land] tiles>",
 			"[+1] Sight",
 			"[+1] Movement",
 			"Ignores Zone of Control",
@@ -67,7 +66,7 @@
 			"[+50]% Strength <vs [Ranged] units> <when defending>"
 			"Can carry [1] extra [Aircraft] units",
 			"May heal outside of friendly territory",
-			"[+30] HP when healing <in [Foreign Land] tiles",
+			"[+30] HP when healing <in [Foreign Land] tiles>",
 			"[+50]% Strength <when defending>"
 			"All adjacent units heal [+30] HP when healing"
 			"All healing effects doubled"

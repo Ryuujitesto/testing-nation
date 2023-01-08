@@ -135,7 +135,7 @@
 		"strength": 100,
 		"rangedStrength": 80,
 		"cost": 2000,
-		"requiredTech": "Satellite Networks",
+		"requiredTech": "Stasis Fields",
 		"requiredResource": "Antimatter",
 		//"upgradesTo": "Anti-Air Buggy",
 		//"obsoleteTech": "Chivalry",

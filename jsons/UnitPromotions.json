@@ -14,7 +14,7 @@
 			"Ignores Zone of Control",
 			"[-25]% Strength for enemy [Military] units in adjacent [All] tiles",
 			"[+50]% XP gained from combat"
-		],
+		]
 	},
 	{
 		"name": "MARAUDER",
@@ -26,7 +26,7 @@
 			"[+1] Movement",
 			"Ignores Zone of Control",
 			"[+50]% XP gained from combat"
-		],
+		]
 		
 	},
 	{
@@ -40,7 +40,7 @@
 			"[+1] Movement",
 			"Ignores Zone of Control",
 			"[+50]% XP gained from combat"
-		],
+	    ]
 	},
 	{
 		"name": "ICARUS",
@@ -76,7 +76,7 @@
 			"[+2] Movement",
 			"Ignores Zone of Control",
 			"[+50]% XP gained from combat"
-		],
+		]
 	},
 	
 ]

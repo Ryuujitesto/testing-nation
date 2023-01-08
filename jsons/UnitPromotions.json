@@ -47,13 +47,13 @@
 		"uniques": [
 			"[+75]% Damage when intercepting",
 			"[+100]% Strength when performing Air Sweep",
-			"[+75]% Strength <vs [Water] units>"],
+			"[+75]% Strength <vs [Water] units>",
 		    "Damage taken from interception reduced by [75]%",
 		    "[+75]% Strength <vs [Land] units>",
 			"[+7] Range",
 			"Ignores Zone of Control",
 			"[+50]% XP gained from combat"
-		]
+	    ]
 	},
 	{
 		"name": "PIONEER",

@@ -69,6 +69,8 @@
 			"May heal outside of friendly territory",
 			"[+30] HP when healing <in [Foreign Land] tiles,
 			"[+50]% Strength <when defending>"
+			"All adjacent units heal [+30] HP when healing"
+			"All healing effects doubled"
 			"[+3] Sight",
 			"[+2] Range",
 			"[+2] Movement",

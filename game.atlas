@@ -1649,7 +1649,7 @@ UnitIcons/Dog Soldier
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Drop Tank
+UnitIcons/Pioneer Fortress
   rotate: false
   xy: 1408, 1348
   size: 100, 100
@@ -5931,7 +5931,7 @@ TileSets/FantasyHex/Units/Dog Soldier
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Drop Tank
+TileSets/FantasyHex/Units/Pioneer Fortress
   rotate: false
   xy: 1828, 480
   size: 32, 28

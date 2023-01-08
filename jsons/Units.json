@@ -137,7 +137,7 @@
 		"rangedStrength": 80,
 		"cost": 2000,
 		"requiredTech": "Satellite Networks",
-		"requiredResource": "Gravitix","Antimatter","Yairmite"
+		"requiredResource": "Gravitix","Antimatter","Yairmite",
 		//"upgradesTo": "Anti-Air Buggy",
 		//"obsoleteTech": "Chivalry",
 		"uniques": [

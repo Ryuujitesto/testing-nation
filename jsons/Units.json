@@ -88,8 +88,8 @@
 		"rangedStrength": 150,
 		"cost": 1100,
 		"requiredTech": "Mind-Machine Interface",
-		"requiredResource": "Gravitix","Antimatter",
-		"uniques": [
+		"requiredResource": "Gravitix",
+                "uniques": [
 			"Mech",
 			"[+300]% Strength <vs cities>",
 			"Can move after attacking",
@@ -137,7 +137,7 @@
 		"rangedStrength": 80,
 		"cost": 2000,
 		"requiredTech": "Satellite Networks",
-		"requiredResource": "Gravitix","Antimatter","Yairmite",
+		"requiredResource": "Antimatter",
 		//"upgradesTo": "Anti-Air Buggy",
 		//"obsoleteTech": "Chivalry",
 		"uniques": [

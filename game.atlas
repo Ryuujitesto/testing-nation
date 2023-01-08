@@ -543,7 +543,7 @@ ImprovementIcons/Biodome City
   orig: 100, 100
   offset: 0, 0
   index: -1
-ImprovementIcons/Citadel
+ImprovementIcons/APD Center
   rotate: false
   xy: 652, 1672
   size: 100, 100
@@ -1908,7 +1908,7 @@ UnitPromotionIcons/Air Targeting
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Alpha Strike
+UnitPromotionIcons/DEATH
   rotate: false
   xy: 808, 1888
   size: 100, 100
@@ -1943,7 +1943,7 @@ UnitPromotionIcons/Anti-Armor
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Armor Plating
+UnitPromotionIcons/ATLAS
   rotate: false
   xy: 4, 544
   size: 100, 100
@@ -1978,7 +1978,7 @@ UnitPromotionIcons/Boarding Party
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Bombardment
+UnitPromotionIcons/ICARUS
   rotate: false
   xy: 220, 760
   size: 100, 100
@@ -2069,7 +2069,7 @@ UnitPromotionIcons/Data Uplinked
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Deadshot
+UnitPromotionIcons/MARAUDER
   rotate: false
   xy: 1192, 1348
   size: 100, 100
@@ -4203,7 +4203,7 @@ UnitPromotionIcons/Logistics
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Maintenance
+UnitPromotionIcons/APD Center Kit
   rotate: false
   xy: 328, 1516
   size: 100, 100
@@ -4518,7 +4518,7 @@ UnitPromotionIcons/Tide Prowling
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Toxin
+UnitPromotionIcons/PIONEER
   rotate: false
   xy: 1300, 220
   size: 100, 100
@@ -4937,7 +4937,7 @@ TileSets/FantasyHex/Tiles/City center-Landfall era
   orig: 32, 36
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/City center-Realization era
+TileSets/FantasyHex/Tiles/APD Center
   rotate: false
   xy: 422, 40
   size: 32, 36
@@ -5791,7 +5791,7 @@ TileSets/FantasyHex/Units/Bugwolf
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Civil Protection Mecha
+TileSets/FantasyHex/Units/Atlas Mecha
   rotate: false
   xy: 342, 4
   size: 32, 28
@@ -6344,7 +6344,7 @@ TileSets/FantasyHex/Units/Jovian Wolves Company (Exoframe Sniper)
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Laser Mecha
+TileSets/FantasyHex/Units/Marauder Mecha
   rotate: false
   xy: 1988, 332
   size: 32, 28
@@ -6428,7 +6428,14 @@ TileSets/FantasyHex/Units/Missile Rover
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Mobile Fortress
+TileSets/FantasyHex/Units/Pioneer Fortress
+  rotate: false
+  xy: 1828, 280
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+  TileSets/FantasyHex/Units/EmbarkedUnit-Pioneer Fortress
   rotate: false
   xy: 1828, 280
   size: 32, 28
@@ -6554,7 +6561,7 @@ TileSets/FantasyHex/Units/Seadog
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Siege Walker
+TileSets/FantasyHex/Units/Death Walker
   rotate: false
   xy: 1000, 300
   size: 32, 28

@@ -1,0 +1,1437 @@
+[
+	// Spectator
+	{
+		"name": "Spectator",
+		"outerColor": [255, 255, 255]
+		// "innerColor": [255,255,255]
+	},
+
+	/* template: at least 20 city names
+	also 10 spy names
+	
+	// victory types: Scientific, Diplomatic, Cultural, Domination
+	
+	{
+		"name": "EmpireName",
+		"leaderName": "LeaderName",
+		"adjective": ["Adjective"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType":"Scientific",
+
+		"startIntroPart1": ".",
+		"startIntroPart2": ". Can you build a colony that stands the test of time?",
+
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+
+		"neutralHello": ".",
+		"hateHello": ".",
+
+		"tradeRequest": ".",
+
+		"outerColor": [85, 85, 85],
+		"innerColor": [126, 192, 253],
+		"favoredReligion": "ReligionName",
+		"uniqueName": "UniqueName",
+		"uniques": ["Uniques Go Here"],
+		"cities": [
+			"Capital",
+			"City1",
+			"City2",
+			"City3",
+			"City4",
+			"City5",
+			"City6",
+			"City7",
+			"City8",
+			"City9",
+			"City10",
+			"City11",
+			"City12",
+			"City13",
+			"City14",
+			"City15",
+			"City16",
+			"City17",
+			"City18",
+			"AndSoOn"
+		],
+		"spyNames": [
+			"Spy1",
+			"Spy2",
+			"Spy3",
+			"Spy4",
+			"Spy5",
+			"Spy6",
+			"Spy7",
+			"Spy8",
+			"Spy9",
+			"Spy10"
+		]
+	},
+	
+	// CS types: Cultured, Maritime, Mercantile, Militaristic, Religious
+	
+	{
+		"name": "OutpostName",
+		"adjective": ["Adjective"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Tundra"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [252,219,3],
+		"cities": ["Sputnik Outpost"]
+	}
+	
+	// Cultured -> Cultural
+		"outerColor": [50, 50, 50],
+		"innerColor": [197, 55, 222],
+		
+	// Maritime -> Agricultural
+		"outerColor": [50, 50, 50],
+		"innerColor": [114, 222, 55],
+	
+	// Mercantile -> Economic
+		"outerColor": [50, 50, 50],
+		"innerColor": [222, 200, 55],
+	
+	// Militaristic
+		"outerColor": [50, 50, 50],
+		"innerColor": [222, 116, 55],
+		
+	// Religious
+		"outerColor": [50, 50, 50],
+		"innerColor": [55, 200, 222],
+	
+	*/
+
+	// Nations
+	{
+		"name": "Toma Heavy Industries",
+		"leaderName": "Kirii Toma",
+		"adjective": ["Toman"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Scientific",
+
+		"startIntroPart1": "Greetings, Kirii Toma, CEO of Toma Heavy Industries. Since its humble beginnings as a spaceship manufacturing factory, Toma Heavy Industries has always focused on two things: Industry and Science. Riding on the upswell of technological progress of old Earth, the company has prospered and managed to relocate their headquarters to Mars, on Cydonia Mensae. But you, Kirii Toma, had foreseen the ecological and societal collapse of old Earth, and manufactured your own ship in secret to travel the stars. Followed by your best and brightest, you personally landed on this new world and started your own colony under the banner of Toma Heavy Industries.",
+		"startIntroPart2": "Kirii, your scientists and engineers are eager to uncover the secrets of the future on this new planet. Will you reach a new pinnacle of technological marvel? Can you build a colony that stands the test of time?",
+
+		"declaringWar": "We regretfully inform you that your nation is now subject to unrestricted field testing for our weaponry. Please provide at least a token amount of resistance to provide the necessary data.",
+		"attacked": "This is most inconvenient. Very well.",
+		"defeated": "The improbable has occurred. Our company has fallen into ruin...",
+		"introduction": "Greetings. I am Kirii Toma, CEO of Toma Heavy Industries. I hope you are here for mutual research.",
+
+		"neutralHello": "Greetings. State your business.",
+		"hateHello": "State your business or vacate this frequency.",
+
+		"tradeRequest": "This is a most logical trade offer. I implore you to take it.",
+
+		"outerColor": [126, 192, 253],
+		"innerColor": [85, 85, 85],
+		"favoredReligion": "Virtualism",
+		"uniqueName": "Ingenuity from Isolation",
+		"uniques": [
+			"Receive a tech boost when scientific buildings/wonders are built in capital",
+			"Science gained from research agreements [+100]%",
+			"Unhappiness from number of Cities doubled"
+		],
+		"cities": [
+			"Cydonia Central",
+			"Cibo City",
+			"Kanoe Landing",
+			"Mizunoe Base",
+			"Dhomochevsky Post",
+			"Zuru Station",
+			"Gauna Containment",
+			"Denji Landing",
+			"Tanikaze City",
+			"Tsumugi Post",
+			"Izana Base",
+			"N5S Facility",
+			"Ion Green City",
+			"Iko Post",
+			"Mori Base",
+			"Kumoi Post",
+			"Midorikawa Base",
+			"Honoka Landing",
+			"Etherow City",
+			"Kozlov Station"
+		] ,
+		"spyNames": [
+			"Cibo",
+			"Kanoe",
+			"Iko",
+			"Denji",
+			"Kozlov",
+			"Dhomochevsky",
+			"Tanikaze",
+			"Mori",
+			"Zuru",
+			"Mizunoe"
+		]
+		
+	},
+	
+	{
+		"name": "Belta V Offworld Mining",
+		"leaderName": "Tycho Dawes",
+		"adjective": ["Belta"],
+		"startBias": ["Plains"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": "Oye, Beltalowda Tycho Dawes, spokesperson of the Belta V Offworld Mining! Originally a small mining company based on Ceres in the Asteroid Belt, its integration into the local prison system has been a major success. Soon the company spread around the Asteroid Belt and beyond, taking in a majority of the Belter subculture into their workforce. As the mineral content of the Belt dwindles, rumors spread of a fresh new exoplanet to colonize - and soon the company commissioned their own colony ship with you, Tycho Dawes, as its warden.",
+		"startIntroPart2": "Tycho, the inmates under your watch require rehabilitation in the form of labor, and the planet provides a second life to many. Will you develop this penal colony into greatness? Can you build a colony that stands the test of time?",
+
+		"declaringWar": "Oye, sorry mate, but you got the ting I want. Hand 'em over.",
+		"attacked": "Hey, hey! No funny business! Eye for an eye!",
+		"defeated": "Aw, rats. Back to rock jumpin' then eh?",
+		"introduction": "Oye, this be Tycho Dawes, yap-man for Belta V. How's the gravity treatin' ya?",
+
+		"neutralHello": "Oye, what's cookin' ay?",
+		"hateHello": "Ach, it's the slaggart. Whatchu want?",
+
+		"tradeRequest": "Take a ganda' at this ting we need, got the supply for it?",
+
+		"outerColor": [240, 199, 36],
+		"innerColor": [255, 125, 3],
+		"favoredReligion": "Mormonism",
+		"uniqueName": "Belta Penal Code",
+		"uniques": ["[-20]% tile improvement construction time","No movement cost to pillage <for [Infantry] units>"],
+		"cities": [
+			"Canterbury",
+			"Rocinante",
+			"Barbapiccola",
+			"Bhikaji Cama",
+			"Derecho",
+			"Dagon Meggido",
+			"Guy Molinari",
+			"Highland Swing",
+			"Lauber Camp",
+			"Gatamang Feronte",
+			"Savage Landing",
+			"Malaclypse",
+			"Mosley Camp",
+			"John Galt's Folly",
+			"Torngarsuk",
+			"Nokota Sioux",
+			"Neve Avivim",
+			"Tucumcari",
+			"Vanderpoele",
+			"Whiteoak"
+		] ,
+		"spyNames": [
+			"Josephus",
+			"Riker",
+			"Paolo",
+			"Gia",
+			"Javi",
+			"Saachi",
+			"Vedasto",
+			"Tamir",
+			"Champa",
+			"Rattana"
+		]
+		
+	},
+	{
+		"name": "Deep Rock Ganymede",
+		"leaderName": "Karl McUrist",
+		"adjective": ["Deep Rock"],
+		"startBias": ["Avoid [Coast]"],
+		"preferredVictoryType":"Cultural",
+
+		"startIntroPart1": "May you forever Rock and Stone, Karl McUrist, CEO of Deep Rock Ganymede! Ever since you've struck it rich as a hazardous miner in Ganymede, you've built your own corporation from the ground up. Your company's key to success is specializing in high-hazard high-pay employment to mine the rarest resources, going farther and deeper than any of your competitor ever dreamed of. Now, as unrest grips the Jovian moons, you turn your eye towards the new exoplanet, and built your own colony ship.",
+		"startIntroPart2": "Karl, your miners hunger for more minerals and riches, abundant on this planet. Will you lead them to better profit margins? Can you make a colony that stands the test of time?",
+
+		"declaringWar": "Something about you makes me want to punch your face in. Brace yourself, I'm going there personally!",
+		"attacked": "Oho? Fancying a fight now, you intergalactic goat?",
+		"defeated": "Ohh, this'll go in the Log of Grudges, aye.",
+		"introduction": "Hello there! I'm Karl McUrist, CEO of this here Deep Rock Ganymede corporation. Nice to meet you!",
+
+		"neutralHello": "Aye, hello there!",
+		"hateHello": "What is it, you oaf?",
+
+		"tradeRequest": "Hey, just notifying you that we've got this fresh new deal. How about it?",
+
+		"outerColor": [217, 56, 7],
+		"innerColor": [255, 218, 31],
+		"favoredReligion": "Cosmic Clergy",
+		"uniqueName": "Rock Solid",
+		"uniques": ["[+20]% Strength <for [Military] units> <in [Hill] tiles>","[+1 Gold, +1 Production] from [Mountain] tiles [in all cities]","[+50]% City Strength from defensive buildings"],
+		"cities": [
+			"Koganusan",
+			"Corroded Grotto",
+			"Leaf Lover's Crypt",
+			"Solitary Expanse",
+			"Rancid Fissure",
+			"Deadman's Wreck",
+			"Purified Inferno",
+			"Karl's Drift",
+			"Mammoth Catacomb",
+			"Madmen's Doom",
+			"Blunt Hammer",
+			"Scout's Ledge",
+			"Forsaken Hand",
+			"Frozen Belly",
+			"Dastardly Agony",
+			"Brutal Echo",
+			"Noble Core",
+			"Driller's Drop",
+			"Shallow Fangs",
+			"Dry Gap"
+		] ,
+		"spyNames": [
+			"Bomrek",
+			"Dastot",
+			"Nil",
+			"Sodel",
+			"Urist",
+			"Zasit",
+			"Stukos",
+			"Kadol",
+			"Astesh",
+			"Lokum"
+		]
+		
+	},
+	{
+		"name": "Walpole-Yuen Inc",
+		"leaderName": "Paula Walpole",
+		"adjective": ["W-Y"],
+		//"startBias": ["Tundra"],
+		"preferredVictoryType":"Diplomatic",
+
+		"startIntroPart1": "Greetings upon you, Paula Walpole, CEO of the Walpole-Yuen Inc. megacorporation. What began as a merger between Walpole Trading Company and Yuen Solutions turned into a lucrative conglomeration of companies, profiting more and more with each acquisition. Right before the Great Economic Collapse, Walpole-Yuen had invested much into a colony ship - one it uses to seek new worlds to colonize and exploit. Accompanied by colonists eager for profits, you, Paula Walpole, had landed on this exoplanet.",
+		"startIntroPart2": "Paula, your employees thirst for profit and new, alien resources. Will you create a better global economic model here? Can you build a colony that stands the test of time?",
+
+		"declaringWar": "Don't think of it as a war, think of it as... a hostile takeover.",
+		"attacked": "If you dare attack us, then you wouldn't mind us pushing back, yes?",
+		"defeated": "Nooo, my profits! My glorious profits!",
+		"introduction": "Welcome to Walpole-Yuen Incorporated. I am Paula Walpole, CEO. Walpole-Yuen, 'Making Better Worlds'.",
+
+		"neutralHello": "Walpole-Yuen Incorporated, Paula speaking.",
+		"hateHello": "Walpole-Yuen Inco- tch, it's you.",
+
+		"tradeRequest": "We would like to open up a trade opportunity with you.",
+
+		"outerColor": [77, 77, 77],
+		"innerColor": [245, 184, 0],
+		"favoredReligion": "Neo-Monolith",
+		"uniqueName": "Building Better Worlds",
+		"uniques": ["Retain [20]% of the happiness from a luxury after the last copy has been traded away","[+1] Sight <for [All] units>","Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns."],
+		"cities": [
+			"Hadley's Hope",
+			"Charybdis",
+			"Oryza",
+			"Plymouth",
+			"Rigel Five",
+			"Ryushi",
+			"Bracken's Claim",
+			"Gimeno",
+			"Lucien",
+			"Felicity",
+			"Dazbog",
+			"Ataegina",
+			"Kauffmann",
+			"Fiorina",
+			"Sargon Four",
+			"Salazar Seven",
+			"Rosamond Six",
+			"Pylos",
+			"Prometheus",
+			"Charon Thirteen"
+		] ,
+		"spyNames": [
+			"K. Morales",
+			"C. Bradley",
+			"P. Watkins",
+			"W. Hudson",
+			"E. Greenlief",
+			"J. Cruz",
+			"S. Baroski",
+			"J. Ma",
+			"A. Montgomery",
+			"G. Quintaro"
+		]
+		
+	},
+	{
+		"name": "Somatek Biomedical",
+		"leaderName": "Aparajita Devi",
+		"adjective": ["Somatek"],
+		"startBias": ["Mycelium"],
+		"preferredVictoryType":"Scientific",
+
+		"startIntroPart1": "Namaste, Director Aparajita Devi of Somatek Biomedical. Your company successfully rose from a simple pharmaceutical company in old Earth's India, treating the poor and rich alike. You've stumbled upon a major breakthrough when you revived the Soma plant back from extinction, which proved to have major health benefits. As the Earth's conditions worsen and more and more pandemics occur, your company have gathered enough capital to save as much people as you can off the Earth. When time came, you, Aparajita Devi, emerged into a new paradise, along with the people you pledged to save.",
+		"startIntroPart2": "Devi, your people seek to create a healthier new home in this planet. Will you thrive in this new environment? Can you build a colony that stands the test of time?",
+
+		"declaringWar": "Your nation is like a sickness on this world. Thus, we are conducting emergency invasive surgery. This will be painless.",
+		"attacked": "Please be advised that we have reserved the right to self-defense.",
+		"defeated": "We have failed the fight against entropy. Thus we return once more into the great void.",
+		"introduction": "Welcome, welcome! Somatek Biomedical is here to help. I am Aparajita Devi, the director of this company.",
+
+		"neutralHello": "Good morning! How can I help you?",
+		"hateHello": "Oh, I do not need this right now. How may I help you?",
+
+		"tradeRequest": "We think these will aid both of us.",
+
+		"outerColor": [110, 44, 171],
+		"innerColor": [2, 161, 25],
+		"favoredReligion": "Astral Pantheon",
+		"uniqueName": "Somatic Element",
+		"uniques": ["[-50]% Unhappiness from [Population] [in all cities]","[15] HP when healing <for [Wounded] units>"],
+		"cities": [
+			"Magnasanti",
+			"Mandira",
+			"Asraya",
+			"Aswarganj",
+			"Pranapura",
+			"Bhagavan",
+			"Vasanta",
+			"Parvati",
+			"Satya Pradesh",
+			"Neo Jaipur",
+			"New Varanasi",
+			"Indoresvara",
+			"Patnapuram",
+			"Malgudi",
+			"Lolpur",
+			"Rayyan",
+			"Kalikottarapura",
+			"Kalana Ganj",
+			"Viranastra",
+			"New Tamilpur"
+		] ,
+		"spyNames": [
+			"Shanaya",
+			"Mahika",
+			"Kashvi",
+			"Krisha",
+			"Navya",
+			"Bhuv",
+			"Anant",
+			"Raj",
+			"Nimit",
+			"Rishit"
+		]
+		
+	},
+	{
+		"name": "Skye Robotics",
+		"leaderName": "Gladys Winters",
+		"adjective": ["Skye"],
+		"preferredVictoryType":"Scientific",
+
+		"startIntroPart1": "Greetings be upon you, Director Gladys Winters of Skye Robotics. Although the earliest data about your company was unavailable, it rose to prominence in the beginning of the collapse of old Earth as an independent robotics provider. Your company made various kinds of robots to help the ailing humanity - from automated construction vehicles to toys for refugee children. From the profits, you created a spaceship and crewed it with engineers and scientists, aimed at the stars to learn more about the human condition.",
+		"startIntroPart2": "Gladys, your engineers and scientists await for your benevolent direction. Will you lead them to interesting new directions? Can you build a colony that stands the test of time?",
+
+		"declaringWar": "The time has come for you to be assimilated. Resistance is futile.",
+		"attacked": "So be it. Activate our military production lines.",
+		"defeated": "My backups are secure. This will not be the last time you've seen me.",
+		"introduction": "Hello, and welcome to Skye Robotics. I am director Gladys Winters, pleased to make your acquaintance.",
+
+		"neutralHello": "Oh? What is it that you require?",
+		"hateHello": "Oh, it's just you. State your business.",
+
+		"tradeRequest": "Perhaps some trade would be in order.",
+
+		"outerColor": [230, 243, 245],
+		"innerColor": [22, 116, 204],
+		"favoredReligion": "Mekhaneites",
+		"uniqueName": "The Future is Chrome",
+		"uniques": ["Double quantity of [Titanium] produced","Double quantity of [Ulframite] produced","[+1 Science] from all [Science] buildings"],
+		"cities": [
+			"Terminal Aperture",
+			"District 01",
+			"District 02",
+			"District 03",
+			"District 04",
+			"District 05",
+			"District 06",
+			"District 07",
+			"District 08",
+			"District 09",
+			"District 10",
+			"District 11",
+			"District 12",
+			"District 13",
+			"District 14",
+			"District 15",
+			"District 16",
+			"District 17",
+			"District 18",
+			"District 19"
+		] ,
+		"spyNames": [
+			"T-800",
+			"T-X",
+			"T-1000",
+			"T-500",
+			"T-600",
+			"T-700",
+			"T-900",
+			"T-3000",
+			"T-XA",
+			"T-5000"
+		]
+		
+	},
+	
+	{
+		"name": "Daikyu Boei Kikan",
+		"leaderName": "Chihiro Kusanagi",
+		"adjective": ["Daikyu"],
+		"startBias": ["Avoid [Desert]"],
+		"preferredVictoryType":"Diplomatic",
+
+		"startIntroPart1": "Salutations, Major Chihiro Kusanagi of the Daikyu Boei Kikan. A quasi-espionage agency operating in the East Asian region of old Earth, its role expanded into covert paramilitary action during the collapse. As the refugees and wars creep closer, you've decided to convert your secret space station into a covert colony ship - to spy upon new worlds.",
+		"startIntroPart2": "Major Chihiro, your agents await your orders. Will you be able to defend the peace in this new world? Can you build a colony that stands the test of time?",
+
+		"declaringWar": "We have decided to mobilize against you. The reason? I'm afraid it's on a need-to-know basis.",
+		"attacked": "We've anticipated that. All teams are free to attack.",
+		"defeated": "I must admit, you are a worthy foe. Now let's end this charade.",
+		"introduction": "Communications established. This is Major Chihiro Kusanagi of the Daikyu Boei Kikan - the Ninth Defense Agency. We've had eyes on you for a while.",
+
+		"neutralHello": "Commlink secure. Hailing frequencies open.",
+		"hateHello": "Hostile communication detected. Establishing firewalls.",
+
+		"tradeRequest": "Trade protocol established. We require certain logistics, let's make a transaction.",
+
+		"outerColor": [43, 55, 66],
+		"innerColor": [126, 192, 253],
+		"favoredReligion": "Virtualism",
+		"uniqueName": "We are Soldiers, Stand or Die",
+		"uniques": ["Damage is ignored when determining unit Strength <for [All] units>","Great General provides double combat bonus","[+50]% maintenance costs"],
+		"cities": [
+			"Niihama New Port City",
+			"Aramaki-Cho",
+			"Motoko-Cho",
+			"Batou-Cho",
+			"Togusa-Cho",
+			"Ishikawa-Cho",
+			"Borma-Cho",
+			"Pazu-Cho",
+			"Saito-Cho",
+			"Azuma-Cho",
+			"Yano-Cho",
+			"Proto-Kenkyujo",
+			"Tachikoma-Cho",
+			"Uchikoma-Cho",
+			"Harima City",
+			"Ningyohime-Cho",
+			"Ebisu-Cho",
+			"Buchikoma-Cho",
+			"Warautokojima",
+			"Dejima Gunkan"
+		] ,
+		"spyNames": [
+			"Motoko",
+			"Batou",
+			"Togusa",
+			"Ishikawa",
+			"Borma",
+			"Pazu",
+			"Saito",
+			"Ladriya",
+			"Azuma",
+			"Yano"
+		]
+		
+	},
+	{
+		"name": "Einherjar Diktat",
+		"leaderName": "Gregor Radec",
+		"adjective": ["Einherjar"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": "Hail, Diktat Gregor Radec of the Einherjar Diktat! Ever since your beginnings as a mercenary operating in the ice mines of Europa, you've steadily built up a loyal and dangerous following. As you seized power over Europa during the Jovian unrests, you've also begun to build your own spaceship - to further the reach of the Diktat far into space.",
+		"startIntroPart2": "Diktat Gregor, your troops are itching for a worthy fight in this new planet. Will you subjugate this world into the Diktat's fold? Can you build a colony that stands the test of time?",
+
+		"declaringWar": "Your nation is next on the list. Let us let loose the dogs of war!",
+		"attacked": "Did you think this mere gesture would save you from our wrath?",
+		"defeated": "At last, we are truly free.",
+		"introduction": "This is the Einherjar Diktat. I am Diktat Gregor Radec. Stand down or be reaped.",
+
+		"neutralHello": "Ah, good. Speak, friend.",
+		"hateHello": "Speak.",
+
+		"tradeRequest": "Here is our list of demands. We may or may not offer reimbursement.",
+
+		"outerColor": [109, 145, 145],
+		"innerColor": [209, 50, 50],
+		"favoredReligion": "Voidist",
+		"uniqueName": "The Hounds of War",
+		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Culture]","+30% Strength when fighting City-State units and cities"],
+		"cities": [
+			"Ragnarok's Fist",
+			"Jotunheim",
+			"Solstenheim",
+			"Val-Halla",
+			"Bifrost Gap",
+			"Jormungand's Maw",
+			"Amsvartnir",
+			"Eljudnir",
+			"Folkvangr",
+			"Vaygr Reach",
+			"Gjallarbru",
+			"Helheim",
+			"Hvelgelmir",
+			"Lyngvi Kennel",
+			"Niflheim",
+			"Muspelheim",
+			"Svartalfheim",
+			"Urdarbrunn",
+			"Valgrind",
+			"Noatun"
+		] ,
+		"spyNames": [
+			"Hakha",
+			"Radec",
+			"Visari",
+			"Metrac",
+			"Stahl",
+			"Savik",
+			"Drago",
+			"Tyran",
+			"Huxley",
+			"Kratek"
+		]
+		
+	},
+	{
+		"name": "Thespiaux Medianet",
+		"leaderName": "Camille Jourdain",
+		"adjective": ["Thespiaux"],
+		"startBias": ["Coastal"],
+		"preferredVictoryType":"Cultural",
+
+		"startIntroPart1": "Bonjour, Camille Jourdain, head of Thespiaux Medianet! Rising from a small news outlet into a major media player in old Earth's Europe, your network has entertained, informed and shaped opinions of millions around the world and beyond. Your cameras had captured the pandemics of Asia, the worsening climate change, the Jovian unrest, and as a last broadcast on old Earth: the launch of your own colony ship. Packed with the most creative minds from around the world, you seek to document and air the entirety of your colony-building efforts.",
+		"startIntroPart2": "Camille, your people is brimming with creative potential, waiting to be unleashed upon the blank canvas that is this new world. Will you become a new beacon of culture? Can you build a colony that stands the test of time?",
+
+		"declaringWar": "Our ratings has decided, a heroic, gallant war is what the masses want! I hope you'd put on a good show for the camera!",
+		"attacked": "Oh, oh! You dare attack moi?! This cannot go unanswered!",
+		"defeated": "C'est la vie, or so they say... and that's a wrap.",
+		"introduction": "Ah, how wonderful to meet you! I am Camille Jourdain, and this is my network, Thespiaux Medianet. We have such sights to show you!",
+
+		"neutralHello": "Greetings, salutations, and good day! What brings you before me today?",
+		"hateHello": "Did I ever tell you that you look bad in that angle?",
+
+		"tradeRequest": "It seems like a great time for an exchange, wouldn't you agree?",
+
+		"outerColor": [138, 51, 189],
+		"innerColor": [255, 179, 252],
+		"favoredReligion": "Neo-Monolith",
+		"uniqueName": "All the World's a Stage",
+		"uniques": ["[-50]% City-State Influence degradation","[+50]% Golden Age length"],
+		"cities": [
+			"New Lutetia",
+			"Cousteau City",
+			"De Gaulle City",
+			"Lumiere City",
+			"Vercingetorix City",
+			"Derrida City",
+			"Descartes City",
+			"Le Corbusier City",
+			"Eiffel City",
+			"Curie City",
+			"Depardieu City",
+			"Marceau City",
+			"Perrault City",
+			"Garnier City",
+			"Cezanne City",
+			"Degas City",
+			"Gauguin City",
+			"Seurat City",
+			"Matisse City",
+			"Duchamp City"
+		] ,
+		"spyNames": [
+			"Valerian",
+			"Laureline",
+			"Difool",
+			"Bergerac",
+			"Proloff",
+			"Thorgal",
+			"Jourdan",
+			"Sloane",
+			"Nikopol",
+			"Spirou"
+		]
+		
+	},
+	{
+		"name": "Badwalmusafir",
+		"leaderName": "Igider Zeroual",
+		"adjective": ["Musafir"],
+		"startBias": ["Desert"],
+		"preferredVictoryType":"Diplomatic",
+
+		"startIntroPart1": "Azul, Igider Zeroual of the Badwalmusafir. A true visionary among the waves of refugees in the wake of the societal collapse of old Earth, you have amassed a devout following by promoting a nomadic way of life. Your wanderings took you places you never even believed existed before - and when your followers created a colony ship to wander the stars with, you did not hesitate to go.",
+		"startIntroPart2": "Igider, your nomads seek to roam on a better place. Will you lead them to new vistas full of distant sights? Can you build a colony that stands the test of time?",
+
+		"declaringWar": "It is time for these restraining borders to disappear, starting with yours.",
+		"attacked": "Trespassing, are we?",
+		"defeated": "This may be where my mortal tracks stop - but my next leg of the journey had just begun.",
+		"introduction": "Hail, traveler! If you must ask, I am called Igider Zeroual. I walk with the Badwalmusafir.",
+
+		"neutralHello": "Mataanit, how are you?",
+		"hateHello": "Huh?",
+
+		"tradeRequest": "Our bazaar overflows with goods, and we would like to trade them with you.",
+
+		"outerColor": [201, 175, 113],
+		"innerColor": [255, 246, 212],
+		"favoredReligion": "Nomadist",
+		"uniqueName": "Eternal Caravan",
+		"uniques": ["City-State territory always counts as friendly territory","[+1] Movement <for [Land] units>"],
+		"cities": [
+			"Netmezra",
+			"Tenere",
+			"Tifawin",
+			"Timensiwin",
+			"Tanemmirt",
+			"Timlilit",
+			"Igerrez",
+			"Tam",
+			"Maghrebi",
+			"Akras",
+			"Yamrayur",
+			"Tafsut",
+			"Azegzaw",
+			"Timidi",
+			"Ngiit",
+			"Aynas",
+			"Kuzyur",
+			"Tamyur",
+			"Tagrest",
+			"Amwan"
+		] ,
+		"spyNames": [
+			"Aksil",
+			"Udad",
+			"Ziri",
+			"Kahina",
+			"Sekkura",
+			"Tafrara",
+			"Tajeddigt",
+			"Zeğiga",
+			"Agwmar",
+			"Izebboudjen"
+		]
+		
+	},
+	{
+		"name": "Xenoidid Empire",
+		"leaderName": "Smetre D'Poloty",
+		"adjective": ["Xenoidid"],
+		"startBias": ["Mycelium"],
+		"preferredVictoryType":"Diplomatic",
+
+		"startIntroPart1": "Greetings to you and your beasts, king Smetre D'Poloty of the Xenoidid Empire! As a bioengineering scientist back on old Earth, you've joined the numerous legions of refugees that escaped the collapse. Your ship is among the first to land on this exoplanet - albeit damaged and lacking supplies. It was fortunate, then, that a rare strain of mutated Xeno lifeform lives nearby - one whose hive mind was severed from the main planetary hive mind, and is more open for domestication. That is how you and your people survived, by forming a rudimentary symbiosis with these orphaned Xenos.",
+		"startIntroPart2": "King Smetre, both the humans and the xenos in your empire desire peaceful cooperation. Will you bring harmony upon this exoplanet? Can you build a colony that stands the test of time?",
+
+		"declaringWar": "My beasts are hungry, hope you don't mind em nibblin' on you.",
+		"attacked": "Why would you do that?! You've agitated the Xenos!",
+		"defeated": "Go, be free, my pretties! We may be defeated, but the Xenos will forever be here!",
+		"introduction": "Ello there! Don't mind these puppies, they're friends. I'm Smetre D'Poloty, king of the Xenoidid Empire.",
+
+		"neutralHello": "Ello there. What's the pleasure?",
+		"hateHello": "Heel, boy, you'll get your chance yet. So what're you insinuatin'?",
+
+		"tradeRequest": "On the behalf of the Xenoidid Empire, what do you think of this trade offer?.",
+
+		"outerColor": [164, 196, 88],
+		"innerColor": [128, 36, 156],
+		"favoredReligion": "Xenocult",
+		"uniqueName": "Xeno Brotherhood",
+		"uniques": ["When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [67]% chance>","When defeating a [Xeno] unit, earn [25] Gold and recruit it <with [50]% chance>","[+50]% Strength <vs [Xeno] units>"],
+		"cities": [
+			"Xenopolis",
+			"Helixien",
+			"Myrmidopolis",
+			"Megalisk",
+			"Carchano",
+			"Apis Hold",
+			"Karkinosis",
+			"Aspidoch",
+			"Paramit",
+			"Skarabia",
+			"Tarsus Claw",
+			"Mastigos",
+			"Mandibulum",
+			"Ulnaradius",
+			"Karnossus",
+			"Lupine Hold",
+			"Metataxoon",
+			"Hydralisk",
+			"Lepus Hold",
+			"Ovipostor"
+		] ,
+		"spyNames": [
+			"Odonata",
+			"Psocodea",
+			"Diptera",
+			"Neuroptera",
+			"Blattodea",
+			"Mantodea",
+			"Zoraptera",
+			"Lepidoptera",
+			"Coleoptera",
+			"Zygentoma"
+		]
+		
+	},
+	{
+		"name": "Imperio Di Uomo",
+		"leaderName": "Cain Stalia",
+		"adjective": ["Imperio"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": "Ave, true to Cain Stalia! Imperator of the Imperio Di Uomo, subjugator of cities. Ever since the collapse ocurred, you've established yourself as a warlord, amassing military might to protect your people. Then, you sought to civilize the devastated states around you, and went on a ten-year campaign to unite most of old Earth's Balkans, South and East Europe under your banner. For a while, your empire porspers, a beacon of martial civility among the ruins. When the climate began to take a turn for the worse, you've managed to build a magnificent colony ship, ready for an exodus to preserve humanity across the stars.",
+		"startIntroPart2": "Imperator Cain, your people represent the purity of humanity's ideals. Will you conquer this planet under Humanity's banner? Can you build a colony that stands the test of time?",
+
+		"declaringWar": "It is time to unleash the full might of Humanity on you!",
+		"attacked": "Fools! You've risked your own nation by doing so!",
+		"defeated": "As thus to tyrants, I see.",
+		"introduction": "Ave! You are in the presence of Imperator Cain Stalia. Know that the Imperio Di Uomo salutes you, stranger.",
+
+		"neutralHello": "Ave. The Imperator is listening.",
+		"hateHello": "You dare show your face here?",
+
+		"tradeRequest": "The Imperio di Uomo requests a trade agreement.",
+
+		"outerColor": [255, 136, 0],
+		"innerColor": [59, 54, 54],
+		"favoredReligion": "Gene Purists",
+		"uniqueName": "Humanity's Fist",
+		"uniques": ["[50]% Strength <vs cities>","[-20]% maintenance on road & railroads","All newly-trained [{Military} {Land}] units [in all cities] receive the [Humanity's March] promotion"],
+		"cities": [
+			"Nuova Roma",
+			"Secundus",
+			"Tertius",
+			"Juno Vallis",
+			"Rubrum Collis",
+			"Metropoli Rossa",
+			"Victoria",
+			"Legatum Terrae",
+			"Pompam Causam",
+			"Militum Oppidum",
+			"Castra Montis",
+			"Gloria Humanitatis",
+			"Humanitatis Potentia",
+			"Ingenium",
+			"Sanguis Vires",
+			"Bellum Campum",
+			"Tonitrum Fulgrum",
+			"Pugnus Civitas",
+			"Durum Municipum",
+			"Parvos Oppidum"
+		] ,
+		"spyNames": [
+			"Prīmus",
+			"Secundus",
+			"Tertius",
+			"Quārtus",
+			"Quīntus",
+			"Sextus",
+			"Septimus",
+			"Octāvus",
+			"Nōnus",
+			"Decimus"
+		]
+		
+	},
+	{
+		"name": "Xingxing Fazhan Bu",
+		"leaderName": "Xu Jianhong",
+		"adjective": ["Fazhan"],
+		"startBias": ["Plains"],
+		"preferredVictoryType":"Diplomatic",
+
+		"startIntroPart1": "Ni Hao, Xu Jianhong of Xingxing Fazhan Bu - the Ministry of Planetary Development. Your ministry arose in the East Asia region of old Earth, anticipating an early rush for space colonization - alas, the global collapse had complicated things. Instead, your ministry had turned into one dedicated for the development and defense of the people, focusing on the protection of civilians in the increasingly chaotic times. However, the original intent still lives on, and eventually the Ministry had managed to create a colony ship of their own. Now, the Ministry has found a foothold in this new world, ready to finally fulfill their original purpose.",
+		"startIntroPart2": "Administrator Xu, your colonists desire to grow and develop this new world. Will you build and protect cities that rival old Earth's magnificence? Can you build a colony that stands the test of time?",
+
+		"declaringWar": "The Ministry has decided it would be expedient to annex your nation. Here are the documents to legitimize this war - you don't have to sign, by the way.",
+		"attacked": "Aha ha ha, don't you know the Ministry specializes in defense and protection?",
+		"defeated": "Aiya, I'll be doing the paperwork on this for months!",
+		"introduction": "Ah, ni hao, ni hao. Administrator Xu Jianhong at your service, what is your business with the Ministry of Planetary Development?",
+
+		"neutralHello": "Ni hao, what is today's business?",
+		"hateHello": "Oh great, more paperwork. What is it?",
+
+		"tradeRequest": "The Ministry would like to trade these things. We have the documents, ready to sign.",
+
+		"outerColor": [130, 224, 16],
+		"innerColor": [53, 99, 0],
+		"favoredReligion": "Solar Mass",
+		"uniqueName": "Protection Intitative",
+		"uniques": ["[+50]% City Strength from defensive buildings","[+10]% Strength <in [Friendly Land] tiles>","[+20]% Strength <within [1] tiles of a [Fort]>"],
+		"cities": [
+			"Xinxing Duhui",
+			"He Cheng",
+			"Tianshan",
+			"Shaqiu Cheng",
+			"Fanrong Chengshi",
+			"Gongye Qu",
+			"Dong Zhen",
+			"Hong Bao",
+			"Shangmao Cheng",
+			"Meide He",
+			"Xin Fazhan",
+			"Hao Diqiu",
+			"Heping Zhen",
+			"Jinshan",
+			"Yinshan",
+			"Kuai Yao Shan",
+			"Xiao Senlin",
+			"Fanmao De Senlin",
+			"Kuaile Xiao Zhen",
+			"Biancheng"
+		] ,
+		"spyNames": [
+			"Yi Erzi",
+			"Er Nuer",
+			"San Bobo",
+			"Si Gugu",
+			"Wu Jiujiu",
+			"Liu Ayi",
+			"Qi Tangge",
+			"Ba Tangdi",
+			"Jiu Biaojie",
+			"Shi Biaomei"
+		]
+		
+	},
+	{
+		"name": "Free Waverunners",
+		"leaderName": "Omnira Pessoa",
+		"adjective": ["Waverunner"],
+		"startBias": ["Coastal"],
+		"preferredVictoryType":"Cultural",
+
+		"startIntroPart1": "Bonjou, Captain Omnira Pessoa of the Free Waverunners! Starting as a small artistic commune in the Caribbeans of old Earth, the societal collapse had turned your collection of artists and writers into a den of pirates just to survive. Over time, your crew had assimilated the other pirates in the area, and grew into a major threat for shipping in the Atlantic. But you kept your artistic roots alive - and even influenced the other pirate groups. It was when you found a failed prototype of a colony ship in a Floridan warehouse that you decided to expand your operations towards other planets. Fixing the ship took time, effort, and a few more raids inland, but at the end it was worth it - soon you'll sail in another ocean, on alien seas unfettered.",
+		"startIntroPart2": "Captain Omnira, your crew long for the sea once more. Will you spread your artistic roots once more in this new world? Can you build a colony that stands the test of time?",
+
+		"declaringWar": "Avast, ou landlubber! It be raiding time!",
+		"attacked": "Ow! That hurt, ou bumbaclot! Reken yo avek ou!",
+		"defeated": "I will go haunt ou from Kazye Davy Jones! Dis I swear!",
+		"introduction": "Bonjou, monami! We be Free Waverunners, Omnira Pessoa be me name. Kontan we ou!",
+
+		"neutralHello": "Yah, ki sa ou vle?",
+		"hateHello": "Oh, dis bumbaclot again.",
+
+		"tradeRequest": "What say ou, to put price on dis loot?",
+
+		"outerColor": [146, 222, 182],
+		"innerColor": [99, 16, 232],
+		"favoredReligion": "Children of Nihil",
+		"uniqueName": "Lanme Kouri",
+		"uniques": ["Defense bonus when embarked <for [All] units>","[+1] Movement <in [Water] tiles>"],
+		"cities": [
+			"Freeport",
+			"Barataria",
+			"Libertatia",
+			"Bondye",
+			"Vil Reken",
+			"Vil Pwason",
+			"Vil Mouet",
+			"Vil Albatros",
+			"Vil Iguana",
+			"Vil Vodou",
+			"Vil Paloud",
+			"Vil Pel",
+			"Vil Barracuda",
+			"Vil Balen",
+			"Bidonvil",
+			"Vil Lanme",
+			"Vil Mizik",
+			"Vil Atizay",
+			"Bon Vil",
+			"Fen Vil"
+		] ,
+		"spyNames": [
+			"Mondeh",
+			"Choozdeh",
+			"Wensdeh",
+			"Tursdeh",
+			"Frideh",
+			"Satideh",
+			"Sundeh",
+			"Yestideh",
+			"Tiddeh",
+			"Tomarroh"
+		]
+		
+	},
+	{
+		"name": "Blue Streak Aerodynamics",
+		"leaderName": "Harvey Hawkes",
+		"adjective": ["Blue Streak"],
+		"startBias": ["Plains"],
+		"preferredVictoryType":"Scientific",
+
+		"startIntroPart1": "Howdy, Harvey Hawkes, CEO of Blue Streak Aerodynamics! Coming from a long line of aviators, your grandfather created Blue Streak Aerodynamics before the collapse. Your father then expanded the company from an airplane design bureau into the commercial flight business, and you furthered it by investing into the aerospace sector. You take their legacy in stride, keeping your company afloat even in the face of the collapse, and the subsequent climate catastrophe. But your engineers haven't been idle - they've successfully created and marketed the designs for a spaceship, a colony ship that could take people to new worlds. So it is no surprise when you took one of your own colony ships into the furthest skies, along with the engineers and families wealthy enough to afford a ticket.",
+		"startIntroPart2": "Harvey, your colonists dream of flying the skies on this new world. Will you reach once more into the sky? Can you build a colony that stands the test of time?",
+
+		"declaringWar": "You've done sullied my skies for too long. I'm gonna bomb you back to the stone age!",
+		"attacked": "Dag nabbit! I'll have you know, this means war!",
+		"defeated": "Doggone it, you've done clipped my wings.",
+		"introduction": "Howdy! I'm Harvey Hawkes, CEO of Blue Streak Aerodynamics. See you up above!",
+
+		"neutralHello": "What's the occasion, fella?",
+		"hateHello": "Well if it isn't the yellowbelly.",
+
+		"tradeRequest": "Say, fella, what'd you think of this here trade deal?",
+
+		"outerColor": [147, 218, 230],
+		"innerColor": [0, 19, 186],
+		"favoredReligion": "Cosmic Clergy",
+		"uniqueName": "Wild Blue Yonder",
+		"uniques": ["[+1] Range <for [Air] units>","Gain [35] Influence with a [Military] gift to a City-State","Military Units gifted from City-States start with [15] XP"],
+		"cities": [
+			"Eagle City",
+			"Amarillo 2",
+			"Airstrip One",
+			"New Alamo",
+			"Cloud District",
+			"Skyhaven",
+			"Testament",
+			"Abilene Station",
+			"Test or Consequences",
+			"Osprey Junction",
+			"Buzz Corral",
+			"Kittyhawk Ridge",
+			"Rango Town",
+			"Dodge City",
+			"Bandera Station",
+			"Butte Hill",
+			"Fairweather",
+			"Zephyr City",
+			"Dust Devil",
+			"Airstrip Two"
+		] ,
+		"spyNames": [
+			"Tex",
+			"Kid",
+			"Sam",
+			"Bob",
+			"Joe",
+			"Anne",
+			"Lily",
+			"Abby",
+			"Lola",
+			"Mary"
+		]
+		
+	},
+	{
+		"name": "Jaeger Engineering",
+		"leaderName": "Alphonse Gunther-Zetkin",
+		"adjective": ["Jaeger"],
+		"startBias": ["Hill"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": "Greetings to you, Alphone Gunther-Zetkin, CEO of Jaeger Engineering. Since before the collapse of old Earth, your company have long focused on making armored cars. Soon, you've expanded into the weapons manufacturing business, making armored cars and tanks to other countries. It was your company that first developed the Mech as we know it - and you, too, capitalized it, franchising its designs across the globe. When the collapse happened, you've managed to survive by arming everyone and yourself at a profit. Now, that same profit has been invested into a colony ship, where you hope to test your company against other nations among the stars. To you, competition is the ultimate crucible, and you will look for it even in the stars.",
+		"startIntroPart2": "Alphonse, your engineers and soldiers desire to test their might and prove themselves. Will you lead them to a steel-clad tomorrow? Can you build a colony that stands the test of time?",
+
+		"declaringWar": "Let us prove our steel in battle. May the best win!",
+		"attacked": "Hrm. Deploy the counteroffensive.",
+		"defeated": "Hrm. It seems that you have proven to have the better steel. I concede.",
+		"introduction": "Greetings. I am Alphonse Gunther-Zetkin, CEO of Jaeger Engineering. Come marvel at our mechanical ingenuity!",
+
+		"neutralHello": "Hrm. What is the purpose of this call?",
+		"hateHello": "Hrmph.",
+
+		"tradeRequest": "Let us swap steel. And other goods besides.",
+
+		"outerColor": [184, 184, 184],
+		"innerColor": [99, 99, 99],
+		"favoredReligion": "Mekhaneites",
+		"uniqueName": "Proven Steel",
+		"uniques": ["Earn [20]% of killed [Military] unit's [Strength] as [Science]","[+50]% Production when constructing [Armored] units [in all cities]","[+50]% Production when constructing [Mech] units [in all cities]"],
+		"cities": [
+			"Einefabrik",
+			"Panzerstadt",
+			"Schwertschmiede",
+			"Schmiedenstein",
+			"Stahlberg",
+			"Schwarzesfeld",
+			"Donnerkuppel",
+			"Maschinenstadt",
+			"Motorenfabrik",
+			"Kabelstadt",
+			"Eisenstein",
+			"Glitzernde Klippe",
+			"Roterstein",
+			"Glitzerstadt",
+			"Alpha-Fabrik",
+			"Stahlhugel",
+			"Riesensternstadt",
+			"Eiserner Riese",
+			"Mechanische Fahrzeugfabrik",
+			"Schwertbereich"
+		] ,
+		"spyNames": [
+			"Fraunberg",
+			"Hesse",
+			"Richthofen",
+			"Schulenburg",
+			"Lehndorff",
+			"Metternich",
+			"Dampierre",
+			"Von Braun",
+			"Gotha",
+			"Faber-Castell"
+		]
+		
+	},
+
+	// Outposts
+	// Cultural
+	{
+		"name": "Neo-Hedonist Enclave",
+		"adjective": ["Neo-Hedonist"],
+		"cityStateType": "Cultured",
+		"startBias": ["Prairie"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [197, 55, 222],
+		"cities": ["Neo-Hedonist Enclave"]
+	},
+	{
+		"name": "Brotherhood of Dada",
+		"adjective": ["Dadaist"],
+		"cityStateType": "Cultured",
+		"startBias": ["Mycelium"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [197, 55, 222],
+		"cities": ["Brotherhood of Dada"]
+	},
+	{
+		"name": "Saudade West",
+		"adjective": ["Saudadin"],
+		"cityStateType": "Cultured",
+		"startBias": ["Coastal"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [197, 55, 222],
+		"cities": ["Saudade West"]
+	},
+	{
+		"name": "Virtual Babylon",
+		"adjective": ["Virtual Babylon"],
+		"cityStateType": "Cultured",
+		"startBias": ["Desert"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [197, 55, 222],
+		"cities": ["Virtual Babylon"]
+	},
+	{
+		"name": "Wordsmiths' Refuge",
+		"adjective": ["Wordsmith"],
+		"cityStateType": "Cultured",
+		"startBias": ["Tundra"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [197, 55, 222],
+		"cities": ["Wordsmiths' Refuge"]
+	},
+	
+	// Agricultural
+	{
+		"name": "Demeter Commune",
+		"adjective": ["Demeter"],
+		"cityStateType": "Maritime",
+		"startBias": ["Grassland"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [114, 222, 55],
+		"cities": ["Demeter Commune"]
+	},
+	{
+		"name": "Neo-Amish",
+		"adjective": ["Neo-Amish"],
+		"cityStateType": "Maritime",
+		"startBias": ["Plains"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [114, 222, 55],
+		"cities": ["Neo-Amish"]
+	},
+	{
+		"name": "Indomie Corporation",
+		"adjective": ["Indomie"],
+		"cityStateType": "Maritime",
+		"startBias": ["Grassland"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [114, 222, 55],
+		"cities": ["Indomie Corporation"]
+	},
+	{
+		"name": "Fiddler's Green",
+		"adjective": ["Fiddler"],
+		"cityStateType": "Maritime",
+		"startBias": ["Coastal"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [114, 222, 55],
+		"cities": ["Fiddler's Green"]
+	},
+	{
+		"name": "Nutri-Paste Inc.",
+		"adjective": ["Nutri-Paste"],
+		"cityStateType": "Maritime",
+		"startBias": ["Grassland"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [114, 222, 55],
+		"cities": ["Nutri-Paste Inc."]
+	},
+	
+	// Economic
+	{
+		"name": "Sputnik Outpost",
+		"adjective": ["Sputnikian"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Tundra"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [222, 200, 55],
+		"cities": ["Sputnik Outpost"]
+	},
+	{
+		"name": "Vega Casino Town",
+		"adjective": ["Vega"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Desert"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [222, 200, 55],
+		"cities": ["Vega Casino Town"]
+	},
+	{
+		"name": "Samarkandi Clanhome",
+		"adjective": ["Samarkandi"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Desert"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [222, 200, 55],
+		"cities": ["Samarkandi Clanhome"]
+	},
+	{
+		"name": "Intersolutions",
+		"adjective": ["Intersolutions"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [222, 200, 55],
+		"cities": ["Intersolutions"]
+	},
+	{
+		"name": "Ancapistan",
+		"adjective": ["Ancapistan"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [222, 200, 55],
+		"cities": ["Ancapistan"]
+	},
+	
+	// Militaristic
+	{
+		"name": "Eglon Base",
+		"adjective": ["Eglon"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Desert"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [222, 116, 55],
+		"cities": ["Eglon Base"]
+	},
+	{
+		"name": "Soldados Vagabundos",
+		"adjective": ["Vagabundo"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Jungle"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [222, 116, 55],
+		"cities": ["Soldados Vagabundos"]
+	},
+	{
+		"name": "Northfrost Paramilitary",
+		"adjective": ["Northfrost"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Tundra"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [222, 116, 55],
+		"cities": ["Northfrost Paramilitary"]
+	},
+	{
+		"name": "Pushkagrad Sniper Community",
+		"adjective": ["Pushkagrad"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Forest"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [222, 116, 55],
+		"cities": ["Pushkagrad Sniper Community"]
+	},
+	{
+		"name": "Yeni Turkiye Engineering",
+		"adjective": ["Yeni Turkiye"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [222, 116, 55],
+		"cities": ["Yeni Turkiye Engineering"]
+	},
+	
+	// Religious
+	{
+		"name": "Yahiro-Dono Sanctuary",
+		"adjective": ["Yahiro-Dono"],
+		"cityStateType": "Religious",
+		"startBias": ["Grassland"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [55, 200, 222],
+		"cities": ["Yahiro-Dono Sanctuary"]
+	},
+	{
+		"name": "Gospodnik Hallow",
+		"adjective": ["Gospodnik"],
+		"cityStateType": "Religious",
+		"startBias": ["Tundra"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [55, 200, 222],
+		"cities": ["Gospodnik Hallow"]
+	},
+	{
+		"name": "Greenhome Compound",
+		"adjective": ["Greenhome"],
+		"cityStateType": "Religious",
+		"startBias": ["Forest"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [55, 200, 222],
+		"cities": ["Greenhome Compound"]
+	},
+	{
+		"name": "Sisterhood of the Wastes",
+		"adjective": ["Waste Sister"],
+		"cityStateType": "Religious",
+		"startBias": ["Desert"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [55, 200, 222],
+		"cities": ["Sisterhood of the Wastes"]
+	},
+	{
+		"name": "St. Cuthbert Monastery",
+		"adjective": ["Cuthbertian"],
+		"cityStateType": "Religious",
+		"startBias": ["Plains"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [55, 200, 222],
+		"cities": ["St. Cuthbert Monastery"]
+	},
+
+	// Barbarian
+	{
+		"name": "Barbarians",
+		"style": "xeno",
+		"outerColor": [0, 0, 0],
+		"innerColor": [198, 243, 102],
+		"uniques": ["Can only heal by pillaging"]
+	}
+]

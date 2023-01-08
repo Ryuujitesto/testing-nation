@@ -1,0 +1,189 @@
+[
+	{
+		"name": "Civilian",
+		"movementType": "Land"
+	},
+	{
+		"name": "Xeno Melee Land",
+		"movementType": "Land"
+	},
+	{
+		"name": "Xeno Ranged Land",
+		"movementType": "Land"
+	},
+	{
+		"name": "Xeno Melee Water",
+		"movementType": "Water"
+	},
+	{
+		"name": "Xeno Stealth Water",
+		"movementType": "Water",
+		"uniques": [
+			"Can enter ice tiles",
+			"Invisible to non-adjacent units",
+			"Can see invisible [Submarine] units"
+		]
+	},
+	{
+		"name": "Xeno Air",
+		"movementType": "Land",
+		"uniques": ["Air","Can pass through impassable tiles","Normal vision when embarked","[1] Movement point cost to disembark","[1] Movement point cost to embark","May attack when embarked"]
+	},
+
+	{
+		"name": "Infantry", //melee people
+		"movementType": "Land"
+	},
+	{
+		"name": "Stealth Infantry", //melee hidden people
+		"movementType": "Land",
+		"uniques": [
+			"Invisible to non-adjacent units",
+			"Can see invisible [Stealth Infantry] units"
+		]
+	},
+	{
+		"name": "Sniper", //ranged people
+		"movementType": "Land"
+	},
+	{
+		"name": "Scout",
+		"movementType": "Land"
+	},
+	{
+		"name": "Rover", //zippy whee robot
+		"movementType": "Land"
+	},
+	{
+		"name": "Armored", //melee tank
+		"movementType": "Land"
+	},
+	{
+		"name": "Siege", //ranged tank
+		"movementType": "Land"
+	},
+	{
+		"name": "Close Range Mech", //mechs
+		"movementType": "Land"
+	},
+	{
+		"name": "Ranged Mech", //mechs
+		"movementType": "Land"
+	},
+	{
+		"name": "Civilian Water",
+		"movementType": "Water"
+	},
+	{
+		"name": "Close Range Water",
+		"movementType": "Water"
+	},
+	{
+		"name": "Ranged Water",
+		"movementType": "Water"
+	},
+	{
+		"name": "Submarine",
+		"movementType": "Water",
+		"uniques": [
+			"Can enter ice tiles",
+			"Invisible to non-adjacent units",
+			"Can see invisible [Submarine] units",
+			"Can see invisible [Xeno Stealth Water] units"
+		]
+	},
+	{
+		"name": "Aerocraft",
+		"movementType": "Air",
+		"uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles","Can perform Air Sweep"]
+	},
+	{
+		"name": "Satellite",
+		"movementType": "Air",
+		"uniques": [
+			"Aircraft",
+			"[+4] Sight",
+			"Can see over obstacles",
+			"Cannot be carried by [Carrier] units"
+		]
+	},
+	/*
+	{
+		"name": "Bomber",
+		"movementType": "Air",
+		"uniques": ["Aircraft"]
+	},
+	{
+        "name": "Atomic Bomber",
+        "movementType": "Air",
+        "uniques": ["Aircraft"]
+    },
+	*/
+	{
+		"name": "Missile",
+		"movementType": "Air",
+		"uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
+	},
+	{
+		"name": "Helicopter",
+		"movementType": "Land",
+		"uniques": ["Air", "Can pass through impassable tiles","Normal vision when embarked","[1] Movement point cost to disembark","[1] Movement point cost to embark","May attack when embarked"]
+	},
+	{
+		"name": "Hover",
+		"movementType": "Land",
+		"uniques": ["Normal vision when embarked","[1] Movement point cost to disembark","[1] Movement point cost to embark","May attack when embarked","Defense bonus when embarked"]
+	},
+	{
+		"name": "Water Carrier",
+		"movementType": "Water"
+	},
+	{
+		"name": "Land Carrier",
+		"movementType": "Land"
+	},
+	{
+		"name": "Hover Carrier",
+		"movementType": "Land",
+		"uniques": ["Normal vision when embarked","[1] Movement point cost to disembark","[1] Movement point cost to embark","May attack when embarked","Defense bonus when embarked"]
+	},
+
+	// Deprecated unit types required for mods without a UnitTypes.json file to work
+
+	{
+		"name": "Melee",
+		"movementType": "Land"
+	},
+	{
+		"name": "Ranged",
+		"movementType": "Land"
+	},
+	{
+		"name": "Armor",
+		"movementType": "Land"
+	},
+	{
+		"name": "WaterCivilian",
+		"movementType": "Water"
+	},
+	{
+		"name": "WaterMelee",
+		"movementType": "Water"
+	},
+	{
+		"name": "WaterRanged",
+		"movementType": "Water"
+	},
+	{
+		"name": "WaterSubmarine",
+		"movementType": "Water"
+	},
+	{
+		"name": "WaterAircraftCarrier",
+		"movementType": "Water"
+	},
+	{
+		"name": "AtomicBomber",
+		"movementType": "Air"
+	}
+]

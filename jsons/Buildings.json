@@ -1,0 +1,3077 @@
+[
+	// todo: more wonders maybe?
+
+	// Buildings
+	{
+		"name": "Colony Headquarters",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 2,
+		"cost": 1,
+		"uniques": [
+			"Provides [1] [Digital Storage Space]",
+			"Provides [1] [Digital Storage Space] <after discovering [Info Networks]>"
+			"Indicates the capital city"
+		],
+		"civilopediaText": [
+			{
+				"text": "The beating heart of your offworld colony."
+			}
+		]
+	},
+
+	{
+		"name": "Proxy Office",
+		"maintenance": 4,
+		"hurryCostModifier": 50,
+		"uniques": [
+			"Provides [1] [Digital Storage Space]",
+			"Remove extra unhappiness from annexed cities",
+			"Can only be built [in annexed cities]",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Pioneer Administration",
+		"civilopediaText": [
+			{
+				"text": "This office eases the bureaucratic and administrative burdens of annexation."
+			}
+		]
+	},
+
+	// Landfall Era
+	{
+		"name": "Monument",
+		"culture": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured"],
+		"civilopediaText": [
+			{
+				"text": "An edifice to remember the hardship and accomplishments of your nation."
+			}
+		]
+	},
+	{
+		"name": "Greenhouse",
+		"food": 2,
+		"cost": 40,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			/*
+			"[+1 Food] from [Tubers] tiles [in this city] <after discovering [Xenoagriculture]>",
+			"[+1 Food] from [Fungi Pods] tiles [in this city] <after discovering [Xenoagriculture]>",
+			"[+1 Food] from [Exotic Fruits] tiles [in this city] <after discovering [Xenoagriculture]>",
+			"[+1 Food] from [Rockbud] tiles [in this city] <after discovering [Xenoagriculture]>"
+			*/
+			"[+1 Food] from [Bonus resource] tiles [in this city] <in [Flora] tiles> <after discovering [Xeno-Grafting]>"
+		],
+		"requiredTech": "Xenoagriculture",
+		"civilopediaText": [
+			{
+				"text": "Staple food plants from old Earth, grown in a controlled environment."
+			}
+		]
+	},
+	{
+		"name": "Memorial",
+		"faith": 1,
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Habitation",
+		"uniques": ["Hidden when religion is disabled"],
+		"civilopediaText": [
+			{
+				"text": "A space set aside to remember those who are left behind on old Earth, or who met their final end in the new world."
+			}
+		]
+	},
+	{
+		"name": "Air Scrubber",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"[5]% Food is carried over after population increases [in this city]"
+		],
+		"requiredTech": "Habitation",
+		"civilopediaText": [
+			{
+				"text": "Polluted air inside the habitats are effectively recycled here. No more churning oxygen from rocks!"
+			}
+		]
+	},
+	{
+		"name": "Field Lab",
+		"hurryCostModifier": 25,
+		"science": 2,
+		"maintenance": 1,
+		"uniques": [
+			"[+1 Science] from [Research Base] tiles [in this city]",
+			"[+1 Science] from [Artifacts] tiles [in this city]"
+		],
+		"requiredTech": "Computing",
+		"civilopediaText": [
+			{
+				"text": "Makeshift laboratory to analyze the local phenomena."
+			}
+		]
+	},
+	{
+		"name": "Prefab Printer",
+		"maintenance": 2,
+		"production": 2,
+		"specialistSlots": { "Engineer": 1 },
+		"hurryCostModifier": 25,
+		"percentStatBonus": { "production": 2 },
+		"uniques": [
+			"[+20]% Production when constructing [Prefab] buildings [in this city]"
+		],
+		"requiredTech": "Engineering",
+		"civilopediaText": [
+			{
+				"text": "Massive 3D printers that easily churn out modular pieces of habitation."
+			}
+		]
+	},
+	{
+		"name": "Pioneer Depot",
+		"gold": 3,
+		"specialistSlots": { "Merchant": 1 },
+		"hurryCostModifier": 25,
+		"percentStatBonus": { "gold": 2 },
+		"uniques": [
+			"Prefab",
+			"[+1 Gold] from [Luxury resource] tiles [in this city]"
+		],
+		"requiredTech": "Pioneer Administration",
+		"civilopediaText": [
+			{
+				"text": "Also known as Cargo Bay, where the quartermaster and their team stores and audits the goods coming in and out of the colony."
+			}
+		]
+	},
+	{
+		"name": "Frontier Armory",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+			"Prefab",
+			"New [Infantry] units start with [15] Experience [in this city]",
+			"New [Stealth Infantry] units start with [15] Experience [in this city]",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Frontier Armaments",
+		"civilopediaText": [
+			{
+				"text": "An arsenal of personal weapons, these are usually opened when the local xenofauna gets too close to the colony."
+			}
+		]
+	},
+	{
+		"name": "Defense Perimeter",
+		"cityStrength": 5,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredTech": "Frontier Armaments",
+		"uniques": ["Destroyed when the city is captured"],
+		"civilopediaText": [
+			{
+				"text": "Sensors, embankments and electric fences mostly to keep the xenofauna out."
+			}
+		]
+	},
+	{
+		"name": "Arcade Room",
+		"maintenance": 1,
+		"culture": 1,
+		"happiness": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Prefab"],
+		"requiredTech": "Habitation",
+		"civilopediaText": [
+			{
+				"text": "A place where early colonists go to have some fun."
+			}
+		]
+	},
+	{
+		"name": "Pioneer Speakeasy",
+		"culture": 2,
+		"gold": 1,
+		"specialistSlots": { "Influencer": 1 },
+		"hurryCostModifier": 25,
+		"uniques": ["Prefab"],
+		"requiredTech": "Xenochemistry",
+		"civilopediaText": [
+			{
+				"text": "Chemistry enables cheap intoxicants to be easily made; and so this room is reserved for their safe consumption. Social gathering is a known side effect."
+			}
+		]
+	},
+	{
+		"name": "Medbay",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"Prefab",
+			"[5]% Food is carried over after population increases [in this city]",
+			"[5]% Food is carried over after population increases [in this city] <after discovering [Xeno-Medicine]>"
+		],
+		"requiredTech": "Xenochemistry",
+		"civilopediaText": [
+			{
+				"text": "Medical beds and equipment to combat new and old maladies."
+			}
+		]
+	},
+	{
+		"name": "Lobster Eatery",
+		"maintenance": 1,
+		"happiness": 1,
+		"gold": 3,
+		"food": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Happiness] from [Sindrian Lobster] tiles [in this city]"],
+		"requiredNearbyImprovedResources": ["Sindrian Lobster"],
+		"requiredTech": "Hovercrafts",
+		"civilopediaText": [
+			{
+				"text": "A restaurant, of sorts - but its menu entries all contain lobster meat. Somehow popular among colonists."
+			}
+		]
+	},
+	{
+		"name": "Survey Buoy",
+		"cost": 75,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+			"Must be next to [Coast]",
+			"[+1 Food] from [Ocean] tiles [in this city]",
+			"[+1 Food] from [Coast] tiles [in this city]"
+		],
+		"requiredTech": "Hydrodynamics",
+		"civilopediaText": [
+			{
+				"text": "Buoyant device initially used to survey the oceans of this planet, now repurposed to monitor local biological assets."
+			}
+		]
+	},
+	{
+		"name": "Floating Harbor",
+		"cost": 60,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Enables you to build Hydrofoil units",
+			"Prefab",
+			"Must be next to [Coast]",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Hydrodynamics",
+		"civilopediaText": [
+			{
+				"text": "Instead of having to build on land and roll the ship into the sea, why not build directly on the sea?"
+			}
+		]
+	},
+	{
+		"name": "Trade Port",
+		"cost": 120,
+		"maintenance": 2,
+		"gold": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Production] from [Water resource] tiles [in this city]",
+			"Connects trade routes over water",
+			"Must be next to [Coast]"
+		],
+		"requiredTech": "Hydrodynamics",
+		"civilopediaText": [
+			{
+				"text": "Bustling port facilities and warehouses for trade and shipping."
+			}
+		]
+	},
+	{
+		"name": "Mining Tunnels",
+		"maintenance": 1,
+		"production": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Production] from [Hill] tiles [in this city]",
+			"[+1 Production] from [Mountain] tiles [in this city]",
+			"[+1 Production] from [Mine] tiles [in this city]"
+		],
+		"requiredNearbyImprovedResources": [
+			"Hexanite",
+			"Aluminum",
+			"Phostlite",
+			"Redstone",
+			"Gold Ore",
+			"Titanium"
+		],
+		"requiredTech": "Xenogeology",
+		"civilopediaText": [
+			{
+				"text": "Extensive underground tunnels, extracting riches from the depths of the planet."
+			}
+		]
+	},
+	{
+		"name": "Rover Storage",
+		"cost": 60,
+		"maintenance": 1,
+		"production": 1,
+		"science": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Enables you to build Rover units",
+			"Prefab",
+			"New [Rover] units start with [15] Experience [in this city]"
+		],
+		"requiredTech": "Robotics",
+		"civilopediaText": [
+			{
+				"text": "Well, where else are you going to store them? A garage?"
+			}
+		]
+	},
+
+	// Exploration Era
+	{
+		"name": "Cloud Seeder Station",
+		"maintenance": 1,
+		//"food": 2,
+		"science": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Food] from [Flora] tiles [in this city]"
+			/*
+			"[+1 Food] from [Tubers] tiles [in this city]",
+			"[+1 Food] from [Fungi Pods] tiles [in this city]",
+			"[+1 Food] from [Exotic Fruits] tiles [in this city]",
+			"[+1 Food] from [Rockbud] tiles [in this city]",
+			"[+1 Food] from [Seasilk] tiles [in this city]",
+			"[+1 Food] from [Spice] tiles [in this city]",
+			"[+1 Food] from [Stimulants] tiles [in this city]",
+			"[+1 Food] from [Ruby Cactus] tiles [in this city]",
+			"[+1 Food] from [Flowers of Silence] tiles [in this city]"
+			*/
+		],
+		"requiredTech": "Payload Delivery",
+		"civilopediaText": [
+			{
+				"text": "A small launchpad for near-orbit aerosol dispersal, to induce the formation of rainclouds."
+			}
+		]
+	},
+	{
+		"name": "Aquatic Farm",
+		"food": 2,
+		"cost": 40,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Must be next to [Coast]",
+			/*
+			"[+1 Food] from [Algae] tiles [in this city]",
+			"[+1 Food] from [Seasilk] tiles [in this city]",
+			"[+1 Food] from [Plankton] tiles [in this city]",
+			"[+1 Food] from [Sea Slivers] tiles [in this city]",
+			"[+1 Food] from [Sindrian Lobster] tiles [in this city]"
+			*/
+			"[+1 Food] from [Water resource] tiles [in this city] <in [Organic] tiles>"
+		],
+		"requiredTech": "Xeno-Grafting",
+		"civilopediaText": [
+			{
+				"text": "It's like a regular farm, but underwater! But seriously, this is where you raise and cultivate aquatic organisms."
+			}
+		]
+	},
+	{
+		"name": "Synthetic Recycling Station",
+		"maintenance": 1,
+		"food": 1,
+		"production": 2,
+		"gold": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] from [Promethine] tiles [in this city]"],
+		"requiredTech": "Synthetic Materials",
+		"civilopediaText": [
+			{
+				"text": "To avoid old Earth's ecological mistake, our plastics are made to be easily recyclable and very biodegradable. This building makes sure they do."
+			}
+		]
+	},
+	{
+		"name": "Research Laboratory",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": { "science": 5 },
+		"specialistSlots": { "Scientist": 2 },
+		"requiredBuilding": "Field Lab",
+		"uniques": [
+			"[+2 Science] from [Jungle] tiles [in this city]",
+			"[+1 Science] from [Mycelium] tiles [in this city]",
+			"Provides [1] [Digital Storage Space]"
+		],
+		"requiredTech": "Research Networks",
+		"civilopediaText": [
+			{
+				"text": "A step up from small field laboratories, these facilities come with vital scientific things like blastproof experiment chambers and dedicated analysis computers."
+			}
+		]
+	},
+	{
+		"name": "Tokamak Reactor",
+		"maintenance": 2,
+		"production": 2,
+		"gold": 1,
+		"hurryCostModifier": 15,
+		"specialistSlots": { "Scientist": 1, "Engineer": 1 },
+		"uniques": [
+			"[+5]% Production when constructing [Production] buildings [in this city]"
+		],
+		"requiredTech": "Stable Fission Power",
+		"civilopediaText": [
+			{
+				"text": "A technology that were developed too late in old Earth, now repurposed and perfected to bring the safest nuclear power in this new world."
+			}
+		]
+	},
+	{
+		"name": "Museum of the Frontier",
+		"maintenance": 1,
+		"culture": 3,
+		"hurryCostModifier": 15,
+		"specialistSlots": { "Scientist": 1 },
+		"requiredBuilding": "Field Lab",
+		"uniques": [
+			"[+1 Science, +1 Culture] from [Artifacts] tiles [in this city]"
+		],
+		"requiredTech": "Research Networks",
+		"civilopediaText": [
+			{
+				"text": "Commemorating the history and achievements of the new world's pioneers through interactive diorama and immersive info panels."
+			}
+		]
+	},
+	{
+		"name": "Specimen Storage",
+		"maintenance": 1,
+		"science": 2,
+		"specialistSlots": { "Scientist": 1 },
+		"happiness": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Hab-Domes",
+		"civilopediaText": [
+			{
+				"text": "Specially constructed domes to store live organic samples for experiments. Also doubles as a viewing gallery."
+			}
+		]
+	},
+	{
+		"name": "Petting Zoo",
+		"maintenance": 2,
+		"specialistSlots": { "Scientist": 1 },
+		"happiness": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Happiness] from [Snuffets] tiles [in this city]"],
+		"requiredNearbyImprovedResources": ["Snuffets"],
+		"requiredTech": "Hab-Domes",
+		"civilopediaText": [
+			{
+				"text": "Fun for kids, adults, and Snuffets alike."
+			}
+		]
+	},
+	{
+		"name": "Designated Stim Rooms",
+		"maintenance": 1,
+		"gold": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Happiness] from [Stimulants] tiles [in this city]"],
+		"requiredNearbyImprovedResources": ["Stimulants"],
+		"requiredTech": "Xeno-Medicine",
+		"civilopediaText": [
+			{
+				"text": "Some forms of stimulants are stronger than the others - this is where the safe application and enjoyment of them could be done."
+			}
+		]
+	},
+	{
+		"name": "Frontier Hospital",
+		"maintenance": 1,
+		"requiredBuilding": "Medbay",
+		"hurryCostModifier": 0,
+		"uniques": [
+			"Prefab",
+			"[10]% Food is carried over after population increases [in this city]"
+		],
+		"requiredTech": "Xeno-Medicine",
+		"civilopediaText": [
+			{
+				"text": "A step up from Medbays, this dedicated medical facility can serve a city district by itself."
+			}
+		]
+	},
+	{
+		"name": "Ore Refinery",
+		"maintenance": 2,
+		"specialistSlots": { "Engineer": 1 },
+		"hurryCostModifier": 25,
+		"percentStatBonus": { "production": 5 },
+		"requiredBuilding": "Mining Tunnels",
+		"uniques": [
+			/*
+			"[+1 Production] from [Hexanite] tiles [in this city]",
+			"[+1 Production] from [Aluminum] tiles [in this city]",
+			"[+1 Production] from [Redstone] tiles [in this city]",
+			"[+1 Production] from [Gold Ore] tiles [in this city]",
+			"[+1 Production] from [Titanium] tiles [in this city]"
+			*/
+			"[+1 Gold] from [Gold Ore] tiles [in this city]",
+			"[+1 Production] from [Metallic] tiles [in this city]"
+		],
+		"requiredTech": "Offworld Industries",
+		"civilopediaText": [
+			{
+				"text": "This facility eliminates impurities from raw mined ore, enabling better mining yields."
+			}
+		]
+	},
+	{
+		"name": "Robotics Assembly Plant",
+		"maintenance": 1,
+		"specialistSlots": { "Engineer": 1 },
+		"hurryCostModifier": 25,
+		"percentStatBonus": { "production": 2 },
+		"requiredBuilding": "Prefab Printer",
+		"uniques": [
+			"[+20]% Production when constructing [Rover] units [in this city]"
+		],
+		"requiredTech": "Offworld Industries",
+		"civilopediaText": [
+			{
+				"text": "A factory where robotic equipment are utilized to assemble products - which sometimes are robots themselves."
+			}
+		]
+	},
+	{
+		"name": "Drone Delivery Network",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"percentStatBonus": { "food": 2, "production": 2 },
+		"requiredBuilding": "Prefab Printer",
+		"requiredTech": "Aerial Drones",
+		"civilopediaText": [
+			{
+				"text": "Fleets of small to heavy drones dedicated to the logistics of transporting things across the colony."
+			}
+		]
+	},
+	{
+		"name": "Congregation Space",
+		"faith": 2,
+		"requiredBuilding": "Memorial",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Hab-Domes",
+		"uniques": [
+			"Prefab",
+			"Hidden when religion is disabled",
+			"Destroyed when the city is captured"
+		],
+		"civilopediaText": [
+			{
+				"text": "A multipurpose area where people are free to congregate and organize events - the optimal place for visionaries to spread their ideas."
+			}
+		]
+	},
+	{
+		"name": "Rec Area",
+		"maintenance": 1,
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Prefab"],
+		"requiredTech": "Hab-Domes",
+		"civilopediaText": [
+			{
+				"text": "Whether it's the old Earth tradition of karaoke, massages, videogames, or just a place to relax, this place offers it all and more."
+			}
+		]
+	},
+	{
+		"name": "Resource Market",
+		"gold": 3,
+		"specialistSlots": { "Merchant": 1 },
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Pioneer Depot",
+		"requiredTech": "Offworld Industries",
+		"uniques": [
+			"[+1 Gold] from [Bonus resource] tiles [in this city]",
+			"[+1 Gold] from [Luxury resource] tiles [in this city]",
+			"[+1 Gold] from [Strategic resource] tiles [in this city]"
+		],
+		"civilopediaText": [
+			{
+				"text": "A specialized market exclusively dealing in specific goods and resources."
+			}
+		]
+	},
+	{
+		"name": "Gem Traders' Bourse",
+		"gold": 3,
+		"specialistSlots": { "Merchant": 1 },
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Pioneer Depot",
+		"requiredNearbyImprovedResources": ["Ulframite","Gravitix","Benthic Orbs","Harmonix Crystals","Jadonyx","Kaibir Crystals","Ruby Cactus"],
+		"requiredTech": "Deep Resource Scanning",
+		"uniques": [
+			"[+1 Gold] from [Gemlike] tiles [in this city]"
+			/*
+			"[+1 Gold] from [Ruby Cactus] tiles [in this city]",
+			"[+1 Gold] from [Harmonix Crystals] tiles [in this city]",
+			"[+1 Gold] from [Jadonyx] tiles [in this city]",
+			"[+1 Gold] from [Kaibir Crystals] tiles [in this city]",
+			"[+1 Gold] from [Benthic Orbs] tiles [in this city]",
+			"[+1 Gold] from [Ulframite] tiles [in this city]",
+			"[+1 Gold] from [Gravitix] tiles [in this city]"
+			*/
+		],
+		"civilopediaText": [
+			{
+				"text": "Half marketplace, half business lounge, this place regulates the trade of gems and similar crystalline luxuries."
+			}
+		]
+	},
+	{
+		"name": "Exotic Flora Nursery",
+		"gold": 2,
+		"food": 1,
+		"specialistSlots": { "Merchant": 1 },
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Pioneer Depot",
+		"requiredNearbyImprovedResources": ["Exotic Fruits","Flowers of Silence","Fungi Pods","Rockbud","Ruby Cactus","Seasilk","Spice","Stimulants","Tubers"],
+		"requiredTech": "Xeno-Grafting",
+		"uniques": [
+			"[+1 Gold] from [Flora] tiles [in this city]"
+			/*
+			"[+1 Gold] from [Tubers] tiles [in this city]",
+			"[+1 Gold] from [Fungi Pods] tiles [in this city]",
+			"[+1 Gold] from [Exotic Fruits] tiles [in this city]",
+			"[+1 Gold] from [Rockbud] tiles [in this city]",
+			"[+1 Gold] from [Seasilk] tiles [in this city]",
+			"[+1 Gold] from [Spice] tiles [in this city]",
+			"[+1 Gold] from [Stimulants] tiles [in this city]",
+			"[+1 Gold] from [Ruby Cactus] tiles [in this city]",
+			"[+1 Gold] from [Flowers of Silence] tiles [in this city]"
+			*/
+		],
+		"civilopediaText": [
+			{
+				"text": "Cultivating this world's exotic flora requires certain equipments and environments - this place offers both."
+			}
+		]
+	},
+	{
+		"name": "Xeno Livestock Auction House",
+		"gold": 2,
+		"food": 1,
+		"specialistSlots": { "Merchant": 1 },
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Pioneer Depot",
+		"requiredNearbyImprovedResources": ["Chitin","Dairy Aphid","Snuffets","Sea Slivers","Sindrian Lobster"],
+		"requiredTech": "Xeno-Grafting",
+		"uniques": [
+			"[+1 Gold] from [Fauna] tiles [in this city]"
+			/*
+			"[+1 Gold] from [Chitin] tiles [in this city]",
+			"[+1 Gold] from [Dairy Aphid] tiles [in this city]",
+			"[+1 Gold] from [Sea Slivers] tiles [in this city]",
+			"[+1 Gold] from [Snuffets] tiles [in this city]",
+			"[+1 Gold] from [Sindrian Lobster] tiles [in this city]"
+			*/
+		],
+		"civilopediaText": [
+			{
+				"text": "Once local fauna gets domesticated, the profession of xeno livestock rancher was born; and subsequently, livestock auctions are also needed."
+			}
+		]
+	},
+	{
+		"name": "Megamall",
+		"maintenance": 2,
+		"gold": 3,
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Arcade Room",
+		"requiredTech": "Hab-Domes",
+		"uniques": [
+			"[+1 Happiness] from [Luxury resource] tiles [in this city]"
+		],
+		"civilopediaText": [
+			{
+				"text": "Dazzling with its variety of goods and services for sale, the Megamall is also a popular place for the youth to socialize."
+			}
+		]
+	},
+	{
+		"name": "Colonial Patrol Station",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+			"New [Military] units start with [15] Experience [in this city]",
+			"Destroyed when the city is captured"
+		],
+		"requiredBuilding": "Frontier Armory",
+		"requiredTech": "Military Ballistics",
+		"civilopediaText": [
+			{
+				"text": "As the colony gets bigger, the matter of its protection also gets more complex - and thus also more organized."
+			}
+		]
+	},
+	{
+		"name": "Prefab Bunkers",
+		"cityStrength": 10,
+		"cityHealth": 20,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Defense Perimeter",
+		"requiredTech": "Military Ballistics",
+		"uniques": [
+			"Prefab",
+			"Population loss from nuclear attacks [-25]% [in this city]",
+			"Destroyed when the city is captured"
+		],
+		"civilopediaText": [
+			{
+				"text": "Tough, prefabricated buildings designed to withstand a war and to keep civilians safe."
+			}
+		]
+	},
+	{
+		"name": "Aerocraft Hangar",
+		"cost": 120,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Enables you to build Aerocraft units",
+			"New [Air] units start with [15] Experience [in this city]"
+		],
+		"requiredTech": "Aeronautics",
+		"civilopediaText": [
+			{
+				"text": "It's like a garage for aerocrafts, but also does the maintenance for them as well."
+			}
+		]
+	},
+	{
+		"name": "Orbital Launch Facility",
+		"cost": 180,
+		"maintenance": 1,
+		"production": 1,
+		"science": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Payload Delivery",
+		"uniques": [
+			"Enables you to build Satellite units"
+		]
+		"civilopediaText": [
+			{
+				"text": "Fully dedicated satellite-manufacturing and satellite-lobbing facilities."
+			}
+		]
+	},
+
+	// Colonization Era
+	{
+		"name": "Genetic Laboratory",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": { "science": 5 },
+		"specialistSlots": { "Scientist": 2 },
+		"requiredBuilding": "Research Laboratory",
+		"uniques": [
+			"[+1 Science, +1 Food] from [Agri Farm] tiles [in this city]"
+		],
+		"requiredTech": "Genetics",
+		"civilopediaText": [
+			{
+				"text": "Peeking into the building blocks of life, and sometimes editing them."
+			}
+		]
+	},
+	{
+		"name": "Biomodding Center",
+		"maintenance": 2,
+		"culture": 2,
+		"hurryCostModifier": 15,
+		"specialistSlots": { "Influencer": 1 },
+		"requiredBuilding": "Genetic Laboratory",
+		"requiredTech": "Genetics",
+		"civilopediaText": [
+			{
+				"text": "Facilities to fix or add biological traits, from life-saving corrective measures such as sickle cell restoration, to simple cosmetics like custom skin colors."
+			}
+		]
+	},
+	{
+		"name": "Colonial University",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": { "science": 5 },
+		"specialistSlots": { "Scientist": 1 },
+		"requiredBuilding": "Research Laboratory",
+		"uniques": [
+			"Provides [1] [Digital Storage Space]"
+		],
+		"requiredTech": "Colony Administration",
+		"civilopediaText": [
+			{
+				"text": "Higher education for colonists, fostering future professionals."
+			}
+		]
+	},
+	{
+		"name": "Bureaucratic Office",
+		"maintenance": 1,
+		"hurryCostModifier": 15,
+		"percentStatBonus": { "production": 5, "gold": 5 },
+		"requiredTech": "Colony Administration",
+		"civilopediaText": [
+			{
+				"text": "Where forms are signed in triplicate and red tape are rampant. Even if they are digitized already."
+			}
+		]
+	},
+	{
+		"name": "Tele-Temple",
+		"faith": 2,
+		"requiredBuilding": "Congregation Space",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Colonial Culture",
+		"uniques": [
+			"Provides [1] [Digital Storage Space]",
+			"[+1 Faith] <in cities with a [Harmony Garden]>",
+			"Hidden when religion is disabled",
+			"Destroyed when the city is captured"
+		],
+		"civilopediaText": [
+			{
+				"text": "The next step from congregating together for those with spiritualist tendencies: a broadcast station to receive talks and sermons, as well as engaging in spiritual discussions, from their own homes."
+			}
+		]
+	},
+	{
+		"name": "Harmony Garden",
+		"maintenance": 1,
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Happiness] from [Harmonix Crystals] tiles [in this city]"],
+		"requiredNearbyImprovedResources": ["Harmonix Crystals"],
+		"requiredTech": "Colonial Culture",
+		"civilopediaText": [
+			{
+				"text": "An open, natural space with aesthetically placed Harmonix Crystals."
+			}
+		]
+	},
+	{
+		"name": "Info Broker Bourse",
+		"gold": 2,
+		"culture": 1,
+		"specialistSlots": { "Merchant": 1 },
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Provides [1] [Digital Storage Space]"
+		],
+		"requiredTech": "Info Networks",
+		"civilopediaText": [
+			{
+				"text": "Places where secure trading of information is facilitated."
+			}
+		]
+	},
+	{
+		"name": "Stock Exchange",
+		"gold": 3,
+		"specialistSlots": { "Merchant": 2 },
+		"hurryCostModifier": 25,
+		"percentStatBonus": { "gold": 5 },
+		"requiredBuilding": "Resource Market",
+		"requiredTech": "Cryptocurrency",
+		"civilopediaText": [
+			{
+				"text": "In this building, a hectic atmosphere rises daily as traders rush to buy and sell stocks."
+			}
+		]
+	},
+	{
+		"name": "Cryptomining Servers",
+		"gold": 5,
+		"science": -1,
+		"specialistSlots": { "Merchant": 3 },
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Provides [1] [Digital Storage Space]"
+		],
+		"requiredTech": "Cryptocurrency",
+		"civilopediaText": [
+			{
+				"text": "Where new algorithms of blockchain technology are automatically computed, at the cost of elbowing out some computing power from researchers."
+			}
+		]
+	},
+	{
+		"name": "Infrastructure 2.0",
+		"specialistSlots": { "Engineer": 1 },
+		"hurryCostModifier": 25,
+		"percentStatBonus": { "food": 5, "production": 5, "gold": 5 },
+		"uniques": [
+			"Provides [1] [Digital Storage Space]"
+		],
+		"requiredTech": "Colony Administration",
+		"civilopediaText": [
+			{
+				"text": "Better roads, better electricity networks, better plumbing - and better internet, too."
+			}
+		]
+	},
+	{
+		"name": "Research Satellite",
+		"cost": 180,
+		"maintenance": 1,
+		"science": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Satellite Networks",
+		"requiredBuilding": "Orbital Launch Facility",
+		"uniques": [
+			"Orbital",
+			"Provides [1] [Digital Storage Space]"
+		],
+		"civilopediaText": [
+			{
+				"text": "Whether taking in astronomical data from finely-tuned sensors or calculating things from orbit, it is a satellite focused on research."
+			}
+		]
+	},
+	{
+		"name": "Relay Satellite Network",
+		"cost": 180,
+		"maintenance": 1,
+		"culture": 1,
+		"gold": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Satellite Networks",
+		"requiredBuilding": "Orbital Launch Facility",
+		"uniques": [
+			"Orbital",
+			"Provides [1] [Digital Storage Space]"
+		],
+		"civilopediaText": [
+			{
+				"text": "A more mundane and cheap set of satellites to provide wireless coverage all over the planet."
+			}
+		]
+	},
+	{
+		"name": "Spy Satellite Network",
+		"cost": 180,
+		"maintenance": 1,
+		"cityStrength": 10,
+		"hurryCostModifier": 25,
+		"requiredTech": "Info Networks",
+		"requiredBuilding": "Orbital Launch Facility",
+		"uniques": [
+			"Orbital",
+			"Consumes [1] [Digital Storage Space]"
+		],
+		"civilopediaText": [
+			{
+				"text": "High-resolution cameras to spot enemy weak spots, powerful antennae to intercept transmissions, and an onboard encryption and decryption suite to relay top secret intel from orbit."
+			}
+		]
+	},
+	{
+		"name": "Command Center",
+		"cityStrength": 20,
+		"cityHealth": 100,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Colonial Patrol Station",
+		"requiredTech": "Colony Administration",
+		"uniques": [
+			"New [Military] units start with [15] Experience [in this city]",
+			"Destroyed when the city is captured"
+		],
+		"civilopediaText": [
+			{
+				"text": "A centralized military base, with the facilities to enable the command of entire theaters of war."
+			}
+		]
+	},
+	{
+		"name": "Military Base",
+		"cityStrength": 30,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+			"New [Military] units start with [25] Experience [in this city]",
+			"Destroyed when the city is captured"
+		],
+		"requiredBuilding": "Colonial Patrol Station",
+		"requiredTech": "Next-Gen Armaments",
+		"civilopediaText": [
+			{
+				"text": "Where all the military personnel train, work, and live, complete with the needed facilities."
+			}
+		]
+	},
+	{
+		"name": "Naval Yard",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"production": 2,
+		"uniques": [
+			"Enables you to build larger Water units",
+			"New [Water] units start with [15] Experience [in this city]",
+			"Must be next to [Coast]"
+			"Destroyed when the city is captured"
+		],
+		"requiredBuilding": "Floating Harbor",
+		"requiredTech": "Alloy Microstructures",
+		"civilopediaText": [
+			{
+				"text": "A floating harbor can only build ships up to a certain size - for bigger, heavier ships, you'll need a dedicated military shipyard like this one."
+			}
+		]
+	},
+	{
+		"name": "Mech Pilot Training Facility",
+		"cost": 60,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"New [Mech] units start with [15] Experience [in this city]",
+			"Destroyed when the city is captured"
+		],
+		"requiredBuilding": "Colonial Patrol Station",
+		"requiredTech": "Mecha Prototypes",
+		"civilopediaText": [
+			{
+				"text": "A facility where simulations using mock cockpits and gyroscopic simulated motion help train future mecha pilots."
+			}
+		]
+	},
+	{
+		"name": "Mechanized Unit Facility",
+		"cost": 60,
+		"maintenance": 1,
+		"production": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Enables you to build Armored and Mech units",
+			"New [Armored] units start with [15] Experience [in this city]",
+			//"New [Mech] units start with [15] Experience [in this city]",
+			"Destroyed when the city is captured"
+		],
+		"requiredBuilding": "Military Base",
+		"requiredTech": "Composite Armor",
+		"civilopediaText": [
+			{
+				"text": "These facilities produce and mantain the bigger engines of war such as tanks and mechas."
+			}
+		]
+	},
+	{
+		"name": "Drone Command",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+			"New [Drone] units start with [15] Experience [in this city]",
+			"Destroyed when the city is captured"
+		],
+		"requiredBuilding": "Colonial Patrol Station",
+		"requiredTech": "Strike Drones",
+		"civilopediaText": [
+			{
+				"text": "This place coordinates military drone activities of the colony, and also where the pilots can safely control them remotely."
+			}
+		]
+	},
+	{
+		"name": "Mercenary Offices",
+		"cost": 50, //60,
+		"maintenance": 0,
+		"gold": 1,
+		//"hurryCostModifier": 25,
+		"uniques": [
+			"Unbuildable",
+			//"Can be purchased with [Gold] [in all cities]",
+			//"Can be purchased for [200] [Gold] [in all cities]",
+			"May buy [Mercenary] units with [Gold] [in this city]",
+			"Limited to [3] per Civilization",
+			"New [Mercenary] units start with [15] Experience [in this city]",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Info Networks",
+		"civilopediaText": [
+			{
+				"text": "Semi-legal businesses where one can hire soldiers of fortune."
+			}
+		]
+	},
+
+	// Halcyon Era
+	{
+		"name": "Meteor Catcher",
+		"hurryCostModifier": 25,
+		"percentStatBonus": { "production": 5 },
+		"requiredTech": "Cosmonautics",
+		"requiredBuilding": "Orbital Launch Facility",
+		"uniques": ["Orbital"],
+		"civilopediaText": [
+			{
+				"text": "Dedicated orbital vehicles to capture stray meteorites and asteroids from hitting the planet. As an added bonus, they also harvest the minerals from those asteroids."
+			}
+		]
+	},
+	{
+		"name": "Satellite Control Center",
+		"hurryCostModifier": 25,
+		"percentStatBonus": { "science": 5 },
+		"requiredTech": "Cosmonautics",
+		"uniques": [
+			"[+1 Science, +1 Culture, +1 Gold] <in cities with a [Orbital]>",
+			"New [Satellite] units start with [15] Experience [in this city]"
+		],
+		"civilopediaText": [
+			{
+				"text": "Myriads of satellites can easily be monitored and controlled from this building, optimizing the effectiveness of orbital equipment."
+			}
+		]
+	},
+	{
+		"name": "ICBM Silo",
+		"hurryCostModifier": 25,
+		"requiredTech": "Orbital Deterrents",
+		"requiredBuilding": "Orbital Launch Facility",
+		"uniques": [
+			"Enables you to build ICBMs",
+		]
+		"civilopediaText": [
+			{
+				"text": "A dedicated hole in the ground that stores nuclear ICBMs. Beware that you do not repeat Old Earth's folly."
+			}
+		]
+	},
+	{
+		"name": "Deep Shelter",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+			"Population loss from nuclear attacks [-50]% [in this city]"
+		],
+		"requiredTech": "Orbital Deterrents",
+		"civilopediaText": [
+			{
+				"text": "Networked bunkers far underground, complete with long-term life support systems and protected under several kilometers of planetary crust."
+			}
+		]
+	},
+	{
+		"name": "Cloning Vat",
+		"maintenance": 1,
+		"food": 2,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"[20]% Food is carried over after population increases [in this city]",
+			"[+1] population [in this city]"
+		],
+		"requiredTech": "Cloning",
+		"requiredBuilding": "Frontier Hospital",
+		"civilopediaText": [
+			{
+				"text": "Mass production of the masses."
+			}
+		]
+	},
+	{
+		"name": "Intercity Hyperloop",
+		"hurryCostModifier": 25,
+		"percentStatBonus": { "production": 5, "gold": 5 },
+		"requiredBuilding": "Infrastructure 2.0",
+		"requiredTech": "Fusion Power",
+		"civilopediaText": [
+			{
+				"text": "A network of fusion-powered tube trains that connect the various districts of the ever-growing city."
+			}
+		]
+	},
+	{
+		"name": "Particle Collider",
+		"maintenance": 2,
+		"science": 10,
+		"hurryCostModifier": 15,
+		"percentStatBonus": { "science": 5 },
+		"specialistSlots": { "Scientist": 3 },
+		"requiredBuilding": "Research Laboratory",
+		"uniques": [
+			"[+2 Science] from [Yairmite] tiles [in this city]",
+			"[+1 Science] from [Jadonyx] tiles [in this city]",
+			"[+1 Science] from [Gravitix] tiles [in this city]",
+			"[+1 Science] from [Ulframite] tiles [in this city]"
+		],
+		"requiredTech": "Quantum Theory",
+		"civilopediaText": [
+			{
+				"text": "Break a thing, and you have fragments. Break those fragments, and you have dust. Break the dust, and break what remains. Here is fire."
+			}
+		]
+	},
+	{
+		"name": "Adaptive Tax Network",
+		"hurryCostModifier": 25,
+		"percentStatBonus": { "gold": 5 },
+		"uniques": [
+			"Virtual",
+			"Consumes [1] [Digital Storage Space]",
+			"[+1 Production] <in cities with a [Remote Fabricator]>"
+		],
+		"requiredTech": "Metaverse",
+		"requiredBuilding": "Stock Exchange",
+		"civilopediaText": [
+			{
+				"text": "What if the taxes you owe was personally tailored depending on your spending, lifestyle, and other factors? With a deep algorithm, this is now a reality."
+			}
+		]
+	},
+	{
+		"name": "Virtual Cultural Space",
+		"culture": 3,
+		"specialistSlots": { "Influencer": 2 },
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Virtual",
+			"Consumes [1] [Digital Storage Space]",
+			"[+1 Production] <in cities with a [Remote Fabricator]>"
+		],
+		"requiredTech": "Net Culture",
+		"civilopediaText": [
+			{
+				"text": "An imaginary space where imagination and creativity is free to be exercised."
+			}
+		]
+	},
+	{
+		"name": "Sim Life Servers",
+		"maintenance": 2,
+		"gold": 2,
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Virtual",
+			"Consumes [1] [Digital Storage Space]",
+			"[+1 Production] <in cities with a [Remote Fabricator]>"
+		],
+		"requiredBuilding": "Virtual Cultural Space",
+		"requiredTech": "Metaverse",
+		"civilopediaText": [
+			{
+				"text": "It is now possible for a colonist to live their life completely in the virtual realm."
+			}
+		]
+	},
+	{
+		"name": "Virtual Altered State",
+		"culture": 2,
+		"faith": 2,
+		"specialistSlots": { "Influencer": 1 },
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Virtual",
+			"Consumes [1] [Digital Storage Space]",
+			"[+1 Production] <in cities with a [Remote Fabricator]>"
+		],
+		"requiredTech": "Virtual Drugs",
+		"civilopediaText": [
+			{
+				"text": "Want to try mind-altering substances, but afraid of the physical side effects and addiction? Why not simulate it virtually with a direct brain stimulation instead?"
+			}
+		]
+	},
+	{
+		"name": "Augment Center",
+		"maintenance": 1,
+		"culture": 3,
+		"percentStatBonus": { "production": 5 },
+		"hurryCostModifier": 0,
+		"uniques": [
+			"[5]% Food is carried over after population increases [in this city]"
+		],
+		"requiredBuilding": "Frontier Hospital",
+		"requiredTech": "Cybernetics",
+		"civilopediaText": [
+			{
+				"text": "For those disappointed by the weakness of their flesh, and found strength in replacements of metal and plastic."
+			}
+		]
+	},
+
+	// Realization Era
+	{
+		"name": "Nano-Reassembler",
+		"maintenance": 2,
+		"food": 2,
+		"production": 2,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"[Armored] Units adjacent to this city heal [20] HP per turn when healing",
+			"[Mech] Units adjacent to this city heal [20] HP per turn when healing",
+			"[Water] Units adjacent to this city heal [20] HP per turn when healing"
+		],
+		"requiredTech": "Nanotechnology",
+		"civilopediaText": [
+			{
+				"text": "Nanotechnology applied as a means to repair both biological and mechanical assets."
+			}
+		]
+	},
+	{
+		"name": "Remote Fabricator",
+		"maintenance": 2,
+		"production": 3,
+		"specialistSlots": { "Engineer": 2 },
+		"hurryCostModifier": 25,
+		"uniques": [
+			//"[+1 Production] from every [Virtual]" //move this to the virtual buildings instead, for now
+			"Adds +1 Production on every Virtual building in this city"
+		],
+		"requiredTech": "Cyberbrains",
+		"civilopediaText": [
+			{
+				"text": "Now factory workers can work from their homes by controlling the machines using their cyberbrains."
+			}
+		]
+	},
+	{
+		"name": "Persona Backup Servers",
+		"maintenance": 2,
+		"culture": 1,
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Virtual",
+			"Consumes [1] [Digital Storage Space]",
+			"Population loss from nuclear attacks [-50]% [in this city]",
+			"[+1 Production] <in cities with a [Remote Fabricator]>"
+		],
+		"requiredTech": "Cyberbrains",
+		"civilopediaText": [
+			{
+				"text": "Specialized servers that stores complete brain patterns, which could be downloaded to a fresh clone or empty cyborg shell."
+			}
+		]
+	},
+	{
+		"name": "Holodeck",
+		"maintenance": 2,
+		"culture": 3,
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Virtual",
+			"Consumes [2] [Digital Storage Space]",
+			"[+1 Production] <in cities with a [Remote Fabricator]>"
+		],
+		"requiredTech": "Artificial Intelligence",
+		"civilopediaText": [
+			{
+				"text": "The merging of the physical and the virtual, using AI as a bridge between worlds."
+			}
+		]
+	},
+	{
+		"name": "Quantum Economic Services",
+		"maintenance": 2,
+		"gold": 3,
+		"percentStatBonus": { "gold": 10 },
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Virtual",
+			"Consumes [2] [Digital Storage Space]",
+			"[+1 Production] <in cities with a [Remote Fabricator]>"
+		],
+		"requiredTech": "Quantum Computing",
+		"civilopediaText": [
+			{
+				"text": "Quantum computation allows even more complex economic algorithms to be calculated even faster than before."
+			}
+		]
+	},
+	{
+		"name": "Xenomind Research Center",
+		"maintenance": 1,
+		"science": 3,
+		"culture": 2,
+		"hurryCostModifier": 0,
+		"requiredBuilding": "Genetic Laboratory",
+		"requiredTech": "Xeno Psychology",
+		"civilopediaText": [
+			{
+				"text": "In here, scientists use both biology and psychology to understand how the Xenomind works."
+			}
+		]
+	},
+	{
+		"name": "Nerve Staple Center",
+		"maintenance": 1,
+		"culture": -5,
+		"percentStatBonus": { "production": 5 },
+		"hurryCostModifier": 0,
+		"requiredBuilding": "Augment Center",
+		"requiredTech": "Nerve Stapling",
+		"civilopediaText": [
+			{
+				"text": "A rather ruthless way to reduce the amount of dissenting population - just inhibit their troublemaking parts of the brain with an implant."
+			}
+		]
+	},
+	{
+		"name": "Antimatter Reactor",
+		"maintenance": 2,
+		"production": 3,
+		"science": 3,
+		"hurryCostModifier": 25,
+		"uniques": ["Provides [2] [Antimatter]"],
+		"requiredTech": "Antimatter Harnessing",
+		"civilopediaText": [
+			{
+				"text": "This facility generates Antimatter by smashing together exotic subatomic particles in a certain way."
+			}
+		]
+	},
+	{
+		"name": "Mindspace Expansion",
+		"maintenance": 2,
+		"culture": 3,
+		"science": 3,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Virtual",
+			"Consumes [5] [Digital Storage Space]",
+			"[+2 Culture, +1 Gold] from all [Virtual] buildings <during a Golden Age>",
+			"[+1 Production] <in cities with a [Remote Fabricator]>"
+		],
+		"requiredTech": "Mind Linking",
+		"civilopediaText": [
+			{
+				"text": "Ever wished you could store your memories elsewhere? Or upgrade your mental capacities? They are now possible by applying cloud computing aspects on biological minds."
+			}
+		]
+	},
+	{
+		"name": "Stasis Defenses",
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Command Center",
+		"requiredTech": "Stasis Fields",
+		"uniques": [
+			"Population loss from nuclear attacks [-25]% [in this city]",
+			"Destroyed when the city is captured"
+		],
+		"civilopediaText": [
+			{
+				"text": "Layers upon layers of hardened light and deflector shields that protect your city."
+			}
+		]
+	},
+
+	// Transcendental Era
+	{
+		"name": "Orbital Solar Reflector",
+		"hurryCostModifier": 25,
+		"percentStatBonus": { "food": 5, "gold": 5 },
+		"requiredTech": "Solar Reflectors",
+		"requiredBuilding": "Orbital Launch Facility",
+		"requiredResource": "Titanium",
+		"uniques": ["Orbital","Consumes [2] [Titanium]"],
+		"civilopediaText": [
+			{
+				"text": "Warm up cold places and chill down hot spots by reflecting the sun's rays with an enormous orbital mirror."
+			}
+		]
+	},
+	{
+		"name": "Uni-Recycler",
+		"maintenance": 2,
+		"production": 1,
+		"gold": 1,
+		"percentStatBonus": { "production": 5 },
+		"hurryCostModifier": 0,
+		"uniques": [
+			"[10]% Food is carried over after population increases [in this city]"
+		],
+		"requiredTech": "Lossless Matter Conversion",
+		"civilopediaText": [
+			{
+				"text": "Transform waste into pure energy, and then convert that energy into better, usable matter."
+			}
+		]
+	},
+	{
+		"name": "Bio-Design Agency",
+		"maintenance": 2,
+		"culture": 4,
+		"happiness": 1,
+		"percentStatBonus": { "food": 5 },
+		"hurryCostModifier": 25,
+		"requiredTech": "Designer Lifeforms",
+		"civilopediaText": [
+			{
+				"text": "This agency could design an organism from basically nothing, one that is according to your exact specifications."
+			}
+		]
+	},
+	{
+		"name": "Quantum Harvesting Facility",
+		"maintenance": 2,
+		"production": 1,
+		"science": 1,
+		"percentStatBonus": { "production": 5 },
+		"hurryCostModifier": 0,
+		"uniques": [
+			"Consumes [1] [Antimatter]",
+			"Provides [1] [Gravitix]",
+			"Provides [1] [Yairmite]"
+		],
+		"requiredTech": "Exotic Quantum Physics",
+		"requiredResource": "Antimatter",
+		"civilopediaText": [
+			{
+				"text": "Basically, this facility is fishing for resources in the very sea of uncertain possibilities."
+			}
+		]
+	},
+	{
+		"name": "Public Teleportation",
+		"maintenance": 2,
+		"production": 2,
+		"gold": 2,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"Consumes [2] [Digital Storage Space]",
+			"[+5]% growth [in this city]",
+			"[+1]% growth [in all cities]"
+		],
+		"requiredTech": "Lossless Matter Conversion",
+		"civilopediaText": [
+			{
+				"text": "Why walk when you could unravel your every subatomic particle into energy, and then reconstitute it back at your destination?"
+			}
+		]
+	},
+	{
+		"name": "Vitae Field Generator",
+		"maintenance": 2,
+		"science": 2,
+		"happiness": 1,
+		"percentStatBonus": { "food": 5 },
+		"hurryCostModifier": 25,
+		"requiredTech": "Advanced Biotech",
+		"requiredResource": "Vitamass",
+		"uniques": [
+			"[Infantry] Units adjacent to this city heal [20] HP per turn when healing",
+			"[Xeno] Units adjacent to this city heal [20] HP per turn when healing",
+			"Consumes [1] [Vitamass]",
+		],
+		"civilopediaText": [
+			{
+				"text": "Generates a healing field using harmonic frequencies, tuned using a sizable amount of connected Vitamass."
+			}
+		]
+	},
+	{
+		"name": "Cyberdream Commune",
+		"maintenance": 1,
+		"culture": 3,
+		"faith": 3,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Virtual",
+			"Consumes [5] [Digital Storage Space]",
+			"[+2 Culture, +1 Faith] from all [Virtual] buildings",
+			"[+2 Gold] from all [Virtual] buildings <during a Golden Age>",
+			"[+1 Production] <in cities with a [Remote Fabricator]>"
+		],
+		"requiredTech": "Posthumanist Culture",
+		"civilopediaText": [
+			{
+				"text": "Live life unbound by physical limits, in an AI-generated virtual universe based on your mind."
+			}
+		]
+	},
+	{
+		"name": "Escher Module",
+		"maintenance": 1,
+		"production": 1,
+		"science": 1,
+		"gold": 1,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"[Gold] cost of purchasing [All] buildings [-10]%",
+			"[-10]% Unhappiness from [Population] [in this city]",
+			"Consumes [1] [Yairmite]",
+		],
+		"requiredTech": "N-Dimensional Exploration",
+		"requiredResource": "Yairmite",
+		"civilopediaText": [
+			{
+				"text": "Uses manufactured pocket dimensions to create places where it's bigger on the inside."
+			}
+		]
+	},
+	{
+		"name": "FTL Probe Project",
+		"culture": 4,
+		"science": 3,
+		"percentStatBonus": { "science": 10 },
+		"hurryCostModifier": 25,
+		"requiredTech": "FTL Travel",
+		"civilopediaText": [
+			{
+				"text": "Sends advanced, self-thinking AIs onto a small spacecraft that can travel faster than light, to survey for other suitable planets."
+			}
+		]
+	},
+
+	// Ideo Buildings
+	//// Purification
+	{
+		"name": "Genetic Purity Center",
+		"maintenance": 1,
+		"culture": 4,
+		"happiness": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+10]% growth [in this city]",
+			"New [Infantry] units start with [30] Experience [in this city]",
+			"Only available <after adopting [Purification Ideology]>"
+		],
+		"requiredTech": "Cloning",
+		"civilopediaText": [
+			{
+				"text": "Deletes imperfections and inferior traits from your very own DNA."
+			}
+		]
+	},
+	{
+		"name": "Propaganda Office",
+		"maintenance": 1,
+		"culture": 2,
+		"percentStatBonus": { "culture": 10 },
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[-10]% Unhappiness from [Population] [in this city] <with a garrison>",
+			"Only available <after adopting [Purification Ideology]>"
+		],
+		"requiredTech": "Nerve Stapling",
+		"civilopediaText": [
+			{
+				"text": "Control public opinion by using psychological tricks, tailored messages and opinion twisters."
+			}
+		]
+	},
+
+	//// Symbiosis
+	{
+		"name": "Biogel Nursery",
+		"maintenance": 1,
+		"food": 2,
+		"cityHealth": 100,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[Wounded] Units adjacent to this city heal [+10] HP per turn when healing",
+			"Only available <after adopting [Symbiosis Ideology]>"
+		],
+		"requiredTech": "Genetic Hybridization",
+		"civilopediaText": [
+			{
+				"text": "Derived from Xeno biological process, the Biogel repairs tissue damage by substituting itself for damaged or dead cells. Also works on vehicles."
+			}
+		]
+	},
+	{
+		"name": "Symbiotic Health Center",
+		"maintenance": 2,
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+5] Unit Supply per [3] population [in this city] <when at war>",
+			"[+1 Food, +2 Culture] per [3] population [in this city] <when not at war>",
+			"Only available <after adopting [Symbiosis Ideology]>"
+		],
+		"requiredTech": "Designer Lifeforms",
+		"civilopediaText": [
+			{
+				"text": "Keeping up the health of the populace by utilizing symbiotic organisms, whether big or small."
+			}
+		]
+	},
+
+	//// Radiant
+	{
+		"name": "Knowledge Injection Node",
+		"maintenance": 1,
+		"happiness": 1,
+		"percentStatBonus": { "science": 10 },
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Virtual",
+			"Consumes [2] [Digital Storage Space]",
+			"[+4 Science] per [3] population [in this city]",
+			"Only available <after adopting [Radiant Ideology]>",
+			"[+1 Production] <in cities with a [Remote Fabricator]>"
+		],
+		"requiredTech": "Virtual Drugs",
+		"civilopediaText": [
+			{
+				"text": "Directly download the knowledge you need at the moment, straight into your brain."
+			}
+		]
+	},
+	{
+		"name": "Mind Optimization Terminals",
+		"maintenance": 1,
+		"happiness": 1,
+		"percentStatBonus": { "production": 5, "gold": 5, "science": 5 },
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+3 Science] from each Trade Route <while the empire is happy>"
+			"Only available <after adopting [Radiant Ideology]>"
+		],
+		"requiredTech": "Cyberbrains",
+		"civilopediaText": [
+			{
+				"text": "These terminals help filter out noisy or damaging thoughts, and ensure that your brain is working properly."
+			}
+		]
+	},
+
+	// Religious Buildings (e.g. Mosques, Cathedrals etc)
+	{
+		"name": "Charity Center",
+		"cost": 0,
+		"culture": 2,
+		"faith": 2,
+		"food": 2,
+		"happiness": 2,
+		"uniques": ["Unbuildable", "Hidden when religion is disabled"],
+		"civilopediaText": [
+			{
+				"text": "To give alms to the poor is to be rich in spirit."
+			}
+		]
+	},
+	{
+		"name": "Cult Hideout",
+		"cost": 0,
+		"cityStrength": 5,
+		"cityHealth": 25,
+		"culture": 1,
+		"faith": 3,
+		"happiness": 1,
+		"uniques": ["Unbuildable", "Hidden when religion is disabled"],
+		"civilopediaText": [
+			{
+				"text": "A legally-sanctioned cultist safehouse, in exchange for it doubling as a fortified compound during city combat."
+			}
+		]
+	},
+	{
+		"name": "Meditation Field",
+		"cost": 0,
+		"culture": 2,
+		"faith": 4,
+		"happiness": 2,
+		"uniques": ["Unbuildable", "Hidden when religion is disabled"],
+		"civilopediaText": [
+			{
+				"text": "A nice spot to focus your mind and meditate without being bothered by anything."
+			}
+		]
+	},
+	{
+		"name": "Debate Hall",
+		"cost": 0,
+		"culture": 2,
+		"faith": 2,
+		"science": 2,
+		"happiness": 2,
+		"uniques": ["Unbuildable", "Hidden when religion is disabled"],
+		"civilopediaText": [
+			{
+				"text": "Arguments and debates are encouraged here, as long as it all stays civil."
+			}
+		]
+	},
+	{
+		"name": "Virtual Trance Server",
+		"cost": 0,
+		"culture": 3,
+		"faith": 3,
+		"happiness": 2,
+		"uniques": [
+			"Virtual",
+			"Consumes [1] [Digital Storage Space]",
+			"Unbuildable",
+			"Hidden when religion is disabled",
+			"[+1 Production] <in cities with a [Remote Fabricator]>"
+		],
+		"civilopediaText": [
+			{
+				"text": "A virtual space where you are subjected to sensory overstimulation, in order to see into the astral plane."
+			}
+		]
+	},
+
+	// Uniques
+	{
+		"name": "Net Terminal Genelab",
+		"replaces": "Genetic Laboratory",
+		"uniqueTo": "Toma Heavy Industries",
+		"maintenance": 2,
+		"science": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": { "science": 5 },
+		"specialistSlots": { "Scientist": 3 },
+		"requiredBuilding": "Research Laboratory",
+		"uniques": [
+			"Consumes [2] [Digital Storage Space]",
+			/*
+			"[+1 Science, +1 Production] from [Tubers] tiles [in this city]", //damn I gotta simplify these
+			"[+1 Science, +1 Production] from [Fungi Pods] tiles [in this city]",
+			"[+1 Science, +1 Production] from [Exotic Fruits] tiles [in this city]",
+			"[+1 Science, +1 Production] from [Rockbud] tiles [in this city]",
+			"[+1 Science, +1 Production] from [Chitin] tiles [in this city]",
+			"[+1 Science, +1 Production] from [Dairy Aphid] tiles [in this city]",
+			"[+1 Science, +1 Production] from [Algae] tiles [in this city]",
+			"[+1 Science, +1 Production] from [Seasilk] tiles [in this city]",
+			"[+1 Science, +1 Production] from [Plankton] tiles [in this city]",
+			"[+1 Science, +1 Production] from [Sea Slivers] tiles [in this city]",
+			"[+1 Science, +1 Production] from [Spice] tiles [in this city]",
+			"[+1 Science, +1 Production] from [Stimulants] tiles [in this city]",
+			"[+1 Science, +1 Production] from [Hydromielin] tiles [in this city]",
+			"[+1 Science, +1 Production] from [Ruby Cactus] tiles [in this city]",
+			"[+1 Science, +1 Production] from [Snuffets] tiles [in this city]",
+			"[+1 Science, +1 Production] from [Sindrian Lobster] tiles [in this city]",
+			"[+1 Science, +1 Production] from [Flowers of Silence] tiles [in this city]",
+			"[+1 Science, +1 Production] from [Vitamass] tiles [in this city]"
+			*/
+			"[+1 Science, +1 Production] from [Organic] tiles [in this city]"
+		],
+		"requiredTech": "Genetics",
+		"civilopediaText": [
+			{
+				"text": "Genetic laboratory dedicated to the research of the Net Terminal Gene, which supposedly could let instant virtual connection without implants."
+			}
+		]
+	},
+	{
+		"name": "Deep Mining Station",
+		"replaces": "Mining Tunnels",
+		"uniqueTo": "Deep Rock Ganymede",
+		"maintenance": 1,
+		"production": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Provides [1] [Stout Ale]",
+			"[+1 Production] from [Hill] tiles [in this city]",
+			"[+2 Production] from [Mountain] tiles [in this city]",
+			"[+1 Production] from [Mine] tiles [in this city]",
+			
+			"[+1 Production] from [Mineral] tiles [in this city]",
+			/*
+			"[+1 Production] from [Hexanite] tiles [in this city]",
+			"[+1 Production] from [Basalt] tiles [in this city]",
+			"[+1 Production] from [Silica] tiles [in this city]",
+			"[+1 Production] from [Aluminum] tiles [in this city]",
+			"[+1 Production] from [Phostlite] tiles [in this city]",
+			"[+1 Production] from [Redstone] tiles [in this city]",
+			"[+1 Production] from [Vents] tiles [in this city]",
+			"[+1 Production] from [Gold Ore] tiles [in this city]",
+			"[+1 Production] from [Harmonix Crystals] tiles [in this city]",
+			"[+1 Production] from [Jadonyx] tiles [in this city]",
+			"[+1 Production] from [Kaibir Crystals] tiles [in this city]",
+			"[+1 Production] from [Benthic Orbs] tiles [in this city]",
+			"[+1 Production] from [Titanium] tiles [in this city]",
+			"[+1 Production] from [Promethine] tiles [in this city]",
+			"[+1 Production] from [Ulframite] tiles [in this city]",
+			"[+1 Production] from [Gravitix] tiles [in this city]",
+			"[+1 Production] from [Yairmite] tiles [in this city]",
+			*/
+			"[+1 Gold] from [Luxury resource] tiles [in this city]"
+		],
+		"requiredNearbyImprovedResources": [
+			"Hexanite",
+			"Basalt",
+			"Silica",
+			"Aluminum",
+			"Phostlite",
+			"Redstone",
+			"Vents",
+			"Gold Ore",
+			"Harmonix Crystals",
+			"Jadonyx",
+			"Kaibir Crystals",
+			"Benthic Orbs",
+			"Titanium",
+			"Promethine",
+			"Ulframite",
+			"Gravitix",
+			"Yairmite"
+		],
+		"requiredTech": "Xenogeology",
+		"civilopediaText": [
+			{
+				"text": "A miner's outpost deep underground, where they extract riches while squashing the occasional underground Xeno nest."
+			}
+		]
+	},
+	{
+		"name": "Corpotown",
+		"replaces": "Pioneer Depot",
+		"uniqueTo": "Walpole-Yuen Inc",
+		"gold": 2,
+		"specialistSlots": { "Merchant": 1 },
+		"hurryCostModifier": 25,
+		"percentStatBonus": { "gold": 5 },
+		"uniques": [
+			"Prefab",
+			"[Gold] cost of purchasing [Military] units [-20]%",
+			"[+1 Gold] from [Luxury resource] tiles [in this city]",
+			"[+1 Gold] from [Luxury resource] tiles [in this city] <after discovering [Offworld Industries]>",
+			"[+1 Gold] from [Luxury resource] tiles [in this city] <after discovering [Cryptocurrency]>",
+			"[+1 Gold] from [Luxury resource] tiles [in this city] <after discovering [Metaverse]>",
+			"[+1 Gold] from [Luxury resource] tiles [in this city] <after discovering [Artificial Intelligence]>",
+			"[+1 Gold] from [Luxury resource] tiles [in this city] <after discovering [Lossless Matter Conversion]>",
+			"Provides [1] [Digital Storage Space]",
+		],
+		"requiredTech": "Pioneer Administration",
+		"civilopediaText": [
+			{
+				"text": "Walpole-Yuen Inc's corporate enclaves for its employees, which has their own laws, security, and corpo-scrip."
+			}
+		]
+	},
+	{
+		"name": "Soma Biolab",
+		"replaces": "Genetic Laboratory",
+		"uniqueTo": "Somatek Biomedical",
+		"faith": 1,
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": { "science": 5 },
+		"specialistSlots": { "Scientist": 2 },
+		"requiredBuilding": "Research Laboratory",
+		"uniques": [
+			"Provides [1] [Soma]",
+			"[+1 Science, +1 Food] from [Organic] tiles [in this city]"
+			/*
+			"[+1 Science, +1 Food] from [Tubers] tiles [in this city]", //damn I gotta simplify these
+			"[+1 Science, +1 Food] from [Fungi Pods] tiles [in this city]",
+			"[+1 Science, +1 Food] from [Exotic Fruits] tiles [in this city]",
+			"[+1 Science, +1 Food] from [Rockbud] tiles [in this city]",
+			"[+1 Science, +1 Food] from [Chitin] tiles [in this city]",
+			"[+1 Science, +1 Food] from [Dairy Aphid] tiles [in this city]",
+			"[+1 Science, +1 Food] from [Algae] tiles [in this city]",
+			"[+1 Science, +1 Food] from [Seasilk] tiles [in this city]",
+			"[+1 Science, +1 Food] from [Plankton] tiles [in this city]",
+			"[+1 Science, +1 Food] from [Sea Slivers] tiles [in this city]",
+			"[+1 Science, +1 Food] from [Spice] tiles [in this city]",
+			"[+1 Science, +1 Food] from [Stimulants] tiles [in this city]",
+			"[+1 Science, +1 Food] from [Hydromielin] tiles [in this city]",
+			"[+1 Science, +1 Food] from [Ruby Cactus] tiles [in this city]",
+			"[+1 Science, +1 Food] from [Snuffets] tiles [in this city]",
+			"[+1 Science, +1 Food] from [Sindrian Lobster] tiles [in this city]",
+			"[+1 Science, +1 Food] from [Flowers of Silence] tiles [in this city]",
+			"[+1 Science, +1 Food] from [Vitamass] tiles [in this city]"
+			*/
+		],
+		"requiredTech": "Genetics",
+		"civilopediaText": [
+			{
+				"text": "Laboratories like these are where Somatek Biomedical cultivates and researches the Soma plant."
+			}
+		]
+	},
+	{
+		"name": "Robotics Testing Lab",
+		"replaces": "Research Laboratory",
+		"uniqueTo": "Skye Robotics",
+		"science": 1,
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": { "science": 5 },
+		"specialistSlots": { "Scientist": 2 },
+		"requiredBuilding": "Field Lab",
+		"uniques": [
+			"Provides [1] [Digital Storage Space]",
+			"New [Military] units start with [15] Experience [in this city]",
+			"[+2 Science] from [Jungle] tiles [in this city]",
+			"[+1 Science] from [Mycelium] tiles [in this city]"
+		],
+		"requiredTech": "Research Networks",
+		"civilopediaText": [
+			{
+				"text": "Autonomously maintained testing facilities that tests robotic designs - also used as a training site for the military."
+			}
+		]
+	},
+	{
+		"name": "Infowarfare Division",
+		"uniqueTo": "Daikyu Boei Kikan",
+		"hurryCostModifier": 25,
+		"cityStrength": 20,
+		"cityHealth": 100,
+		"maintenance": 1,
+		"uniques": [
+			"Consumes [2] [Digital Storage Space]",
+			"New [Military] units start with [15] Experience [in this city]",
+			"[+20]% City Strength from defensive buildings",
+			"Destroyed when the city is captured"
+		],
+		"requiredBuilding": "Colonial Patrol Station",
+		"requiredTech": "Next-Gen Armaments",
+		"civilopediaText": [
+			{
+				"text": "This is where Daikyu Boei Kikan's legions of elite hackers defend against and launch information warfare against its enemies."
+			}
+		]
+	},
+	{
+		"name": "Simchip Studio",
+		"uniqueTo": "Thespiaux Medianet",
+		"maintenance": 1,
+		"culture": 4,
+		"hurryCostModifier": 15,
+		"specialistSlots": { "Influencer": 1 },
+		"requiredBuilding": "Pioneer Speakeasy",
+		"uniques": [
+			"Remove extra unhappiness from annexed cities",
+			"Consumes [1] [Digital Storage Space]",
+			"Can be purchased for [100] [Culture] [in all cities]"
+		],
+		"requiredTech": "Info Networks",
+		"civilopediaText": [
+			{
+				"text": "Imagine a movie, but not only that you can see and hear it, you can smell, taste, and feel it. Now put it in a small chip you can slot in the side of your head."
+			}
+		]
+	},
+	{
+		"name": "Xenoid Barracks",
+		"replaces": "Frontier Armory",
+		"uniqueTo": "Xenoidid Empire",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+			"Enables you to build Tame Xeno units",
+			"New [Infantry] units start with [15] Experience [in this city]",
+			"New [Stealth Infantry] units start with [15] Experience [in this city]",
+			"New [Tame Xeno] units start with [15] Experience [in this city]",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Frontier Armaments",
+		"civilopediaText": [
+			{
+				"text": "Xenoidid infantry share their living space with the soldier caste of their tamed Xenos, resulting in better coordination between the two species."
+			}
+		]
+	},
+	{
+		"name": "Interspecies Parliament",
+		"replaces": "Bureaucratic Office",
+		"uniqueTo": "Xenoidid Empire",
+		"faith": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 15,
+		"percentStatBonus": { "production": 2, "gold": 2 },
+		"requiredTech": "Colony Administration",
+		"uniques": [
+			"[+1 Happiness] per [4] population [in this city]"
+		]
+		"civilopediaText": [
+			{
+				"text": "Not only does this office deal with the human politics, it also deals with the tame Xeno's needs as well."
+			}
+		]
+	},
+	{
+		"name": "Expansion Bureau",
+		"replaces": "Bureaucratic Office",
+		"uniqueTo": "Xingxing Fazhan Bu",
+		"cityStrength": 10,
+		"cityHealth": 50,
+		"maintenance": 1,
+		"hurryCostModifier": 15,
+		"percentStatBonus": { "production": 5, "gold": 5 },
+		"requiredTech": "Colony Administration",
+		"uniques": [
+			"[-25]% Culture cost of natural border growth [in this city]",
+			"[-25]% Gold cost of acquiring tiles [in this city]",
+		]
+		"civilopediaText": [
+			{
+				"text": "A veritable army of clerks, officers and bureaucrats working together to expedite land expansion for the colony."
+			}
+		]
+	},
+	{
+		"name": "Aerodrome",
+		"replaces": "Aerocraft Hangar",
+		"uniqueTo": "Blue Streak Aerodynamics",
+		"cost": 120,
+		"gold": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"percentStatBonus": { "gold": 5 },
+		"uniques": [
+			"New [Air] units start with [30] Experience [in this city]"
+		],
+		"requiredTech": "Aeronautics",
+		"civilopediaText": [
+			{
+				"text": "Not only a facility for military aerocraft, but also facilitates air-based travel and commerce."
+			}
+		]
+	},
+	{
+		"name": "Mechbay",
+		"replaces": "Mechanized Unit Facility",
+		"uniqueTo": "Jaeger Engineering",
+		"cost": 80,
+		"maintenance": 1,
+		"production": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"All newly-trained [Armored] units [in this city] receive the [Jaeger Manufacturing] promotion",
+			"New [Armored] units start with [15] Experience [in this city]",
+			"New [Close Range Mech] units start with [15] Experience [in this city]",
+			"New [Ranged Mech] units start with [15] Experience [in this city]",
+			"Destroyed when the city is captured"
+		],
+		"requiredBuilding": "Military Base",
+		"requiredTech": "Composite Armor",
+		"civilopediaText": [
+			{
+				"text": "A dedicated building to fabricate, store, service, and repair mechs, among other vehicles."
+			}
+		]
+	},
+
+	// National Wonders
+	{
+		"name": "Landfall Memorial",
+		"cost": 200,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": [
+			"Requires a [Monument] in all cities",
+			"[+25]% Great Person generation [in this city]",
+			"Cost increases by [30] per owned city"
+		],
+		"requiredTech": "Colonial Culture",
+		"civilopediaText": [
+			{
+				"text": "A special monument commemorating our arrival on this planet."
+			}
+		]
+	},
+	{
+		"name": "Military Simulation Training",
+		"cost": 125,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": [
+			"Virtual",
+			"Consumes [3] [Digital Storage Space]",
+			"Requires a [Frontier Armory] in all cities",
+			"All newly-trained [non-air] units [in this city] receive the [Morale] promotion",
+			"Cost increases by [30] per owned city",
+			"[+1 Production] <in cities with a [Remote Fabricator]>"
+		],
+		"requiredTech": "Military Ballistics",
+		"civilopediaText": [
+			{
+				"text": "Computer-assisted combat simulation training for the military."
+			}
+		]
+	},
+	{
+		"name": "University of the Planet",
+		"cost": 150,
+		"science": 3,
+		"culture": 1,
+		"isNationalWonder": true,
+		"percentStatBonus": { "science": 50 },
+		"uniques": [
+			"Requires a [Field Lab] in all cities",
+			"Provides [3] [Digital Storage Space]",
+			"Cost increases by [30] per owned city"
+		],
+		"requiredTech": "Colony Administration",
+		"civilopediaText": [
+			{
+				"text": "A prestigious university dedicated to the pursuit of science."
+			}
+		]
+	},
+	{
+		"name": "Massive Interactive Virtual Epic",
+		"cost": 400,
+		"percentStatBonus": { "culture": 50 },
+		"culture": 5,
+		"isNationalWonder": true,
+		"uniques": [
+			"Virtual",
+			"Consumes [2] [Digital Storage Space]",
+			"Requires a [Virtual Cultural Space] in all cities",
+			"Cost increases by [30] per owned city",
+			"[+1 Production] <in cities with a [Remote Fabricator]>"
+		],
+		"requiredTech": "Quantum Computing",
+		"civilopediaText": [
+			{
+				"text": "A massively multiplayer virtual interactive experience that is unique to your colony."
+			}
+		]
+	},
+	{
+		"name": "Religious Broadcast Center",
+		"cost": 300,
+		"culture": 1,
+		"faith": 8,
+		"uniques": [
+			"Requires a [Tele-Temple] in all cities",
+			"Cost increases by [30] per owned city",
+			"[+100]% Natural religion spread [in this city]",
+			"Hidden when religion is disabled",
+			"Can only be built [in holy cities]"
+		],
+		"requiredTech": "Net Culture",
+		"isNationalWonder": true,
+		"civilopediaText": [
+			{
+				"text": "Utilizing the airwaves and free broadband to spread your ideology far and wide."
+			}
+		]
+	},
+	{
+		"name": "Central Economic Database",
+		"cost": 250,
+		"gold": 8,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": [
+			"Provides [1] [Digital Storage Space]",
+			"Requires a [Pioneer Depot] in all cities",
+			"Cost increases by [30] per owned city"
+		],
+		"requiredTech": "Cryptocurrency",
+		"civilopediaText": [
+			{
+				"text": "A secure and efficient database that contains a comprehensive copy of your colony's marks of credit."
+			}
+		]
+	},
+	{
+		"name": "Orbital Space Station",
+		"cost": 400,
+		"science": 3,
+		"culture": 2,
+		"isNationalWonder": true,
+		"uniques": [
+			"Orbital",
+			"Provides [2] [Digital Storage Space]",
+			"Requires a [Orbital Launch Facility] in all cities",
+			"Free Technology",
+			"Cost increases by [30] per owned city"
+		],
+		"requiredTech": "Cosmonautics",
+		"requiredBuilding": "Orbital Launch Facility",
+		"civilopediaText": [
+			{
+				"text": "Your colony's own orbital structure, a testament to your colony's ingenuity and willpower."
+			}
+		]
+	},
+	{
+		"name": "Printer Array Foundry",
+		"cost": 125,
+		"production": 8,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": [
+			"Requires a [Prefab Printer] in all cities",
+			"Cost increases by [30] per owned city"
+		],
+		"requiredTech": "Stable Fission Power",
+		"civilopediaText": [
+			{
+				"text": "A field of 3D printers churning away products in copious amounts."
+			}
+		]
+	},
+	{
+		"name": "Commercial Entertainment Complex",
+		"cost": 200,
+		"happiness": 5,
+		"culture": 2,
+		"gold": 2,
+		"isNationalWonder": true,
+		"uniques": [
+			"Requires a [Megamall] in all cities",
+			"Cost increases by [30] per owned city"
+		],
+		"requiredTech": "Colonial Culture",
+		"civilopediaText": [
+			{
+				"text": "A place where your colonists can have fun while also simultaneously stimulating the local economy, and promoting local culture."
+			}
+		]
+	},
+	{
+		"name": "National Intelligence Agency",
+		"cost": 200,
+		"cityStrength": 30,
+		"cityHealth": 30,
+		"isNationalWonder": true,
+		"uniques": [
+			"Requires a [Spy Satellite Network] in all cities",
+			"Consumes [2] [Digital Storage Space]",
+			"All newly-trained [Stealth Infantry] units [in this city] receive the [Spook] promotion",
+			"Cost increases by [30] per owned city"
+		],
+		"requiredTech": "Info Networks",
+		"civilopediaText": [
+			{
+				"text": "Know your enemy, and know yourself, that is how you win wars and keep the peace."
+			}
+		]
+	},
+	{
+		"name": "Samson Option",
+		"cost": 750,
+		"isNationalWonder": true,
+		"uniques": [
+			"Enables nuclear weapon",
+			"Triggers a global alert upon completion"
+		],
+		"requiredTech": "Orbital Deterrents",
+		"quote": "'I remember a line from the Hindu scripture of Bhagavad Gita - Vishnu, in order to persuade the prince to do his duty, took on his multi-armed form and said, 'I have become Death, destroyer of worlds.'' - J. Robert Oppenheimer",
+		"civilopediaText": [
+			{
+				"text": "'I remember a line from the Hindu scripture of Bhagavad Gita - Vishnu, in order to persuade the prince to do his duty, took on his multi-armed form and said, 'I have become Death, destroyer of worlds.'' - J. Robert Oppenheimer"
+			}
+		]
+	},
+
+	// Wonders
+	{
+		"name": "Akashipedia Archives",
+		"science": 3,
+		"culture": 1,
+		"greatPersonPoints": { "Great Scientist": 1 },
+		"isWonder": true,
+		"requiredTech": "Computing",
+		"uniques": [
+			"Virtual",
+			"Consumes [2] [Digital Storage Space]",
+			"Free Technology",
+			"Gain a free [Field Lab] [in this city]",
+			"[+1 Production] <in cities with a [Remote Fabricator]>"
+		],
+		"quote": "'We hope to avoid the mistakes and of Alexandria and Baghdad - may these information be useful to someone, and preserved forevermore.' - Praveen Akash, scientist in charge of the Archives",
+		"civilopediaText": [
+			{
+				"text": "A widely distributed knowledge aggregation system akin to Old Earth's wikipedia, but more rigorously checked and updated. Secure underground servers also help preserve the knowledge."
+			}
+		]
+	},
+	{
+		"name": "Hades Core Bore Project",
+		"production": 1,
+		"greatPersonPoints": { "Great Engineer": 1 },
+		"isWonder": true,
+		"uniques": [
+			"[-25]% tile improvement construction time",
+			"[2] free [Worker] units appear"
+		],
+		"requiredTech": "Crust Fracking",
+		"quote": "'Why did we name it 'Hades'? Well, miners of mines, diggers of graves - they bow down to Hades, who made them work, who made them sweat, who paid them their wages and set them above.' - Aleksios Stavros, Hades project overseer",
+		"civilopediaText": [
+			{
+				"text": "Basically a hole leading straight down to the core, exposing the structures of the planetary crust."
+			}
+		]
+	},
+	{
+		"name": "Saraswati Cultural College",
+		"culture": 3,
+		"greatPersonPoints": { "Great Influencer": 1 },
+		"isWonder": true,
+		"uniques": ["Free Social Policy"],
+		"requiredTech": "Colonial Culture",
+		"quote": "'All human culture are the sacred footprints of humanity, we should respect and learn from them, or risk making the same mistakes again and again.' - Savitri Devi, director of Sarasvati Cultural College",
+		"civilopediaText": [
+			{
+				"text": "Fully dedicated to preserving all forms of culture, this university produces many cultural figures."
+			}
+		]
+	},
+	{
+		"name": "Jormungand NAVSAT Network",
+		"gold": 2,
+		"isWonder": true,
+		"uniques": ["[+1] Movement <for [Water] units>","[+1] Movement <for [Water] units> <upon discovering [Cosmonautics]>"],
+		"requiredTech": "Satellite Networks",
+		"quote": "'Like a serpent coiling itself upon this world, we now have live coverage of the oceanic weather. Naval advantage is ours.' - Koko Hekmatyar, Jormungand project manager",
+		"civilopediaText": [
+			{
+				"text": "A chain of satellites that monitor the planet's weather patterns, and also guides ships to safe harbor."
+			}
+		]
+	},
+	{
+		"name": "PANOPTIKON Surveillance System",
+		"cityStrength": 50,
+		"cityHealth": 30,
+		"isWonder": true,
+		"uniques": ["Consumes [3] [Digital Storage Space]","[-20]% Unhappiness from [Population] [in all cities]"],
+		"requiredTech": "Info Networks",
+		"quote": "'Privacy is a luxury those with guilty conscience cannot afford.' - Frank Robertson, intelligence overseer for PANOPTIKON",
+		"civilopediaText": [
+			{
+				"text": "An ubiquitous surveillance software linked to a global network, it massively helps law enforcement."
+			}
+		]
+	},
+	{
+		"name": "Valhalla Milsim Training Facility",
+		"cityStrength": 30,
+		"isWonder": true,
+		"uniques": [
+			"Consumes [3] [Digital Storage Space]",
+			"Free [Great General] appears",
+			"All newly-trained [relevant] units [in this city] receive the [Drill I] promotion",
+			"All newly-trained [relevant] units [in this city] receive the [Shock I] promotion"
+		],
+		"requiredTech": "Next-Gen Armaments",
+		"quote": "'In here, you will fight, and fight, and fight, over and over until your very essence is imprinted with the lessons you will learn here.' - Yuriy Valetchik, Valhalla head trainer",
+		"civilopediaText": [
+			{
+				"text": "Even more rigorous than your usual military simulations, trainees will die and respawn over and over until they have mastered almost every weapon, tactic and strategy known to mankind."
+			}
+		]
+	},
+	{
+		"name": "BALOR Solar-Powered Laser Cannon",
+		"cityStrength": 50,
+		"isWonder": true,
+		"uniques": [
+			"[+50]% Strength <for [Military] units> <in cities with a [BALOR Solar-Powered Laser Cannon]>"
+		],
+		"requiredTech": "Lasers",
+		"quote": "'What do we have here? Why, just the pure, unmatched power of the sun.' - Shaun O'Brien, BALOR chief technician",
+		"civilopediaText": [
+			{
+				"text": "Harnessing the power of the sun itself, this massive stationary laser emplacement can burn through an invading army with ease."
+			}
+		]
+	},
+	{
+		"name": "Houyi Ballistic Defense System",
+		"cityHealth": 50,
+		"isWonder": true,
+		"uniques": [
+			"[+50]% City Strength from defensive buildings",
+			"Population loss from nuclear attacks [-75]% [in all cities]"
+		],
+		"requiredTech": "Missiles",
+		"quote": "'Once activated, it will shoot down any missile, guided or otherwise, within a 5-kilometer radius without fail. So, it is fitting that it is named after a mythical figure that shot down not just one, but nine suns.' - Lin Wuzhou, defense analyst",
+		"civilopediaText": [
+			{
+				"text": "An array of ten linked and networked anti-missile emplacements with pinpoint precision, protecting the city against all but the heaviest missiles."
+			}
+		]
+	},
+	{
+		"name": "Gaia Preserve",
+		"culture": 1,
+		"food": 2,
+		"greatPersonPoints": { "Great Scientist": 1 },
+		"isWonder": true,
+		"uniques": [
+			"Empire enters golden age",
+			"[+10]% [Food] [in all cities]"
+		],
+		"requiredTech": "Xenobiology",
+		"quote": "'Humanity had already left a growing impact on this planet. Thus, we dedicate this preserve to keep both a piece of old Earth alive, and to keep some pristine part of our new home, before it is too late.' - Vili Laahvi, environmentalist",
+		"civilopediaText": [
+			{
+				"text": "Preserving a part of the alien ecosystem, before it is irreversibly changed by human activity."
+			}
+		]
+	},
+	{
+		"name": "Xeno Gene Tapestry Project",
+		"science": 2,
+		"food": 2,
+		"greatPersonPoints": { "Great Scientist": 1 },
+		"isWonder": true,
+		"uniques": [
+			"Consumes [2] [Digital Storage Space]",
+			"[+10]% [Food] [in all cities]",
+			"[+1] population [in all cities]"
+		],
+		"requiredTech": "Genetics",
+		"quote": "'Mapping the human genome? Child's play to what we have just accomplished. Do you have any idea just how many species whose genome we've completely mapped? Ten thousand!' - Rin Shiokage, geneticist",
+		"civilopediaText": [
+			{
+				"text": "Several genetic databases that record and document the genetics of the local fauna and flora."
+			}
+		]
+	},
+	{
+		"name": "Vyasa-Gandhari Cloning Array",
+		"science": 2,
+		"greatPersonPoints": { "Great Scientist": 1 },
+		"isWonder": true,
+		"uniques": [
+			"Gain a free [Cloning Vat] [in this city]",
+			"[+1] population [in all cities]",
+			"[+50]% Production when constructing [Infantry] units [in this city]"
+		],
+		"requiredTech": "Cloning",
+		"quote": "'All this, just from my selfish desire to have a viable offspring. I hope it will help others, as well.' - Dila Gandhari, cloning scientist",
+		"civilopediaText": [
+			{
+				"text": "A vast array of cloning vats, designed to create clones in bulk."
+			}
+		]
+	},
+	{
+		"name": "Hyperspace Augur",
+		"science": 3,
+		"greatPersonPoints": { "Great Scientist": 2 },
+		"isWonder": true,
+		"uniques": [
+			"[+1] population [in all cities]",
+			"[+1 Happiness] [in all cities]"
+		],
+		"requiredTech": "Hyperwave Communications",
+		"quote": "'Radio on steroids? Not a bad way to describe Hyperwaves. Well, with this contraption we have here, we can use them to peek into the far distant corners of the universe.' - Stan Wachowski, hyperwave expert",
+		"civilopediaText": [
+			{
+				"text": "Interstellar hyperwave signals are intercepted and decoded here, using the most sensitive man-made antenna."
+			}
+		]
+	},
+	{
+		"name": "Captive Microsingularity",
+		"science": 3,
+		"greatPersonPoints": { "Great Scientist": 2 },
+		"isWonder": true,
+		"uniques": [
+			"Provides [5] [Gravitix]",
+			"Production to [Science] conversion in cities changed by [+33]%"
+		],
+		"requiredTech": "Graviton Harnessing",
+		"quote": "'It's microscopic, but there's our own 2mm hole in reality; a peephole into infinity that we humans can explore and exploit. Just don't get too close' - Helena Oyebe, scientist",
+		"civilopediaText": [
+			{
+				"text": "Using precise control of Graviton waves, this microscopic black hole can be safely generated, contained and studied."
+			}
+		]
+	},
+	{
+		"name": "Old Terra Resort",
+		"culture": 5,
+		"gold": 3,
+		"greatPersonPoints": { "Great Influencer": 2 },
+		"isWonder": true,
+		"uniques": [
+			"Must be next to [Coast]",
+			"[-50]% Culture cost of natural border growth [in all cities]",
+			"Doubles Gold given to enemy if city is captured"
+		],
+		"requiredTech": "Terraforming",
+		"quote": "'We strive to recreate as much authentic old Earth culture here, not to mention the beach itself - as good as we can get from old Earth records. And it's available to the public, provided they can pay, that is.' - Mark Kernsey, entrepreneur",
+		"civilopediaText": [
+			{
+				"text": "Luxurious villas and bungalows constructed on a piece of land terraformed extensively to resemble pre-collapse Old Earth."
+			}
+		]
+	},
+	{
+		"name": "Yggdrasil Arcology",
+		"culture": 3,
+		"gold": 3,
+		"food": 3,
+		"greatPersonPoints": { "Great Engineer": 2 },
+		"isWonder": true,
+		"uniques": [
+			"Provides [2] [Digital Storage Space]",
+			"Provides 1 happiness per 2 additional social policies adopted"
+		],
+		"requiredTech": "Nanotechnology",
+		"quote": "'Look at how it reaches towards the sky - entire inhabited worlds nestled in its branches and roots. I'd say it's aptly named.' - Olaf Sturlusson, provisional administrator of Yggdrasil Arcology",
+		"civilopediaText": [
+			{
+				"text": "Massive self-contained vertical district that is only possible to build thanks to materials assembled by nanomachines."
+			}
+		]
+	},
+	{
+		"name": "Interdimensional Gate Project",
+		"culture": 5,
+		"gold": 5,
+		"science": 5,
+		"greatPersonPoints": { "Great Scientist": 2 },
+		"isWonder": true,
+		"uniques": [
+			"[+100]% Golden Age length",
+			"[+1 Science] from every specialist [in all cities]"
+		],
+		"requiredTech": "N-Dimensional Exploration",
+		"quote": "'Where we're going, we don't need senses to feel. It'd be an experience like nothing humanity ever experienced before.' - Nikita Kasparov, first interdimensional explorer",
+		"civilopediaText": [
+			{
+				"text": "A daring breach into alternate realities created by tweaking dimensions other than the four humans can perceive."
+			}
+		]
+	},
+	{
+		"name": "Shambhala Virtual Space",
+		"culture": 2,
+		"faith": 3,
+		"greatPersonPoints": { "Great Visionary": 1 },
+		"isWonder": true,
+		"uniques": [
+			"Virtual",
+			"Consumes [3] [Digital Storage Space]",
+			"Hidden when religion is disabled",
+			"Gain a free [Tele-Temple] [in this city]",
+			"[+1 Production] <in cities with a [Remote Fabricator]>"
+		],
+		"requiredTech": "Net Culture",
+		"quote": "'Expand your mind, and realize that the divine is all around and within us all along. Sometimes it just needs a virtual sensory deprivation space to truly free oneself.' - Yama Gyatso, visionary",
+		"civilopediaText": [
+			{
+				"text": "This virtual space cultivates a sense of spirituality by subtly stimulating parts of the brain."
+			}
+		]
+	},
+	{
+		"name": "Surrogate Xenomind",
+		"science": 5,
+		"greatPersonPoints": { "Great Scientist": 2 },
+		"isWonder": true,
+		"uniques": [
+			"Consumes [5] [Digital Storage Space]",
+			"All newly-trained [non-air] units [in this city] receive the [Hivemind Hijacker] promotion"
+		],
+		"requiredTech": "Xeno Psychology",
+		"quote": "'I'm hungry.' - first human-readable intercepted thought from the planetary Xenomind",
+		"civilopediaText": [
+			{
+				"text": "While not as extensive or experienced as the original one, this AI-assisted copy is close enough that it could be used to hijack individual Xeno organisms."
+			}
+		]
+	},
+	{
+		"name": "Space Elevator",
+		"production": 2,
+		"gold": 2,
+		"greatPersonPoints": { "Great Engineer": 2 },
+		"isWonder": true,
+		"uniques": [
+			"[+50]% Production when constructing [Satellite] units [in this city]",
+			"[+1 Gold, +1 Production] from each Trade Route"
+		],
+		"requiredTech": "Metamaterials",
+		"quote": "'People keep saying, 'what's the use of a space elevator if we're not going to have other spacecraft to dock with it?' Well, my friend, that might be true now, but if you build it, they will come.' - Blake Harrington, Space Elevator project overseer",
+		"civilopediaText": [
+			{
+				"text": "This space elevator is basically a very strong, very huge rope that is pulled taut by gravity. Provides a cheaper way to get into orbit."
+			}
+		]
+	},
+	{
+		"name": "Economic Oracle",
+		"gold": 5,
+		"science": 3,
+		"greatPersonPoints": { "Great Merchant": 2 },
+		"isWonder": true,
+		"uniques": [
+			"Consumes [5] [Digital Storage Space]",
+			"[+1 Gold] from all [Gold] buildings <during a Golden Age>",
+			"[+1 Gold] from every specialist [in all cities]",
+			"Doubles Gold given to enemy if city is captured"
+		],
+		"requiredTech": "Psionics",
+		"quote": "'Back in old Earth, clairvoyance and economy are two things that nobody had ever thought to combine, outside of gamblers and science fiction authors. Well, I'd say this line of work is quite unpredictable, myself.' - Bayu Parikesit, economic clairvoyant",
+		"civilopediaText": [
+			{
+				"text": "A program that uses both quantum computing and psionic mind reading that results in it accurately predicting economic trends."
+			}
+		]
+	},
+	{
+		"name": "Global Consciousness",
+		"science": 3,
+		"culture": 3,
+		"greatPersonPoints": { "Great Scientist": 2 },
+		"isWonder": true,
+		"uniques": [
+			"Consumes [5] [Digital Storage Space]",
+			"Resting point for Influence with City-States is increased by [20]"
+		],
+		"requiredTech": "Hive Mind",
+		"quote": "'One step closer towards the union of minds, one step closer to singularity.' - a murmur from behind your mind",
+		"civilopediaText": [
+			{
+				"text": "When minds are interlinked across the planet, synchronization inevitably happens."
+			}
+		]
+	},
+	{
+		"name": "Void Lens",
+		"science": 5,
+		"faith": 3,
+		"greatPersonPoints": { "Great Scientist": 1 },
+		"isWonder": true,
+		"uniques": [
+			"Production to [Science] conversion in cities changed by [+33]%"
+		],
+		"requiredTech": "Zero Point Energy",
+		"quote": "'You know how nature abhors a vaccuum? Here we try to maintain a void, an absolute nothingness - and see just how the natural laws try their best to fill it. Oh, the things we've seen!' - Matteo Valencia, void researcher",
+		"civilopediaText": [
+			{
+				"text": "Zero Point theory states that when an area contains absolutely nothing, reality will try its best to fill that void. This facility is dedicated to observing such occasions in its own isolated vaccuum."
+			}
+		]
+	},
+
+	// Natural Wonder Enhancers
+	{
+		"name": "Neuroreef Interface Laboratory",
+		"science": 3,
+		"food": 1,
+		"greatPersonPoints": { "Great Scientist": 2 },
+		"isWonder": true,
+		"uniques": [
+			"Provides [2] [Digital Storage Space]",
+			"Must have an owned [Great Neuroreef] within [3] tiles",
+			"[+1 Food] from [Water resource] tiles [in this city]",
+			"[+2 Science, +2 Culture] from [Great Neuroreef] tiles [in all cities]"
+		],
+		"requiredTech": "Mind Linking",
+		"quote": "'Radio waves! They communicate with radio waves! Eons of evolutionary arms race between these corals have resulted in this massive complex of symbiotic organisms using radio waves to essentially become one gigantic brain.' - Thomas Mills, Neuroreef researcher",
+		"civilopediaText": [
+			{
+				"text": "Allows humans to peek into the amazingly complex thoughts of an entire ecosystem."
+			}
+		]
+	},
+	{
+		"name": "Megaxenoform Excavation",
+		"science": 2,
+		"production": 2,
+		"greatPersonPoints": { "Great Scientist": 1, "Great Engineer": 1 },
+		"isWonder": true,
+		"uniques": [
+			"Must have an owned [Megaxenoform Graveyard] within [3] tiles",
+			"[+1 Production] from [Desert] tiles [in this city]",
+			"[+2 Science, +2 Faith] from [Megaxenoform Graveyard] tiles [in all cities]"
+		],
+		"requiredTech": "Xenoarchaeology",
+		"quote": "'Just how exactly does this organism get to be this huge and not succumb to the square cube law? I guess, life... life finds a way.' - Dr. John Malcolm, xenobiologist",
+		"civilopediaText": [
+			{
+				"text": "Part archeological excavation, part construction material source, the gargantuan remains are first scanned, recorded and analyzed for science. Then, if a part is deemed already scanned enough, it gets quarried."
+			}
+		]
+	},
+	{
+		"name": "Uttershroom Ecological Park",
+		"science": 2,
+		"culture": 2,
+		"greatPersonPoints": { "Great Scientist": 1, "Great Influencer": 1 },
+		"isWonder": true,
+		"uniques": [
+			"Must have an owned [Uttershroom] within [3] tiles",
+			"[+1 Food, +1 Culture] from [Mycelium] tiles [in this city]",
+			"[+2 Food, +2 Faith] from [Uttershroom] tiles [in all cities]"
+		],
+		"requiredTech": "Genetic Hybridization",
+		"quote": "'That looks like a... a HUGE, GARGANTUAN, SWOLLEN, BLOATED MUSHROOM!' - Griswold Smith, xenobiologist",
+		"civilopediaText": [
+			{
+				"text": "A combination of nature preserve, scientific outpost, and tourist spot centered on this singular fungal organism."
+			}
+		]
+	},
+	{
+		"name": "Aurigan Vault Exploratorium",
+		"science": 2,
+		"gold": 2,
+		"greatPersonPoints": { "Great Scientist": 2 },
+		"isWonder": true,
+		"uniques": [
+			"Provides [2] [Digital Storage Space]",
+			"Must have an owned [Aurigan Vault Complex] within [3] tiles",
+			"Free Technology",
+			"[+2 Science, +2 Culture] from [Aurigan Vault Complex] tiles [in all cities]"
+		],
+		"requiredTech": "Xenoarchaeology",
+		"quote": "'I am many things, I have been many things. Warm and green, cold and gray. Devastated and dying.' - translated inscryption found deep inside the vault",
+		"civilopediaText": [
+			{
+				"text": "An entire settlement that sprang around the enormous structure, supporting scientists and adventurers alike in their delves into the depths of the dungeonlike belly of the Aurigan Vault."
+			}
+		]
+	},
+	{
+		"name": "World Tree Sap Distiller",
+		"food": 2,
+		"happiness": 2,
+		"greatPersonPoints": { "Great Merchant": 2 },
+		"isWonder": true,
+		"uniques": [
+			"Must have an owned [Tree of Worlds] within [3] tiles",
+			"[+50]% growth [in all cities]",
+			"[+2 Gold, +2 Culture] from [Tree of Worlds] tiles [in all cities]"
+		],
+		"requiredTech": "Virtual Drugs",
+		"quote": "'I wonder if there are other worlds out there with such a magnificent tree guarding their lifeforms.' - Siegfried Thorkell, xenobiologist",
+		"civilopediaText": [
+			{
+				"text": "Taking advantage of the rich sap of the World Tree, distilling it until the nutritious and medical substances are concentrated into human-digestible juice. Sweet!"
+			}
+		]
+	},
+	{
+		"name": "Floating Mountain Fortress",
+		"food": 2,
+		"cityStrength": 50,
+		"cityHealth": 50,
+		"greatPersonPoints": { "Great General": 2 },
+		"isWonder": true,
+		"uniques": [
+			"Must have an owned [Sheeta Floating Mountain] within [3] tiles",
+			"Provides [2] [Gravitix] <after discovering [Graviton Harnessing]>",
+			"Provides [2] [Ulframite]",
+			"[+4 Culture] from [Sheeta Floating Mountain] tiles [in all cities]"
+		],
+		"requiredTech": "Terraforming",
+		"quote": "'Take root in the ground, live in harmony with the wind, plant your seeds in the winter, and rejoice with the birds in the coming of spring.' - Lucita Toel, scientist",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Harborship Diving Agency",
+		"science": 2,
+		"gold": 2,
+		"greatPersonPoints": { "Great Merchant": 2 },
+		"isWonder": true,
+		"uniques": [
+			"Must have an owned [Harborship Wreck] within [3] tiles",
+			"Free Technology",
+			"[+2 Science, +2 Gold] from [Harborship Wreck] tiles [in all cities]"
+		],
+		"requiredTech": "Xenoarchaeology",
+		"quote": "'This is our legacy to you.' - translated inscryption from the bridge area",
+		"civilopediaText": [
+			{
+				"text": "This agency not only supports scientific scanning of the Harborship, but also ensure that tourists don't damage it as well."
+			}
+		]
+	},
+	{
+		"name": "Amoebic Lake Mindlink Station",
+		"faith": 3,
+		"gold": 1,
+		"greatPersonPoints": { "Great Influencer": 1, "Great Visionary": 1 },
+		"isWonder": true,
+		"uniques": [
+			"Provides [1] [Digital Storage Space]",
+			"Must have an owned [Amoebic Lake] within [3] tiles",
+			"[+1 Faith] from [Lakes] tiles [in this city]",
+			"[+2 Faith, +2 Culture] from [Amoebic Lake] tiles [in all cities]"
+		],
+		"requiredTech": "Mind Linking",
+		"quote": "'How do you expect to communicate with the ocean, when you can’t even understand one another?.' - Stanislaw Kelvin, xenobiologist",
+		"civilopediaText": [
+			{
+				"text": "Using mind linking technology, humans can finally begin to understand the alien wisdom of the Amoebic Lake."
+			}
+		]
+	},
+
+	// Victory Buildings
+	{
+		"name": "Planetary Mindlink",
+		"isWonder": true,
+		"culture": 2,
+		"greatPersonPoints": { "Great Influencer": 2 },
+		"requiredTech": "Mind Linking",
+		"uniques": [
+			"Consumes [10] [Digital Storage Space]",
+			"Triggers voting for the Diplomatic Victory",
+			"Hidden when [Diplomatic] Victory is disabled",
+			"Triggers a global alert upon completion"
+		],
+		"quote": "'And blood-black nothingness began to spin, a system of cells interlinked within, cells interlinked within cells interlinked, within one stem. And dreadfully distinct against the dark, a tall white fountain played.' - Vladimir Nabokov, Pale Fire poem",
+		"civilopediaText": [
+			{
+				"text": "This instant communication between minds, a psycho-digital artificial telepathy, allows you to convince other colonies to vote for global unification."
+			}
+		]
+	},
+	{
+		"name": "Utopia Project",
+		"cost": 1500,
+		"isNationalWonder": true,
+		"uniques": [
+			"Hidden until [5] social policy branches have been completed",
+			"Triggers a global alert upon build start",
+			"Triggers a Cultural Victory upon completion",
+			"Hidden when [Cultural] Victory is disabled"
+		],
+		"quote": "'Gaze upon my works, ye mighty, and weep.' - Ozymandias",
+		"civilopediaText": [
+			{
+				"text": "This is no mere monumental edifice, it is also the undying embodiment of your colony's culture, ideology, and religion."
+			}
+		]
+	},
+	{
+		"name": "Global Terraforming Project",
+		"cost": 1000,
+		"isNationalWonder": true,
+		"requiredTech": "Terraforming",
+		"uniques": [
+			"Requires a [Atmospheric Generator] in at least [3] cities",
+			"Requires a [Tectonic Stabilizer] in at least [3] cities",
+			"Requires a [Soil Revitalizer] in at least [3] cities",
+			"Requires a [Oceanic Purifier] in at least [3] cities",
+			"Triggers a global alert upon build start",
+			//"Triggers a Cultural Victory upon completion",
+			"Triggers victory",
+			"Hidden when [Terraforming] Victory is disabled"
+		],
+		"quote": "'Today, we will demonstrate our utter mastery over this planet; for better or for worse.' - Kim Kwan Seol, terraforming project lead",
+		"civilopediaText": [
+			{
+				"text": "A massive, simultaneous undertaking to turn this alien planet into one that resembles Old Earth."
+			}
+		]
+	},
+	{
+		"name": "Atmospheric Generator",
+		"cost": 500,
+		//"isNationalWonder": true,
+		"requiredTech": "Solar Reflectors",
+		"uniques": [
+			"[+1 Gold] from [Habitation Dome] tiles [in this city]",
+			"[+1 Culture] from [Xeno Sanctuary] tiles [in this city]",
+			"Limited to [3] per Civilization",
+			"Hidden when [Terraforming] Victory is disabled"
+		],
+		"civilopediaText": [
+			{
+				"text": "This facility is where specialized aerosols are produced and released into the atmosphere, in order to make the air more breathable to humans."
+			}
+		]
+	},
+	{
+		"name": "Tectonic Stabilizer",
+		"cost": 500,
+		//"isNationalWonder": true,
+		"requiredTech": "Terraforming",
+		"uniques": [
+			"[+1 Production] from [Mine] tiles [in this city]",
+			"Limited to [3] per Civilization",
+			"Hidden when [Terraforming] Victory is disabled"
+		],
+		"civilopediaText": [
+			{
+				"text": "Deep rods extend downwards to stabilize the local tectonic plates."
+			}
+		]
+	},
+	{
+		"name": "Soil Revitalizer",
+		"cost": 500,
+		//"isNationalWonder": true,
+		"requiredTech": "Nanotechnology",
+		"uniques": [
+			"[+1 Food] from [Agri Farm] tiles [in this city]",
+			"[+1 Food] from [Terraboretum] tiles [in this city]",
+			"Limited to [3] per Civilization",
+			"Hidden when [Terraforming] Victory is disabled"
+		],
+		"civilopediaText": [
+			{
+				"text": "Procedures, microbes and chemicals developed and applied in order to return nutrients to the soil."
+			}
+		]
+	},
+	{
+		"name": "Oceanic Purifier",
+		"cost": 500,
+		//"isNationalWonder": true,
+		"requiredTech": "Terraforming",
+		"uniques": [
+			"Must be next to [Coast]",
+			"[+1 Food] from [Water resource] tiles [in this city]",
+			"Limited to [3] per Civilization",
+			"Hidden when [Terraforming] Victory is disabled"
+		],
+		"civilopediaText": [
+			{
+				"text": "Massive floating facilities that roam the seas as they filter out toxins from the water and introduce oxygen to depleted waters."
+			}
+		]
+	},
+	{
+		"name": "FTL Seedship Program",
+		"science": 5,
+		"greatPersonPoints": { "Great Scientist": 2 },
+		"isNationalWonder": true,
+		"uniques": [
+			"Enables construction of Spaceship parts",
+			"Triggers a global alert upon completion",
+			"Hidden when [Scientific] Victory is disabled"
+		],
+		"requiredTech": "Cosmonautics",
+		"quote": "'One small step for man, one giant leap for mankind.' - Neil Armstrong",
+		"civilopediaText": [
+			{
+				"text": "'One small step for man, one giant leap for mankind.' - Neil Armstrong"
+			}
+		]
+	}
+]

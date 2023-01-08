@@ -1,0 +1,4144 @@
+[
+	// todo: add more aerocraft?
+	// list of additional units TBD:
+	// none, yay!
+
+	////////////////////
+	// Xeno Units
+	////////////////////
+
+	// Melee
+	{
+		"name": "Bugwolf",
+		"unitType": "Xeno Melee Land",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 5,
+		"cost": 20,
+		"uniques": ["Xeno", "[-33]% Strength <vs cities>"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "MonsterBite",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Bugwolf",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "A pack-hunting, vicious xenofauna commonly found on this planet."
+			}
+		]
+	},
+	{
+		"name": "Stalker",
+		"unitType": "Xeno Melee Land",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 7,
+		"cost": 40,
+		"requiredTech": "Frontier Armaments",
+		"uniques": ["Xeno", "[+33]% Strength <vs [Armored] units>"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "MonsterBite",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Stalker",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "This predator hunts by using its sharp beak and front limbs to tear apart prey. It can even pierce metal."
+			}
+		]
+	},
+	{
+		"name": "Gigantes",
+		"unitType": "Xeno Melee Land",
+		"uniqueTo": "Barbarians",
+		"movement": 1,
+		"strength": 50,
+		"cost": 100,
+		"requiredTech": "Combat Mechas",
+		"uniques": [
+			"Xeno",
+			"[+33]% Strength <vs [Armored] units>",
+			"[+33]% Strength <vs cities>"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "MonsterStep",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Gigantes",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "An absolute unit of a xenofauna, one of these can wreak havoc on a settlement. Thankfully, its mass reduces its speed."
+			}
+		]
+	},
+	{
+		"name": "Wurm", //see into limiting movement to desert tiles if possible in the future
+		"unitType": "Xeno Melee Land",
+		"uniqueTo": "Barbarians",
+		"movement": 0.5,
+		"strength": 50,
+		"cost": 100,
+		"requiredTech": "Combat Mechas",
+		"uniques": [
+			"Xeno",
+			"[+33]% Strength <vs [Armored] units>",
+			"[+33]% Strength <vs cities>"
+		],
+		"attackSound": "MonsterBite",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Wurm",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "This cthonic menace were first seen near the deserts of the planet, and contrary to popular beliefs, is not a source of spice."
+			}
+		]
+	},
+
+	// Stealth Infantry
+	{
+		"name": "Wendigo",
+		"unitType": "Stealth Infantry",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 5,
+		"cost": 50,
+		"requiredTech": "Next-Gen Armaments",
+		"uniques": ["Xeno", "[-33]% Strength <vs cities>"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "MonsterBite",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Wendigo",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "A curious parasite, the hosts of these xenofauna tend to target civilian units."
+			}
+		]
+	},
+
+	// Ranged
+	{
+		"name": "Echidna",
+		"unitType": "Xeno Ranged Land",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"range": 2,
+		"strength": 5,
+		"rangedStrength": 6,
+		"cost": 20,
+		"uniques": ["Xeno", "[-33]% Strength <vs cities>"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Echidna",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "This curious type of xenofauna is able to launch spiky projectiles over long distances."
+			}
+		]
+	},
+	{
+		"name": "Mycon", //see into limiting movement to mycelium tiles if possible in the future
+		"unitType": "Xeno Ranged Land",
+		"uniqueTo": "Barbarians",
+		"movement": 0.5,
+		"range": 1,
+		"strength": 20,
+		"rangedStrength": 24,
+		"cost": 100,
+		"requiredTech": "Exoskeletons",
+		"uniques": [
+			"Xeno",
+			"[+33]% Strength <vs [Infantry] units>",
+			"Blast radius [1]"
+		],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Mycon",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "A towering ambulatory fungus. Beware its acidic spores."
+			}
+		]
+	},
+
+	// Water Melee
+	{
+		"name": "Gun Lobster",
+		"unitType": "Xeno Melee Water",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 5,
+		"cost": 20,
+		"uniques": ["Xeno", "[-33]% Strength <vs cities>"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "MonsterBubbles",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Gun Lobster",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "This sizable aquatic xenofauna uses their front claws to hunt prey using supercavitation, becoming a threat to shipping when they mistake human ships for competitors."
+			}
+		]
+	},
+
+	// Water Stealth
+	{
+		"name": "Lurker",
+		"unitType": "Xeno Stealth Water",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 20,
+		"cost": 50,
+		"requiredTech": "Exoskeletons",
+		"uniques": ["Xeno", "[-33]% Strength <vs cities>"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "MonsterBubbles",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Lurker",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Despite being as big as a ship, this xenofauna is hard to detect due to their carapace. They spell trouble when they mistake ships for prey."
+			}
+		]
+	},
+
+	// Air (but not aircraft)
+	{
+		"name": "Darter",
+		"unitType": "Xeno Air",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 5,
+		"cost": 20,
+		"uniques": [
+			"Xeno",
+			"[5]% chance to intercept air attacks",
+			"[-66]% Strength <vs cities>"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "MonsterBuzz",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Darter",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Pesky, territorial aerial predators that possess a danger to units passing through their area."
+			}
+		]
+	},
+	{
+		"name": "Winghead",
+		"unitType": "Xeno Air",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 15,
+		"cost": 30,
+		"requiredTech": "Frontier Armaments",
+		"uniques": [
+			"Xeno",
+			"[10]% chance to intercept air attacks",
+			"[-33]% Strength <vs cities>"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "MonsterBuzz",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Winghead",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "A big aerial predator with seemingly no fear towards humans. Beware their screeching attacks."
+			}
+		]
+	},
+	{
+		"name": "Neon Dragon",
+		"unitType": "Xeno Air",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 50,
+		"cost": 100,
+		"requiredTech": "Combat Mechas",
+		"uniques": [
+			"Xeno",
+			"[90]% chance to intercept air attacks",
+			"[+33]% Strength <vs cities>"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "MonsterBuzz",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Neon Dragon",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "An apex predator of the skies, their luminescent displays might look beautiful - but beware their terrible power."
+			}
+		]
+	},
+
+	////////////////////
+	// Player units
+	////////////////////
+
+	// Civvies
+	{
+		"name": "Colonizer",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 106,
+		"uniques": [
+			"Founds a new city",
+			"Excess Food converted to Production when under construction",
+			"Requires at least [2] population"
+		],
+		"hurryCostModifier": 20,
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Colonizer",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "A mobile, self-deploying settlement kit, complete with starter 3D printer and the settlers to inhabit the end result."
+			}
+		]
+	},
+	{
+		"name": "Worker", //rename to Constructor in localization
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": [
+			"Can build [Land] improvements on tiles",
+			"May create improvements on water resources",
+			"Can build [Water] improvements on tiles"
+		],
+		"cost": 70,
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Worker",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Versatile, easy-to-use contruction vehicle with myriad uses - except being useful in combat. Use these to build your improvements."
+			}
+		]
+	},
+
+	// Landfall Era
+
+	//// Scout
+	{
+		"name": "Rover Explorer",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 5,
+		"cost": 25,
+		//"obsoleteTech": "Scientific Theory",
+		"upgradesTo": "Combat Rover",
+		"uniques": [
+			"Rover",
+			"[+1] Sight",
+			"May upgrade to [Combat Rover] through ruins-like effects",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Rover Explorer",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Brave explorers of the alien frontier, lightly armed and accompanied with a rover to hold basic supplies and cross difficult terrain."
+			}
+		]
+	},
+
+	//// Infantry
+	{
+		"name": "Frontier Militia",
+		"unitType": "Infantry",
+		"movement": 2,
+		//"range": 1,
+		"strength": 8,
+		//"rangedStrength": 8,
+		"cost": 40,
+		//"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Colony Rifleman",
+		"uniques": [
+			"May upgrade to [Colony Rifleman] through ruins-like effects",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Frontier Militia",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{ "text": "Basically just a person in an atmo-suit and a gun." }
+		]
+	},
+
+	//// Rovers
+	{
+		"name": "Combat Rover",
+		"unitType": "Rover",
+		"movement": 3,
+		"strength": 11,
+		"cost": 45,
+		"requiredTech": "Robotics",
+		//"obsoleteTech": "Scientific Theory",
+		"uniques": [
+			"Only available <in cities with a [Rover Storage]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Combat Rover",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Wholly remote-operated, these rovers are equipped with small arms."
+			}
+		]
+	},
+
+	//// Buggies
+	{
+		"name": "Light Buggy",
+		"unitType": "Armored",
+		"movement": 4,
+		"strength": 12,
+		"cost": 75,
+		"requiredTech": "Portable Power Sources",
+		//"requiredResource": "Titanium",
+		"upgradesTo": "Anti-Air Buggy",
+		//"obsoleteTech": "Chivalry",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities>",
+			"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Light Buggy",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Lightweight and fast manned vehicles, they are commonly used for scouting or harassing purposes."
+			}
+		]
+	},
+
+	//// Hydrofoils
+	{
+		"name": "Light Hydrofoil",
+		"unitType": "Close Range Water",
+		"movement": 4,
+		"strength": 10,
+		"cost": 45,
+		"requiredTech": "Hydrodynamics",
+		"uniques": [
+			"Cannot enter ocean tiles <before discovering [Astronomy]>",
+			"Only available <in cities with a [Floating Harbor]>",
+			"Never appears as a Barbarian unit"
+		],
+		"upgradesTo": "Assault Hydrofoil",
+		//"obsoleteTech": "Astronomy",
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Light Hydrofoil",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "These speedy vessels can cruise on the coasts, and perhaps also the oceans later on."
+			}
+		]
+	},
+
+	//// Hovercraft
+	{
+		"name": "Light Hovercraft",
+		"unitType": "Hover",
+		"movement": 3,
+		"strength": 12,
+		"cost": 100,
+		"requiredTech": "Hovercrafts",
+		"requiredResource": "Titanium",
+		//"upgradesTo": "Anti-Air Buggy",
+		//"obsoleteTech": "Chivalry",
+		"uniques": [
+			"Armored",
+			"Hovercraft",
+			"Normal vision when embarked",
+			"Defense bonus when embarked",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities>",
+			"Consumes [1] [Titanium]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost", "Amphibious"],
+		"hurryCostModifier": 20,
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Light Hovercraft",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Semi-amphibious vehicles, they excel at crossing rivers, less so when attacking from the sea."
+			}
+		]
+	},
+
+	// Exploration Era
+
+	//// Rovers
+	{
+		"name": "Missile Rover",
+		"unitType": "Rover",
+		"movement": 2,
+		"range": 2,
+		"strength": 11,
+		"rangedStrength": 15,
+		"cost": 50,
+		"requiredTech": "Missiles",
+		//"obsoleteTech": "Scientific Theory",
+		"uniques": [
+			"[+200]% Strength <vs cities> <when attacking>",
+			"Must set up to ranged attack",
+			"[-1] Sight",
+			"Only available <in cities with a [Rover Storage]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "MissileLaunch",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Missile Rover",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Equipped with fire-and-forget missiles, these rovers could threaten a fledgling colony."
+			}
+		]
+	},
+
+	//// Buggies
+	{
+		"name": "Anti-Air Buggy",
+		"unitType": "Armored",
+		"movement": 4,
+		"strength": 15,
+		"cost": 100,
+		"requiredTech": "Missiles",
+		//"requiredResource": "Titanium",
+		//"upgradesTo": "Anti-Air Buggy",
+		//"obsoleteTech": "Chivalry",
+		"uniques": [
+			"[100]% chance to intercept air attacks",
+			"[+150]% Strength <vs [Air] units>",
+			"[+150]% Strength <vs [Drone] units>",
+			"[0]% Strength <vs [Satellite] units>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities>",
+			"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "AntiAirLock",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Anti-Air Buggy",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Equipped with an anti-air missile salvo, these nimble vehicles can take down pesky fliers that wander into their operational range."
+			}
+		]
+	},
+
+	//// Hydrofoil
+	{
+		"name": "Assault Hydrofoil",
+		"unitType": "Close Range Water",
+		"movement": 5,
+		"strength": 20,
+		"cost": 125,
+		"requiredTech": "Synthetic Materials",
+		"uniques": [
+			"Only available <in cities with a [Floating Harbor]>",
+			"Never appears as a Barbarian unit"
+		],
+		"upgradesTo": "Corvette",
+		//"obsoleteTech": "Astronomy",
+		"attackSound": "shipguns",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Assault Hydrofoil",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "An upgunned hydrofoil with extra armor, they prowl the seas with impunity."
+			}
+		]
+	},
+
+	//// Drones
+	{
+		// "Hovering unit" unique gives ability to get into impassable tiles - and only that (no vision bonus or flying over ocean)
+		// Unit embarks like any other ground unit and has penalty for attacking over river or from embarked state
+		"name": "Combat Drone",
+		"unitType": "Helicopter",
+		"movement": 5,
+		"strength": 10,
+		"cost": 45,
+		"requiredTech": "Aerial Drones",
+		//"requiredResource": "Aluminum",
+		"uniques": [
+			"Drone",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"All tiles cost 1 movement",
+			"Ignores Zone of Control",
+			"Unable to capture cities",
+			"[+50]% Strength <vs [Infantry] units>",
+			"[-50]% Strength <vs [Air] units>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Combat Drone",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Small, fast and highly annoying, they are nevertheless good against infantry."
+			}
+		]
+	},
+
+	//// Aerial Units
+	{
+		"name": "Aerojet",
+		"unitType": "Aerocraft",
+		"movement": 1,
+		"strength": 25,
+		"rangedStrength": 25,
+		"range": 4,
+		"interceptRange": 4,
+		"cost": 150,
+		"requiredTech": "Aeronautics",
+		"requiredResource": "Promethine",
+		"upgradesTo": "Beam Fighter",
+		"uniques": [
+			"[100]% chance to intercept air attacks",
+			"[+50]% Strength <vs [non-air] units>",
+			"[+100]% Strength <vs [Air] units>",
+			"[0]% Strength <vs [Satellite] units>",
+			"[-33]% Strength <vs cities>",
+			"Only available <in cities with a [Aerocraft Hangar]>",
+			"Consumes [1] [Promethine]",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "jetgun",
+		"civilopediaText": [
+			{
+				"text": "Manned atmospheric flyer equipped with anti-air missiles to achieve air superiority."
+			}
+		]
+	},
+
+	//// Missiles
+	{
+		"name": "Short-Range Missile",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 22,
+		"rangedStrength": 22,
+		"range": 4,
+		"cost": 100,
+		"requiredTech": "Missiles",
+		"uniques": [
+			"[+100]% Strength <vs [Armored] units>",
+			"[+100]% Strength <vs [Mech] units>",
+			"[+100]% Strength <vs [Water] units>",
+			"[-100]% maintenance costs",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "missile",
+		"civilopediaText": [
+			{
+				"text": "Remotely controlled single-use missiles for anti-armor operations."
+			}
+		]
+	},
+	
+	
+	{
+		"name": "Anti-Satellite Missile",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 22,
+		"rangedStrength": 22,
+		"range": 6,
+		"cost": 100,
+		"requiredTech": "Payload Delivery",
+		"uniques": [
+			"Can only attack [Satellite] units",
+			"[+200]% Strength <vs [Satellite] units>",
+			"[-100]% maintenance costs",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "missile",
+		"civilopediaText": [
+			{
+				"text": "Remotely controlled, single-use hypersonic missiles exclusively built for anti-satellite operations."
+			}
+		]
+	},
+	
+
+	//// Satellites
+	{
+		"name": "Survey Satellite",
+		"unitType": "Satellite",
+		"movement": 0,
+		"strength": 8,
+		"rangedStrength": 8,
+		"range": 1,
+		"interceptRange": 0,
+		"cost": 100,
+		"requiredTech": "Payload Delivery",
+		"requiredResource": "Titanium",
+		//"upgradesTo": "Laser Satellite",
+		//"obsoleteTech": "Radar",
+		"uniques": [
+			"[+4] Sight",
+			"[0]% Strength <vs [All] units>",
+			"[0]% Strength <vs cities>",
+			"Can see invisible [Stealth Infantry] units",
+			"Can see invisible [Submarine] units",
+			"Can see invisible [Xeno Stealth Water] units",
+			"Only available <in cities with a [Orbital Launch Facility]>",
+			"Consumes [1] [Titanium]",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "A satellite in geosynchronous orbit over a city, it is equipped with state-of-the-art sensors to survey the land."
+			}
+		]
+	},
+	{
+		"name": "Defense Satellite",
+		"unitType": "Satellite",
+		"movement": 1,
+		"strength": 15,
+		"rangedStrength": 15,
+		"range": 6,
+		"interceptRange": 1,
+		"cost": 200,
+		"requiredTech": "Payload Delivery",
+		"requiredResource": "Titanium",
+		"upgradesTo": "Laser Satellite",
+		//"obsoleteTech": "Radar",
+		"uniques": [
+			"[100]% chance to intercept air attacks",
+			"[+50]% Strength <vs [non-air] units>",
+			"[+200]% Strength <vs [Satellite] units>",
+			"[-99]% Strength <vs cities>",
+			"Only available <in cities with a [Orbital Launch Facility]>",
+			"Consumes [1] [Titanium]",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "MissileLaunch",
+		"civilopediaText": [
+			{
+				"text": "Orbital military platform designed to protect a city, it lacks the strength to damage cities but is more precise toward enemy units."
+			}
+		]
+	},
+
+	// Colonization Era
+	
+	//// 'Civilian'
+	
+	{
+		"name": "Tactical Mobile Uplink",
+		"unitType": "Civilian",
+		"cost": 200,
+		"requiredTech": "Satellite Networks",
+		"requiredResource": "Digital Storage Space",
+		"uniques": [
+			"[+5]% Strength bonus for [Military] units within [2] tiles",
+			"[+5]% Strength bonus for [Data Uplinked] units within [2] tiles",
+			"[+5]% Strength bonus for [Military] units within [2] tiles <after discovering [Mind-Machine Interface]>",
+			"[+5]% Strength bonus for [Military] units within [2] tiles <after discovering [Artificial Intelligence]>",
+			"Consumes [1] [Digital Storage Space]",
+			"Consumes [1] [Digital Storage Space] <after discovering [Artificial Intelligence]>",
+			"Uncapturable",
+			"Never appears as a Barbarian unit"
+		],
+		"movement": 2,
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Tactical Mobile Uplink",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Mobile command centers, linked together via satellites, delivering real-time updates of the combat situation."
+			}
+		]
+	},
+	
+
+	//// Infantry
+	{
+		"name": "Colony Rifleman",
+		"unitType": "Infantry",
+		"movement": 2,
+		//"range": 1,
+		"strength": 14,
+		//"rangedStrength": 14,
+		"cost": 75,
+		"requiredTech": "Next-Gen Armaments",
+		//"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Exoframe Soldier",
+		"uniques": [
+			"May upgrade to [Exoframe Soldier] through ruins-like effects",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Colony Rifleman",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "A better suited, better trained person armed with a better gun."
+			}
+		]
+	},
+	{
+		"name": "Colony Marksman",
+		"unitType": "Sniper",
+		"movement": 2,
+		"range": 2,
+		"strength": 11,
+		"rangedStrength": 11,
+		"cost": 75,
+		"requiredTech": "Next-Gen Armaments",
+		//"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Exoframe Sniper",
+		"uniques": [
+			"May upgrade to [Exoframe Sniper] through ruins-like effects",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "SniperShot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Colony Marksman",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{ "text": "A soldier with a precise, long-ranged gun." }
+		]
+	},
+	{
+		"name": "Exoframe Soldier",
+		"unitType": "Infantry",
+		"movement": 2,
+		//"range": 1,
+		"strength": 24,
+		//"rangedStrength": 24,
+		"cost": 125,
+		"requiredTech": "Exoskeletons",
+		//"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Drop Trooper",
+		"uniques": [
+			"May upgrade to [Drop Trooper] through ruins-like effects",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Exoframe Soldier",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Enchanced by the addition of an external assistive frame, this infantry unit can now carry heavier armor and armaments."
+			}
+		]
+	},
+	{
+		"name": "Exoframe Sniper",
+		"unitType": "Sniper",
+		"movement": 2,
+		"range": 2,
+		"strength": 21,
+		"rangedStrength": 21,
+		"cost": 125,
+		"requiredTech": "Exoskeletons",
+		//"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Laser Trooper",
+		"uniques": [
+			"May upgrade to [Laser Trooper] through ruins-like effects",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "SniperShot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Exoframe Sniper",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Their exosuit means they can carry a bigger, more powerful rifle by themselves."
+			}
+		]
+	},
+	{
+		"name": "Laser Trooper",
+		"unitType": "Sniper",
+		"movement": 2,
+		"range": 3,
+		"strength": 31,
+		"rangedStrength": 31,
+		"cost": 200,
+		"requiredTech": "Lasers",
+		//"obsoleteTech": "Metal Casting",
+		//"upgradesTo": "Laser Trooper",
+		"uniques": [
+			"Ranged attacks may be performed over obstacles",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "SingleLaser",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Laser Trooper",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "No longer reliant on inaccurate ballistics, this trooper's strength lie in the instantaneous, piercing, and nigh-soundless beam of concentrated light."
+			}
+		]
+	},
+
+	//// Water Units
+	{
+		"name": "Corvette",
+		"unitType": "Close Range Water",
+		"movement": 5,
+		"strength": 35,
+		"cost": 250,
+		"requiredTech": "Alloy Microstructures",
+		"requiredResource": "Promethine",
+		"uniques": [
+			"[+1] Sight",
+			"Only available <in cities with a [Naval Yard]>",
+			"Consumes [1] [Promethine]",
+			"Never appears as a Barbarian unit"
+		],
+		//"upgradesTo": "Assault Hydrofoil",
+		//"obsoleteTech": "Astronomy",
+		"attackSound": "shipguns",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Corvette",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "A serious combat ship, they pack firepower in a compact and fast hull."
+			}
+		]
+	},
+	{
+		"name": "Missile Destroyer",
+		"unitType": "Ranged Water",
+		"movement": 4,
+		"range": 2,
+		"strength": 30,
+		"rangedStrength": 35,
+		"cost": 275,
+		"requiredTech": "Alloy Microstructures",
+		"requiredResource": "Promethine",
+		"uniques": [
+			"[+2] Sight",
+			"[100]% chance to intercept air attacks",
+			"[+150]% Strength <vs [Air] units>",
+			"[+150]% Strength <vs [Drone] units>",
+			"[0]% Strength <vs [Satellite] units>",
+			"Can see invisible [Submarine] units",
+			"Can see invisible [Xeno Stealth Water] units",
+			"Can carry [1] [Cruise Missile] units",
+			"Can carry [4] [Short-Range Missile] units",
+			"Only available <in cities with a [Naval Yard]>",
+			"Consumes [1] [Promethine]",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "MissileLaunch",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Missile Destroyer",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Armed with advanced missiles, these could double as floating missile platforms."
+			}
+		]
+	},
+	{
+		"name": "Battleship",
+		"unitType": "Ranged Water",
+		"movement": 3,
+		"range": 3,
+		"strength": 50,
+		"rangedStrength": 55,
+		"cost": 275,
+		"requiredTech": "Composite Armor",
+		"requiredResource": "Titanium",
+		"uniques": [
+			"[+1] Sight",
+			"Only available <in cities with a [Naval Yard]>",
+			"Consumes [3] [Titanium]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Battleship",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Massive and powerful, this ship sends a message of military might."
+			}
+		]
+	},
+	{
+		"name": "Submersible",
+		"unitType": "Submarine",
+		"movement": 4,
+		"range": 2,
+		"strength": 32,
+		"rangedStrength": 32,
+		"cost": 275,
+		"requiredTech": "Composite Armor",
+		"requiredResource": "Titanium",
+		"uniques": [
+			"[+100]% Strength <vs [Submarine] units>",
+			"[+100]% Strength <vs [Xeno Stealth Water] units>",
+			"Can carry [2] [Cruise Missile] units",
+			"Only available <in cities with a [Naval Yard]>",
+			"Consumes [2] [Titanium]",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "torpedo",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Submersible",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "These sneaky vessels prowl the depths mostly undetected by other ships."
+			}
+		]
+	},
+
+	//// Hovercraft
+	{
+		"name": "Hovercarrier",
+		"unitType": "Hover Carrier",
+		"movement": 3,
+		"strength": 32,
+		"cost": 250,
+		"requiredTech": "Satellite Networks",
+		"requiredResource": "Promethine",
+		//"upgradesTo": "Anti-Air Buggy",
+		//"obsoleteTech": "Chivalry",
+		"uniques": [
+			"Carrier",
+			"Hovercraft",
+			"Can carry [2] [Aerocraft] units",
+			"Normal vision when embarked",
+			"Defense bonus when embarked",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities>",
+			"Consumes [3] [Promethine]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost", "Amphibious"],
+		"hurryCostModifier": 20,
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Hovercarrier",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Basically a hovering airstrip, these can launch and retrieve aircraft from wherever it roams."
+			}
+		]
+	},
+
+	//// Armored
+	{
+		"name": "Hovertank",
+		"unitType": "Hover",
+		"movement": 3,
+		"strength": 35,
+		"cost": 150,
+		"requiredTech": "Composite Armor",
+		"requiredResource": "Promethine",
+		"uniques": [
+			"Armored",
+			"Hovercraft",
+			"Normal vision when embarked",
+			"Defense bonus when embarked",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [1] [Promethine]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost", "Amphibious"],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Hovertank",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{ "text": "An armored, upgunned hovercraft." }
+		]
+	},
+	{
+		"name": "Colonial Armor",
+		"unitType": "Armored",
+		"movement": 3,
+		"strength": 40,
+		"cost": 150,
+		"requiredTech": "Composite Armor",
+		"requiredResource": "Promethine",
+		"upgradesTo": "Drop Tank",
+		//"obsoleteTech": "Chivalry",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+100]% Strength <vs [Armored] units>",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [1] [Promethine]",
+			"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Colonial Armor",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "The cutting edge version of an old Earth fighting vehicle, armed with a large caliber cannon."
+			}
+		]
+	},
+	{
+		"name": "Laser Tank",
+		"unitType": "Armored",
+		"movement": 3,
+		"strength": 35,
+		"cost": 175,
+		"requiredTech": "Lasers",
+		"requiredResource": "Promethine",
+		//"upgradesTo": "Anti-Air Buggy",
+		//"obsoleteTech": "Chivalry",
+		"uniques": [
+			"[100]% chance to intercept air attacks",
+			"[+50]% Strength <vs [Armored] units>",
+			"[+150]% Strength <vs [Air] units>",
+			"[+150]% Strength <vs [Drone] units>",
+			"[0]% Strength <vs [Satellite] units>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [2] [Promethine]",
+			"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "SingleLaser",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Laser Tank",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Powerful laser weaponry mounted on a tank chassis. The lasers enable this unit to hit aerocraft as well."
+			}
+		]
+	},
+
+	//// Artillery
+	{
+		"name": "Missile Artillery",
+		"unitType": "Siege",
+		"movement": 2,
+		"range": 3,
+		"strength": 30,
+		"rangedStrength": 40,
+		"cost": 175,
+		"requiredTech": "Next-Gen Armaments",
+		"requiredResource": "Promethine",
+		//"obsoleteTech": "Scientific Theory",
+		"uniques": [
+			"[+200]% Strength <vs cities> <when attacking>",
+			"Must set up to ranged attack",
+			"[-1] Sight",
+			"No defensive terrain bonus",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [1] [Promethine]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "MissileLaunch",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Missile Artillery",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "With its payload of smart rockets, this armored unit brings ruin to fortified cities."
+			}
+		]
+	},
+
+	//// Mechs
+	{
+		"name": "Recon Mecha",
+		"unitType": "Close Range Mech",
+		"movement": 4,
+		"strength": 30,
+		"cost": 175,
+		"requiredTech": "Mecha Prototypes",
+		"requiredResource": "Titanium",
+		"upgradesTo": "Assault Mecha",
+		//"obsoleteTech": "Chivalry",
+		"uniques": [
+			"Mech",
+			"[+1] Sight",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-50]% Strength <vs [Armored] units>",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [1] [Titanium]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"hurryCostModifier": 20,
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Recon Mecha",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "A legged vehicle platform, they tend to be mobile when compared to tanks but suffer from weak armor."
+			}
+		]
+	},
+
+	//// Aerial Units
+	{
+		"name": "Beam Fighter",
+		"unitType": "Aerocraft",
+		"movement": 1,
+		"strength": 35,
+		"rangedStrength": 35,
+		"range": 4,
+		"interceptRange": 4,
+		"cost": 150,
+		"requiredTech": "Lasers",
+		"requiredResource": "Promethine",
+		"uniques": [
+			"[100]% chance to intercept air attacks",
+			"[+25]% Strength when performing Air Sweep",
+			"[+50]% Strength <vs [non-air] units>",
+			"[+150]% Strength <vs [Air] units>",
+			"[+100]% Strength <vs [Satellite] units> <with [50]% chance>",
+			"[-33]% Strength <vs cities>",
+			"Only available <in cities with a [Aerocraft Hangar]>",
+			"Consumes [1] [Promethine]",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "RapidLaser",
+		"civilopediaText": [
+			{
+				"text": "Equipped with pinpoint precision laser weaponry and the targeting suite to go with it, they are a verified threat against aerial units - and sometimes even satellites."
+			}
+		]
+	},
+
+	//// Drones
+	{
+		"name": "Strike Drone",
+		"unitType": "Aerocraft",
+		"movement": 1,
+		"strength": 22,
+		"rangedStrength": 22,
+		"range": 5,
+		"interceptRange": 5,
+		"cost": 100,
+		"requiredTech": "Strike Drones",
+		//"requiredResource": "Oil",
+		//"upgradesTo": "Fighter",
+		//"obsoleteTech": "Radar",
+		"uniques": [
+			"Drone",
+			"[+150]% Strength <vs [non-air] units>",
+			"[-50]% Strength <vs [Air] units>",
+			"[+33]% Strength <vs cities>",
+			"Only available <in cities with a [Aerocraft Hangar]>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "MissileLaunch",
+		"civilopediaText": [
+			{
+				"text": "Remote-controlled aerocraft designed to deliver missiles towards targets, they are vulnerable to other aerocraft."
+			}
+		]
+	},
+
+	//// Missiles
+	{
+		"name": "Cruise Missile",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 42,
+		"rangedStrength": 42,
+		"range": 5,
+		"cost": 125,
+		"requiredTech": "Satellite Networks",
+		"uniques": [
+			"Blast radius [1]",
+			"[-100]% maintenance costs",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "missile",
+		"civilopediaText": [
+			{
+				"text": "Satellite-guided missile with enough payload to neutralize coastal defences."
+			}
+		]
+	},
+
+	//// Satellites
+	{
+		"name": "Laser Satellite",
+		"unitType": "Satellite",
+		"movement": 1,
+		"strength": 35,
+		"rangedStrength": 35,
+		"range": 6,
+		"interceptRange": 3,
+		"cost": 300,
+		"requiredTech": "Lasers",
+		"requiredResource": "Titanium",
+		//"upgradesTo": "Fighter",
+		//"obsoleteTech": "Radar",
+		"uniques": [
+			"[100]% chance to intercept air attacks",
+			"Can perform Air Sweep",
+			"[+25]% Strength when performing Air Sweep",
+			"[+100]% Strength <vs [non-air] units>",
+			"[+100]% Strength <vs [Satellite] units>",
+			"[-99]% Strength <vs cities>",
+			"Only available <in cities with a [Orbital Launch Facility]>",
+			"Consumes [1] [Titanium]",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "SingleLaser",
+		"civilopediaText": [
+			{
+				"text": "Armed with a laser array to dispense precision strikes against enemies."
+			}
+		]
+	},
+
+	// Halcyon Era
+
+	//// Infantry
+	{
+		"name": "Drop Trooper",
+		"unitType": "Infantry",
+		"movement": 2,
+		//"range": 1,
+		"strength": 44,
+		//"rangedStrength": 34,
+		"cost": 300,
+		"requiredTech": "Cybernetics",
+		//"obsoleteTech": "Metal Casting",
+		//"upgradesTo": "Drop Trooper",
+		"uniques": [
+			"May Paradrop up to [5] tiles from inside friendly territory",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Drop Trooper",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Augmented to the teeth with military-level cybernetics and equipped with back-mounted retro-thrusters, these highly-trained troopers can survive being dropped into hostile combat zones from low orbit and fight effectively right after."
+			}
+		]
+	},
+	
+	
+	{
+		"name": "Clone Trooper",
+		"unitType": "Infantry",
+		"movement": 2,
+		//"range": 1,
+		"strength": 24,
+		//"rangedStrength": 24,
+		"cost": 50,
+		"requiredTech": "Cloning",
+		//"obsoleteTech": "Metal Casting",
+		//"upgradesTo": "Exoframe Soldier",
+		"uniques": [
+			//"May upgrade to [Exoframe Soldier] through ruins-like effects",
+			"Only available <in cities with a [Cloning Vat]>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Clone Trooper",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "A rather disposable clone that can be trained from birth to become an exceptional soldier."
+			}
+		]
+	},
+	
+
+	//// Mechs
+	{
+		"name": "Assault Mecha",
+		"unitType": "Close Range Mech",
+		"movement": 4,
+		"strength": 45,
+		"cost": 450,
+		"requiredTech": "Combat Mechas",
+		"requiredResource": "Titanium",
+		//"upgradesTo": "Anti-Air Buggy",
+		//"obsoleteTech": "Chivalry",
+		"uniques": [
+			"Mech",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+50]% Strength <vs [Armored] units>",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [2] [Titanium]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"hurryCostModifier": 20,
+		"attackSound": "RapidLaser2",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Assault Mecha",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Recent technological advances allow for stronger servos, which results in more armor and armamanets to be installed on mechs."
+			}
+		]
+	},
+	{
+		"name": "Artillery Mecha",
+		"unitType": "Ranged Mech",
+		"movement": 3,
+		"range": 3,
+		"strength": 45,
+		"rangedStrength": 50,
+		"cost": 450,
+		"requiredTech": "Combat Mechas",
+		"requiredResource": "Titanium",
+		"uniques": [
+			"Mech",
+			"[+200]% Strength <vs cities> <when attacking>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+50]% Strength <vs [Armored] units>",
+			"[-1] Sight",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [2] [Titanium]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost", "Indirect Fire"],
+		"hurryCostModifier": 20,
+		"attackSound": "MissileLaunch",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Artillery Mecha",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Highly mobile and armed with missiles that could level a city, they are a threat to settlements everywhere."
+			}
+		]
+	},
+	{
+		"name": "Laser Mecha",
+		"unitType": "Ranged Mech",
+		"movement": 3,
+		"range": 3,
+		"strength": 45,
+		"rangedStrength": 50,
+		"cost": 450,
+		"requiredTech": "Fusion Power",
+		"requiredResource": "Ulframite",
+		"uniques": [
+			"Mech",
+			"[-50]% Strength <vs cities> <when attacking>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+100]% Strength <vs [Armored] units>",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [1] [Ulframite]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"hurryCostModifier": 20,
+		"attackSound": "MissileLaunch",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Laser Mecha",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Armed with an extra large laser cannon, this mech requires an Ulframite fusion reactor to fire it. Extremely useful against armored units, but not that damaging to defensive buildings."
+			}
+		]
+	},
+	{
+		"name": "Siege Walker",
+		"unitType": "Close Range Mech",
+		"movement": 3,
+		"strength": 50,
+		"rangedStrength": 55,
+		"cost": 550,
+		"requiredTech": "Mind-Machine Interface",
+		"requiredResource": "Ulframite",
+		//"upgradesTo": "Anti-Air Buggy",
+		//"obsoleteTech": "Chivalry",
+		"uniques": [
+			"Mech",
+			"[+200]% Strength <vs cities>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+50]% Strength <vs [Armored] units>",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [2] [Ulframite]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"hurryCostModifier": 20,
+		"attackSound": "RapidLaser2",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Siege Walker",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "A heavy quadrupedal mech sporting a variety of weapons, this walking fortress is a threat to cities."
+			}
+		]
+	},
+
+	//// Aerial Units
+	{
+		// "Hovering unit" unique gives ability to get into impassable tiles - and only that (no vision bonus or flying over ocean)
+		// Unit embarks like any other ground unit and has penalty for attacking over river or from embarked state
+		"name": "Cyberheli",
+		"unitType": "Helicopter",
+		"movement": 5,
+		"strength": 50,
+		"cost": 345,
+		"requiredTech": "Mind-Machine Interface",
+		"requiredResource": "Titanium",
+		"uniques": [
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"All tiles cost 1 movement",
+			"Ignores Zone of Control",
+			"Unable to capture cities",
+			"[+1] Sight",
+			"[+50]% Strength <vs [Infantry] units>",
+			"[+100]% Strength <vs [Armored] units>",
+			"[+100]% Strength <vs [Mech] units>",
+			"[-50]% Strength <vs [Air] units>",
+			"May withdraw before melee ([50]%)",
+			"Consumes [1] [Titanium]",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "RapidLaser",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Cyberheli",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Semi-autonomous combat helicopters whose pilots use mind-machine interface technology to induce dragonfly-like agility."
+			}
+		]
+	},
+
+	//// Missiles
+	{
+		"name": "Nuclear ICBM",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 1000,
+		"rangedStrength": 1000,
+		"range": 12,
+		"cost": 1000,
+		"requiredTech": "Orbital Deterrents",
+		"requiredResource": "Ulframite",
+		"uniques": [
+			"Nuclear weapon of Strength [2]",
+			"Blast radius [2]",
+			"[+200]% Strength <vs [non-air] units>",
+			"[0]% Strength <vs [Satellite] units>",
+			"Only available <if [Samson Option] is constructed>",
+			"Only available <in cities with a [Orbital Launch Facility]>",
+			"Only available <in cities with a [ICBM Silo]>",
+			"Consumes [3] [Ulframite]",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "nuke",
+		"civilopediaText": [
+			{
+				"text": "Armed with the looming threat of mutually assured destruction."
+			}
+		]
+	},
+
+	//// Satellites
+	{
+		"name": "Nuclear Satellite",
+		"unitType": "Satellite",
+		"movement": 1,
+		"strength": 1000,
+		"rangedStrength": 1000,
+		"range": 6,
+		"interceptRange": 0,
+		"cost": 1500,
+		"requiredTech": "Orbital Deterrents",
+		"requiredResource": "Ulframite",
+		"uniques": [
+			"Can only attack [City] units",
+			"Nuclear weapon of Strength [2]",
+			"Blast radius [2]",
+			"[+200]% Strength <vs [non-air] units>",
+			"[0]% Strength <vs [Satellite] units>",
+			"[1]% Strength <when defending>",
+			"Only available <if [Samson Option] is constructed>",
+			"Only available <in cities with a [Orbital Launch Facility]>",
+			"Limited to [1] per Civilization",
+			"Consumes [2] [Ulframite]",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "nuke",
+		"civilopediaText": [
+			{
+				"text": "A true Sword of Damocles, this orbital spectre comes straight out of old Earth nightmares."
+			}
+		]
+	},
+
+	// Realization Era
+
+	//// Infantry
+	{
+		"name": "Stealth Operative",
+		"unitType": "Stealth Infantry",
+		"movement": 2,
+		//"range": 1,
+		"strength": 34,
+		//"rangedStrength": 34,
+		"cost": 350,
+		"requiredTech": "Metamaterials",
+		//"obsoleteTech": "Metal Casting",
+		//"upgradesTo": "Drop Trooper",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Stealth Operative",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Equipped with a cloak of adaptive optical camo, these units are practically invisible from afar."
+			}
+		]
+	},
+	
+	
+	{
+		"name": "Mirage Trooper",
+		"unitType": "Stealth Infantry",
+		"movement": 2,
+		//"range": 1,
+		"strength": 40,
+		//"rangedStrength": 40,
+		"cost": 380,
+		"requiredResource": "Digital Storage Space",
+		"requiredTech": "Artificial Intelligence",
+		//"obsoleteTech": "Metal Casting",
+		//"upgradesTo": "Drop Trooper",
+		"uniques": [
+			"Consumes [1] [Digital Storage Space]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mirage I"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Mirage Trooper",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Their AI-assisted, personal holographic projectors can both function as a cloaking field or a way to confuse, disorient, and reduce the enemy's morale. Does cost a hefty bandwidth per unit."
+			}
+		]
+	},
+	
+	{
+		"name": "Nerve Staple Conscript",
+		"unitType": "Infantry",
+		"movement": 2,
+		//"range": 1,
+		"strength": 30,
+		//"rangedStrength": 30,
+		"cost": 100,
+		"requiredTech": "Nerve Stapling",
+		//"obsoleteTech": "Metal Casting",
+		//"upgradesTo": "Drop Trooper",
+		"uniques": [
+			//"May upgrade to [Drop Trooper] through ruins-like effects",
+			"Only available <in cities with a [Nerve Staple Center]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Nerve Stapled"],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Nerve Staple Conscript",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Not only enhanced with cheap exoskeletons, these former dissidents' minds are also immune to morale damage. Shame about their reduced intelligence, though."
+			}
+		]
+	},
+	
+	
+	//// Armored
+	{
+		"name": "Drop Tank",
+		"unitType": "Armored",
+		"movement": 3,
+		"strength": 50,
+		"cost": 450,
+		"requiredTech": "Stasis Fields",
+		"requiredResource": "Ulframite",
+		"uniques": [
+			"May Paradrop up to [5] tiles from inside friendly territory",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+100]% Strength <vs [Armored] units>",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [1] [Ulframite]",
+			"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Drop Tank",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Equipped with a stasis field, these heavy vehicles could survive an orbital drop maneuver - as well as their crew. Their stasis fields also double as a makeshift shield."
+			}
+		]
+	},
+	
+	
+	{
+		"name": "Mirage Tank",
+		"unitType": "Armored",
+		"movement": 3,
+		"strength": 50,
+		"cost": 450,
+		"requiredTech": "Artificial Intelligence",
+		"requiredResource": "Promethine",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+100]% Strength <vs [Armored] units>",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [1] [Digital Storage Space]",
+			"Consumes [1] [Promethine]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mirage I"],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Mirage Tank",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "These tanks are equipped with an AI-assisted portable holographic projector, making them hard to be seen on the battlefield."
+			}
+		]
+	},
+	
+
+	//// Submarine
+	{
+		"name": "Phantom Submersible",
+		"unitType": "Submarine",
+		"movement": 5,
+		"range": 3,
+		"strength": 52,
+		"rangedStrength": 52,
+		"cost": 375,
+		"requiredTech": "Metamaterials",
+		"requiredResource": "Titanium",
+		"uniques": [
+			"[+150]% Strength <vs [Submarine] units>",
+			"[+150]% Strength <vs [Xeno Stealth Water] units>",
+			"Can carry [4] [Cruise Missile] units",
+			"Can carry [1] [Nuclear ICBM] units",
+			"Only available <in cities with a [Naval Yard]>",
+			"Consumes [1] [Titanium]",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "torpedo",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Phantom Submersible",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Augmented with adaptive optical and sonar-deflecting camouflage, they are even harder to spot while they prowl the seas."
+			}
+		]
+	},
+
+	// Transcedental Era
+	//// Infantry
+	{
+		"name": "Battle Psion",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 44,
+		"cost": 350,
+		"requiredTech": "Psionics",
+		"uniques": [
+			"May capture killed [Military] units <with [33]% chance>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "PsyBlast",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Battle Psion",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Their formidable minds enables them to deal damage without even touching their enemies - sometimes they can even mind control an enemy unit they have defeated."
+			}
+		]
+	},
+	
+	//// Artillery
+	{
+		"name": "Graviton Cannon",
+		"unitType": "Siege",
+		"movement": 2,
+		"range": 3,
+		"strength": 61,
+		"rangedStrength": 61,
+		"cost": 400,
+		"requiredTech": "Graviton Harnessing",
+		"requiredResource": "Antimatter",
+		"uniques": [
+			"[+1000]% Strength <when attacking>",
+			"Ranged attacks may be performed over obstacles",
+			"Consumes [1] [Antimatter]",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "ChargeUpBeam",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Graviton Cannon",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Powered by an antimatter reactor, this graviton-bore cannon unit can erase a city off the map in a literal sense."
+			}
+		]
+	},
+	
+	//// Aerial Units
+	{
+		// "Hovering unit" unique gives ability to get into impassable tiles - and only that (no vision bonus or flying over ocean)
+		// Unit embarks like any other ground unit and has penalty for attacking over river or from embarked state
+		"name": "Swarm Drones",
+		"unitType": "Helicopter",
+		"movement": 5,
+		"strength": 50,
+		"cost": 355,
+		"requiredTech": "Hive Mind",
+		"requiredResource": "Vitamass",
+		"uniques": [
+			"Drone",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"All tiles cost 1 movement",
+			"Ignores Zone of Control",
+			"Unable to capture cities",
+			"[+1] Sight",
+			"[+100]% Strength <vs [Infantry] units>",
+			"[+50]% Strength <vs [Armored] units>",
+			"[+50]% Strength <vs [Mech] units>",
+			"[-50]% Strength <vs [Air] units>",
+			"[+50]% Strength <when adjacent to a [Swarm Drones] unit>",
+			"[+10]% Strength <when adjacent to a [Military] unit>",
+			"May withdraw before melee ([50]%)",
+			"Consumes [1] [Vitamass]",
+			"Consumes [1] [Digital Storage Space]",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "RapidLaser",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Swarm Drones",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Taking notes from Darters, these flocks of AI-controlled drones operate as if they are a single organism. Their combat algorithms are enhanced when there are more units near them."
+			}
+		]
+	},
+	
+	// Ideo specific units
+	//// Purification
+	{
+		"name": "Stim Trooper",
+		"unitType": "Infantry",
+		"movement": 3,
+		"strength": 46,
+		"cost": 300,
+		"requiredTech": "Virtual Drugs",
+		"uniques": [
+			"[+100]% Strength <during a Golden Age>",
+			"[+50]% XP gained from combat",
+			"Only available <after adopting [Purification Ideology]>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Stim Trooper",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Equipped with a myriad of synthetic and virtual combat stimulants, this unit gets more effective when morale is high."
+			}
+		]
+	},
+	{
+		"name": "Mobile Fortress",
+		"unitType": "Land Carrier",
+		"movement": 3,
+		"strength": 65,
+		"range": 2,
+		"cost": 600,
+		"requiredTech": "Antimatter Harnessing",
+		"requiredResource": "Antimatter",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Can carry [2] [Aerocraft] units",
+			"Can carry [4] [Missile] units",
+			"Can carry [1] [Satellite] units",
+			"[100]% chance to intercept air attacks",
+			"[+100]% Strength <vs [Armored] units>",
+			"[+100]% Strength <when defending>",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Limited to [3] per Civilization",
+			"Only available <after adopting [Purification Ideology]>",
+			"Consumes [2] [Antimatter]",
+			"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Mobile Fortress",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "This truly massive vehicle is the epitome of defense - it is big enough to have its own landing strip and orbital launch facility, not to mention missile silos. Just park it in a choke point and let your enemies crash and burn against it."
+			}
+		]
+	},
+	
+	//// Symbiosis
+	{
+		"name": "Hybrid Trooper",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 56,
+		"cost": 400,
+		"requiredTech": "Genetic Hybridization",
+		"uniques": [
+			"[20] HP when healing",
+			"Heals [20] damage if it kills a unit",
+			"Only available <after adopting [Symbiosis Ideology]>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Hybrid Trooper",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Genetically spliced with Xeno DNA, these soldiers could regenerate grievous wounds if allowed to rest. They could also digest battlefield remnants to heal themselves."
+			}
+		]
+	},
+	{
+		"name": "Behemoth",
+		"unitType": "Xeno Melee Land",
+		"movement": 2,
+		"strength": 60,
+		"cost": 600,
+		"requiredTech": "Advanced Biotech",
+		"requiredResource": "Vitamass",
+		"uniques": [
+			"Xeno",
+			"Tame Xeno",
+			"Heals [20] damage if it kills a unit",
+			"Can move after attacking",
+			"[+33]% Strength <vs [Armored] units>",
+			"[+33]% Strength <vs cities>",
+			"Limited to [3] per Civilization",
+			"Only available <after adopting [Symbiosis Ideology]>",
+			"Consumes [3] [Vitamass]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "MonsterBite",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Behemoth",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Mankind's answer to the Gigantes and its ilk, this artificially-created organism is more akin to a biological mech than a creature."
+			}
+		]
+	},
+	
+	//// Radiant
+	{
+		"name": "Cyborg Sniper",
+		"unitType": "Sniper",
+		"movement": 2,
+		"range": 4,
+		"strength": 56,
+		"rangedStrength": 56,
+		"cost": 500,
+		"requiredTech": "Cyberbrains",
+		"requiredResource": "Digital Storage Space",
+		"uniques": [
+			"[+2] Sight",
+			"Damage is ignored when determining unit Strength",
+			"Consumes [1] [Digital Storage Space]",
+			"Only available <after adopting [Radiant Ideology]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Data Uplinked"],
+		"attackSound": "SingleLaser",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Cyborg Sniper",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "With the development of cyberbrains, full-body prosthetics became available, and this fully-augmented sniper makes the best use of it."
+			}
+		]
+	},
+	{
+		"name": "Ray Wing",
+		"unitType": "Aerocraft",
+		"movement": 1,
+		"strength": 55,
+		"rangedStrength": 55,
+		"range": 5,
+		"interceptRange": 4,
+		"cost": 550,
+		"requiredTech": "Exotic Quantum Physics",
+		"requiredResource": "Ulframite",
+		"uniques": [
+			"[100]% chance to intercept air attacks",
+			"[+50]% Strength when performing Air Sweep",
+			"[+50]% Strength <vs [non-air] units>",
+			"[+150]% Strength <vs [Air] units>",
+			"[100]% Strength <vs [Satellite] units> <with [80]% chance>",
+			"[-33]% Strength <vs cities>",
+			"Only available <in cities with a [Aerocraft Hangar]>",
+			"Limited to [3] per Civilization",
+			"Only available <after adopting [Radiant Ideology]>",
+			"Consumes [2] [Ulframite]",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "RapidLaser",
+		"civilopediaText": [
+			{
+				"text": "Utilizing exotic Ulframite reactions to fly, this state-of-the-art aerocraft can reach low orbit with ease. As a consequence, it can shoot down satellites."
+			}
+		]
+	},
+	
+
+	// Mercenary Units
+	//// Scout
+	{
+		"name": "Rover Boys (Rover Explorer)",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 5,
+		"cost": 25,
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Rover",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay", "Ignore terrain cost","Runabout"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "A freelance survey, scouting and courier team."
+			}
+		]
+	},
+
+	//// Infantry
+	{
+		"name": "Boondock Posse (Frontier Militia)",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay","Drunken Aim"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "Rumors of them being better shots when drunk still remain inconclusive."
+			}
+		]
+	},
+	{
+		"name": "Martian Free Rifles (Colony Rifleman)",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 13,
+		"cost": 75,
+		"requiredTech": "Next-Gen Armaments",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay","Professional Discipline"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "One of the few professional and disciplined mercenary groups of the early eras."
+			}
+		]
+	},
+	{
+		"name": "Europan Deadshots (Colony Marksman)",
+		"unitType": "Sniper",
+		"movement": 2,
+		"range": 2,
+		"strength": 13,
+		"rangedStrength": 13,
+		"cost": 100,
+		"requiredTech": "Next-Gen Armaments",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay","Deadshot"],
+		"attackSound": "SniperShot",
+		"civilopediaText": [
+			{
+				"text": "Has a reputation of only accepting payment once they've completed their contract."
+			}
+		]
+	},
+	{
+		"name": "Sundowner Company (Exoframe Soldier)",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 23,
+		"cost": 125,
+		"requiredTech": "Exoskeletons",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay","Maniacal Glee"],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"text": "Their apparent childlike glee in combat situations is known all over the planet."
+			}
+		]
+	},
+	{
+		"name": "Jovian Wolves Company (Exoframe Sniper)",
+		"unitType": "Sniper",
+		"movement": 2,
+		"range": 2,
+		"strength": 23,
+		"rangedStrength": 23,
+		"cost": 175,
+		"requiredTech": "Exoskeletons",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay","Jovian Wolfhunt"],
+		"attackSound": "SniperShot",
+		"civilopediaText": [
+			{
+				"text": "They are willing to track their target for months through rough wilderness, and then finish the job from several miles away."
+			}
+		]
+	},
+	{
+		"name": "Photon Gunners (Laser Trooper)",
+		"unitType": "Sniper",
+		"movement": 2,
+		"range": 3,
+		"strength": 33,
+		"rangedStrength": 33,
+		"cost": 250,
+		"requiredTech": "Lasers",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Ranged attacks may be performed over obstacles",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay","Experimental Photon Sensors"],
+		"attackSound": "SingleLaser",
+		"civilopediaText": [
+			{
+				"text": "Although experimental, their portable laser guns have been tried and tested in combat situations."
+			}
+		]
+	},
+	{
+		"name": "Rock Hoppers (Drop Trooper)",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 43,
+		"cost": 300,
+		"requiredTech": "Cybernetics",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay","Meteorlike"],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"text": "They have a tendency to flatten all opposition within moments of their landing. They also have a reputation for collateral damage."
+			}
+		]
+	},
+	{
+		"name": "SPECTRE (Stealth Operative)",
+		"unitType": "Stealth Infantry",
+		"movement": 2,
+		"strength": 34,
+		"cost": 350,
+		"requiredTech": "Metamaterials",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay","Spectre Shadow"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "Very elusive mercenaries, it is said that they will only appear for negotiations if you are able to pay for their extravagant prices. In your personal quarters, no less."
+			}
+		]
+	},
+
+	//// Buggies
+	{
+		"name": "Dune Raiders (Light Buggy)",
+		"unitType": "Armored",
+		"movement": 4,
+		"strength": 12,
+		"cost": 75,
+		"requiredTech": "Portable Power Sources",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay","Dune Mirage"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "Speed enthusiasts who also do combat missions on the side."
+			}
+		]
+	},
+	{
+		"name": "Itano's Disciples (Anti-Air Buggy)",
+		"unitType": "Armored",
+		"movement": 4,
+		"strength": 15,
+		"cost": 100,
+		"requiredTech": "Missiles",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"[100]% chance to intercept air attacks",
+			"[+150]% Strength <vs [Air] units>",
+			"[+150]% Strength <vs [Drone] units>",
+			"[0]% Strength <vs [Satellite] units>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay","Missile Saturation"],
+		"hurryCostModifier": 20,
+		"attackSound": "AntiAirLock",
+		"civilopediaText": [
+			{
+				"text": "Known for their unbridled use of various seeking missiles."
+			}
+		]
+	},
+
+	//// Hydrofoils
+	{
+		"name": "Cutty Sharks (Light Hydrofoil)",
+		"unitType": "Close Range Water",
+		"movement": 4,
+		"strength": 10,
+		"cost": 45,
+		"requiredTech": "Hydrodynamics",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Cannot enter ocean tiles <before discovering [Astronomy]>",
+			"Only available <in cities with a [Floating Harbor]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay","Shark Attack"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "Do they really have to paint that shark teeth graphic everywhere?"
+			}
+		]
+	},
+	{
+		"name": "Hungry Orcas (Assault Hydrofoil)",
+		"unitType": "Close Range Water",
+		"movement": 5,
+		"strength": 20,
+		"cost": 125,
+		"requiredTech": "Synthetic Materials",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Only available <in cities with a [Floating Harbor]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay","Orca Feast"],
+		"attackSound": "shipguns",
+		"civilopediaText": [
+			{
+				"text": "Has a tradition of throwing a lavish feast after every mission."
+			}
+		]
+	},
+
+	//// Hovercrafts
+	{
+		"name": "Fierce Eels (Light Hovercraft)",
+		"unitType": "Hover",
+		"movement": 3,
+		"strength": 12,
+		"cost": 100,
+		"requiredTech": "Hovercrafts",
+		"requiredResource": "Promethine",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Armored",
+			"Hovercraft",
+			"Normal vision when embarked",
+			"Defense bonus when embarked",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities>",
+			"Consumes [1] [Promethine]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay", "Ignore terrain cost", "Amphibious", "Slippery but Fierce"],
+		"hurryCostModifier": 20,
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "Name stuck after being caught smuggling eels in their hovercraft for the fifth time."
+			}
+		]
+	},
+
+	//// Aerial Units
+	{
+		"name": "Razgriz Wing (Aerojet)",
+		"unitType": "Aerocraft",
+		"movement": 1,
+		"strength": 25,
+		"rangedStrength": 25,
+		"range": 4,
+		"interceptRange": 4,
+		"cost": 150,
+		"requiredTech": "Aeronautics",
+		"requiredResource": "Promethine",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"[100]% chance to intercept air attacks",
+			"[+50]% Strength <vs [non-air] units>",
+			"[+100]% Strength <vs [Air] units>",
+			"[0]% Strength <vs [Satellite] units>",
+			"[-33]% Strength <vs cities>",
+			"Only available <in cities with a [Aerovehicle Hangars]>",
+			"Consumes [1] [Promethine]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay","Combat Aces"],
+		"attackSound": "jetgun",
+		"civilopediaText": [
+			{
+				"text": "Prone to spontaneous acrobatic maneuvers while evading missile locks."
+			}
+		]
+	},
+
+	//// Water Units
+	{
+		"name": "Tidehunters (Corvette)",
+		"unitType": "Close Range Water",
+		"movement": 5,
+		"strength": 35,
+		"cost": 250,
+		"requiredTech": "Alloy Microstructures",
+		"requiredResource": "Promethine",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Only available <in cities with a [Naval Yard]>",
+			"Consumes [1] [Promethine]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay","Tide Prowling"],
+		"attackSound": "shipguns",
+		"civilopediaText": [
+			{
+				"text": "A semi-nomadic group of naval clans that roams the seas, from port to port."
+			}
+		]
+	},
+
+	//// Submarine
+	{
+		"name": "Nemo's Pack (Submersible)",
+		"unitType": "Submarine",
+		"movement": 4,
+		"range": 2,
+		"strength": 32,
+		"rangedStrength": 32,
+		"cost": 275,
+		"requiredTech": "Composite Armor",
+		"requiredResource": "Titanium",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"[+100]% Strength <vs [Submarine] units>",
+			"[+100]% Strength <vs [Xeno Stealth Water] units>",
+			"Can carry [2] [Cruise Missile] units",
+			"Only available <in cities with a [Naval Yard]>",
+			"Consumes [1] [Titanium]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay","Deep Running"],
+		"attackSound": "torpedo",
+		"civilopediaText": [
+			{
+				"text": "Former pirates who finds privateering to be a more lucrative endeavor."
+			}
+		]
+	},
+
+	//// Armored
+	{
+		"name": "Floating Furies (Hovertank)",
+		"unitType": "Armored",
+		"movement": 3,
+		"strength": 35,
+		"cost": 150,
+		"requiredTech": "Composite Armor",
+		"requiredResource": "Promethine",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Hovercraft",
+			"Normal vision when embarked",
+			"Defense bonus when embarked",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [1] [Promethine]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay", "Ignore terrain cost", "Amphibious","Furious Retaliation"],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot",
+		"civilopediaText": [
+			{
+				"text": "Never, ever disparage their hovertanks. Very short fuses."
+			}
+		]
+	},
+	{
+		"name": "Steel Legion Detachment (Colonial Armor)",
+		"unitType": "Armored",
+		"movement": 3,
+		"strength": 40,
+		"cost": 150,
+		"requiredTech": "Composite Armor",
+		"requiredResource": "Promethine",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+100]% Strength <vs [Armored] units>",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [1] [Promethine]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay","Steel-Clad Mettle"],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot",
+		"civilopediaText": [
+			{
+				"text": "Known for their bravery under fire, and always upholding their contracts."
+			}
+		]
+	},
+	{
+		"name": "PrismTech Field Testers (Laser Tank)",
+		"unitType": "Armored",
+		"movement": 3,
+		"strength": 35,
+		"cost": 175,
+		"requiredTech": "Lasers",
+		"requiredResource": "Promethine",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"[100]% chance to intercept air attacks",
+			"[+50]% Strength <vs [Armored] units>",
+			"[+150]% Strength <vs [Air] units>",
+			"[+150]% Strength <vs [Drone] units>",
+			"[0]% Strength <vs [Satellite] units>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [1] [Promethine]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay","PrismTech Analytics"],
+		"hurryCostModifier": 20,
+		"attackSound": "SingleLaser",
+		"civilopediaText": [
+			{
+				"text": "Despite being a tech start-up's field testing team, they've gained a reputation of being efficient on the battlefield."
+			}
+		]
+	},
+
+	//// Artillery
+	{
+		"name": "Iron Arrow Besiegers (Missile Artillery)",
+		"unitType": "Armored",
+		"movement": 2,
+		"range": 3,
+		"strength": 30,
+		"rangedStrength": 40,
+		"cost": 175,
+		"requiredTech": "Next-Gen Armaments",
+		"requiredResource": "Promethine",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"[+200]% Strength <vs cities> <when attacking>",
+			"Must set up to ranged attack",
+			"[-1] Sight",
+			"No defensive terrain bonus",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [1] [Promethine]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay", "Indirect Fire","Piercing Taunts"],
+		"attackSound": "MissileLaunch",
+		"civilopediaText": [
+			{
+				"text": "They have a tradition of writing crude, vulgar or comedic messages on their ammunition."
+			}
+		]
+	},
+
+	//// Mechs
+	{
+		"name": "Redhorse Striders (Recon Mecha)",
+		"unitType": "Close Range Mech",
+		"movement": 4,
+		"strength": 30,
+		"cost": 175,
+		"requiredTech": "Mecha Prototypes",
+		"requiredResource": "Titanium",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Mech",
+			"[+1] Sight",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-50]% Strength <vs [Armored] units>",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [1] [Titanium]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay", "Ignore terrain cost","Steady Gallop"],
+		"hurryCostModifier": 20,
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"text": "This rowdy bunch specializes in hit and run tactics."
+			}
+		]
+	},
+	{
+		"name": "Alpha Raptor Renegades (Assault Mecha)",
+		"unitType": "Close Range Mech",
+		"movement": 4,
+		"strength": 45,
+		"cost": 450,
+		"requiredTech": "Combat Mechas",
+		"requiredResource": "Titanium",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Mech",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+50]% Strength <vs [Armored] units>",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [2] [Titanium]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay", "Ignore terrain cost","Alpha Strike"],
+		"hurryCostModifier": 20,
+		"attackSound": "RapidLaser2",
+		"civilopediaText": [
+			{
+				"text": "Feared on the battlefield for their ruthless, death-defying charges."
+			}
+		]
+	},
+	{
+		"name": "Silver Arbalest Company (Artillery Mecha)",
+		"unitType": "Ranged Mech",
+		"movement": 3,
+		"range": 3,
+		"strength": 45,
+		"rangedStrength": 50,
+		"cost": 450,
+		"requiredTech": "Combat Mechas",
+		"requiredResource": "Titanium",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Mech",
+			"[+200]% Strength <vs cities> <when attacking>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+50]% Strength <vs [Armored] units>",
+			"[-1] Sight",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [2] [Titanium]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay", "Ignore terrain cost", "Indirect Fire","Silver Rain"],
+		"hurryCostModifier": 20,
+		"attackSound": "MissileLaunch",
+		"civilopediaText": [
+			{
+				"text": "Never stays in the same place for too long, they have a tendency to rotate their pilots."
+			}
+		]
+	},
+	
+	// Great People
+	{
+		"name": "Great Influencer",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can start an [8]-turn golden age",
+			"Can construct [Cultural Site]",
+			"Great Person - [Culture]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2,
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Great Influencer",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Very charismatic people, they tend to be artists and public figures that contribute to the cultural progress of a nation."
+			}
+		]
+	},
+	{
+		"name": "Great Scientist",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can hurry technology research",
+			"Can construct [Academy]",
+			"Great Person - [Science]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2,
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Great Scientist",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Brilliant scientists, inventors and innovators, they could advance technology by leaps and bounds."
+			}
+		]
+	},
+	{
+		"name": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+			"Can construct [Trade Center]",
+			"Great Person - [Gold]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2,
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Great Merchant",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Excellent merchants, economists and CEOs, these profit-oriented individuals turn the wheel of commerce across borders."
+			}
+		]
+	},
+	{
+		"name": "Great Engineer",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can speed up construction of a building",
+			"Can construct [Industrial District]",
+			"Great Person - [Production]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2,
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Great Engineer",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Industrious engineers and architects, these hasten urban projects with their productivity."
+			}
+		]
+	},
+	{
+		"name": "Great Visionary",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can construct [Visionary Site] <if it hasn't used other actions yet>",
+			"Can [Spread Religion] [4] times",
+			"Removes other religions when spreading religion",
+			"May found a religion",
+			"May enhance a religion",
+			"May enter foreign tiles without open borders",
+			"[-1] Sight",
+			"Great Person - [Faith]",
+			"Unbuildable",
+			"Religious Unit",
+			"Hidden when religion is disabled",
+			"Takes your religion over the one in their birth city"
+		],
+		"movement": 2,
+		"religiousStrength": 1000,
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Great Visionary",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Wise spiritualists and motivational speakers, they tend to aggregate followers around their brand of thinking."
+			}
+		]
+	},
+	{
+		"name": "Great General", // rename to Great Tactician in localization
+		"unitType": "Civilian",
+		"uniques": [
+			"Can start an [8]-turn golden age",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"Can construct [Citadel]",
+			"Great Person - [War]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2,
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Great General",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Tactical-minded military officers, they could read the flow of battle and turn certain defeat into a complete victory."
+			}
+		]
+	},
+
+	// Uniques
+	//// Infantry
+	{
+		"name": "Graviton Gunner",
+		"replaces": "Laser Trooper",
+		"uniqueTo": "Toma Heavy Industries",
+		"unitType": "Sniper",
+		"movement": 2,
+		"range": 3,
+		"strength": 31,
+		"rangedStrength": 31,
+		"cost": 350,
+		"requiredTech": "Graviton Harnessing",
+		"requiredResource": "Antimatter",
+		"uniques": [
+			"[+1] Sight",
+			"[+1000]% Strength <when attacking>",
+			"Ranged attacks may be performed over obstacles",
+			"Consumes [1] [Antimatter]",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "ChargeUpBeam",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Graviton Gunner",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Armed with an experimental Graviton Beam Gun, this unassuming handheld device can blast holes 7 km long. Suffice to say, beware of collateral damages."
+			}
+		]
+	},
+	{
+		"name": "Penal Legionnaire",
+		"replaces": "Frontier Militia",
+		"uniqueTo": "Belta V Offworld Mining",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 7,
+		"cost": 30,
+		"upgradesTo": "Colony Rifleman",
+		"uniques": [
+			"May upgrade to [Colony Rifleman] through ruins-like effects",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Penal Training"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Penal Legionnaire",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Basically just a convict in an atmo-suit and a gun, they spend their life sentence building colonial infrastructure."
+			}
+		]
+	},
+	{
+		"name": "Delver Team",
+		"replaces": "Colony Rifleman",
+		"uniqueTo": "Deep Rock Ganymede",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 15,
+		"cost": 100,
+		"requiredTech": "Next-Gen Armaments",
+		"upgradesTo": "Exoframe Soldier",
+		"uniques": [
+			"May upgrade to [Exoframe Soldier] through ruins-like effects",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Delver Training", "Bug Hunter"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Delver Team",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "A small squad of veteran miners, armed with company-issued weaponry."
+			}
+		]
+	},
+	{
+		"name": "Colonial Marine",
+		"replaces": "Colony Rifleman",
+		"uniqueTo": "Walpole-Yuen Inc",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 16,
+		"cost": 100,
+		"requiredTech": "Next-Gen Armaments",
+		"upgradesTo": "Exoframe Soldier",
+		"uniques": [
+			"May upgrade to [Exoframe Soldier] through ruins-like effects",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Colonial Marine Unit", "Bug Hunter"],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Colonial Marine",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Soldiers who went through some tough training, they could earn special equipment when they gain a rank."
+			}
+		]
+	},
+	{
+		"name": "T-Series",
+		"replaces": "Colony Rifleman",
+		"uniqueTo": "Skye Robotics",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 16,
+		"cost": 125,
+		"requiredTech": "Next-Gen Armaments",
+		"requiredResource": "Titanium",
+		"uniques": [
+			"Consumes [1] [Titanium]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["T-Series Unit"],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/T-Series",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Semi-autonomous combat droids, their humanoid shape is designed to instill fear toward enemies."
+			}
+		]
+	},
+	{
+		"name": "GHOST Unit",
+		"replaces": "Stealth Operative",
+		"uniqueTo": "Daikyu Boei Kikan",
+		"unitType": "Stealth Infantry",
+		"movement": 2,
+		"strength": 34,
+		"cost": 350,
+		"requiredTech": "Metamaterials",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"promotions": ["GHOST Hack"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/GHOST Unit",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Augmented with cutting-edge cybernetics and trained in cyberwarfare, their speciality is ambushing enemy vehicles and mechs utilizing both their augments and hacking skills."
+			}
+		]
+	},
+	{
+		"name": "Dog Soldier",
+		"replaces": "Colony Rifleman",
+		"uniqueTo": "Einherjar Diktat",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 16,
+		"cost": 100,
+		"requiredTech": "Next-Gen Armaments",
+		"upgradesTo": "Exoframe Soldier",
+		"uniques": [
+			"May upgrade to [Exoframe Soldier] through ruins-like effects",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Dog Soldier Reputation"],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Dog Soldier",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Rumor has it that these soldiers are the result of a crude genetics experiment involving canine DNA. It's not true, of course, but the Diktat uses it as propaganda to demoralize enemies."
+			}
+		]
+	},
+
+	//// Hydrofoil
+	{
+		"name": "Seadog",
+		"replaces": "Assault Hydrofoil",
+		"uniqueTo": "Free Waverunners",
+		"unitType": "Close Range Water",
+		"movement": 5,
+		"strength": 22,
+		"cost": 125,
+		"requiredTech": "Synthetic Materials",
+		"uniques": [
+			"May enter foreign tiles without open borders",
+			"Can construct [Prefab Lair]",
+			"Can build [Water] improvements on tiles"
+			"Only available <in cities with a [Floating Harbor]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Seadog Raiding Crew"],
+		"upgradesTo": "Corvette",
+		"attackSound": "shipguns",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Seadog",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Sleek and artistic, these vessels are still able to put up a fight and then plunder your ships."
+			}
+		]
+	},
+
+	//// Drone
+	{
+		"name": "Vulture Combat Drone",
+		"replaces": "Combat Drone",
+		"uniqueTo": "Einherjar Diktat",
+		"unitType": "Helicopter",
+		"movement": 5,
+		"strength": 10,
+		"cost": 45,
+		"requiredTech": "Aerial Drones",
+		"uniques": [
+			"Drone",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"All tiles cost 1 movement",
+			"Ignores Zone of Control",
+			"Unable to capture cities",
+			"[+50]% Strength <vs [Infantry] units>",
+			"[-50]% Strength <vs [Air] units>",
+			"[+25]% Strength <vs [Wounded] units>",
+			"[+25]% XP gained from combat",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Vulture Combat Drone",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Deadly and precise, this vicious hunter-killer drone comes with a targeting unit that prioritizes wounded units."
+			}
+		]
+	},
+
+	//// Aerocraft
+	{
+		"name": "Aero-Striker",
+		"replaces": "Aerojet",
+		"uniqueTo": "Blue Streak Aerodynamics",
+		"unitType": "Aerocraft",
+		"movement": 1,
+		"strength": 27,
+		"rangedStrength": 27,
+		"range": 4,
+		"interceptRange": 4,
+		"cost": 150,
+		"requiredTech": "Aeronautics",
+		"requiredResource": "Promethine",
+		"upgradesTo": "Beam Fighter",
+		"uniques": [
+			"[+2] Sight",
+			"[100]% chance to intercept air attacks",
+			"[+25]% Strength when performing Air Sweep",
+			"[+25]% Damage when intercepting",
+			"[+50]% Strength <vs [non-air] units>",
+			"[+100]% Strength <vs [Air] units>",
+			"[0]% Strength <vs [Satellite] units>",
+			"[-33]% Strength <vs cities>",
+			"Only available <in cities with a [Aerodrome]>",
+			"Consumes [1] [Promethine]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ambush I"],
+		"attackSound": "jetgun",
+		"civilopediaText": [
+			{
+				"text": "Blue Streak's own design, it is designed to hit enemy armor hard and fast while still keeping a high speed and low drag. Its sensor suite is also optimized to detect distant threats."
+			}
+		]
+	},
+	
+	//// Satellite
+	{
+		"name": "Skyhammer",
+		"unitType": "Satellite",
+		"replaces": "Nuclear Satellite",
+		"uniqueTo": "Imperio Di Uomo",
+		"movement": 1,
+		"strength": 500,
+		"rangedStrength": 500,
+		"range": 6,
+		"interceptRange": 0,
+		"cost": 1000,
+		"requiredTech": "Orbital Deterrents",
+		"requiredResource": "Titanium",
+		"uniques": [
+			"Blast radius [2]",
+			"Destroys tile improvements when attacking",
+			"[+200]% Strength <vs [non-air] units>",
+			"[0]% Strength <vs [Satellite] units>",
+			"[+100]% Strength <vs cities>",
+			"Limited to [2] per Civilization",
+			"Only available <in cities with a [Orbital Launch Facility]>",
+			"Consumes [5] [Titanium]",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "nuke",
+		"civilopediaText": [
+			{
+				"text": "Rods of solid tungsten-titanium alloy manufactured in orbit and attached to a system of powerfully precise deorbiting thrusters, this technically isn't a nuclear weapon - but it might as well be."
+			}
+		]
+	},
+
+	//// Mechs
+	{
+		"name": "War Casket",
+		"replaces": "Assault Mecha",
+		"uniqueTo": "Imperio Di Uomo",
+		"unitType": "Close Range Mech",
+		"movement": 3,
+		"strength": 60,
+		"cost": 500,
+		"requiredTech": "Combat Mechas",
+		"requiredResource": "Titanium",
+		"uniques": [
+			"Mech",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+50]% Strength <vs [Armored] units>",
+			"[+50]% Strength <vs cities> <when attacking>",
+			"[+100]% Strength <vs cities> <when defending>",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [1] [Titanium]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"hurryCostModifier": 20,
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/War Casket",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Part siege unit, part life support, these morbid mechs house mortally wounded veterans and armed with powerful defense-shattering weaponry."
+			}
+		]
+	},
+	{
+		"name": "Civil Protection Mecha",
+		"replaces": "Assault Mecha",
+		"uniqueTo": "Xingxing Fazhan Bu",
+		"unitType": "Close Range Mech",
+		"movement": 4,
+		"strength": 40,
+		"cost": 400,
+		"requiredTech": "Combat Mechas",
+		"requiredResource": "Titanium",
+		"uniques": [
+			"Mech",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+50]% Strength <vs [Armored] units> <when defending>",
+			"[+20]% Strength <when fighting in [Friendly Land] tiles>",
+			"May enter foreign tiles without open borders",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [2] [Titanium]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"hurryCostModifier": 20,
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Civil Protection Mecha",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Designed with civilian protection in mind, they possess reduced lethal weaponry while benefiting from a boosted defense system. Due to their less threatening and protective reputation, they are usually granted free pass through borders."
+			}
+		]
+	},
+	{
+		"name": "ZANKER Mecha",
+		"replaces": "Assault Mecha",
+		"uniqueTo": "Jaeger Engineering",
+		"unitType": "Close Range Mech",
+		"movement": 4,
+		"strength": 47,
+		"cost": 475,
+		"requiredTech": "Combat Mechas",
+		"requiredResource": "Titanium",
+		"uniques": [
+			"Mech",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+50]% Strength <vs [Armored] units>",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [2] [Titanium]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Blitz", "Jaeger Manufacturing", "Ignore terrain cost"],
+		"hurryCostModifier": 20,
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/ZANKER Mecha",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Jaeger Engineering's frontline mech, their pilots are trained to use weapons with both of its hands. The result enables the mech to strike twice in quick succession."
+			}
+		]
+	},
+
+	//// Great Person
+	{
+		"name": "Great Nomad",
+		"replaces": "Great Visionary",
+		"uniqueTo": "Badwalmusafir",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+			"Can construct [Visionary Site] <if it hasn't used other actions yet>",
+			"Can [Spread Religion] [4] times",
+			"Removes other religions when spreading religion",
+			"May found a religion",
+			"May enhance a religion",
+			"May enter foreign tiles without open borders",
+			"[-1] Sight",
+			"Great Person - [Faith]",
+			"Unbuildable",
+			"Religious Unit",
+			"Hidden when religion is disabled",
+			"Takes your religion over the one in their birth city"
+		],
+		"movement": 2,
+		"religiousStrength": 1000,
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Great Nomad",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Visionary wanderers, they are both able to spread their brand of thinking and keep an open eye for economic opportunities."
+			}
+		]
+	},
+	{
+		"name": "Great Geneticist",
+		"replaces": "Great Scientist",
+		"uniqueTo": "Somatek Biomedical",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can hurry technology research",
+			"Can construct [Biodome City]",
+			"Great Person - [Science]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2,
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Great Geneticist",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "These exceptional geneticists of Somatek Biomedical could advance technology by leaps and bounds."
+			}
+		]
+	},
+
+	//// Tame Xenos
+	{
+		"name": "Tame Bugwolf",
+		"unitType": "Xeno Melee Land",
+		"uniqueTo": "Xenoidid Empire",
+		"movement": 2,
+		"strength": 5,
+		"cost": 20,
+		"uniques": [
+			"Xeno",
+			"Tame Xeno",
+			"[-33]% Strength <vs cities>",
+			"Only available <in cities with a [Xenoid Barracks]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "MonsterBite",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Tame Bugwolf",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "A pack-hunting, vicious xenofauna commonly found on this planet. Thankfully it's been tamed."
+			}
+		]
+	},
+	{
+		"name": "Tame Stalker",
+		"unitType": "Xeno Melee Land",
+		"uniqueTo": "Xenoidid Empire",
+		"movement": 2,
+		"strength": 7,
+		"cost": 40,
+		"uniques": [
+			"Xeno",
+			"Tame Xeno",
+			"[+33]% Strength <vs [Armored] units>",
+			"Only available <in cities with a [Xenoid Barracks]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "MonsterBite",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Tame Stalker",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "This predator hunts by using its sharp beak and front limbs to tear apart prey. It can even pierce metal. Thankfully it's been tamed."
+			}
+		]
+	},
+	{
+		"name": "Tame Echidna",
+		"unitType": "Xeno Ranged Land",
+		"uniqueTo": "Xenoidid Empire",
+		"movement": 2,
+		"range": 2,
+		"strength": 5,
+		"rangedStrength": 6,
+		"cost": 20,
+		"uniques": [
+			"Xeno",
+			"Tame Xeno",
+			"[-33]% Strength <vs cities>",
+			"Only available <in cities with a [Xenoid Barracks]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Tame Echidna",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "This curious type of xenofauna is able to launch spiky projectiles over long distances. Thankfully it's been tamed."
+			}
+		]
+	},
+	{
+		"name": "Tame Gun Lobster",
+		"unitType": "Xeno Melee Water",
+		"uniqueTo": "Xenoidid Empire",
+		"movement": 2,
+		"strength": 5,
+		"cost": 20,
+		"uniques": [
+			"Xeno",
+			"Tame Xeno",
+			"[-33]% Strength <vs cities>",
+			"Only available <in cities with a [Xenoid Barracks]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "MonsterBubbles",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Tame Gun Lobster",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "This sizable aquatic xenofauna uses their front claws to hunt prey using supercavitation, becoming a threat to shipping when they mistake human ships for competitors. Thankfully it's been tamed."
+			}
+		]
+	},
+	{
+		"name": "Tame Darter",
+		"unitType": "Xeno Air",
+		"uniqueTo": "Xenoidid Empire",
+		"movement": 2,
+		"strength": 5,
+		"cost": 20,
+		"uniques": [
+			"Xeno",
+			"Tame Xeno",
+			"[5]% chance to intercept air attacks",
+			"[-66]% Strength <vs cities>",
+			"Only available <in cities with a [Xenoid Barracks]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "MonsterBuzz",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Tame Darter",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Pesky, territorial aerial predators that possess a danger to units passing through their area. Thankfully it's been tamed."
+			}
+		]
+	},
+	{
+		"name": "Tame Winghead",
+		"unitType": "Xeno Air",
+		"uniqueTo": "Xenoidid Empire",
+		"movement": 2,
+		"strength": 15,
+		"cost": 30,
+		"uniques": [
+			"Xeno",
+			"Tame Xeno",
+			"[10]% chance to intercept air attacks",
+			"[-33]% Strength <vs cities>",
+			"Only available <in cities with a [Xenoid Barracks]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "MonsterBuzz",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Tame Winghead",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "A big aerial predator with seemingly no fear towards humans. Beware their screeching attacks. Thankfully it's been tamed."
+			}
+		]
+	},
+
+	// Religious Units
+	{
+		"name": "Visionary",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can [Spread Religion] [2] times",
+			"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[-1] Sight",
+			"Unbuildable",
+			"Religious Unit",
+			"Hidden when religion is disabled"
+		],
+		"movement": 4,
+		"religiousStrength": 1000,
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Visionary",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "People who have recived a spiritual insight, the ideas they promote tend to stick to the collective unconscious."
+			}
+		]
+	},
+	{
+		"name": "Expunger",
+		"unitType": "Civilian",
+		"uniques": [
+			"Prevents spreading of religion to the city it is next to",
+			"Can [Remove Foreign religions from your own cities] [1] times",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]",
+			"[+1] Sight",
+			"Hidden when religion is disabled",
+			"Unbuildable",
+			"Religious Unit"
+		],
+		"movement": 3,
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Expunger",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Zealous members of the populace who deny, redact and censor foreign religious activities."
+			}
+		]
+	},
+	{
+		"name": "Religious Zealot",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 8,
+		"cost": 20,
+		"uniques": [
+			//"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"Unbuildable",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Religious Zealot",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "What makes them dangerous isn't their weaponry, but their fanaticism."
+			}
+		]
+	},
+	{
+		"name": "Religious Martyr",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 8,
+		"cost": 20,
+		"uniques": [
+			"[+300]% Strength <when attacking>",
+			"Self-destructs when attacking",
+			//"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"Unbuildable",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "ChargeExplosion",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Religious Martyr",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "The danger lies in their disregard for life for the cause. Oh, and the bombs strapped to them."
+			}
+		]
+	},
+
+	// FTL Seedship Parts
+	{
+		"name": "Hyperspace Core",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "FTL Travel",
+		"requiredResource": "Gravitix",
+		"uniques": [
+			"Spaceship part",
+			"Cannot be purchased",
+			"Only available <if [FTL Seedship Program] is constructed>",
+			"Uncapturable",
+			"Can be added to [The Spaceship] in the Capital",
+			"Consumes [2] [Gravitix]",
+			"Limited to [3] per Civilization"
+		],
+		// costs 1500 in BNW
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Hyperspace Core",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "One of three cores required for the fastest FTL method available, they catch and store graviton particles and condense them for storage."
+			}
+		]
+	},
+	{
+		"name": "FTL Navigations Bridge",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Hyperwave Communications",
+		"requiredResource": "Yairmite",
+		"uniques": [
+			"Spaceship part",
+			"Cannot be purchased",
+			"Only available <if [FTL Seedship Program] is constructed>",
+			"Uncapturable",
+			"Can be added to [The Spaceship] in the Capital",
+			"Consumes [1] [Yairmite]",
+			"Consumes [3] [Digital Storage Space]",
+			"Limited to [1] per Civilization"
+		],
+		// costs 1500 in BNW
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/FTL Navigations Bridge",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Requiring massive amounts of quantum computing, this mostly-automated and AI-operated system calculates the optimal path through space by using hyperwave analysis."
+			}
+		]
+	},
+	{
+		"name": "FTL Drive",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Graviton Harnessing",
+		"requiredResource": "Antimatter",
+		"uniques": [
+			"Spaceship part",
+			"Cannot be purchased",
+			"Only available <if [FTL Seedship Program] is constructed>",
+			"Uncapturable",
+			"Can be added to [The Spaceship] in the Capital",
+			"Consumes [1] [Antimatter]",
+			"Limited to [1] per Civilization"
+		],
+		// costs 1500 in BNW
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/FTL Drive",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Powered by antimatter, this drive functions by using graviton particles to 'pull' the ship along graviton-attuned cosmic strings."
+			}
+		]
+	},
+	{
+		"name": "Zero Point Ship Reactor",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Zero Point Energy",
+		"requiredResource": "Ulframite",
+		"uniques": [
+			"Spaceship part",
+			"Cannot be purchased",
+			"Only available <if [FTL Seedship Program] is constructed>",
+			"Uncapturable",
+			"Can be added to [The Spaceship] in the Capital",
+			"Consumes [4] [Ulframite]",
+			"Limited to [1] per Civilization"
+		],
+		// costs 1500 in BNW
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Zero Point Ship Reactor",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Creating power from nothing, this is the biggest reactor humanity can build. Its Ulframite-lined inner core channels exotic particles out of its main chamber, creating an utter, true vaccuum inside - which spontaneously generates energy as universal forces try to fill in that vaccuum."
+			}
+		]
+	},
+	{
+		"name": "Nanite Life Support",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Nanotechnology",
+		"requiredResource": "Vitamass",
+		"uniques": [
+			"Spaceship part",
+			"Cannot be purchased",
+			"Only available <if [FTL Seedship Program] is constructed>",
+			"Uncapturable",
+			"Can be added to [The Spaceship] in the Capital",
+			"Consumes [5] [Vitamass]",
+			"Limited to [1] per Civilization"
+		],
+		// costs 1500 in BNW
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Nanite Life Support",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Appearing as a breathable orange juice, the nanite fluids dispensed by this system ensures that human biology survives the rigors of graviton string travel."
+			}
+		]
+	},
+	{
+		"name": "Stasis Pod Arrays",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Stasis Fields",
+		"requiredResource": "Yairmite",
+		"uniques": [
+			"Spaceship part",
+			"Cannot be purchased",
+			"Only available <if [FTL Seedship Program] is constructed>",
+			"Uncapturable",
+			"Can be added to [The Spaceship] in the Capital",
+			"Consumes [1] [Yairmite]",
+			"Consumes [3] [Digital Storage Space]",
+			"Limited to [2] per Civilization"
+		],
+		// costs 1500 in BNW
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Stasis Pod Arrays",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "The crew and colonists aboard the ship will spend entire lifetimes suspended in stasis, protected by similar stasis shielding."
+			}
+		]
+	}
+]

@@ -41,7 +41,7 @@
 		"name": "Marauder Mecha",
 		"replaces": "Laser Mecha",
 		"uniqueTo": "Alliance of New Federation",
-		"unitType": "Range Mech",
+		"unitType": "Ranged Mech",
 		"movement": 4,
 		"range": 4,
 		"strength": 70,
@@ -115,7 +115,7 @@
 	},
 	{
 		"name": "Pioneer Fortress",
-		"replaces": "Hover Carrier",
+		"replaces": "Hovercarrier",
 		"uniqueTo": "Alliance of New Federation",
 		"unitType": "Hover",
 		"movement": 4,

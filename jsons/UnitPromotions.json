@@ -45,7 +45,7 @@
 	{
 		"name": "ICARUS",
 		"uniques": [
-			"[+75]% Damage when intercepting".
+			"[+75]% Damage when intercepting",
 			"[+100]% Strength when performing Air Sweep",
 			"[+75]% Strength <vs [Water] units>"],
 		    "Damage taken from interception reduced by [75]%",
@@ -67,7 +67,7 @@
 			"[+50]% Strength <vs [Ranged] units> <when defending>"
 			"Can carry [1] extra [Aircraft] units",
 			"May heal outside of friendly territory",
-			"[+30] HP when healing <in [Foreign Land] tiles,
+			"[+30] HP when healing <in [Foreign Land] tiles",
 			"[+50]% Strength <when defending>"
 			"All adjacent units heal [+30] HP when healing"
 			"All healing effects doubled"

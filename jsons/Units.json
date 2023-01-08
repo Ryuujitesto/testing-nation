@@ -6,7 +6,7 @@
 		"uniqueTo": "Alliance of New Federation",
 		"unitType": "Close Range Mech",
 		"movement": 4,
-		"strength": 75,
+		"strength": 80,
 		"cost": 900,
 		"requiredTech": "Combat Mechas",
 		"requiredResource": "Titanium",
@@ -44,7 +44,7 @@
 		"unitType": "Ranged Mech",
 		"movement": 4,
 		"range": 4,
-		"strength": 70,
+		"strength": 60,
 		"rangedStrength": 100,
 		"cost": 1400,
 		"requiredTech": "Fusion Power",
@@ -109,7 +109,7 @@
 				"Separator": true
 			},
 			{
-				"text": "The alliance artillery mech, Death walker is artillery quad walking machine equipped with alliance heavy long railgun and ultra long range sensor. The enemy will never see waht kill them"
+				"text": "The alliance artillery mech, Death walker is artillery quad walking machine equipped with alliance heavy long railgun and ultra long range sensor. The enemy will never see what kill them"
 			}
 		]
 	},
@@ -118,7 +118,7 @@
 		"replaces": "Hovercarrier",
 		"uniqueTo": "Alliance of New Federation",
 		"unitType": "Hover",
-		"movement": 4,
+		"movement": 5,
 		"range": 4,
 		"strength": 100,
 		"rangedStrength": 80,
@@ -165,8 +165,8 @@
 		"uniqueTo": "Alliance of New Federation",
 		"unitType": "Aerocraft",
 		"movement": 1,
-		"range": 5,
-		"interceptRange": 4,
+		"range": 6,
+		"interceptRange": 6,
 		"strength": 80,
 		"rangedStrength": 80,
 		"cost": 1200,

@@ -30,13 +30,21 @@
 			"Double quantity of [Yairmite] produced",
 			"Double quantity of [Gravitix] produced",
 			"[Worker] units gain the [APD Center Kit] promotion",
-			"[50]% Strength <vs cities>",
+			"[25]% Strength <vs cities>",
 			"[-25]% maintenance on road & railroads",
 			"Defense bonus when embarked <for [All] units>",
 			"[+1] Movement <in [Water] tiles>",
 			"[+25]% Production when constructing [Military] units [in all cities]",
-			"[-25]% tile improvement construction time",
+			"[-75]% tile improvement construction time",
 			"Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns."
+                        "[+1] Sight <for [All] units>",
+                        "[-25]% Unhappiness from [Population] [in all cities]",
+                        "Damage is ignored when determining unit Strength <for [All] units>",
+                        "[-25]% City-State Influence degradation",
+                        "[+25]% Golden Age length",
+                        "City-State territory always counts as friendly territory",
+                        "[+1] Movement <for [Land] units>"
+                        "[+1] Range <for [Air] units>"
 			
 		],
 		"cities": [

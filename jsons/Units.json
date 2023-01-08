@@ -88,7 +88,7 @@
 		"rangedStrength": 150,
 		"cost": 1100,
 		"requiredTech": "Mind-Machine Interface",
-		"requiredResource": "Gravitix",
+		"requiredResource": "Antimatter",
                 "uniques": [
 			"Mech",
 			"[+300]% Strength <vs cities>",

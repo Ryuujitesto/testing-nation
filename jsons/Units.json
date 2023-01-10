@@ -189,7 +189,7 @@
 		"strength": 80,
 		"rangedStrength": 80,
 		"cost": 1200,
-		"requiredTech": "Laser",
+		"requiredTech": "Lasers",
 		"requiredResource": "Promethine",
 		"uniques": [
 			"[100]% chance to intercept air attacks",
@@ -202,7 +202,7 @@
 			"Consumes [3] [Promethine]",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": [""],
+		"promotions": [],
 		"hurryCostModifier": 20,
 		"attackSound": "RapidLaser",
 		"civilopediaText": [

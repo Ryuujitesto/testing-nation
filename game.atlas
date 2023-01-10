@@ -4203,7 +4203,7 @@ UnitPromotionIcons/Logistics
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Maintenance
+UnitPromotionIcons/APD Center Kit
   rotate: false
   xy: 328, 1516
   size: 100, 100
@@ -6811,5 +6811,24 @@ UnitPromotionIcons/Wolfpack
   xy: 112, 408
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+game.png
+size: 2048, 512
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+UnitIcons/Svyatogor Crawler
+  rotate: false
+  xy: 976, 268
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Svyatogor Crawler
+  rotate: false
+  xy: 1124, 340
+  size: 32, 28
+  orig: 32, 28
   offset: 0, 0
   index: -1

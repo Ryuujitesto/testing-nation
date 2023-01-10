@@ -131,7 +131,7 @@
 		"strength": 100,
 		"rangedStrength": 80,
 		"cost": 2000,
-		"requiredTech": "Stasis Fields",
+		"requiredTech": "Antimatter Harnessing",
 		"requiredResource": "Antimatter",
 		//"upgradesTo": "Anti-Air Buggy",
 		//"obsoleteTech": "Chivalry",
@@ -139,8 +139,8 @@
 			"Hovercraft",
                         "[+2] Sight",
 			"Can move after attacking",
-			"Can carry [2] [Aerocraft] units",
-			"Can carry [6] [Missile] units",
+			"Can carry [3] [Aerocraft] units",
+			"Can carry [5] [Missile] units",
 			"Can carry [2] [Satellite] units",
 			"Normal vision when embarked",
 			"Defense bonus when embarked",
@@ -175,7 +175,7 @@
 				"Separator": true
 			},
 			{
-				"text": "The alliance massive hover fortress, this pinnacle machine serve as a military fortress in the battlefield for the Alliance. This machine use antimatter reactor, harnessing gravitix for hovering, equiped with quantum entanglement shield from yairmite. Beside that, this behemoth have Aircraft deck, satellite lauch pad, missile silos, machine repair unit, all terrain defense weaponry and satellite uplink is all you need for a indestructible front line base "
+				"text": "The alliance massive hover fortress, this pinnacle machine serve as a military fortress in the battlefield for the Alliance. This machine use antimatter reactor, harnessing gravitix for hovering, equiped with stasis shield shield from yairmite. Beside that, this behemoth have Aircraft deck, satellite lauch pad, missile silos, machine repair unit, all terrain defense weaponry and satellite uplink is all you need for a indestructible front line base "
 			}
 		]
 	},

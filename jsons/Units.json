@@ -39,7 +39,6 @@
 	},
 	{
 		"name": "Marauder Mecha",
-		"replaces": "Laser Mecha",
 		"uniqueTo": "Alliance of New Federation",
 		"unitType": "Ranged Mech",
 		"movement": 3,
@@ -78,7 +77,6 @@
 	},
 	{
 		"name": "Death Walker",
-		"replaces": "Siege Walker",
 		"uniqueTo": "Alliance of New Federation",
 		"unitType": "Siege",
 		"movement": 2,
@@ -126,7 +124,6 @@
 	},
 	{
 		"name": "Pioneer Fortress",
-		"replaces": "Drop Tank",
 		"uniqueTo": "Alliance of New Federation",
 		"unitType": "Hover",
 		"movement": 4,
@@ -184,7 +181,6 @@
 	},
 	{
 		"name": "Icarus",
-		"replaces": "Beam Fighter",
 		"uniqueTo": "Alliance of New Federation",
 		"unitType": "Aerocraft",
 		"movement": 1,

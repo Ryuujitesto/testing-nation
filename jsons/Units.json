@@ -2,7 +2,6 @@
 	//// Mechs
 	{
 		"name": "Atlas Mecha",
-		"replaces": "Assault Mecha",
 		"uniqueTo": "Alliance of New Federation",
 		"unitType": "Close Range Mech",
 		"movement": 3,

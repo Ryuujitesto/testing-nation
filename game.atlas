@@ -6832,3 +6832,10 @@ TileSets/FantasyHex/Units/Pioneer Fortress
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/EmbarkedUnit-Pioneer Fortress
+  rotate: false
+  xy: 1124, 340
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1

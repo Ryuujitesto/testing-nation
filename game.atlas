@@ -18,6 +18,20 @@ BuildingIcons/Aerocraft Hangar
   orig: 100, 100
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Pioneer Fortress
+  rotate: false
+  xy: 1124, 340
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/EmbarkedUnit-Pioneer Fortress
+  rotate: false
+  xy: 1124, 340
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 BuildingIcons/Aerodrome
   rotate: false
   xy: 376, 1780
@@ -1649,7 +1663,7 @@ UnitIcons/Dog Soldier
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Pioneer Fortress
+UnitIcons/P
   rotate: false
   xy: 1408, 1348
   size: 100, 100
@@ -1762,6 +1776,13 @@ UnitIcons/Graviton Cannon
   offset: 0, 0
   index: -1
 UnitIcons/Graviton Gunner
+  rotate: false
+  xy: 976, 268
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Pioneer Fortress
   rotate: false
   xy: 976, 268
   size: 100, 100
@@ -3832,7 +3853,7 @@ UnitIcons/Missile Rover
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Pioneer Fortress
+UnitIcons/p
   rotate: false
   xy: 436, 1084
   size: 100, 100
@@ -5931,7 +5952,7 @@ TileSets/FantasyHex/Units/Dog Soldier
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Pioneer Fortress
+TileSets/FantasyHex/Units/
   rotate: false
   xy: 1828, 480
   size: 32, 28
@@ -6428,14 +6449,14 @@ TileSets/FantasyHex/Units/Missile Rover
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Pioneer Fortress
+TileSets/FantasyHex/Units/
   rotate: false
   xy: 1828, 280
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-  TileSets/FantasyHex/Units/EmbarkedUnit-Pioneer Fortress
+  TileSets/FantasyHex/Units/
   rotate: false
   xy: 1828, 280
   size: 32, 28

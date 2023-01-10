@@ -1523,7 +1523,7 @@ UnitIcons/Bugwolf
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Civil Protection Mecha
+UnitIcons/Atlas Mecha
   rotate: false
   xy: 436, 1240
   size: 100, 100
@@ -3734,7 +3734,7 @@ UnitIcons/Jovian Wolves Company (Exoframe Sniper)
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Laser Mecha
+UnitIcons/Marauder Mecha
   rotate: false
   xy: 4, 1516
   size: 100, 100
@@ -3916,7 +3916,7 @@ UnitIcons/PrismTech Field Testers (Laser Tank)
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Ray Wing
+UnitIcons/Icarus
   rotate: false
   xy: 112, 112
   size: 100, 100
@@ -4000,7 +4000,7 @@ UnitIcons/Short-Range Missile
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Siege Walker
+UnitIcons/Death Walker
   rotate: false
   xy: 652, 328
   size: 100, 100
@@ -5791,7 +5791,7 @@ TileSets/FantasyHex/Units/Bugwolf
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Civil Protection Mecha
+TileSets/FantasyHex/Units/Atlas Mecha
   rotate: false
   xy: 342, 4
   size: 32, 28
@@ -6344,7 +6344,7 @@ TileSets/FantasyHex/Units/Jovian Wolves Company (Exoframe Sniper)
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Laser Mecha
+TileSets/FantasyHex/Units/Marauder Mecha
   rotate: false
   xy: 1988, 332
   size: 32, 28
@@ -6554,7 +6554,7 @@ TileSets/FantasyHex/Units/Seadog
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Siege Walker
+TileSets/FantasyHex/Units/Death Walker
   rotate: false
   xy: 1000, 300
   size: 32, 28

@@ -21,7 +21,7 @@
 			"Never appears as a Barbarian unit",
                         "Ignores terrain cost"
 		],
-		"promotions": ["ATLAS"],
+		"promotions": [],
 		"hurryCostModifier": 20,
 		"attackSound": "RapidLaser",
 		"civilopediaText": [
@@ -59,7 +59,7 @@
                         "Ignores terrain cost",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["MARAUDER"],
+		"promotions": [],
 		"hurryCostModifier": 20,
 		"attackSound": "RapidLaser2",
 		"civilopediaText": [
@@ -106,7 +106,7 @@
                         "Can see over obstacles",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["DEATH"],
+		"promotions": [],
 		"hurryCostModifier": 20,
 		"attackSound": "ChargeUpBeam",
 		"civilopediaText": [
@@ -163,7 +163,7 @@
                         "Consumes [1] [Yairmite]"
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["PIONEER"],
+		"promotions": [],
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot",
 		"civilopediaText": [
@@ -189,7 +189,7 @@
 		"strength": 80,
 		"rangedStrength": 80,
 		"cost": 1200,
-		"requiredTech": "Lasers",
+		"requiredTech": "Laser",
 		"requiredResource": "Promethine",
 		"uniques": [
 			"[100]% chance to intercept air attacks",
@@ -202,7 +202,7 @@
 			"Consumes [3] [Promethine]",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["ICARUS"],
+		"promotions": [""],
 		"hurryCostModifier": 20,
 		"attackSound": "RapidLaser",
 		"civilopediaText": [

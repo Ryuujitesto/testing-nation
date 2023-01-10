@@ -6813,19 +6813,19 @@ UnitPromotionIcons/Wolfpack
   orig: 100, 100
   offset: 0, 0
   index: -1
-game.png
+game4.png
 size: 2048, 512
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-UnitIcons/Svyatogor Crawler
+UnitIcons/Pioneer Fortress
   rotate: false
   xy: 976, 268
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Svyatogor Crawler
+TileSets/FantasyHex/Units/Pioneer Fortress
   rotate: false
   xy: 1124, 340
   size: 32, 28

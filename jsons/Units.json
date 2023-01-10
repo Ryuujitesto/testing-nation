@@ -19,7 +19,7 @@
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Consumes [5] [Titanium]",
 			"Never appears as a Barbarian unit",
-                        "Ignore terrain cost"
+                        "Ignores terrain cost"
 		],
 		"promotions": ["ATLAS"],
 		"hurryCostModifier": 20,
@@ -56,7 +56,7 @@
 			"[+100]% Strength <vs [Armored] units>",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Consumes [2] [Ulframite]",
-                        "Ignore terrain cost",
+                        "Ignores terrain cost",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["MARAUDER"],
@@ -97,7 +97,7 @@
                         "[+100]% Strength <vs [Air] units>",
                         "[+100]% Strength <vs [Infantry] units>",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
-                        "Ignore terrain cost",
+                        "Ignores terrain cost",
                         "Can see invisible [Stealth Infantry] units",
                         "Can see invisible [Submarine] units",
                         "Can see invisible [Xeno Stealth Water] units",
@@ -156,7 +156,7 @@
                         "Can see invisible [Stealth Infantry] units",
                         "Can see invisible [Submarine] units",
                         "Can see invisible [Xeno Stealth Water] units",
-                        "Ignore terrain cost",
+                        "Ignores terrain cost",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Consumes [1] [Gravitix]",
                         "Consumes [1] [Antimatter]"

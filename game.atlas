@@ -1691,7 +1691,7 @@ UnitIcons/Exoframe Sniper
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Exoframe Soldier
+UnitIcons/Cerberus
   rotate: false
   xy: 436, 160
   size: 100, 100
@@ -3748,7 +3748,7 @@ UnitIcons/Laser Satellite
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Laser Tank
+UnitIcons/Zeus
   rotate: false
   xy: 220, 1732
   size: 100, 100
@@ -3818,7 +3818,7 @@ UnitIcons/Missile Artillery
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Missile Destroyer
+UnitIcons/Poseidon
   rotate: false
   xy: 4, 652
   size: 100, 100
@@ -3895,7 +3895,7 @@ UnitIcons/Penal Legionnaire
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Phantom Submersible
+UnitIcons/Barracuda
   rotate: false
   xy: 220, 436
   size: 100, 100
@@ -5938,7 +5938,7 @@ TileSets/FantasyHex/Units/Drop Tank
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Drop Trooper
+TileSets/FantasyHex/Units/Cerberus
   rotate: false
   xy: 1868, 480
   size: 32, 28
@@ -6351,7 +6351,7 @@ TileSets/FantasyHex/Units/Marauder Mecha
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Laser Tank
+TileSets/FantasyHex/Units/Zeus
   rotate: false
   xy: 1188, 372
   size: 32, 28
@@ -6414,7 +6414,7 @@ TileSets/FantasyHex/Units/Missile Artillery
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Missile Destroyer
+TileSets/FantasyHex/Units/Poseidon
   rotate: false
   xy: 1748, 292
   size: 32, 28
@@ -6470,7 +6470,7 @@ TileSets/FantasyHex/Units/Penal Legionnaire
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Phantom Submersible
+TileSets/FantasyHex/Units/Barracuda
   rotate: false
   xy: 1948, 260
   size: 32, 28
@@ -7092,7 +7092,7 @@ TileSets/FantasyHex/Units/EmbarkedUnit-Pioneer Fortress
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Valente APC
+TileSets/FantasyHex/Units/Fortress
   rotate: false
   xy: 1192, 412
   size: 32, 28
@@ -7134,7 +7134,7 @@ UnitIcons/Pioneer Fortress
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Valente APC
+UnitIcons/Fortress
   rotate: false
   xy: 976, 160
   size: 100, 100

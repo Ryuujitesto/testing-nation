@@ -216,6 +216,7 @@
 	},
          {
 		"name": "Poseidon",
+                "uniqueTo": "Alliance of New Federation",
 		"unitType": "Ranged Water",
 		"movement": 3,
 		"range": 5,
@@ -255,6 +256,7 @@
 	},
         {
 		"name": "Viking",
+                "uniqueTo": "Alliance of New Federation",
 		"unitType": "Ranged Water",
 		"movement": 3,
 		"range": 3,
@@ -292,6 +294,7 @@
 	},
 	{
 		"name": "Barracuda",
+                "uniqueTo": "Alliance of New Federation",
 		"unitType": "Submarine",
 		"movement": 5,
 		"range": 5,
@@ -329,6 +332,7 @@
 	},
        {        
                 "name": "Fortress",
+                "uniqueTo": "Alliance of New Federation",
 		"unitType": "Armored",
 		"movement": 3,
 		"range": 1,
@@ -393,6 +397,7 @@
 	},
         {
 		"name": "Cerberus",
+                "uniqueTo": "Alliance of New Federation",
 		"unitType": "Infantry",
 		"movement": 3,
 		"range": 2,
@@ -424,6 +429,7 @@
 	},
 	{
 		"name": "Zeus",
+                "uniqueTo": "Alliance of New Federation",
 		"unitType": "Armored",
 		"movement": 3,
 		"range": 3,

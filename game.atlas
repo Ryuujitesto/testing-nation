@@ -1733,7 +1733,7 @@ UnitIcons/Floating Furies (Hovertank)
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Frontier Militia
+UnitIcons/Alliance Scout
   rotate: false
   xy: 1192, 700
   size: 100, 100
@@ -6204,7 +6204,7 @@ TileSets/FantasyHex/Units/FTL Navigations Bridge
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Frontier Militia
+TileSets/FantasyHex/Units/Alliance Scout
   rotate: false
   xy: 1868, 404
   size: 32, 28

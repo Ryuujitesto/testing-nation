@@ -1488,7 +1488,7 @@ UnitIcons/Battle Psion
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Battleship
+UnitIcons/Viking
   rotate: false
   xy: 4, 4
   size: 100, 100
@@ -5763,7 +5763,7 @@ TileSets/FantasyHex/Units/Battle Psion
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Battleship
+TileSets/FantasyHex/Units/Viking
   rotate: false
   xy: 142, 12
   size: 32, 28

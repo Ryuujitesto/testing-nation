@@ -5,7 +5,7 @@
 		"uniqueTo": "Alliance of New Federation",
 		"unitType": "Close Range Mech",
 		"movement": 3,
-		"strength": 90,
+		"strength": 75,
 		"cost": 900,
 		"requiredTech": "Combat Mechas",
 		"requiredResource": "Titanium",
@@ -38,22 +38,25 @@
 		]
 	},
 	{
-		"name": "Marauder Mecha",
+		"name": "Seraphim",
 		"uniqueTo": "Alliance of New Federation",
 		"unitType": "Ranged Mech",
-		"movement": 3,
+		"movement": 6,
 		"range": 4,
-		"strength": 90,
-		"rangedStrength": 100,
+		"strength": 80,
+		"rangedStrength": 80,
 		"cost": 1000,
 		"requiredTech": "Fusion Power",
 		"requiredResource": "Ulframite",
 		"uniques": [
 			"Mech",
-			"[-50]% Strength <vs cities> <when attacking>",
+			"[+50]% Strength <vs cities> <when attacking>",
 			"Can move after attacking",
-			"No defensive terrain bonus",
 			"[+100]% Strength <vs [Armored] units>",
+                        "[+100]% Strength <vs [Mech] units>",
+                        "[+100]% Strength <vs [Air] units>",
+                        "[+100]% Strength <vs [Infantry] units>",
+                        "[+100]% Strength <vs [Water] units>",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Consumes [2] [Ulframite]",
                         "Ignores terrain cost",
@@ -71,70 +74,66 @@
 				"Separator": true
 			},
 			{
-				"text": "The alliance backline mech, the Marauder as a backline unit is equipped with alliance heavy power long range laser and long range sensor. This make the mech a fearsome foe with heavy fire power and range"
+				"text": "Alliance transformed fighter jet mech, this mech have ability to fly while still retain mech heavy armor and equiped with plasma cannons."
 			}
 		]
 	},
 	{
-		"name": "Death Walker",
+		"name": "Jaguar",
 		"uniqueTo": "Alliance of New Federation",
 		"unitType": "Siege",
 		"movement": 2,
-		"range": 6,
-		"strength": 100,
-		"rangedStrength": 150,
-		"cost": 1100,
+		"range": 4,
+		"strength": 70,
+		"rangedStrength": 100,
+		"cost": 1000,
 		"requiredTech": "Mind-Machine Interface",
 		"requiredResource": "Antimatter",
                 "uniques": [
 			"Mech",
-			"[+300]% Strength <vs cities>",
+                        "Must set up to ranged attack",
+			"[+200]% Strength <vs cities>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
-                        "[+5] Sight",
+                        "[+4] Sight",
 			"[+100]% Strength <vs [Armored] units>",
                         "[+100]% Strength <vs [Mech] units>",
-                        "[+100]% Strength <vs [Air] units>",
-                        "[+100]% Strength <vs [Infantry] units>",
+                        "[+50]% Strength <vs [Infantry] units>",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
                         "Ignores terrain cost",
                         "Can see invisible [Stealth Infantry] units",
                         "Can see invisible [Submarine] units",
                         "Can see invisible [Xeno Stealth Water] units",
 			"Consumes [2] [Antimatter]",
-                        "Ranged attacks may be performed over obstacles",
-                        "Can see over obstacles",
-			"Never appears as a Barbarian unit"
+                        "Never appears as a Barbarian unit"
 		],
 		"promotions": [],
 		"hurryCostModifier": 20,
-		"attackSound": "ChargeUpBeam",
+		"attackSound": "shipguns",
 		"civilopediaText": [
 			{
-				"extraImage": "TileSets/FantasyHex/Units/Death Walker",
+				"extraImage": "TileSets/FantasyHex/Units/Jaguar",
 				"imageSize": 64
 			},
 			{
 				"Separator": true
 			},
 			{
-		         	"text": "The alliance artillery mech, Death walker is artillery quadruple mech equipped with Alliance heavy long railgun powered by antimatter reactor and ultra long range photon sensor. The enemy will never see what kill them"
+		         	"text": "Alliance siege tank that can go into siege mode for increase in firepower to bombard enemy units and city while still having tank heavy armor."
 			}
 		]
 	},
 	{
-		"name": "Pioneer Fortress",
+		"name": "Leviathan",
 		"uniqueTo": "Alliance of New Federation",
 		"unitType": "Hover",
 		"movement": 4,
 		"range": 4,
 		"strength": 100,
-		"rangedStrength": 80,
+		"rangedStrength": 100,
 		"cost": 2000,
 		"requiredTech": "Antimatter Harnessing",
 		"requiredResource": "Antimatter",
-		//"upgradesTo": "Anti-Air Buggy",
-		//"obsoleteTech": "Chivalry",
 		"uniques": [
 			"Hovercraft",
                         "[+2] Sight",
@@ -144,7 +143,6 @@
 			"Can carry [2] [Satellite] units",
 			"Normal vision when embarked",
 			"Defense bonus when embarked",
-			"No defensive terrain bonus",
 			"[100]% chance to intercept air attacks",
 			"[+100]% Strength <vs [Armored] units>",
                         "[+100]% Strength <vs [Mech] units>",
@@ -165,7 +163,7 @@
 		],
 		"promotions": [],
 		"hurryCostModifier": 20,
-		"attackSound": "tankshot",
+		"attackSound": "shipguns",
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Pioneer Fortress",
@@ -180,37 +178,33 @@
 		]
 	},
 	{
-		"name": "Icarus",
+		"name": "Thor",
 		"uniqueTo": "Alliance of New Federation",
 		"unitType": "Aerocraft",
 		"movement": 1,
 		"range": 6,
-		"interceptRange": 6,
-		"strength": 80,
-		"rangedStrength": 80,
-		"cost": 1200,
+		"strength": 100,
+		"rangedStrength": 100,
+		"cost": 1000,
 		"requiredTech": "Lasers",
 		"requiredResource": "Promethine",
 		"uniques": [
-			"[100]% chance to intercept air attacks",
-			"[+50]% Strength when performing Air Sweep",
-			"[+75]% Strength <vs [non-air] units>",
-			"[+150]% Strength <vs [Air] units>",
-			"[+100]% Strength <vs [Satellite] units> <with [50]% chance> <when attacking>",
-			"[50]% Strength <vs cities>",
+			"[+200]% Strength <vs [non-air] units>",
+			"[+200]% Strength <vs cities>",
+                        "[+200]% Strength <vs [Water] units>",
 			"Only available <in cities with a [Aerocraft Hangar]>",
 			"Consumes [3] [Promethine]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [],
 		"hurryCostModifier": 20,
-		"attackSound": "RapidLaser",
+		"attackSound": "nuke",
 		"civilopediaText": [
 			{
 				"Separator": true
 			},
 			{
-				"text": "The alliance aircraft unit that Equipped with pinpoint precision alliance laser weaponry and the targeting suite to go with it, they are a verified threat against all kind of unit including satellites."
+				"text": "Alliance heavy aerocraft unit that equiped with heavy armor, plasma thrust engine and several ton powerful air bomb to do carpet bombing or bombard enemy city."
 			}
 		]
 	},
@@ -277,7 +271,7 @@
                         "Consumes [6] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Indirect Fire"],
+		"promotions": [],
 		"attackSound": "shipguns",
 		"civilopediaText": [
 			{
@@ -338,7 +332,7 @@
 		"range": 1,
 		"strength": 20,
 		"rangedStrength": 20,
-		"cost": 200,
+		"cost": 150,
 		"requiredTech": "Portable Power Sources",
 		"requiredResource": "Titanium",
 	        "uniques": [
@@ -403,7 +397,7 @@
 		"range": 2,
 		"strength": 40,
 		"rangedStrength": 40,
-		"cost": 600,
+		"cost": 400,
 		"requiredTech": "Exoskeletons",
 		"uniques": [
 			"[+50]% Strength <vs [Armored] units>",
@@ -453,7 +447,7 @@
 			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
-		"attackSound": "SingleLaser",
+		"attackSound": "tankshot",
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Zeus",
@@ -466,5 +460,80 @@
 				"text": "Alliance heavy armored unit that equiped with heavy armor, thermoelectric cannon, and anti missile system against air units."
 			}
 		]
-	}
+	},
+        {
+		"name": "Cyclone",
+                "uniqueTo": "Alliance of New Federation",
+		"unitType": "Helicopter",
+		"movement": 6,
+		"strength": 25,
+		"cost": 150,
+		"requiredTech": "Aerial Drones",
+		"requiredResource": "Titanium",
+		"uniques": [
+			"Can move after attacking",
+                        "[50]% chance to intercept air attacks",
+			"All tiles cost 1 movement",
+			"Ignores Zone of Control",
+			"Unable to capture cities",
+			"[+1] Sight",
+			"[+50]% Strength <vs [Infantry] units>",
+			"[+75]% Strength <vs [Armored] units>",
+			"[+50]% Strength <vs [Mech] units>",
+			"[+75]% Strength <vs [Air] units>",
+			"May withdraw before melee ([25]%)",
+			"Consumes [1] [Titanium]",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Cyclone",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Alliance light aerocraft unit that equiped with variable trust rotors for increase in agility and vulcan machine gun with armor piercing round."
+			}
+		]
+	},
+        {
+		"name": "Torrent",
+                "uniqueTo": "Alliance of New Federation",
+		"unitType": "Siege",
+		"movement": 2,
+		"range": 3,
+		"strength": 20,
+		"rangedStrength": 50,
+		"cost": 175,
+		"requiredTech": "Next-Gen Armaments",
+		"requiredResource": "Promethine",
+		"uniques": [
+			"[+250]% Strength <vs cities> <when attacking>",
+                        "[+50]% Strength <vs [Infantry] units>",
+			"[+50]% Strength <vs [Armored] units>",
+			"[+50]% Strength <vs [Mech] units>",
+			"Must set up to ranged attack",
+			"[+1] Sight",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [1] [Promethine]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "MissileLaunch",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Torrent",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Alliance heavy siege unit that equiped with LRM10 missiles to bombard enemy city and units."
+			}
+		]
+	},
 ]

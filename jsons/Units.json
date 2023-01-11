@@ -8,9 +8,7 @@
 		"cost": 900,
 		"requiredTech": "Combat Mechas",
 		"requiredResource": "Titanium",
-		//"upgradesTo": "Anti-Air Buggy",
-		//"obsoleteTech": "Chivalry",
-		"uniques": [
+	    "uniques": [
 			"Mech",
 			"Can move after attacking",
 			"No defensive terrain bonus",
@@ -226,16 +224,16 @@
 		"uniques": [
 			"[+5] Sight",
 			"[100]% chance to intercept air attacks",
-                        "[+200]% Strength <vs cities>",
+             "[+200]% Strength <vs cities>",
 			"[+200]% Strength <vs [Air] units>",
 			"[+200]% Strength <vs [Drone] units>",
 			"[-100]% Strength <vs [Satellite] units> <when attacking>",
 			"Can carry [5] [Mass-effect Missile] units",
 			"Can carry [5] [Anti-Unit Missile] units",
-                        "Can carry [2] [Anti-Satellite Missile] units"
+            "Can carry [2] [Anti-Satellite Missile] units",
 			"Only available <in cities with a [Naval Yard]>",
 			"Consumes [3] [Promethine]",
-                        "Consumes [3] [Titanium]",
+            "Consumes [3] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "MissileLaunch",
@@ -292,7 +290,7 @@
 	},
 	{
 		"name": "Barracuda",
-                "uniqueTo": "Alliance of New Federation",
+        "uniqueTo": "Alliance of New Federation",
 		"unitType": "Submarine",
 		"movement": 5,
 		"range": 5,
@@ -301,17 +299,17 @@
 		"cost": 700,
 		"requiredTech": "Orbital Deterrents",
 		"requiredResource": "Titanium",
-		"upgradesTo": "Phantom Submersible"
+		"upgradesTo": "Phantom Submersible",
 		"uniques": [
-                        "[+4] Sight",
+            "[+4] Sight",
 			"[+200]% Strength <vs [Submarine] units> <when attacking>",
 			"[+200]% Strength <vs [Xeno Stealth Water] units>",
-                        "[+50]% Strength <vs [Water] units>",
-                        "[+100]% Strength <vs cities>",
+            "[+50]% Strength <vs [Water] units>",
+            "[+100]% Strength <vs cities>",
 			"Can carry [10] [Mass-effect Missile] units",
-                        "Only available <in cities with a [Naval Yard]>",
+            "Only available <in cities with a [Naval Yard]>",
 			"Consumes [4] [Titanium]",
-                        "Consumes [2] [Promethine]",
+            "Consumes [2] [Promethine]",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "torpedo",
@@ -465,7 +463,7 @@
 			}
 		]
 	},
-        {
+    {
 		"name": "Cyclone",
                 "uniqueTo": "Alliance of New Federation",
 		"unitType": "Helicopter",
@@ -503,9 +501,9 @@
 			}
 		]
 	},
-        {
+    {
 		"name": "Torrent",
-                "uniqueTo": "Alliance of New Federation",
+        "uniqueTo": "Alliance of New Federation",
 		"unitType": "Siege",
 		"movement": 2,
 		"range": 3,
@@ -516,7 +514,7 @@
 		"requiredResource": "Promethine",
 		"uniques": [
 			"[+250]% Strength <vs cities> <when attacking>",
-                        "[+50]% Strength <vs [Infantry] units>",
+            "[+50]% Strength <vs [Infantry] units>",
 			"[+50]% Strength <vs [Armored] units>",
 			"[+50]% Strength <vs [Mech] units>",
 			"Must set up to ranged attack",
@@ -524,7 +522,7 @@
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Consumes [1] [Promethine]",
 			"Never appears as a Barbarian unit"
-		],
+	    ],
 		"promotions": [],
 		"attackSound": "MissileLaunch",
 		"civilopediaText": [
@@ -540,7 +538,7 @@
 			}
 		]
 	},
-        {
+    {
 		"name": "Typhoon",
                 "uniqueTo": "Alliance of New Federation",
 		"unitType": "Armored",
@@ -574,8 +572,10 @@
 			},
 			{
 				"text": "Alliance light siege unit that equiped with anti air missiles system and air radar to bring down enemy air units."
-			},
-                        {
+	    }
+	]
+    },
+    {
 		"name": "Space Strike",
                 "uniqueTo": "Alliance of New Federation",
 		"unitType": "Satellite",
@@ -625,11 +625,11 @@
                         "[+4] Sight",
 			"Can move after attacking",
 			"Ranged attacks may be performed over obstacles",
-                        "Can see over obstacles",
-                        "Can see invisible [Stealth Infantry] units",
-                        "Can see invisible [Submarine] units",
-                        "Can see invisible [Xeno Stealth Water] units",
-                        "Ignores terrain cost",
+            "Can see over obstacles",
+            "Can see invisible [Stealth Infantry] units",
+            "Can see invisible [Submarine] units",
+            "Can see invisible [Xeno Stealth Water] units",
+            "Ignores terrain cost",
 			"Consumes [4] [Antimatter]",
 			"Never appears as a Barbarian unit"
 		],
@@ -649,7 +649,7 @@
 	},
        {
 		"name": "Mass-effect Missile",
-                "uniqueTo": "Alliance of New Federation",
+        "uniqueTo": "Alliance of New Federation",
 		"unitType": "Missile",
 		"movement": 1,
 		"strength": 50,
@@ -658,13 +658,13 @@
 		"cost": 300,
 		"requiredTech": "Missiles",
 		"uniques": [
-                        "Blast radius [2]",
-                        "[+200]% Strength <vs cities>",
+            "Blast radius [2]",
+            "[+200]% Strength <vs cities>",
 			"[+25]% Strength <vs [Armored] units> <when attacking>",
 			"[+25]% Strength <vs [Mech] units> <when attacking>",
 			"[+25]% Strength <vs [Water] units> <when attacking>",
-                        "[+25]% Strength <vs [Air] units> <when attacking>",
-                        "[+25]% Strength <vs [Infantry] units>",
+            "[+25]% Strength <vs [Air] units> <when attacking>",
+            "[+25]% Strength <vs [Infantry] units>",
 			"[-100]% maintenance costs",
 			"Never appears as a Barbarian unit"
 		],
@@ -677,7 +677,7 @@
 	},
         {
 		"name": "Anti-Unit Missile",
-                "uniqueTo": "Alliance of New Federation",
+        "uniqueTo": "Alliance of New Federation",
 		"unitType": "Missile",
 		"movement": 1,
 		"strength": 50,
@@ -687,12 +687,12 @@
 		"requiredTech": "Satellite Networks",
 		"uniques": [
 			"Blast radius [1]",
-                        "[+25]% Strength <vs cities>",
-                        "[+100]% Strength <vs [Infantry] units>",
-                        "[+100]% Strength <vs [Armored] units> <when attacking>",
+            "[+25]% Strength <vs cities>",
+            "[+100]% Strength <vs [Infantry] units>",
+            "[+100]% Strength <vs [Armored] units> <when attacking>",
 			"[+100]% Strength <vs [Mech] units> <when attacking>",
 			"[+100]% Strength <vs [Water] units> <when attacking>",
-                        "[+100]% Strength <vs [Air] units> <when attacking>",
+            "[+100]% Strength <vs [Air] units> <when attacking>",
 			"[-100]% maintenance costs",
 			"Never appears as a Barbarian unit"
 		],
@@ -702,5 +702,5 @@
 				"text": "Alliance missile unit that focus on enemy unit destruction."
 			}
 		]
-	},
+	}
 ]

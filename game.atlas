@@ -543,7 +543,7 @@ ImprovementIcons/Biodome City
   orig: 100, 100
   offset: 0, 0
   index: -1
-ImprovementIcons/Citadel
+ImprovementIcons/APD Center
   rotate: false
   xy: 652, 1672
   size: 100, 100

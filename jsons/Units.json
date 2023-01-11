@@ -161,8 +161,8 @@
                         "Ignores terrain cost",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Consumes [1] [Gravitix]",
-                        "Consumes [1] [Antimatter]"
-                        "Consumes [1] [Yairmite]"
+                        "Consumes [1] [Antimatter]",
+                        "Consumes [1] [Yairmite]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [],

@@ -328,7 +328,7 @@
 			}
 		]
 	},
-       {        
+        {        
                 "name": "Fortress",
                 "uniqueTo": "Alliance of New Federation",
 		"unitType": "Armored",
@@ -525,7 +525,7 @@
 			"Consumes [1] [Promethine]",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": [""],
+		"promotions": [],
 		"attackSound": "MissileLaunch",
 		"civilopediaText": [
 			{
@@ -702,5 +702,5 @@
 				"text": "Alliance missile unit that focus on enemy unit destruction."
 			}
 		]
-	}
+	},
 ]

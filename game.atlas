@@ -1446,7 +1446,7 @@ UnitIcons/Alpha Raptor Renegades (Assault Mecha)
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Anti-Air Buggy
+UnitIcons/Typhoon
   rotate: false
   xy: 112, 976
   size: 100, 100
@@ -1593,7 +1593,7 @@ UnitIcons/Corvette
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Cruise Missile
+UnitIcons/Anti-Unit Missile
   rotate: false
   xy: 1192, 1564
   size: 100, 100
@@ -1607,7 +1607,7 @@ UnitIcons/Cutty Sharks (Light Hydrofoil)
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Cyberheli
+UnitIcons/Cyclone
   rotate: false
   xy: 436, 592
   size: 100, 100
@@ -1754,7 +1754,7 @@ UnitIcons/Gigantes
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Graviton Cannon
+UnitIcons/Solaris
   rotate: false
   xy: 868, 160
   size: 100, 100
@@ -3734,14 +3734,14 @@ UnitIcons/Jovian Wolves Company (Exoframe Sniper)
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Marauder Mecha
+UnitIcons/Seraphim
   rotate: false
   xy: 4, 1516
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Laser Satellite
+UnitIcons/Space Strike
   rotate: false
   xy: 112, 1624
   size: 100, 100
@@ -3811,7 +3811,7 @@ UnitIcons/Mirage Trooper
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Missile Artillery
+UnitIcons/Torrent
   rotate: false
   xy: 1084, 1840
   size: 100, 100
@@ -3916,7 +3916,7 @@ UnitIcons/PrismTech Field Testers (Laser Tank)
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Icarus
+UnitIcons/Thor
   rotate: false
   xy: 112, 112
   size: 100, 100
@@ -3993,14 +3993,14 @@ UnitIcons/Seadog
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Short-Range Missile
+UnitIcon/Mass-effect Missile
   rotate: false
   xy: 544, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Death Walker
+UnitIcons/Jaguar
   rotate: false
   xy: 652, 328
   size: 100, 100
@@ -5728,7 +5728,7 @@ TileSets/FantasyHex/Units/Alpha Raptor Renegades (Assault Mecha)
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Anti-Air Buggy
+TileSets/FantasyHex/Units/Typhoon
   rotate: false
   xy: 652, 84
   size: 32, 28
@@ -5882,14 +5882,14 @@ TileSets/FantasyHex/Units/Cutty Sharks (Light Hydrofoil)
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Cyberheli
+TileSets/FantasyHex/Units/Cyclone
   rotate: false
   xy: 1468, 480
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/EmbarkedUnit-Cyberheli
+TileSets/FantasyHex/Units/EmbarkedUnit-Cyclone
   rotate: false
   xy: 1468, 480
   size: 32, 28
@@ -6225,7 +6225,14 @@ TileSets/FantasyHex/Units/Gigantes
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Graviton Cannon
+TileSets/FantasyHex/Units/Solaris
+  rotate: false
+  xy: 858, 324
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/EmbarkedUnit-Solaris
   rotate: false
   xy: 858, 324
   size: 32, 28
@@ -6344,7 +6351,7 @@ TileSets/FantasyHex/Units/Jovian Wolves Company (Exoframe Sniper)
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Marauder Mecha
+TileSets/FantasyHex/Units/Seraphim
   rotate: false
   xy: 1988, 332
   size: 32, 28
@@ -6407,7 +6414,7 @@ TileSets/FantasyHex/Units/Mirage Trooper
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Missile Artillery
+TileSets/FantasyHex/Units/Torrent
   rotate: false
   xy: 1708, 288
   size: 32, 28
@@ -6554,7 +6561,7 @@ TileSets/FantasyHex/Units/Seadog
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Death Walker
+TileSets/FantasyHex/Units/Jaguar
   rotate: false
   xy: 1000, 300
   size: 32, 28
@@ -7078,14 +7085,14 @@ TileSets/FantasyHex/Units/Peacekeeper Militia
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Pioneer Fortress
+TileSets/FantasyHex/Units/Leviathan
   rotate: false
   xy: 1124, 340
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/EmbarkedUnit-Pioneer Fortress
+TileSets/FantasyHex/Units/EmbarkedUnit-Leviathan
   rotate: false
   xy: 1124, 340
   size: 32, 28
@@ -7127,7 +7134,7 @@ UnitIcons/Peacekeeper Militia
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Pioneer Fortress
+UnitIcons/Leviathan
   rotate: false
   xy: 976, 268
   size: 100, 100

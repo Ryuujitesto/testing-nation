@@ -235,7 +235,8 @@
 			"Can carry [5] [Short-Range Missile] units",
                         "Can carry [3] [Anti-Satellite Missile] units"
 			"Only available <in cities with a [Naval Yard]>",
-			"Consumes [2] [Promethine]",
+			"Consumes [3] [Promethine]",
+                        "Consumes [3] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "MissileLaunch",
@@ -309,7 +310,8 @@
 			"Can carry [5] [Cruise Missile] units",
                         "Can carry [2] [nuclear ICBM] units",
 			"Only available <in cities with a [Naval Yard]>",
-			"Consumes [2] [Titanium]",
+			"Consumes [4] [Titanium]",
+                        "Consumes [2] [Promethine]",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "torpedo",
@@ -445,7 +447,8 @@
 			"Can move after attacking",
 			"[+100]% Strength <when defending>",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
-			"Consumes [2] [Promethine]",
+			"Consumes [3] [Promethine]",
+                        "Consumes [3] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
@@ -462,5 +465,5 @@
 				"text": "Alliance heavy armored unit that equiped with heavy armor, thermoelectric cannon, and anti missile system against air units."
 			}
 		]
-	},
+	}
 ]

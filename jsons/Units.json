@@ -214,4 +214,253 @@
 			}
 		]
 	},
+         {
+		"name": "Poseidon",
+		"unitType": "Ranged Water",
+		"movement": 3,
+		"range": 5,
+		"strength": 60,
+		"rangedStrength": 60,
+		"cost": 800,
+		"requiredTech": "Alloy Microstructures",
+		"requiredResource": "Promethine",
+		"uniques": [
+			"[+5] Sight",
+			"[100]% chance to intercept air attacks",
+                        "[+200]% Strength <vs cities>",
+			"[+200]% Strength <vs [Air] units>",
+			"[+200]% Strength <vs [Drone] units>",
+			"[-100]% Strength <vs [Satellite] units> <when attacking>",
+			"Can carry [8] [Cruise Missile] units",
+			"Can carry [5] [Short-Range Missile] units",
+                        "Can carry [3] [Anti-Satellite Missile] units"
+			"Only available <in cities with a [Naval Yard]>",
+			"Consumes [2] [Promethine]",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "MissileLaunch",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Poseidon",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Alliance heavy naval unit, that being design to deal with enemy air unit and to bombard from the coast. This ship equiped with arsenal of missiles from short range, cruise to anti satellite missiles."
+			}
+		]
+	},
+        {
+		"name": "Viking",
+		"unitType": "Ranged Water",
+		"movement": 3,
+		"range": 3,
+		"strength": 70,
+		"rangedStrength": 70,
+		"cost": 600,
+		"requiredTech": "Composite Armor",
+		"requiredResource": "Titanium",
+		"uniques": [
+			"[+2] Sight",
+                        "Can see invisible [Submarine] units",
+			"Can see invisible [Xeno Stealth Water] units",
+                        "[+200]% Strength <vs [Water] units>",
+                        "[+50]% Strength <vs [Submarine] units> <when attacking>",
+			"[+50]% Strength <vs [Xeno Stealth Water] units>",
+                        "[+50]% Strength <when defending>",
+			"Only available <in cities with a [Naval Yard]>",
+                        "Consumes [6] [Titanium]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Viking",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Alliance heavy naval unit that equiped with heavy naval armor, thermoelectric naval cannon, underwater sensor and torpedo to deal with any enemy hiding in water."
+			}
+		]
+	},
+	{
+		"name": "Barracuda",
+		"unitType": "Submarine",
+		"movement": 5,
+		"range": 5,
+		"strength": 60,
+		"rangedStrength": 60,
+		"cost": 700,
+		"requiredTech": "Orbital Deterrents",
+		"requiredResource": "Titanium",
+		"upgradesTo": "Phantom Submersible"
+		"uniques": [
+                        "[+4] Sight",
+			"[+200]% Strength <vs [Submarine] units> <when attacking>",
+			"[+200]% Strength <vs [Xeno Stealth Water] units>",
+                        "[+50]% Strength <vs [Water] units>",
+                        "[+100]% Strength <vs cities>",
+			"Can carry [5] [Cruise Missile] units",
+                        "Can carry [2] [nuclear ICBM] units",
+			"Only available <in cities with a [Naval Yard]>",
+			"Consumes [2] [Titanium]",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "torpedo",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Barracuda",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Alliance heavy naval unit that equiped with underwater sensor to sense hidden enemy and torpedo to deal with them, multiple missile to support bombardment against land enemy and carry nuclear ICBM as deterrents."
+			}
+		]
+	},
+       {        
+                "name": "Fortress",
+		"unitType": "Armored",
+		"movement": 3,
+		"range": 1,
+		"strength": 20,
+		"rangedStrength": 20,
+		"cost": 200,
+		"requiredTech": "Portable Power Sources",
+		"requiredResource": "Titanium",
+	        "uniques": [
+			"Can move after attacking",
+                        "[+1] Sight",
+			"[+25]% Strength <vs cities> <when attacking>",
+			"[+150]% Strength <vs [Infantry] units>",
+                        "[+50]% Strength <vs [Armored] units>",
+			"[+100]% Strength <when defending>",
+                        "Consumes [1] [Titanium]",
+			"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Fortress",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Alliance light armored unit that equiped with heavy armor, machinegun with armor piercing round and flamethrower."
+			}
+
+		]
+	},
+        {
+		"name": "Alliance Scout",
+		"unitType": "Infantry",
+		"replaces": "Frontier Militia",
+		"uniqueTo": "Alliance of New Federation",
+		"movement": 4,
+		"strength": 7,
+		"cost": 30,
+		"upgradesTo": "Colony Rifleman",
+		"uniques": [
+			"May upgrade to [Colony Rifleman] through ruins-like effects",
+                        "Ignores terrain cost",
+                        "[+2] Sight",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "shot",
+		"promotions": ["Peacekeeper Training"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Alliance Scout",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{ "text": "Alliance light infantry unit that usually being use as scouting unit. This brave infantry being train to go throught all kind of terrain and to recon as much as possible,that result having capability to go further and collect more information than other." }
+		]
+	},
+        {
+		"name": "Cerberus",
+		"unitType": "Infantry",
+		"movement": 3,
+		"range": 2,
+		"strength": 40,
+		"rangedStrength": 40,
+		"cost": 600,
+		"requiredTech": "Exoskeletons",
+		"uniques": [
+			"[+50]% Strength <vs [Armored] units>",
+                        "[+50]% Strength <vs [Mech] units>",
+                        "[+50]% Strength <vs [Air] units>",
+                        "[+100]% Strength <vs [Infantry] units>",
+                        "[+100]% Strength <when defending>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Cerberus",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Alliance heavy infantry unit that equiped with durable armored exoframe and multifuction gun that can fire rocket against armored unit, capable to fire hight caliber machine gun for range target and vibro knife for close quarter combat."
+			}
+		]
+	},
+        rge caliber cannon."
+			}
+		]
+	},
+	{
+		"name": "Zeus",
+		"unitType": "Armored",
+		"movement": 3,
+		"range": 3,
+		"strength": 65,
+		"rangedStrength": 65,
+		"cost": 700,
+		"requiredTech": "Lasers",
+		"requiredResource": "Promethine",
+		"uniques": [
+			"[100]% chance to intercept air attacks",
+			"[+200]% Strength <vs [Armored] units>",
+                        "[+150]% Strength <vs [Mech] units>",
+			"[+100]% Strength <vs [Air] units>",
+			"[+100]% Strength <vs [Drone] units>",
+			"[-100]% Strength <vs [Satellite] units> <when attacking>",
+			"Can move after attacking",
+			"[+100]% Strength <when defending>",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [2] [Promethine]",
+			"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "SingleLaser",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Zeus",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Alliance heavy armored unit that equiped with heavy armor, thermoelectric cannon, and anti missile system against air units."
+			}
+		]
+	},
 ]

@@ -231,9 +231,9 @@
 			"[+200]% Strength <vs [Air] units>",
 			"[+200]% Strength <vs [Drone] units>",
 			"[-100]% Strength <vs [Satellite] units> <when attacking>",
-			"Can carry [8] [Cruise Missile] units",
+			"Can carry [5] [Cruise Missile] units",
 			"Can carry [5] [Short-Range Missile] units",
-                        "Can carry [3] [Anti-Satellite Missile] units"
+                        "Can carry [2] [Anti-Satellite Missile] units"
 			"Only available <in cities with a [Naval Yard]>",
 			"Consumes [3] [Promethine]",
                         "Consumes [3] [Titanium]",
@@ -307,9 +307,8 @@
 			"[+200]% Strength <vs [Xeno Stealth Water] units>",
                         "[+50]% Strength <vs [Water] units>",
                         "[+100]% Strength <vs cities>",
-			"Can carry [5] [Cruise Missile] units",
-                        "Can carry [2] [nuclear ICBM] units",
-			"Only available <in cities with a [Naval Yard]>",
+			"Can carry [10] [Cruise Missile] units",
+                        "Only available <in cities with a [Naval Yard]>",
 			"Consumes [4] [Titanium]",
                         "Consumes [2] [Promethine]",
 			"Never appears as a Barbarian unit"
@@ -324,7 +323,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Alliance heavy naval unit that equiped with underwater sensor to sense hidden enemy and torpedo to deal with them, multiple missile to support bombardment against land enemy and carry nuclear ICBM as deterrents."
+				"text": "Alliance heavy naval unit that equiped with underwater sensor to sense hidden enemy and torpedo to deal with them, multiple missile to support bombardment against land enemy."
 			}
 		]
 	},
@@ -380,7 +379,7 @@
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "shot",
-		"promotions": ["Peacekeeper Training"],
+		"promotions": [],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Alliance Scout",

@@ -722,7 +722,7 @@
                         "[+25]% Strength <vs [Air] units>",
 			"[+100]% Strength <vs cities>",
 			"Consumes [5] [Vitamass]",
-                        "Ignore terrain cost",
+                        "Ignores terrain cost",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [],
@@ -762,7 +762,7 @@
                         "[+50]% Strength <vs [Water] units>",
                         "[+100]% Strength <vs [Air] units>",
 			"Consumes [5] [Vitamass]",
-                        "Ignore terrain cost",
+                        "Ignores terrain cost",
                         "Never appears as a Barbarian unit"
 		],
 		"promotions": [],
@@ -796,7 +796,7 @@
 			"Eliminates combat penalty for attacking across a coast",
 			"Normal vision when embarked",
 			"Defense bonus when embarked",
-                        "Ignore terrain cost",
+                        "Ignores terrain cost",
                         "[+25]% Strength <vs [Land] units>",
                         "[+50]% Strength <vs [Water] units>",
                         "[+25]% Strength <vs [Air] units>",

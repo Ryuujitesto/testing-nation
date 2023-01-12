@@ -8,9 +8,9 @@
 			"Lakes"
 		],
 		"culture": 2,
-		"science": 1,
+		"science": 2,
 		"production": 2,
-		"gold": 1,
+		"gold": 2,
 		"food": 2,
 		"turnsToBuild": 5,
 		"techRequired": "Old Earth Knowledge",

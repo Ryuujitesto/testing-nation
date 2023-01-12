@@ -1502,7 +1502,7 @@ UnitIcons/Beam Fighter
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Behemoth
+UnitIcons/Titan
   rotate: false
   xy: 1780, 1780
   size: 100, 100
@@ -1838,7 +1838,7 @@ UnitIcons/Hovercarrier
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Hovertank
+UnitIcons/Delta
   rotate: false
   xy: 1408, 376
   size: 100, 100
@@ -3860,7 +3860,7 @@ UnitIcons/Nemo's Pack (Submersible)
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Neon Dragon
+UnitIcons/Aeon Dragon
   rotate: false
   xy: 1084, 1624
   size: 100, 100
@@ -5770,7 +5770,7 @@ TileSets/FantasyHex/Units/Viking
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Behemoth
+TileSets/FantasyHex/Units/Titan
   rotate: false
   xy: 262, 48
   size: 32, 28
@@ -5959,7 +5959,7 @@ TileSets/FantasyHex/Units/Echidna
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/EmbarkedUnit-Behemoth
+TileSets/FantasyHex/Units/EmbarkedUnit-Titan
   rotate: false
   xy: 1988, 480
   size: 32, 28
@@ -6043,14 +6043,14 @@ TileSets/FantasyHex/Units/Hovercarrier
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/EmbarkedUnit-Hovertank
+TileSets/FantasyHex/Units/EmbarkedUnit-Delta
   rotate: false
   xy: 1148, 444
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Hovertank
+TileSets/FantasyHex/Units/Delta
   rotate: false
   xy: 1148, 444
   size: 32, 28
@@ -6092,14 +6092,14 @@ TileSets/FantasyHex/Units/EmbarkedUnit-Mycon
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/EmbarkedUnit-Neon Dragon
+TileSets/FantasyHex/Units/EmbarkedUnit-Aeon Dragon
   rotate: false
   xy: 1348, 444
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Neon Dragon
+TileSets/FantasyHex/Units/Aeon Dragon
   rotate: false
   xy: 1348, 444
   size: 32, 28

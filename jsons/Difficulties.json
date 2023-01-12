@@ -70,7 +70,7 @@
 		"unhappinessModifier": 1,
 		"barbarianBonus": 0,
 		"barbarianSpawnDelay": 0,
-		"playerBonusStartingUnits": ["Mammoth"],
+		"playerBonusStartingUnits": ["Jaguar"],
 		"aiCityGrowthModifier": 0.5,
 		"aiUnitCostModifier": 0.5,
 		"aiBuildingCostModifier": 0.5,

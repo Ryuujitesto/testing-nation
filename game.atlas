@@ -4203,7 +4203,7 @@ UnitPromotionIcons/Logistics
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Maintenance
+UnitPromotionIcons/APD Center Kit
   rotate: false
   xy: 652, 1840
   size: 100, 100

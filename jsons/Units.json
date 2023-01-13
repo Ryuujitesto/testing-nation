@@ -55,7 +55,7 @@
                         "[+50]% Strength <vs [Land] units>",
                         "[+50]% Strength <vs [Water] units>",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
-			"Consumes [2] [Ulframite]",
+			"Consumes [1] [Ulframite]",
                         "Ignores terrain cost",
 			"Never appears as a Barbarian unit"
 		],
@@ -99,7 +99,7 @@
                         "Can see invisible [Stealth Infantry] units",
                         "Can see invisible [Submarine] units",
                         "Can see invisible [Xeno Stealth Water] units",
-			"Consumes [2] [Antimatter]",
+			"Consumes [1] [Antimatter]",
                         "Never appears as a Barbarian unit"
 		],
 		"promotions": [],
@@ -152,9 +152,9 @@
                         "Can see invisible [Xeno Stealth Water] units",
                         "Ignores terrain cost",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
-			"Consumes [2] [Gravitix]",
-                        "Consumes [2] [Antimatter]",
-                        "Consumes [2] [Yairmite]",
+			"Consumes [1] [Gravitix]",
+                        "Consumes [1] [Antimatter]",
+                        "Consumes [1] [Yairmite]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [],
@@ -189,7 +189,7 @@
 			"[+100]% Strength <vs cities>",
                         "[+100]% Strength <vs [Water] units>",
 			"Only available <in cities with a [Aerocraft Hangar]>",
-			"Consumes [4] [Promethine]",
+			"Consumes [2] [Promethine]",
                         "Consumes [2] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
@@ -227,7 +227,7 @@
 			"Can carry [5] [Anti-Unit Missile] units",
                         "Can carry [2] [Anti-Satellite Missile] units",
 			"Only available <in cities with a [Naval Yard]>",
-			"Consumes [4] [Promethine]",
+			"Consumes [2] [Promethine]",
                         "Consumes [2] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
@@ -265,7 +265,7 @@
 			"[+25]% Strength <vs [Xeno Stealth Water] units>",
                         "[+75]% Strength <when defending>",
 			"Only available <in cities with a [Naval Yard]>",
-                        "Consumes [3] [Titanium]",
+                        "Consumes [2] [Titanium]",
                         "Consumes [2] [Promethine]",
 			"Never appears as a Barbarian unit"
 		],
@@ -304,7 +304,7 @@
 			"Can carry [10] [Mass-effect Missile] units",
                         "Only available <in cities with a [Naval Yard]>",
 			"Consumes [2] [Titanium]",
-                        "Consumes [3] [Promethine]",
+                        "Consumes [2] [Promethine]",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "torpedo",
@@ -436,7 +436,7 @@
 			"Can move after attacking",
 			"[+100]% Strength <when defending>",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
-		        "Consumes [3] [Titanium]",
+		        "Consumes [2] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
@@ -624,8 +624,8 @@
                         "Can see invisible [Submarine] units",
                         "Can see invisible [Xeno Stealth Water] units",
                         "Ignores terrain cost",
-			"Consumes [2] [Antimatter]",
-                        "Consumes [2] [Gravitix]",
+			"Consumes [1] [Antimatter]",
+                        "Consumes [1] [Gravitix]",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "ChargeUpBeam",
@@ -714,7 +714,7 @@
                         "[+50]% Strength <vs [Water] units>",
                         "[+25]% Strength <vs [Air] units>",
 			"[+100]% Strength <vs cities>",
-			"Consumes [5] [Vitamass]",
+			"Consumes [4] [Vitamass]",
                         "Ignores terrain cost",
 			"Never appears as a Barbarian unit"
 		],
@@ -754,7 +754,7 @@
 			"[+50]% Strength <vs [Land] units>",
                         "[+50]% Strength <vs [Water] units>",
                         "[+100]% Strength <vs [Air] units>",
-			"Consumes [5] [Vitamass]",
+			"Consumes [3] [Vitamass]",
                         "Ignores terrain cost",
                         "Never appears as a Barbarian unit"
 		],

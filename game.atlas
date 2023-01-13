@@ -564,7 +564,7 @@ ImprovementIcons/Biodome City
   orig: 100, 100
   offset: 0, 0
   index: -1
-ImprovementIcons/Citadel
+ImprovementIcons/APD Center
   rotate: false
   xy: 328, 1240
   size: 100, 100
@@ -4944,7 +4944,7 @@ TileSets/FantasyHex/Tiles/City center-Landfall era
   orig: 32, 36
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/City center-Realization era
+TileSets/FantasyHex/Tiles/APD Center
   rotate: false
   xy: 342, 40
   size: 32, 36

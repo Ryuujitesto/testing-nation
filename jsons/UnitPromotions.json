@@ -1,7 +1,16 @@
 [
 	{
 		"name": "APD Center Kit",
-		"uniques": ["Can construct [APD Center]"],
+		"uniques": [
+			        "Can construct [APD Center]",
+				    "[-30]% tile improvement construction time",
+                    "[+2] Movement",
+			        "[+1] Sight",
+			        "Ignore terrain cost",
+			        "Normal vision when embarked",
+			        "[1] Movement point cost to disembark",
+			        "[1] Movement point cost to embark"
+		]
 	}
 	
 ]

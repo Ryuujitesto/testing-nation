@@ -6,7 +6,7 @@
 				    "[-30]% tile improvement construction time",
                     "[+2] Movement",
 			        "[+1] Sight",
-			        "Ignore terrain cost",
+			        "Ignores terrain cost",
 			        "Normal vision when embarked",
 			        "[1] Movement point cost to disembark",
 			        "[1] Movement point cost to embark"

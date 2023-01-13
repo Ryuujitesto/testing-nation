@@ -1754,7 +1754,7 @@ UnitIcons/Gigantes
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Graviton Cannon
+UnitIcons/Solaris
   rotate: false
   xy: 1084, 376
   size: 100, 100
@@ -6239,14 +6239,14 @@ TileSets/FantasyHex/Units/Solaris
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Solaris
+TileSets/FantasyHex/Units/Embarked-UnitSolaris
   rotate: false
-  xy: 898, 224
+  xy: 858, 212
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/EmbarkedUnit-Solaris
+TileSets/FantasyHex/Units/Graviton Gunner
   rotate: false
   xy: 898, 224
   size: 32, 28

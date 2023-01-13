@@ -295,7 +295,6 @@
 		"cost": 700,
 		"requiredTech": "Orbital Deterrents",
 		"requiredResource": "Titanium",
-		"upgradesTo": "Phantom Submersible",
 		"uniques": [
                         "[+4] Sight",
 			"[+50]% Strength <vs [Submarine] units> <when attacking>",

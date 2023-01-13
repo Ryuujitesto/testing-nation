@@ -33,9 +33,9 @@
 			"[+50]% Production when constructing [All] wonders [in all cities]",
             "Damage is ignored when determining unit Strength <for [All] units>",
 			"[+1 Gold] from all [Gold] buildings",
-            "[+2 Science] from all [Science] buildings",
-            "[+3 Production] from all [Production] buildings",
-            "[+4 Culture] from all [Culture] buildings",
+            "[+1 Science] from all [Science] buildings",
+            "[+1 Production] from all [Production] buildings",
+            "[+1 Culture] from all [Culture] buildings",
                           ],
               	"cities": [
 			"Dawn City",

@@ -3,6 +3,7 @@
 		"name": "APD Center Kit",
 		"uniques": [
 			        "Can construct [APD Center]",
+                                "Can construct [Solar Energy Collector]",
 				    "[-30]% tile improvement construction time",
                     "[+2] Movement",
 			        "[+1] Sight",

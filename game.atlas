@@ -2495,7 +2495,7 @@ BuildingIcons/Orbital Solar Reflector
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Orbital Space Station
+BuildingIcons/Orbital Development Center
   rotate: false
   xy: 652, 976
   size: 100, 100
@@ -6945,7 +6945,7 @@ BuildingIcons/Sermon Station
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Underwater Complex
+BuildingIcons/Underwater Development Center
   rotate: false
   xy: 1084, 376
   size: 100, 100

@@ -1,0 +1,52 @@
+[ 
+  {
+		"name": "Orbital Development Center",
+		"uniqueTo": "Alliance of New Federation",
+		"cost": 200,
+		"science": 3,
+		"culture": 3,
+		"production": 5,
+		"food": 3,
+		"gold": 3,
+		"uniques": [
+			"Orbital",
+			"Provides [3] [Digital Storage Space]",
+                        "[+10]% [Production] [in this city]"
+		],
+		"requiredTech": "Cosmonautics",
+		"requiredBuilding": "Orbital Launch Facility",
+		"civilopediaText": [
+			{
+				"text": "Alliance orbital satellite that being design as a all in one development center that contain self sustaining human habitation, zero gravity production center for space industry and space research station."
+			}
+		]
+	},
+        {
+		"name": "Underwater Development Center",
+		"uniqueTo": "Alliance of New Federation",
+		"maintenance": 1,
+		"happiness": 2,
+		"science": 1,
+		"production": 2,
+                "food": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Prefab",
+			"Must be next to [Coast]",
+			"[+1 Science] <after discovering [Info Networks]>",
+			"[+1 Culture] <after discovering [Net Culture]>",
+                        "[+1 Gold] <after discovering [Cryptocurrency]>",
+			"[+1 Production] <after discovering [Exoskeletons]>",
+			"[+1 Food] <after discovering [Genetics]>",
+			"[+1 Culture] <after discovering [Colonial Culture]>",
+			"Provides [1] [Digital Storage Space]",
+			"Provides [1] [Digital Storage Space] <after discovering [Info Networks]>"
+		],
+		"requiredTech": "Colony Administration",
+		"civilopediaText": [
+			{
+				"text": "Alliance underwater development center that contain habitation, industry and research facility."
+			}
+		]
+	}
+]

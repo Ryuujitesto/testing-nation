@@ -7202,7 +7202,7 @@ size: 512, 128
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-ImprovementIcons/Solar Farm
+ImprovementIcons/Solar Energy Collector
   rotate: false
   xy: 328, 4
   size: 100, 100
@@ -7216,7 +7216,7 @@ NationIcons/Shamsy Electric Technologies
   orig: 100, 100
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Solar Farm
+TileSets/FantasyHex/Tiles/Solar Energy Collector
   rotate: false
   xy: 436, 76
   size: 32, 28

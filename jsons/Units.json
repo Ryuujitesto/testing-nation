@@ -720,7 +720,7 @@
                         "[+50]% Strength <vs [Water] units>",
                         "[+25]% Strength <vs [Air] units>",
 			"[+100]% Strength <vs cities>",
-			"Consumes [6] [Vitamass]",
+			"Consumes [5] [Vitamass]",
                         "Ignores terrain cost",
 			"Never appears as a Barbarian unit"
 		],

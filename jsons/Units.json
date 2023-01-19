@@ -61,7 +61,7 @@
                         "[+50]% Strength <vs [Land] units>",
                         "[+50]% Strength <vs [Water] units>",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
-			"Consumes [2] [Ulframite]",
+			"Consumes [1] [Ulframite]",
                         "Ignores terrain cost",
 			"Never appears as a Barbarian unit"
 		],

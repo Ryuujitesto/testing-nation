@@ -440,8 +440,7 @@
 			"[+50]% Strength <vs [Land] units>",
                         "[+50]% Strength <vs [Water] units>",
 			"[-100]% Strength <vs [Satellite] units> <when attacking>",
-			"Can move after attacking",
-                        "[+100]% Strength <when defending>",
+		        "[+100]% Strength <when defending>",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 		        "Consumes [2] [Titanium]",
 			"Never appears as a Barbarian unit"

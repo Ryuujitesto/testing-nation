@@ -374,7 +374,6 @@
                 "uniqueTo": "Alliance of New Federation",
 		"unitType": "Infantry",
 		"replaces": "Frontier Militia",
-		"uniqueTo": "Alliance of New Federation",
 		"movement": 4,
 		"strength": 6,
 		"cost": 25,

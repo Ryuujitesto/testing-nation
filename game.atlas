@@ -1425,7 +1425,7 @@ TechIcons/Info Networks
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Aero-Striker
+UnitIcons/Hawk
   rotate: false
   xy: 4, 1408
   size: 100, 100
@@ -1537,7 +1537,7 @@ UnitIcons/Clone Trooper
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Colonial Armor
+UnitIcons/Hammer
   rotate: false
   xy: 652, 1348
   size: 100, 100
@@ -5812,7 +5812,7 @@ TileSets/FantasyHex/Units/Clone Trooper
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Colonial Armor
+TileSets/FantasyHex/Units/Hammer
   rotate: false
   xy: 422, 48
   size: 32, 28

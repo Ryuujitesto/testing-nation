@@ -825,5 +825,39 @@
 			},
 			{ "text": "Alliance light naval unit that equiped with rotary vulcan gun and unique amphibious body structures enable it to be effective both land and water." }
 		]
+	},
+        {
+		"name": "Hammer",
+		"unitType": "Armored",
+		"movement": 3,
+		"strength": 40,
+		"cost": 150,
+		"requiredTech": "Composite Armor",
+		"requiredResource": "Promethine",
+		"upgradesTo": "Drop Tank",
+		//"obsoleteTech": "Chivalry",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+100]% Strength <vs [Armored] units>",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [1] [Promethine]",
+			"May upgrade to [Drop Tank] through ruins-like effects",
+			"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Colonial Armor",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "The cutting edge version of an old Earth fighting vehicle, armed with a large caliber cannon."
+			}
+		]
 	}
 ]

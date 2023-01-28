@@ -813,6 +813,7 @@
 		     	"Defense bonus when embarked",
 		        "May attack when embarked",
                         "Ignores terrain cost",
+                        "[+20] Sight <when set up>",
                         "[+25]% Strength <vs [Land] units>",
                         "[+50]% Strength <vs [Water] units>",
                         "[+25]% Strength <vs [Air] units>",

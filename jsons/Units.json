@@ -32,7 +32,7 @@
 				"Separator": true
 			},
 			{
-				"text": "The alliance Recon mech that equiped with heavy armor and more advanced sensor unit."
+				"text": "The alliance mech unit that equiped with heavy mech armor, advanced sensor unit and pulse laser."
 			}
 		]
 	},
@@ -77,7 +77,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Alliance transformed fighter jet mech, this mech have ability to fly while still retain mech heavy armor and equiped with plasma cannons."
+				"text": "Alliance mech unit that equiped with long range flight system, heavy aircraft armor and particle projectile cannon."
 			}
 		]
 	},
@@ -119,7 +119,7 @@
 				"Separator": true
 			},
 			{
-		         	"text": "Alliance siege tank that can go into siege mode for increase in firepower to bombard enemy units and city while still having tank heavy armor."
+		         	"text": "Alliance siege unit that equiped with long range artillery railgun, quantum sensor and heavy mech armor."
 			}
 		]
 	},
@@ -175,7 +175,7 @@
 				"Separator": true
 			},
 			{
-				"text": "The alliance massive hover fortress, this pinnacle machine serve as a military fortress in the battlefield for the Alliance. This machine use antimatter reactor, harnessing gravitix for hovering, equiped with stasis shield shield from yairmite. Beside that, this behemoth have Aircraft deck, satellite lauch pad, missile silos, machine repair unit, all terrain defense weaponry and satellite uplink is all you need for a indestructible front line base "
+				"text": "Alliance super unit that equiped with all direction high caliber autocannon, quantum sensor, energy shield, anti gravity engine, air-land missiles system, portable launch unit for satellite, flight deck for aircraft and mechanical repair nano kit."
 			}
 		]
 	},
@@ -208,7 +208,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Alliance heavy aerocraft unit that equiped with heavy armor, plasma thrust jet engine and massive ordinance air bomb to do carpet bombing or bombard enemy city."
+				"text": "Alliance air unit that equiped with heavy aircraft armor, plasma thrust jet engine and massive ordinance air bomb for bombardment."
 			}
 		]
 	},
@@ -218,7 +218,7 @@
 		"unitType": "Ranged Water",
                 "replaces": "Missile Destroyer",
 		"movement": 4,
-		"range": 5,
+		"range": 6,
 		"strength": 60,
 		"rangedStrength": 60,
 		"cost": 300,
@@ -252,7 +252,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Alliance heavy naval unit, that being design to deal with enemy air unit and to bombard from the coast. This ship equiped with arsenal of missiles from short range, cruise to anti satellite missiles."
+				"text": "Alliance water unit that equiped with long range siege missile launcher and anti air missiles system."
 			}
 		]
 	},
@@ -290,7 +290,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Alliance heavy naval unit that equiped with heavy naval armor, thermoelectric naval cannon, underwater sensor and torpedo to deal with any enemy hiding in water."
+				"text": "Alliance water unit that equiped with heavy naval armor, high power thermoelectric naval cannon, underwater sensor and torpedo launcher."
 			}
 		]
 	},
@@ -329,7 +329,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Alliance heavy naval unit that equiped with underwater sensor to sense hidden enemy and torpedo to deal with them, multiple missile to support bombardment against land enemy."
+				"text": "Alliance water unit that equiped with underwater sensor, medium range siege missile launcher and torpedo launcher."
 			}
 		]
 	},
@@ -364,7 +364,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Alliance light armored unit that equiped with heavy armor, machinegun with armor piercing round and flamethrower."
+				"text": "Alliance armored unit that equiped with heavy armor, armor piercing gun turret and heavy flamethrower."
 			}
 
 		]
@@ -377,10 +377,9 @@
 		"movement": 4,
 		"strength": 6,
 		"cost": 25,
-		"upgradesTo": "Colony Rifleman",
+		"upgradesTo": "Alliance Rifleman",
 		"uniques": [
-			"May upgrade to [Cerberus] through ruins-like effects",
-                        "Ignores terrain cost",
+		        "Ignores terrain cost",
                         "[+3] Sight",
 			"Never appears as a Barbarian unit"
 		],
@@ -394,7 +393,7 @@
 			{
 				"Separator": true
 			},
-			{ "text": "Alliance light infantry unit that usually being use as scouting unit. This brave infantry being train to go throught all kind of terrain and to recon as much as possible,that result having capability to go further and collect more information than other." }
+			{ "text": "Alliance infantry unit that equiped with recon sensor, light agile armor and basic rifle." }
 		]
 	},
         {
@@ -407,10 +406,10 @@
 	        "cost": 200,
 		"requiredTech": "Exoskeletons",
 		"uniques": [
-			"[+50]% Strength <vs [Land] units>",
+			"[+75]% Strength <vs [Land] units>",
                         "[+50]% Strength <vs [Water] units>",
                         "[+50]% Strength <vs [Air] units>",
-                        "[+50]% Strength <vs [Infantry] units>",
+                        "[+25]% Strength <vs [Infantry] units>",
                         "[+100]% Strength <when defending>",
                         "Never appears as a Barbarian unit"
 		],
@@ -424,7 +423,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Alliance heavy infantry unit that equiped with durable armored exoframe and multifuction gun that can fire rocket against armored unit, capable to fire hight caliber machine gun for range target and vibro knife for close quarter combat."
+				"text": "Alliance infantry unit that equiped with durable exo-powerarmor and multifuction gun that can fire rocket, hight caliber machine gun and vibro knife for close quarter combat."
 			}
 		]
 	},
@@ -460,7 +459,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Alliance heavy armored unit that equiped with heavy armor, thermoelectric cannon, and anti missile system against air units."
+				"text": "Alliance armored unit that equiped with heavy durable armor, high power thermoelectric cannon, and anti missile system against air units."
 			}
 		]
 	},
@@ -505,7 +504,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Alliance light aerocraft unit that equiped with variable trust rotors for increase in agility, advance sensor and vulcan machine gun with armor piercing round."
+				"text": "Alliance air unit that equiped with variable thrust rotors for increase in agility, advance detection sensor and ammor piercing vulcan cannon."
 			}
 		]
 	},
@@ -541,7 +540,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Alliance heavy siege unit that equiped with LRM10 missiles to bombard enemy city and units."
+				"text": "Alliance siege unit that equiped with MLRS or multiple launch rocket system for bombardment."
 			}
 		]
 	},
@@ -580,7 +579,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Alliance light siege unit that equiped with anti air missiles system and air radar to bring down enemy air units."
+				"text": "Alliance siege unit that equiped with anti air missiles system and air radar for enemy air units."
 	    }
 	]
     },
@@ -599,7 +598,7 @@
 		"uniques": [
 			"Blast radius [6]",
 			"[+3000]% Strength <when attacking>",
-			"[100]% Strength <when defending>",
+			"[+3000]% Strength <when defending>",
 			"Limited to [3] per Civilization",
 			"Consumes [1] [Ulframite]",
                         "Consumes [1] [Antimatter]",
@@ -610,7 +609,7 @@
 		"attackSound": "ChargeUpBeam",
 		"civilopediaText": [
 			{
-				"text": "Alliance super weapon, that harness the power of the sun to bring down fiery judegement to the enemy."
+				"text": "Alliance super weapon located in orbit that equiped with fusion reactor, stasis shield and super large antimatter powered gamma ray burst cannon."
 			}
 		]
 	},
@@ -638,8 +637,10 @@
                         "Can see invisible [Stealth Infantry] units",
                         "Can see invisible [Submarine] units",
                         "Can see invisible [Xeno Stealth Water] units",
+                        "Consumes [1] [Ulframite]",
                         "Consumes [1] [Antimatter]",
                         "Consumes [1] [Gravitix]",
+                        "Consumes [1] [Yairmite]",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "ChargeUpBeam",
@@ -652,7 +653,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Alliance super unit that equiped with anti gravity engine,powerful sensor and graviton bore cannon."
+				"text": "Alliance super unit that equiped with anti gravity engine, quantum sensor and gamma ray burst cannon."
 			}
 		]
 	},
@@ -830,7 +831,7 @@
 			{
 				"Separator": true
 			},
-			{ "text": "Alliance light naval unit that equiped with rotary vulcan gun and unique amphibious body structures enable it to be effective both land and water." }
+			{ "text": "Alliance water unit that equiped with underwater sensor, autocannon and unique amphibious body structures enable it to move effective both land and water." }
 		]
 	},
         {
@@ -864,15 +865,15 @@
 				"Separator": true
 			},
 			{
-				"text": "Alliance light armored tank that equiped with fast mobility and turret mounted cannon."
+				"text": "Alliance armored unit that equiped with light maneuverability tank chassis and turret-based anti armor gun."
 			}
 		]
 	},
         {       
                 "name": "Hawk",
-		"replaces": "Aerojet",
-		"uniqueTo": "Alliance of New Federation",
+                "uniqueTo": "Alliance of New Federation",
 		"unitType": "Aerocraft",
+                "replaces": "Aerojet",
 		"movement": 1,
 		"strength": 40,
 		"rangedStrength": 40,
@@ -897,7 +898,72 @@
 		"attackSound": "jetgun",
 		"civilopediaText": [
 			{
-				"text": "Alliance light air unit that equiped with variable plasma thrust jet engine, self targeting air-land missiles, and front placed autogun."
+				"text": "Alliance air unit that equiped with variable plasma thrust jet engine, self targeting air-land missiles, and fuselage autocannon."
+			}
+		]
+	},
+        {
+		"name": "Alliance Sniper",
+                "uniqueTo": "Alliance of New Federation",
+		"unitType": "Sniper",
+                "replaces": "Exoframe Sniper",
+		"movement": 2,
+		"range": 3,
+		"strength": 15,
+		"rangedStrength": 25,
+		"cost": 100,
+		"requiredTech": "Next-Gen Armaments",
+		"uniques": [
+			    "Invisible to non-adjacent units",
+                            "Can see invisible [Stealth Infantry] units",
+                            "[+2] Sight",
+                            "[+25]% Strength <vs [Land] units>",
+                            "[+25]% Strength <vs [Water] units>",
+                            "[+25]% Strength <vs [Air] units>",
+                            "[+50]% Strength <vs [Infantry] units>",
+                            "Never appears as a Barbarian unit"
+		],
+		"attackSound": "SniperShot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Alliance Sniper",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{ "text": "Alliance infantry unit that equiped with adaptive camouflage light armor and anti material rifle that effective for land unit especially infantry unit and water or air unit that in range." }
+		]
+	},
+        {
+		"name": "Alliance Assault",
+                "uniqueTo": "Alliance of New Federation",
+		"unitType": "Sniper",
+                "replaces": "Laser Trooper",
+		"movement": 2,
+		"range": 3,
+		"strength": 20,
+		"rangedStrength": 30,
+		"cost": 200,
+		"requiredTech": "Next-Gen Armaments",
+		"uniques": [
+                           "[+1] Sight",
+			   "[+50]% Strength <vs [Land] units>",
+                           "[+25]% Strength <vs [Water] units>",
+                           "[+50]% Strength <vs [Air] units>",
+                           "Never appears as a Barbarian unit"
+		],
+		"attackSound": "ChargeExplosion",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Alliance Assault",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Alliance infantry unit that equiped with anti armor rocket launcher that can hit air and water unit that in range too."
 			}
 		]
 	}

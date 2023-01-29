@@ -1460,7 +1460,14 @@ UnitIcons/Anti-Satellite Missile
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Artillery Mecha
+UnitIcons/Odin
+  rotate: false
+  xy: 112, 544
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Thrones
   rotate: false
   xy: 112, 544
   size: 100, 100
@@ -20631,7 +20638,7 @@ TileSets/FantasyHex/Units/Giant Death Robot
   orig: 32, 31
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Giant Death Robot-African
+TileSets/FantasyHex/Units/Thrones
   rotate: false
   xy: 324, 510
   size: 32, 31
@@ -20652,7 +20659,7 @@ TileSets/FantasyHex/Units/Cherubim
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Giant Death Robot-Germanic
+TileSets/FantasyHex/Units/Odin
   rotate: false
   xy: 444, 621
   size: 32, 28

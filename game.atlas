@@ -1446,7 +1446,7 @@ UnitIcons/Alpha Raptor Renegades (Assault Mecha)
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Anti-Air Buggy
+UnitIcons/Typhoon
   rotate: false
   xy: 916, 1780
   size: 100, 100
@@ -1474,7 +1474,14 @@ UnitIcons/Assault Hydrofoil
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Assault Mecha
+UnitIcons/Atlas
+  rotate: false
+  xy: 4, 328
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Cherubim
   rotate: false
   xy: 4, 328
   size: 100, 100
@@ -1488,7 +1495,7 @@ UnitIcons/Battle Psion
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Battleship
+UnitIcons/Viking
   rotate: false
   xy: 112, 112
   size: 100, 100
@@ -1502,7 +1509,7 @@ UnitIcons/Beam Fighter
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Behemoth
+UnitIcons/Titan
   rotate: false
   xy: 1888, 1888
   size: 100, 100
@@ -1754,7 +1761,7 @@ UnitIcons/Gigantes
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Graviton Cannon
+UnitIcons/Solaris
   rotate: false
   xy: 1084, 376
   size: 100, 100
@@ -3748,21 +3755,28 @@ UnitIcons/Jovian Wolves Company (Exoframe Sniper)
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Laser Mecha
+UnitIcons/Seraphim
   rotate: false
   xy: 328, 1840
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Laser Satellite
+UnitIcons/Ares
+  rotate: false
+  xy: 328, 1840
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Space Strike
   rotate: false
   xy: 4, 1408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Laser Tank
+UnitIcons/Zeus
   rotate: false
   xy: 112, 1516
   size: 100, 100
@@ -3825,14 +3839,14 @@ UnitIcons/Mirage Trooper
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Missile Artillery
+UnitIcons/Torrent
   rotate: false
   xy: 4, 652
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Missile Destroyer
+UnitIcons/Poseidon
   rotate: false
   xy: 112, 760
   size: 100, 100
@@ -3930,7 +3944,7 @@ UnitIcons/PrismTech Field Testers (Laser Tank)
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Ray Wing
+UnitIcons/Thor
   rotate: false
   xy: 220, 220
   size: 100, 100
@@ -4203,7 +4217,7 @@ UnitPromotionIcons/Logistics
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Maintenance
+UnitPromotionIcons/APD Center Kit
   rotate: false
   xy: 652, 1840
   size: 100, 100
@@ -5749,7 +5763,7 @@ TileSets/FantasyHex/Units/Alpha Raptor Renegades (Assault Mecha)
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Anti-Air Buggy
+TileSets/FantasyHex/Units/Typhoon
   rotate: false
   xy: 868, 192
   size: 32, 28
@@ -5784,14 +5798,14 @@ TileSets/FantasyHex/Units/Battle Psion
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Battleship
+TileSets/FantasyHex/Units/Viking
   rotate: false
   xy: 1194, 480
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Behemoth
+TileSets/FantasyHex/Units/Titan
   rotate: false
   xy: 142, 12
   size: 32, 28
@@ -5980,7 +5994,7 @@ TileSets/FantasyHex/Units/Echidna
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/EmbarkedUnit-Behemoth
+TileSets/FantasyHex/Units/EmbarkedUnit-Titan
   rotate: false
   xy: 760, 72
   size: 32, 28
@@ -6246,7 +6260,14 @@ TileSets/FantasyHex/Units/Gigantes
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Graviton Cannon
+TileSets/FantasyHex/Units/Solaris
+  rotate: false
+  xy: 1296, 336
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Embarked-Solaris
   rotate: false
   xy: 1296, 336
   size: 32, 28
@@ -6365,14 +6386,14 @@ TileSets/FantasyHex/Units/Jovian Wolves Company (Exoframe Sniper)
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Laser Mecha
+TileSets/FantasyHex/Units/Seraphim
   rotate: false
   xy: 1308, 224
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Laser Tank
+TileSets/FantasyHex/Units/Zeus
   rotate: false
   xy: 1108, 160
   size: 32, 28
@@ -6428,14 +6449,14 @@ TileSets/FantasyHex/Units/Mirage Trooper
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Missile Artillery
+TileSets/FantasyHex/Units/Torrent
   rotate: false
   xy: 1308, 151
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Missile Destroyer
+TileSets/FantasyHex/Units/Poseidon
   rotate: false
   xy: 1348, 152
   size: 32, 28
@@ -9281,7 +9302,7 @@ UnitIcons/4x4
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Advanced Armor
+UnitIcons/Jaguar
   rotate: false
   xy: 1133, 1940
   size: 100, 100
@@ -14131,7 +14152,7 @@ TileSets/FantasyHex/Units/Mobile SAM-Barbarians
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Modern Armor
+TileSets/FantasyHex/Units/Jaguar
   rotate: false
   xy: 418, 356
   size: 32, 28
@@ -17552,7 +17573,7 @@ TileSets/FantasyHex/FantasyHex/Units/Bone Dragon
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Bone Dragon
+TileSets/FantasyHex/Units/Nidhogg
   rotate: false
   xy: 1164, 165
   size: 32, 28
@@ -18833,7 +18854,7 @@ UnitIcons/Black Death
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Bone Dragon
+UnitIcons/Nidhogg
   rotate: false
   xy: 220, 151
   size: 100, 100
@@ -20603,7 +20624,7 @@ TileSets/FantasyHex/Units/Giant Death Robot-Barbarians
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Giant Death Robot-East Asian
+TileSets/FantasyHex/Units/Cherubim
   rotate: false
   xy: 404, 581
   size: 32, 32
@@ -20617,7 +20638,7 @@ TileSets/FantasyHex/Units/Giant Death Robot-Germanic
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Giant Death Robot-Mediterranean
+TileSets/FantasyHex/Units/Atlas
   rotate: false
   xy: 484, 655
   size: 32, 29
@@ -20659,7 +20680,7 @@ TileSets/FantasyHex/Units/Giant Death Robot-Oceania
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Giant Death Robot-Slavic
+TileSets/FantasyHex/Units/Ares
   rotate: false
   xy: 724, 870
   size: 32, 32

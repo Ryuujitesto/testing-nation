@@ -564,7 +564,7 @@ ImprovementIcons/Biodome City
   orig: 100, 100
   offset: 0, 0
   index: -1
-ImprovementIcons/Citadel
+ImprovementIcons/APD Center
   rotate: false
   xy: 328, 1240
   size: 100, 100
@@ -1537,14 +1537,14 @@ UnitIcons/Clone Trooper
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Colonial Armor
+UnitIcons/Hammer
   rotate: false
   xy: 652, 1348
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Colonial Marine
+UnitIcons/Alliance Rifleman
   rotate: false
   xy: 868, 1564
   size: 100, 100
@@ -1607,7 +1607,7 @@ UnitIcons/Cutty Sharks (Light Hydrofoil)
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Cyberheli
+UnitIcons/Cyclone
   rotate: false
   xy: 544, 700
   size: 100, 100
@@ -1684,14 +1684,14 @@ UnitIcons/Europan Deadshots (Colony Marksman)
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Exoframe Sniper
+UnitIcons/Alliance Sniper
   rotate: false
   xy: 544, 268
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Exoframe Soldier
+UnitIcons/Alliance Striker
   rotate: false
   xy: 652, 376
   size: 100, 100
@@ -1733,7 +1733,7 @@ UnitIcons/Floating Furies (Hovertank)
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Frontier Militia
+UnitIcons/Alliance Scout
   rotate: false
   xy: 1408, 916
   size: 100, 100
@@ -1838,7 +1838,7 @@ UnitIcons/Hovercarrier
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Hovertank
+UnitIcons/Delta
   rotate: false
   xy: 1624, 592
   size: 100, 100
@@ -2495,7 +2495,7 @@ BuildingIcons/Orbital Solar Reflector
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Orbital Space Station
+BuildingIcons/Orbital Development Center
   rotate: false
   xy: 652, 976
   size: 100, 100
@@ -3034,7 +3034,7 @@ NationIcons/Somatek Biomedical
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Thespiaux Medianet
+NationIcons/Alliance of New Federation
   rotate: false
   xy: 1192, 112
   size: 100, 100
@@ -3769,7 +3769,7 @@ UnitIcons/Laser Tank
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Laser Trooper
+UnitIcons/Alliance Assault
   rotate: false
   xy: 220, 1624
   size: 100, 100
@@ -3874,7 +3874,7 @@ UnitIcons/Nemo's Pack (Submersible)
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Neon Dragon
+UnitIcons/Aeon Dragon
   rotate: false
   xy: 1192, 1732
   size: 100, 100
@@ -3909,7 +3909,7 @@ UnitIcons/Penal Legionnaire
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Phantom Submersible
+UnitIcons/Barracuda
   rotate: false
   xy: 328, 544
   size: 100, 100
@@ -4958,7 +4958,7 @@ TileSets/FantasyHex/Tiles/City center-Landfall era
   orig: 32, 36
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/City center-Realization era
+TileSets/FantasyHex/Tiles/APD Center
   rotate: false
   xy: 422, 40
   size: 32, 36
@@ -5826,14 +5826,14 @@ TileSets/FantasyHex/Units/Clone Trooper
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Colonial Armor
+TileSets/FantasyHex/Units/Hammer
   rotate: false
   xy: 462, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Colonial Marine
+TileSets/FantasyHex/Units/Alliance Rifleman
   rotate: false
   xy: 502, 4
   size: 32, 28
@@ -5903,14 +5903,14 @@ TileSets/FantasyHex/Units/Cutty Sharks (Light Hydrofoil)
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Cyberheli
+TileSets/FantasyHex/Units/Cyclone
   rotate: false
   xy: 1514, 480
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/EmbarkedUnit-Cyberheli
+TileSets/FantasyHex/Units/EmbarkedUnit-Cyclone
   rotate: false
   xy: 1514, 480
   size: 32, 28
@@ -5959,7 +5959,7 @@ TileSets/FantasyHex/Units/Drop Tank
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Drop Trooper
+TileSets/FantasyHex/Units/Alliance Striker
   rotate: false
   xy: 1914, 480
   size: 32, 28
@@ -6064,14 +6064,14 @@ TileSets/FantasyHex/Units/Hovercarrier
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/EmbarkedUnit-Hovertank
+TileSets/FantasyHex/Units/EmbarkedUnit-Delta
   rotate: false
   xy: 1034, 444
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Hovertank
+TileSets/FantasyHex/Units/Delta
   rotate: false
   xy: 1034, 444
   size: 32, 28
@@ -6113,14 +6113,14 @@ TileSets/FantasyHex/Units/EmbarkedUnit-Mycon
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/EmbarkedUnit-Neon Dragon
+TileSets/FantasyHex/Units/EmbarkedUnit-Aeon Dragon
   rotate: false
   xy: 1234, 444
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Neon Dragon
+TileSets/FantasyHex/Units/Aeon Dragon
   rotate: false
   xy: 1234, 444
   size: 32, 28
@@ -6190,7 +6190,7 @@ TileSets/FantasyHex/Units/Europan Deadshots (Colony Marksman)
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Exoframe Sniper
+TileSets/FantasyHex/Units/Alliance Sniper
   rotate: false
   xy: 1634, 444
   size: 32, 28
@@ -6225,7 +6225,7 @@ TileSets/FantasyHex/Units/FTL Navigations Bridge
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Frontier Militia
+TileSets/FantasyHex/Units/Alliance Scout
   rotate: false
   xy: 1216, 328
   size: 32, 28
@@ -6379,7 +6379,7 @@ TileSets/FantasyHex/Units/Laser Tank
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Laser Trooper
+TileSets/FantasyHex/Units/Alliance Assault
   rotate: false
   xy: 1148, 164
   size: 32, 28
@@ -6491,7 +6491,7 @@ TileSets/FantasyHex/Units/Penal Legionnaire
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Phantom Submersible
+TileSets/FantasyHex/Units/Barracuda
   rotate: false
   xy: 1576, 324
   size: 32, 28

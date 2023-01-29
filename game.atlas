@@ -1425,7 +1425,7 @@ TechIcons/Info Networks
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Aero-Striker
+UnitIcons/Hawk
   rotate: false
   xy: 4, 1408
   size: 100, 100
@@ -1482,6 +1482,13 @@ UnitIcons/Atlas
   offset: 0, 0
   index: -1
 UnitIcons/Cherubim
+  rotate: false
+  xy: 4, 328
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Kratos
   rotate: false
   xy: 4, 328
   size: 100, 100
@@ -3763,6 +3770,20 @@ UnitIcons/Seraphim
   offset: 0, 0
   index: -1
 UnitIcons/Ares
+  rotate: false
+  xy: 328, 1840
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Heimdall
+  rotate: false
+  xy: 328, 1840
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Loki
   rotate: false
   xy: 328, 1840
   size: 100, 100
@@ -17881,7 +17902,7 @@ TileSets/FantasyHex/FantasyHex/Units/Giant Death Robot-Undead
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Giant Death Robot-Undead
+TileSets/FantasyHex/Units/Loki
   rotate: false
   xy: 244, 7
   size: 32, 28
@@ -20617,7 +20638,7 @@ TileSets/FantasyHex/Units/Giant Death Robot-African
   orig: 32, 31
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Giant Death Robot-Barbarians
+TileSets/FantasyHex/Units/Kratos
   rotate: false
   xy: 364, 549
   size: 32, 28
@@ -20652,7 +20673,7 @@ TileSets/FantasyHex/Units/Giant Death Robot-Mesopotamian
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Giant Death Robot-Middle Eastern
+TileSets/FantasyHex/Units/Heimdall
   rotate: false
   xy: 564, 730
   size: 32, 28

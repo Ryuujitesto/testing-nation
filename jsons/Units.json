@@ -1,6 +1,6 @@
 [
         {
-		"name": "Atlas Mecha",
+		"name": "Atlas",
 		"uniqueTo": "Alliance of New Federation",
 		"unitType": "Close Range Mech",
 		"movement": 4,
@@ -25,7 +25,7 @@
 		"attackSound": "RapidLaser",
 		"civilopediaText": [
 			{
-				"extraImage": "TileSets/FantasyHex/Units/Atlas Mecha",
+				"extraImage": "TileSets/FantasyHex/Units/Atlas",
 				"imageSize": 64
 			},
 			{
@@ -82,7 +82,7 @@
 		]
 	},
 	{
-		"name": "Jaguar",
+		"name": "Mammoth",
 		"uniqueTo": "Alliance of New Federation",
 		"unitType": "Siege",
 		"movement": 3,
@@ -112,7 +112,7 @@
 		"attackSound": "shipguns",
 		"civilopediaText": [
 			{
-				"extraImage": "TileSets/FantasyHex/Units/Jaguar",
+				"extraImage": "TileSets/FantasyHex/Units/Mammoth",
 				"imageSize": 64
 			},
 			{

@@ -1607,14 +1607,14 @@ UnitIcons/Combat Rover
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Corvette
+UnitIcons/Alligator
   rotate: false
   xy: 760, 1132
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Cruise Missile
+UnitIcons/Anti-Unit Missile
   rotate: false
   xy: 1300, 1672
   size: 100, 100
@@ -3832,7 +3832,7 @@ UnitIcons/Light Hovercraft
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Light Hydrofoil
+UnitIcons/Caiman
   rotate: false
   xy: 328, 1624
   size: 100, 100
@@ -4049,7 +4049,7 @@ UnitIcons/Seadog
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Short-Range Missile
+UnitIcons/Mass-effect Missile
   rotate: false
   xy: 1084, 760
   size: 100, 100
@@ -5931,7 +5931,7 @@ TileSets/FantasyHex/Units/Combat Rover
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Corvette
+TileSets/FantasyHex/Units/Alligator
   rotate: false
   xy: 1394, 480
   size: 32, 28
@@ -6442,7 +6442,7 @@ TileSets/FantasyHex/Units/Light Buggy
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Light Hydrofoil
+TileSets/FantasyHex/Units/Caiman
   rotate: false
   xy: 1228, 172
   size: 32, 28
@@ -7183,7 +7183,7 @@ TileSets/FantasyHex/Units/Fortress
   orig: 32, 28
   offset: 0, 0
   index: -1
-UnitIcons/Jabal Drop Mecha
+UnitIcons/Chronos
   rotate: false
   xy: 328, 52
   size: 100, 100
@@ -16832,7 +16832,7 @@ TileSets/FantasyHex/Units/Cargo Ship
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Giant Death Robot
+TileSets/FantasyHex/Units/Chronos
   rotate: false
   xy: 1106, 106
   size: 32, 28

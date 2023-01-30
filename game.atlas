@@ -8791,7 +8791,7 @@ OtherIcons/ConvertGold
   orig: 200, 200
   offset: 0, 0
   index: -1
-StatIcons/Gold
+StatIcons/Gold7899763
   rotate: false
   xy: 285, 1840
   size: 200, 200
@@ -8994,7 +8994,7 @@ ResourceIcons/Grain
   orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/testgroundwater
+ResourceIcons/1234
   rotate: false
   xy: 652, 752
   size: 100, 100
@@ -9722,7 +9722,7 @@ UnitIcons/Highwayman
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Exo-Trooper
+UnitIcons/Cerberus
   rotate: false
   xy: 1732, 1076
   size: 100, 100
@@ -10121,7 +10121,7 @@ UnitIcons/Purge Robot MKI
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Cerberus
+UnitIcons/Purge Robot MKII
   rotate: false
   xy: 1624, 104
   size: 100, 100

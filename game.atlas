@@ -17035,7 +17035,7 @@ UnitIcons/Impi
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Jaguar
+UnitIcons/Jaguar1234
   rotate: false
   xy: 1936, 616
   size: 100, 100
@@ -21688,7 +21688,7 @@ TileSets/FantasyHex/Units/Ironclad
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Jaguar
+TileSets/FantasyHex/Units/Jaguar1234
   rotate: false
   xy: 44, 40
   size: 32, 28

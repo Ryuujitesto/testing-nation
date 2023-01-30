@@ -14180,7 +14180,7 @@ TileSets/FantasyHex/Units/Mobile SAM-Barbarians
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Jaguar
+TileSets/FantasyHex/Units/modern armor
   rotate: false
   xy: 418, 356
   size: 32, 28
@@ -18413,7 +18413,7 @@ TileSets/FantasyHex/FantasyHex/Units/Modern Armor-Undead
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Modern Armor-Undead
+TileSets/FantasyHex/Units/Jaguar
   rotate: false
   xy: 604, 7
   size: 32, 28

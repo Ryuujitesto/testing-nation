@@ -9113,7 +9113,7 @@ BuildingIcons/Plastics Factory
   orig: 100, 100
   offset: 0, 0
   index: -1
-StatIcons/Faith
+StatIcons/Faith123444
   rotate: false
   xy: 493, 1840
   size: 200, 200
@@ -10575,7 +10575,7 @@ CityStateIcons/Trading
   orig: 100, 100
   offset: 0, 0
   index: -1
-EmojiIcons/Faith
+EmojiIcons/Faith13355
   rotate: false
   xy: 1534, 1988
   size: 50, 50

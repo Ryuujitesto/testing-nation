@@ -8994,7 +8994,7 @@ ResourceIcons/Grain
   orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/Groundwater
+ResourceIcons/testgroundwater
   rotate: false
   xy: 652, 752
   size: 100, 100

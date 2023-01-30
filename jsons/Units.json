@@ -7,7 +7,7 @@
 		"movement": 4,
 		"strength": 50,
 		"cost": 300,
-		"requiredTech": "Combat Mecha",
+		"requiredTech": "Combat Mechas",
 		"requiredResource": "Titanium",
 	    "uniques": [
 			"Mech",
@@ -1423,11 +1423,11 @@
 		"name": "Alliance Rifleman",
                 "uniqueTo": "Alliance of New Federation",
 		"unitType": "Infantry",
-                "replaces": "Colonial Rifleman",
+                "replaces": "Colony Rifleman",
                 "movement": 3,
 		"strength": 14,
 	        "cost": 200,
-		"requiredTech": "Frontier armaments",
+		"requiredTech": "Frontier Armaments",
 		"uniques": [
 			"[+25]% Strength <vs [Land] units>",
                         "Never appears as a Barbarian unit"

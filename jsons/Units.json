@@ -3,26 +3,27 @@
 		"name": "Atlas",
 		"uniqueTo": "Alliance of New Federation",
 		"unitType": "Close Range Mech",
+                "replaces": "Assault Mecha",
 		"movement": 4,
-		"strength": 40,
+		"strength": 50,
 		"cost": 300,
-		"requiredTech": "Mecha Prototypes",
+		"requiredTech": "Combat Mecha",
 		"requiredResource": "Titanium",
 	    "uniques": [
 			"Mech",
-			"Can move after attacking",
-                        "Can see over obstacles",
-                        "[+2] Sight",
-                        "Can see invisible [Stealth Infantry] units",
-			"[+25]% Strength <vs [Land] units>",
+		        "[+1] Sight",
+                        "[+50]% Strength <vs [Land] units>",
+                        "[+50]% Strength <vs [Water] units>",
+                        "[+50]% Strength <vs [Air] units>",
+                        "[+150]% Strength <when defending>",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
-			"Consumes [2] [Titanium]",
+			"Consumes [3] [Titanium]",
 			"Never appears as a Barbarian unit",
                         "Ignores terrain cost"
 		],
 		"promotions": [],
 		"hurryCostModifier": 20,
-		"attackSound": "RapidLaser",
+		"attackSound": "SingleLaser",
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Atlas",
@@ -32,7 +33,336 @@
 				"Separator": true
 			},
 			{
-				"text": "The alliance mech unit that equiped with heavy mech armor, advanced sensor unit and pulse laser."
+				"text": "The alliance mech unit that equiped with heavy mech armor, heavy mech shield and pulse laser."
+			}
+		]
+	},
+        {
+		"name": "Cherubim",
+		"uniqueTo": "Alliance of New Federation",
+		"unitType": "Close Range Mech",
+		"movement": 5,
+		"strength": 70,
+		"cost": 300,
+		"requiredTech": "Nanotechnology",
+		"requiredResource": "Ulframite",
+	    "uniques": [
+			"Mech",
+		        "[+1] Sight",
+                        "Heals [15] damage if it kills a unit",
+                        "[+50]% Strength <vs [Land] units>",
+                        "[+50]% Strength <vs [Water] units>",
+                        "[+50]% Strength <vs [Air] units>",
+                        "[+150]% Strength <when defending>",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [4] [Titanium]",
+                        "Consumes [1] [Ulframite]",
+			"Never appears as a Barbarian unit",
+                        "Ignores terrain cost"
+		],
+		"promotions": [],
+		"hurryCostModifier": 20,
+		"attackSound": "SingleLaser",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Cherubim",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "The alliance mech unit that equiped with nanonite mech armor, nano devourer unit, wave laser blade and molecular blade."
+			}
+		]
+	},
+        {
+                "name": "Heimdall",
+		"uniqueTo": "Alliance of New Federation",
+		"unitType": "Ranged Mech",
+                "replaces": "Recon Mecha",
+		"movement": 4,
+		"range": 3,
+		"strength": 40,
+		"rangedStrength": 40,
+		"cost": 300,
+		"requiredTech": "Mecha Prototypes",
+		"requiredResource": "Titanium",
+	    "uniques": [
+			"Mech",
+		        "[+2] Sight",
+                        "[+25]% Strength <vs [Land] units>",
+                        "[+25]% Strength <vs [Water] units>",
+                        "[+50]% Strength <vs [Air] units>",
+                        "Can move after attacking",
+                        "Can see invisible [Stealth Infantry] units",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [2] [Titanium]",
+			"Never appears as a Barbarian unit",
+                        "Ignores terrain cost"
+		],
+		"promotions": [],
+		"hurryCostModifier": 20,
+		"attackSound": "MissileLaunch",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Heimdall",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "The alliance mech unit that equiped with advanced sensor unit and SMR missiles system."
+			}
+		]
+	},
+       {
+                "name": "Loki",
+		"uniqueTo": "Alliance of New Federation",
+		"unitType": "Ranged Mech",
+		"movement": 4,
+		"range": 4,
+		"strength": 40,
+		"rangedStrength": 40,
+		"cost": 300,
+		"requiredTech": "Metamaterials",
+		"requiredResource": "Titanium",
+	    "uniques": [
+			"Mech",
+		        "[+2] Sight",
+                        "[+25]% Strength <vs [Land] units>",
+                        "[+25]% Strength <vs [Water] units>",
+                        "[+50]% Strength <vs [Air] units>",
+                        "Can move after attacking",
+                        "Can see invisible [Stealth Infantry] units",
+                        "Invisible to non-adjacent units",
+                        "Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [3] [Titanium]",
+                        "Consumes [1] [Ulframite]",
+			"Never appears as a Barbarian unit",
+                        "Ignores terrain cost"
+		],
+		"promotions": [],
+		"hurryCostModifier": 20,
+		"attackSound": "RapidLaser",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Loki",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "The alliance mech unit that equiped with stealth mech armor, stealth sensor and long range hyper laser."
+			}
+		]
+	},
+        {
+                "name": "Kratos",
+		"uniqueTo": "Alliance of New Federation",
+		"unitType": "Close Range Mech",
+		"movement": 4,
+		"strength": 50,
+		"cost": 300,
+		"requiredTech": "Metamaterials",
+		"requiredResource": "Titanium",
+	    "uniques": [
+			"Mech",
+		        "[+1] Sight",
+                        "[+25]% Strength <vs [Land] units>",
+                        "[+25]% Strength <vs [Water] units>",
+                        "[+50]% Strength <vs [Air] units>",
+                        "Can move after attacking",
+                        "Can see invisible [Stealth Infantry] units",
+                        "Invisible to non-adjacent units",
+                        "Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [3] [Titanium]",
+                        "Consumes [1] [Ulframite]",
+			"Never appears as a Barbarian unit",
+                        "Ignores terrain cost"
+		],
+		"promotions": [],
+		"hurryCostModifier": 20,
+		"attackSound": "RapidLaser",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Kratos",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "The alliance mech unit that equipped with stealth mech armor, stealth sensor and short range hyper laser."
+			}
+		]
+	},
+        {
+                "name": "Ares",
+		"uniqueTo": "Alliance of New Federation",
+		"unitType": "Close Range Mech",
+                "replaces": "Laser Mecha",
+		"movement": 4,
+		"strength": 50,
+		"cost": 300,
+		"requiredTech": "Fusion Power",
+		"requiredResource": "Titanium",
+	    "uniques": [
+			"Mech",
+		        "[+1] Sight",
+                        "[+50]% Strength <vs [Land] units>",
+                        "[+25]% Strength <vs [Water] units>",
+                        "[+50]% Strength <vs [Air] units>",
+                        "Can move after attacking",
+                        "Can see invisible [Stealth Infantry] units",
+                        "Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [4] [Titanium]",
+			"Never appears as a Barbarian unit",
+                        "Ignores terrain cost"
+		],
+		"promotions": [],
+		"hurryCostModifier": 20,
+		"attackSound": "RapidLaser",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Ares",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "The alliance mech unit that equiped with quad heavy autocannon and short range missiles."
+			}
+		]
+	},
+        {       
+                "name": "Odin",
+                "uniqueTo": "Alliance of New Federation",
+                "unitType": "Ranged Mech",
+		"movement": 4,
+		"range": 7,
+		"strength": 60,
+		"rangedStrength": 70,
+		"cost": 300,
+		"requiredTech": "Antimatter Harnessing",
+		"requiredResource": "Antimatter",
+	    "uniques": [
+			"Mech",
+		        "[+4] Sight",
+                        "[+200]% Strength <vs cities> <when attacking>",
+                        "[+100]% Strength <vs [Land] units>",
+                        "[+50]% Strength <vs [Water] units>",
+                        "[+50]% Strength <vs [Air] units>",
+                        "Can move after attacking",
+                        "Can see invisible [Stealth Infantry] units",
+                        "Can see over obstacles",
+                        "Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [2] [Titanium]",
+                        "Consumes [1] [Antimatter]",
+			"Never appears as a Barbarian unit",
+                        "Ignores terrain cost"
+		],
+		"promotions": [],
+		"hurryCostModifier": 20,
+		"attackSound": "ChargeExplosion",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Odin",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "The alliance mech unit that equiped with advance sensor, hyper velocity railgun and antimatter warhead."
+			}
+		]
+	},
+        {
+                "name": "Thrones",
+		"uniqueTo": "Alliance of New Federation",
+		"unitType": "Ranged Mech",
+                "replaces": "Artillery Mecha",
+		"movement": 5,
+		"range": 6,
+		"strength": 40,
+		"rangedStrength": 55,
+		"cost": 300,
+		"requiredTech": "Combat Mechas",
+		"requiredResource": "Titanium",
+	    "uniques": [
+			"Mech",
+		        "[+3] Sight",
+                        "[+150]% Strength <vs cities> <when attacking>",
+                        "[+25]% Strength <vs [Land] units>",
+                        "[+25]% Strength <vs [Water] units>",
+                        "[+25]% Strength <vs [Air] units>",
+                        "Can move after attacking",
+                        "Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [3] [Titanium]",
+			"Never appears as a Barbarian unit",
+                        "Ignores terrain cost"
+		],
+		"promotions": [],
+		"hurryCostModifier": 20,
+		"attackSound": "shipguns",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Thrones",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "The alliance mech unit that equiped with quad leg mech frame and Long Tom Artillery cannon."
+			}
+		]
+	},
+        {
+                "name": "Chronos",
+		"uniqueTo": "Alliance of New Federation",
+		"unitType": "Ranged Mech",
+                "movement": 4,
+		"range": 5,
+		"strength": 70,
+		"rangedStrength": 80,
+		"cost": 300,
+		"requiredTech": "Stasis Fields",
+		"requiredResource": "Antimatter",
+	    "uniques": [
+			"Mech",
+		        "[+3] Sight",
+                        "[+50]% Strength <vs cities> <when attacking>",
+                        "[+50]% Strength <vs [Land] units>",
+                        "[+50]% Strength <vs [Water] units>",
+                        "[+50]% Strength <vs [Air] units>",
+                        "[+100]% Strength <when defending>",
+                        "Can move after attacking",
+                        "May Paradrop up to [10] tiles from inside friendly territory",
+                        "Only available <in cities with a [Mechanized Unit Facility]>",
+                        "Consumes [2] [Titanium]",
+			"Consumes [1] [Antimatter]",
+                        "Consumes [1] [Yairmite]",
+			"Never appears as a Barbarian unit",
+                        "Ignores terrain cost"
+		],
+		"promotions": [],
+		"hurryCostModifier": 20,
+		"attackSound": "RapidLaser2",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Thrones",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "The alliance mech unit that equiped with stasis shield, orbital jet booster, twin particle projectile cannon and hydra Missiles."
 			}
 		]
 	},
@@ -40,8 +370,8 @@
 		"name": "Seraphim",
 		"uniqueTo": "Alliance of New Federation",
 		"unitType": "Ranged Mech",
-		"movement": 7,
-		"range": 4,
+		"movement": 8,
+		"range": 5,
 		"strength": 60,
 		"rangedStrength": 60,
 		"cost": 600,
@@ -57,10 +387,11 @@
 			"Eliminates combat penalty for attacking over a river",
 		            	"Eliminates combat penalty for attacking across a coast",
 				"Normal vision when embarked",
-		        "[+75]% Strength <vs [Air] units>",
+		        "[+100]% Strength <vs [Air] units>",
                         "[+50]% Strength <vs [Land] units>",
                         "[+50]% Strength <vs [Water] units>",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
+                        "Consumes [2] [Titanium]",
 			"Consumes [1] [Ulframite]",
                         "Ignores terrain cost",
 			"Never appears as a Barbarian unit"
@@ -77,7 +408,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Alliance mech unit that equiped with long range flight system, heavy aircraft armor and particle projectile cannon."
+				"text": "Alliance mech unit that equiped with long range flight system, heavy aircraft armor and heavy particle projectile cannon."
 			}
 		]
 	},
@@ -86,25 +417,22 @@
 		"uniqueTo": "Alliance of New Federation",
 		"unitType": "Siege",
 		"movement": 3,
-		"range": 5,
-		"strength": 60,
-		"rangedStrength": 70,
+		"range": 6,
+		"strength": 50,
+		"rangedStrength": 60,
 		"cost": 600,
 		"requiredTech": "Mind-Machine Interface",
-		"requiredResource": "Antimatter",
+		"requiredResource": "Titanium",
                 "uniques": [
 	                "Must set up to ranged attack",
-			"[+200]% Strength <vs cities>",
+			"[+100]% Strength <vs cities>",
 		        "[+4] Sight",
-			"[+75]% Strength <vs [Land] units>",
+			"[+50]% Strength <vs [Land] units>",
                         "[+50]% Strength <vs [Water] units>",
                         "[+25]% Strength <vs [Air] units>",
                         "Only available <in cities with a [Mechanized Unit Facility]>",
-                        "Ignores terrain cost",
                         "Can see invisible [Stealth Infantry] units",
-                        "Can see invisible [Submarine] units",
-                        "Can see invisible [Xeno Stealth Water] units",
-			"Consumes [1] [Antimatter]",
+                        "Consumes [3] [Titanium]",
                         "Never appears as a Barbarian unit"
 		],
 		"promotions": [],
@@ -148,7 +476,7 @@
 			"[+100]% Strength <vs [Land] units>",
                         "[+100]% Strength <vs [Air] units>",
                         "[+100]% Strength <vs [Water] units>",
-			"[+200]% Strength <when defending>",
+			"[+300]% Strength <when defending>",
                         "[Land] Units adjacent to this unit heal [30] HP per turn when healing",
 			"[Air] Units adjacent to this unit heal [30] HP per turn when healing",
 			"[Water] Units adjacent to this unit heal [30] HP per turn when healing",
@@ -179,6 +507,51 @@
 			}
 		]
 	},
+        {
+		"name": "Hades",
+		"uniqueTo": "Alliance of New Federation",
+		"unitType": "Close Range Mech",
+		"movement": 5,
+		"strength": 100,
+		"cost": 300,
+		"requiredTech": "Lossless Matter Conversion",
+		"requiredResource": "Antimatter",
+	    "uniques": [
+			"Mech",
+		        "[+3] Sight",
+                        "Heals [30] damage if it kills a unit",
+                        "[+100]% Strength <vs cities>",
+                        "[+100]% Strength <vs [Land] units>",
+                        "[+50]% Strength <vs [Water] units>",
+                        "[+50]% Strength <vs [Air] units>",
+                        "[+200]% Strength <when defending>",
+                        "Can see over obstacles",
+                        "Can see invisible [Stealth Infantry] units",
+                        "May Paradrop up to [20] tiles from inside friendly territory",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [3] [Titanium]",
+                        "Consumes [1] [Antimatter]",
+                        "Consumes [1] [Yairmite]",
+                        "Consumes [1] [Gravitix]",
+			"Never appears as a Barbarian unit",
+                        "Ignores terrain cost"
+		],
+		"promotions": [],
+		"hurryCostModifier": 20,
+		"attackSound": "RapidLaser2",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Atlas",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "The alliance mech unit that equiped with teleportation module, nano devourer unit, staris shield, and devastating weapons."
+			}
+		]
+	},
 	{
 		"name": "Thor",
 		"uniqueTo": "Alliance of New Federation",
@@ -196,7 +569,7 @@
 			"[+150]% Strength <vs cities>",
                         "[+150]% Strength <vs [Water] units>",
 			"Only available <in cities with a [Aerocraft Hangar]>",
-			"Consumes [2] [Promethine]",
+			"Consumes [4] [Promethine]",
                         "Consumes [2] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
@@ -222,7 +595,7 @@
 		"strength": 60,
 		"rangedStrength": 60,
 		"cost": 300,
-		"requiredTech": "Composite Armor",
+		"requiredTech": "Orbital Deterrents",
 		"requiredResource": "Promethine",
 		"uniques": [
 			"[+5] Sight",
@@ -238,7 +611,7 @@
                         "Can carry [3] [Anti-Satellite Missile] units",
                         "Must set up to ranged attack",
 			"Only available <in cities with a [Naval Yard]>",
-			"Consumes [2] [Promethine]",
+			"Consumes [3] [Promethine]",
                         "Consumes [1] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
@@ -275,7 +648,7 @@
                         "[+200]% Strength <vs [Water] units>",
                         "[+100]% Strength <when defending>",
 			"Only available <in cities with a [Naval Yard]>",
-                        "Consumes [2] [Titanium]",
+                        "Consumes [3] [Titanium]",
                         "Consumes [2] [Promethine]",
 			"Never appears as a Barbarian unit"
 		],
@@ -315,8 +688,8 @@
 			"Can carry [10] [Mass-effect Missile] units",
                         "Can carry [2] [Anti-Satellite Missile] units",
                         "Only available <in cities with a [Naval Yard]>",
-			"Consumes [1] [Titanium]",
-                        "Consumes [2] [Promethine]",
+			"Consumes [2] [Titanium]",
+                        "Consumes [3] [Promethine]",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "torpedo",
@@ -345,11 +718,11 @@
 	        "uniques": [
 			"Can move after attacking",
                         "[+1] Sight",
-                        "[+50]% Strength <vs [Infantry] units>",
+                        "Can build [Land] improvements on tiles",
+                        "[+25]% Strength <vs [Infantry] units>",
                         "[+25]% Strength <vs [Land] units>",
                         "[+25]% Strength <vs [Air] units>",
-                        "[+25]% Strength <vs [Water] units>",
-			"[+50]% Strength <when defending>",
+                        "[+25]% Strength <when defending>",
                         "Consumes [1] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
@@ -364,7 +737,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Alliance armored unit that equiped with heavy armor, armor piercing gun turret and heavy flamethrower."
+				"text": "Alliance armored unit that equiped with heavy armor, armor piercing gun turret, portable contruction kit and heavy flamethrower."
 			}
 
 		]
@@ -404,7 +777,7 @@
 		"movement": 5,
 		"strength": 40,
 	        "cost": 200,
-		"requiredTech": "Exoskeletons",
+		"requiredTech": "Cybernetics",
 		"uniques": [
 			"[+75]% Strength <vs [Land] units>",
                         "[+50]% Strength <vs [Water] units>",
@@ -413,7 +786,7 @@
                         "[+100]% Strength <when defending>",
                         "Never appears as a Barbarian unit"
 		],
-		"attackSound": "machinegun",
+		"attackSound": "RapidLaser",
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Cerberus",
@@ -445,7 +818,7 @@
 			"[-100]% Strength <vs [Satellite] units> <when attacking>",
 		        "[+100]% Strength <when defending>",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
-		        "Consumes [2] [Titanium]",
+		        "Consumes [3] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
@@ -463,13 +836,48 @@
 			}
 		]
 	},
+        {
+		"name": "Jaguar",
+                "uniqueTo": "Alliance of New Federation",
+		"unitType": "Armored",
+                "movement": 3,
+	        "strength": 60,
+		"cost": 400,
+		"requiredTech": "Alloy Microstructures",
+		"requiredResource": "Promethine",
+		"uniques": [
+			"[50]% chance to intercept air attacks",
+		        "[+50]% Strength <vs [Air] units>",
+			"[+200]% Strength <vs [Land] units>",
+                        "[+25]% Strength <vs [Water] units>",
+			"[-100]% Strength <vs [Satellite] units> <when attacking>",
+		        "[+100]% Strength <when defending>",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+		        "Consumes [2] [Titanium]",
+			"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Jaguar",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Alliance armored unit that equiped with heavy durable armor, high power thermoelectric cannon, and anti missile system against air units."
+			}
+		]
+	},
     {
 		"name": "Cyclone",
                 "uniqueTo": "Alliance of New Federation",
 		"unitType": "Helicopter",
                 "replaces": "Combat Drone",
 		"movement": 5,
-	        "range": 3,
+	        "range": 2,
 		"strength": 20,
 		"rangedStrength": 20,
 		"cost": 100,
@@ -491,7 +899,7 @@
 			"[+25]% Strength <vs [Armored] units>",
 			"[+50]% Strength <vs [Air] units>",
 			"May withdraw before melee ([25]%)",
-			"Consumes [2] [Titanium]",
+			"Consumes [1] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "machinegun",
@@ -600,6 +1008,7 @@
 			"[+3000]% Strength <when attacking>",
 			"[+3000]% Strength <when defending>",
 			"Limited to [3] per Civilization",
+                        "Consumes [5] [Titanium]",
 			"Consumes [1] [Ulframite]",
                         "Consumes [1] [Antimatter]",
                         "Consumes [1] [Gravitix]",
@@ -617,8 +1026,8 @@
 		"name": "Solaris",
                 "uniqueTo": "Alliance of New Federation",
 		"unitType": "Hover",
-		"movement": 5,
-		"range": 8,
+		"movement": 7,
+		"range": 7,
 		"strength": 100,
 		"rangedStrength": 100,
 		"cost": 800,
@@ -637,6 +1046,7 @@
                         "Can see invisible [Stealth Infantry] units",
                         "Can see invisible [Submarine] units",
                         "Can see invisible [Xeno Stealth Water] units",
+                        "Consumes [3] [Titanium]",
                         "Consumes [1] [Ulframite]",
                         "Consumes [1] [Antimatter]",
                         "Consumes [1] [Gravitix]",
@@ -714,10 +1124,10 @@
                 "uniqueTo": "Alliance of New Federation",
 		"unitType": "Xeno Melee Land",
                 "replaces": "Clone Trooper",
-		"movement": 3,
+		"movement": 4,
 		"strength": 100,
 		"cost": 700,
-		"requiredTech": "Xeno Psychology",
+		"requiredTech": "Advanced Biotech",
 		"requiredResource": "Vitamass",
 		"uniques": [
 			"Xeno",
@@ -728,15 +1138,16 @@
                         "Heals [100] damage if it kills a unit",
                         "Unit will heal every turn, even if it performs an action",
                         "[100] HP when healing",
+                        "[+100]% Strength <when defending>",
                         "[+100]% Strength <vs cities>",
 		        "[+100]% Strength <vs [Land] units>",
                         "[+25]% Strength <vs [Water] units>",
                         "[+25]% Strength <vs [Air] units>",
-		        "Consumes [5] [Vitamass]",
+		        "Consumes [10] [Vitamass]",
                         "Never appears as a Barbarian unit"
 		],
 		"promotions": [],
-		"attackSound": "MonsterBite",
+		"attackSound": "MonsterStep",
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Titan",
@@ -756,7 +1167,7 @@
 		"uniqueTo": "Alliance of New Federation",
 		"replaces": "Nerve Staple Conscript",
                 "movement": 5,
-		"strength": 60,
+		"strength": 80,
 		"cost": 700,
 		"requiredTech": "Xeno Psychology",
                 "requiredResource": "Vitamass",
@@ -778,7 +1189,7 @@
                         "Never appears as a Barbarian unit"
 		],
 		"promotions": [],
-		"attackSound": "MonsterBuzz",
+		"attackSound": "MonsterBite",
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Aeon Dragon",
@@ -789,6 +1200,48 @@
 			},
 			{
 				"text": "Alliance BOW unit that take inspiration from Neon Dragon from Xeon unit with more power for air superiority and regeneration."
+			}
+		]
+	},
+        {
+                "name": "Nidhogg",
+		"unitType": "Xeno Air",
+		"uniqueTo": "Alliance of New Federation",
+	        "movement": 5,
+		"range": 4,
+		"strength": 100,
+		"rangedStrength": 100,
+		"cost": 700,
+		"requiredTech": "Designer Lifeforms",
+                "requiredResource": "Vitamass",
+		"uniques": [
+			"Xeno",
+                        "Tame Xeno",
+                        "Can move after attacking",
+			"May attack when embarked",
+                        "Ignores terrain cost",
+		        "Heals [30] damage if it kills a unit",
+                        "[100]% chance to intercept air attacks",
+                        "[+200]% Strength <when defending>",
+			"[+100]% Strength <vs cities>",
+	                "[+50]% Strength <vs [Land] units>",
+                        "[+50]% Strength <vs [Water] units>",
+                        "[+100]% Strength <vs [Air] units>",
+			"Consumes [8] [Vitamass]",
+                        "Never appears as a Barbarian unit"
+		],
+		"promotions": [],
+		"attackSound": "ChargeUpBeam",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Nidhogg",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Alliance BOW unit that equiped with super hard carapace bone armor and solar flare breath."
 			}
 		]
 	},
@@ -813,7 +1266,6 @@
                         "Must set up to ranged attack",
 		     	"Defense bonus when embarked",
 		        "May attack when embarked",
-                        "Ignores terrain cost",
                         "[+25]% Strength <vs [Land] units>",
                         "[+50]% Strength <vs [Water] units>",
                         "[+25]% Strength <vs [Air] units>",
@@ -822,7 +1274,7 @@
 		],
 		"promotions": [],
 		"hurryCostModifier": 20,
-		"attackSound": "tankshot",
+		"attackSound": "machinegun",
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Delta",
@@ -846,12 +1298,11 @@
 		"requiredResource": "Titanium",
 		"uniques": [
 			"Can move after attacking",
-                        "Ignores terrain cost",
                         "[+50]% Strength <vs [Land] units>",
                         "[+25]% Strength <vs [Water] units>",
                         "[+25]% Strength <vs [Air] units>",
 			"[+25]% Strength <vs [Armored] units>",
-			"Consumes [1] [Titanium]",
+			"Consumes [2] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
@@ -891,7 +1342,8 @@
 			"[+150]% Strength <vs [Air] units>",
 			"[-100]% Strength <vs [Satellite] units> <when attacking>",
 			"Only available <in cities with a [Aerodrome]>",
-			"Consumes [1] [Promethine]",
+                        "Consumes [1] [Titanium]",
+			"Consumes [2] [Promethine]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [],
@@ -916,7 +1368,7 @@
 		"uniques": [
 			    "Invisible to non-adjacent units",
                             "Can see invisible [Stealth Infantry] units",
-                            "[+2] Sight",
+                            "[+3] Sight",
                             "[+25]% Strength <vs [Land] units>",
                             "[+25]% Strength <vs [Water] units>",
                             "[+25]% Strength <vs [Air] units>",
@@ -964,6 +1416,135 @@
 			},
 			{
 				"text": "Alliance infantry unit that equiped with anti armor rocket launcher that can hit air and water unit that in range too."
+			}
+		]
+	},
+        {
+		"name": "Alliance Rifleman",
+                "uniqueTo": "Alliance of New Federation",
+		"unitType": "Infantry",
+                "replaces": "Colonial Rifleman",
+                "movement": 3,
+		"strength": 14,
+	        "cost": 200,
+		"requiredTech": "Frontier armaments",
+		"uniques": [
+			"[+25]% Strength <vs [Land] units>",
+                        "Never appears as a Barbarian unit"
+		],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Alliance Rifleman",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Alliance infantry unit that equiped with better armor and better rifle that came with underbarel grenade launcher."
+			}
+		]
+	},
+        {
+		"name": "Alliance Striker",
+                "uniqueTo": "Alliance of New Federation",
+		"unitType": "Infantry",
+                "replaces": "Colony Marksman",
+                "movement": 4,
+		"strength": 25,
+	        "cost": 200,
+		"requiredTech": "Next-Gen Armaments",
+		"uniques": [
+                        "[+1] Sight"
+                        "Invisible to non-adjacent units",
+                        "Can see invisible [Stealth Infantry] units",
+			"[+50]% Strength <vs [Land] units>",
+                        "Never appears as a Barbarian unit"
+		],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Alliance Striker",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Alliance infantry unit that equiped with optical camouflage exoframe armor, stealth sensor and close range weapon shredder gun."
+			}
+		]
+	},
+        {
+		"name": "Alligator",
+                "uniqueTo": "Alliance of New Federation",
+		"unitType": "Ranged Water",
+                "replaces": "Corvette",
+		"movement": 5,
+		"range": 3,
+		"strength": 40,
+		"rangedStrength": 40,
+		"cost": 250,
+		"requiredTech": "Alloy Microstructures",
+		"requiredResource": "Titanium",
+		"uniques": [
+			"[+2] Sight",
+                        "[50]% chance to intercept air attacks",
+                        "[+50]% Strength <vs [Air] units>",
+                        "[+100]% Strength <vs [Water] units>",
+                        "[+50]% Strength <when defending>",
+			"Only available <in cities with a [Naval Yard]>",
+                        "Consumes [2] [Titanium]",
+                        "Consumes [2] [Promethine]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [],
+		"attackSound": "shipguns",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Alligator",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Alliance water unit that equiped with heavy naval armor, high caliber naval cannon and anti air missile."
+			}
+		]
+	},
+        {
+		"name": "Caiman",
+                "uniqueTo": "Alliance of New Federation",
+		"unitType": "Close Range Water",
+                "replaces": "Light Hydrofoil",
+		"movement": 5,
+	        "strength": 15,
+		"cost": 100,
+		"requiredTech": "Hydrodynamics",
+		"requiredResource": "Titanium",
+		"uniques": [
+			"[+2] Sight",
+                        "Can construct [APD Center]",
+                        "May create improvements on water resources",
+                        "Can build [Water] improvements on tiles",
+                        "[+25]% Strength <vs [Water] units>",
+                        "Consumes [1] [Titanium]",
+                        "Never appears as a Barbarian unit"
+		],
+		"promotions": [],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Caiman",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Alliance water unit that equiped with armor piercing machine gun and portable contruction kit."
 			}
 		]
 	}

@@ -7354,6 +7354,7 @@ TileSets/FantasyHex/Units/Chronos
   orig: 32, 28
   offset: 0, 0
   index: -1
+  
 game9.png
 size: 2048, 256
 format: RGBA8888

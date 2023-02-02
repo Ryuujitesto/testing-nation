@@ -24,14 +24,10 @@
 		"favoredReligion": "Astral Pantheon",
 		"uniqueName": "The alliance",
 		"uniques": [
-			"[Worker] units gain the [APD Center Kit] promotion",
-			"[+50]% Production when constructing [All] wonders [in all cities]",
-                        "Damage is ignored when determining unit Strength <for [All] units>",
-			"[+2 Gold] from all [Gold] buildings",
-                        "[+2 Science] from all [Science] buildings",
-                        "[+5 Production] from all [Production] buildings",
+		             	"[Worker] units gain the [APD Center Kit] promotion",
+			            "[+3 Science] from all [Science] buildings",
                         "[+3 Culture] from all [Culture] buildings",
-                        "[+2 Happiness] from all [Happiness] buildings",
+                        "[-50]% Unhappiness from [Population] [in all cities]",
                           ],
               	"cities": [
 			"Dawn City",

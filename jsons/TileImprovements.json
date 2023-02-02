@@ -7,11 +7,11 @@
 			"Ocean",
 			"Lakes"
 		],
-		"culture": 2,
-		"science": 4,
+		"culture": 3,
+		"science": 5,
 		"production": 3,
-		"gold": 2,
-		"food": 3,
+		"gold": 3,
+		"food": 5,
 		"turnsToBuild": 5,
 		"techRequired": "Old Earth Knowledge",
 		"uniques": [
@@ -53,16 +53,16 @@
 			"Mycelium"
 		],
 		"gold": 2,
-		"production": 3,
+		"production": 5,
 		"turnsToBuild": 5,
 		"techRequired": "Computing",
 		"uniques": [
-			"[+1 Gold] <after discovering [Offworld Industries]>",
+			"[+2 Gold] <after discovering [Offworld Industries]>",
 			"[+4 Production] <in [Desert] tiles>",
 			"[+2 Production] <in [Snow] tiles>",
                         "[+2 Production] <in [Tundra] tiles>",
 			"[+2 Production] <after discovering [Satellite Networks]>",
-			"[+1 Gold] <after discovering [Lasers]>",
+			"[+3 Gold] <after discovering [Lasers]>",
 			"[+4 Production] <in cities with a [Orbital Solar Reflector]>",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+5 Gold]"

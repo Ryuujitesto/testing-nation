@@ -125,7 +125,7 @@
 		"range": 4,
 		"strength": 40,
 		"rangedStrength": 40,
-		"cost": 300,
+		"cost": 650,
 		"requiredTech": "Metamaterials",
 		"requiredResource": "Titanium",
 	    "uniques": [
@@ -165,7 +165,7 @@
 		"unitType": "Close Range Mech",
 		"movement": 4,
 		"strength": 50,
-		"cost": 300,
+		"cost": 650,
 		"requiredTech": "Metamaterials",
 		"requiredResource": "Titanium",
 	    "uniques": [
@@ -206,7 +206,7 @@
                 "replaces": "Laser Mecha",
 		"movement": 4,
 		"strength": 50,
-		"cost": 300,
+		"cost": 600,
 		"requiredTech": "Fusion Power",
 		"requiredResource": "Titanium",
 	    "uniques": [
@@ -246,7 +246,7 @@
 		"range": 7,
 		"strength": 60,
 		"rangedStrength": 70,
-		"cost": 300,
+		"cost": 750,
 		"requiredTech": "Antimatter Harnessing",
 		"requiredResource": "Antimatter",
 	    "uniques": [
@@ -290,7 +290,7 @@
 		"range": 6,
 		"strength": 40,
 		"rangedStrength": 55,
-		"cost": 300,
+		"cost": 500,
 		"requiredTech": "Combat Mechas",
 		"requiredResource": "Titanium",
 	    "uniques": [
@@ -330,7 +330,7 @@
 		"range": 5,
 		"strength": 70,
 		"rangedStrength": 80,
-		"cost": 300,
+		"cost": 750,
 		"requiredTech": "Stasis Fields",
 		"requiredResource": "Antimatter",
 	    "uniques": [
@@ -374,7 +374,7 @@
 		"range": 5,
 		"strength": 60,
 		"rangedStrength": 60,
-		"cost": 600,
+		"cost": 650,
 		"requiredTech": "Fusion Power",
 		"requiredResource": "Ulframite",
 		"uniques": [
@@ -420,7 +420,7 @@
 		"range": 6,
 		"strength": 50,
 		"rangedStrength": 60,
-		"cost": 600,
+		"cost": 500,
 		"requiredTech": "Mind-Machine Interface",
 		"requiredResource": "Titanium",
                 "uniques": [
@@ -513,7 +513,7 @@
 		"unitType": "Close Range Mech",
 		"movement": 5,
 		"strength": 100,
-		"cost": 300,
+		"cost": 1000,
 		"requiredTech": "Lossless Matter Conversion",
 		"requiredResource": "Antimatter",
 	    "uniques": [
@@ -594,7 +594,7 @@
 		"range": 6,
 		"strength": 60,
 		"rangedStrength": 60,
-		"cost": 300,
+		"cost": 350,
 		"requiredTech": "Orbital Deterrents",
 		"requiredResource": "Promethine",
 		"uniques": [
@@ -676,7 +676,7 @@
 		"range": 4,
 		"strength": 60,
 		"rangedStrength": 60,
-		"cost": 300,
+		"cost": 350,
 		"requiredTech": "Orbital Deterrents",
 		"requiredResource": "Titanium",
 		"uniques": [
@@ -776,7 +776,7 @@
                 "replaces": "Exoframe Soldier",
 		"movement": 5,
 		"strength": 40,
-	        "cost": 200,
+	        "cost": 250,
 		"requiredTech": "Cybernetics",
 		"uniques": [
 			"[+75]% Strength <vs [Land] units>",
@@ -842,7 +842,7 @@
 		"unitType": "Armored",
                 "movement": 3,
 	        "strength": 60,
-		"cost": 400,
+		"cost": 350,
 		"requiredTech": "Alloy Microstructures",
 		"requiredResource": "Promethine",
 		"uniques": [
@@ -1126,7 +1126,7 @@
                 "replaces": "Clone Trooper",
 		"movement": 4,
 		"strength": 100,
-		"cost": 700,
+		"cost": 1000,
 		"requiredTech": "Advanced Biotech",
 		"requiredResource": "Vitamass",
 		"uniques": [
@@ -1168,7 +1168,7 @@
 		"replaces": "Nerve Staple Conscript",
                 "movement": 5,
 		"strength": 80,
-		"cost": 700,
+		"cost": 800,
 		"requiredTech": "Xeno Psychology",
                 "requiredResource": "Vitamass",
 		"uniques": [
@@ -1211,7 +1211,7 @@
 		"range": 4,
 		"strength": 100,
 		"rangedStrength": 100,
-		"cost": 700,
+		"cost": 900,
 		"requiredTech": "Designer Lifeforms",
                 "requiredResource": "Vitamass",
 		"uniques": [
@@ -1330,7 +1330,7 @@
 		"rangedStrength": 40,
 		"range": 6,
 		"interceptRange": 6,
-		"cost": 150,
+		"cost": 200,
 		"requiredTech": "Aeronautics",
 		"requiredResource": "Promethine",
 		"uniques": [
@@ -1363,7 +1363,7 @@
 		"range": 3,
 		"strength": 15,
 		"rangedStrength": 25,
-		"cost": 100,
+		"cost": 200,
 		"requiredTech": "Next-Gen Armaments",
 		"uniques": [
 			    "Invisible to non-adjacent units",
@@ -1426,7 +1426,7 @@
                 "replaces": "Colony Rifleman",
                 "movement": 3,
 		"strength": 14,
-	        "cost": 200,
+	        "cost": 100,
 		"requiredTech": "Frontier Armaments",
 		"uniques": [
 			"[+25]% Strength <vs [Land] units>",
@@ -1485,7 +1485,7 @@
 		"range": 3,
 		"strength": 40,
 		"rangedStrength": 40,
-		"cost": 250,
+		"cost": 200,
 		"requiredTech": "Alloy Microstructures",
 		"requiredResource": "Titanium",
 		"uniques": [

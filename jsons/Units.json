@@ -6,7 +6,7 @@
                 "replaces": "Assault Mecha",
 		"movement": 4,
 		"strength": 50,
-		"cost": 300,
+		"cost": 500,
 		"requiredTech": "Combat Mechas",
 		"requiredResource": "Titanium",
 	    "uniques": [
@@ -43,7 +43,7 @@
 		"unitType": "Close Range Mech",
 		"movement": 5,
 		"strength": 70,
-		"cost": 300,
+		"cost": 700,
 		"requiredTech": "Nanotechnology",
 		"requiredResource": "Ulframite",
 	    "uniques": [
@@ -85,7 +85,7 @@
 		"range": 3,
 		"strength": 40,
 		"rangedStrength": 40,
-		"cost": 300,
+		"cost": 250,
 		"requiredTech": "Mecha Prototypes",
 		"requiredResource": "Titanium",
 	    "uniques": [

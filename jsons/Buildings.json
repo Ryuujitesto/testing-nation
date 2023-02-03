@@ -8,8 +8,8 @@
 		"production": 9,
 		"food": 9,
 		"gold": 9,
-                "greatPersonPoints": {"Great Engineer": 5},
-                "greatPersonPoints": {"Great Scientist": 5},
+                "greatPersonPoints": {"Great Engineer": 2},
+                "greatPersonPoints": {"Great Scientist": 1},
 		"uniques": [
 			"Orbital",
                         "Provides [6] [Digital Storage Space]",
@@ -35,8 +35,8 @@
 		"science": 3,
 		"production": 3,
                 "food": 6,
-                "greatPersonPoints": {"Great Influencer": 5},
-                "greatPersonPoints": {"Great Scientist": 5},
+                "greatPersonPoints": {"Great Influencer": 2},
+                "greatPersonPoints": {"Great Scientist": 1},
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Prefab",

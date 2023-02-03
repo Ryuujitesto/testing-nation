@@ -11163,7 +11163,7 @@ TileSets/FantasyHex/Road
   orig: 60, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Academy
+TileSets/FantasyHex/Tiles/Academy124
   rotate: false
   xy: 1368, 1896
   size: 32, 34
@@ -11177,189 +11177,189 @@ TileSets/FantasyHex/Tiles/Academy-Hexlock-Industrial era
   orig: 32, 34
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Algae
+TileSets/FantasyHex/Tiles/Algae123
   rotate: false
   xy: 544, 980
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Ancient ruins
+TileSets/FantasyHex/Tiles/Ancient ruins134
   rotate: false
   xy: 1416, 1854
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Survivor camp
+TileSets/FantasyHex/Tiles/Survivor camp1224
   rotate: false
   xy: 1416, 1854
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Ancient ruins-Sand
+TileSets/FantasyHex/Tiles/Ancient ruins-Sand124
   rotate: false
   xy: 178, 487
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Ancient ruins-Snow
+TileSets/FantasyHex/Tiles/Ancient ruins-Snow1234
   rotate: false
   xy: 178, 487
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Survivor camp-Permafrost
+TileSets/FantasyHex/Tiles/Survivor camp-Permafrost123
   rotate: false
   xy: 178, 487
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Survivor camp-Sand
+TileSets/FantasyHex/Tiles/Survivor camp-Sand223
   rotate: false
   xy: 178, 487
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Ancient ruins2
+TileSets/FantasyHex/Tiles/Ancient ruins2444
   rotate: false
   xy: 1358, 1734
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Survivor camp2
+TileSets/FantasyHex/Tiles/Survivor camp2444
   rotate: false
   xy: 1358, 1734
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Army Depot
+TileSets/FantasyHex/Tiles/Army Depot444
   rotate: false
   xy: 62, 76
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Artifacts
+TileSets/FantasyHex/Tiles/Artifacts555
   rotate: false
   xy: 1456, 1796
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Artificial glacier
+TileSets/FantasyHex/Tiles/Artificial glacier444
   rotate: false
   xy: 1496, 1836
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Artificial oasis
+TileSets/FantasyHex/Tiles/Artificial oasis444
   rotate: false
   xy: 1496, 1800
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Badlands
+TileSets/FantasyHex/Tiles/Badlands444
   rotate: false
   xy: 1776, 1836
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/BadlandsForest
+TileSets/FantasyHex/Tiles/BadlandsForest444
   rotate: false
   xy: 1776, 1796
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/BadlandsJungle
+TileSets/FantasyHex/Tiles/BadlandsJungle444
   rotate: false
   xy: 1816, 1832
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Barbarian encampment
+TileSets/FantasyHex/Tiles/Barbarian encampment444
   rotate: false
   xy: 1856, 1832
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Barbarian encampment-Permafrost
+TileSets/FantasyHex/Tiles/Barbarian encampment-Permafrost444
   rotate: false
   xy: 1896, 1832
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Books
+TileSets/FantasyHex/Tiles/Books444
   rotate: false
   xy: 258, 478
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Borough
+TileSets/FantasyHex/Tiles/Borough444
   rotate: false
   xy: 1976, 1800
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Borough+Jungle
+TileSets/FantasyHex/Tiles/Borough+Jungle444
   rotate: false
   xy: 258, 442
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Borough+Jungle-Hexlock
+TileSets/FantasyHex/Tiles/Borough+Jungle-Hexlock444
   rotate: false
   xy: 298, 482
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Borough+Jungle-Hexlock-Industrial era
+TileSets/FantasyHex/Tiles/Borough+Jungle-Hexlock-Industrial era444
   rotate: false
   xy: 298, 446
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Borough+JungleArtifacts-Hexlock-Industrial era
+TileSets/FantasyHex/Tiles/Borough+JungleArtifacts-Hexlock-Industrial era444
   rotate: false
   xy: 298, 446
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Borough+JungleBooks-Hexlock-Industrial era
+TileSets/FantasyHex/Tiles/Borough+JungleBooks-Hexlock-Industrial era444
   rotate: false
   xy: 298, 446
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Borough+JungleData-Hexlock-Industrial era
+TileSets/FantasyHex/Tiles/Borough+JungleData-Hexlock-Industrial era444
   rotate: false
   xy: 298, 446
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Borough+Jungle-Hexlock-Information era
+TileSets/FantasyHex/Tiles/Borough+Jungle-Hexlock-Information era444
   rotate: false
   xy: 1074, 1462
   size: 32, 28
@@ -11520,14 +11520,14 @@ TileSets/FantasyHex/Tiles/Camp+Hostile Fauna
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Citadel
+TileSets/FantasyHex/Tiles/Citadel444
   rotate: false
   xy: 600, 868
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/City center
+TileSets/FantasyHex/Tiles/City center444
   rotate: false
   xy: 600, 820
   size: 32, 40
@@ -11632,14 +11632,14 @@ TileSets/FantasyHex/Tiles/City ruins
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Coast
+TileSets/FantasyHex/Tiles/Coast4444
   rotate: false
   xy: 258, 406
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Coast+Ice
+TileSets/FantasyHex/Tiles/Coast+Ice444
   rotate: false
   xy: 298, 410
   size: 32, 28
@@ -11674,28 +11674,28 @@ TileSets/FantasyHex/Tiles/Data
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Desert
+TileSets/FantasyHex/Tiles/Desert444
   rotate: false
   xy: 600, 748
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/DesertForest
+TileSets/FantasyHex/Tiles/DesertForest444
   rotate: false
   xy: 142, 249
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/DesertHillForest
+TileSets/FantasyHex/Tiles/DesertHillForest444
   rotate: false
   xy: 142, 209
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/DesertJungle
+TileSets/FantasyHex/Tiles/DesertJungle444
   rotate: false
   xy: 142, 169
   size: 32, 32
@@ -11765,14 +11765,14 @@ TileSets/FantasyHex/Tiles/Molten
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Flood plains
+TileSets/FantasyHex/Tiles/Flood plains44
   rotate: false
   xy: 262, 142
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Forest
+TileSets/FantasyHex/Tiles/Forest4444
   rotate: false
   xy: 262, 102
   size: 32, 32
@@ -11821,14 +11821,14 @@ TileSets/FantasyHex/Tiles/Grain
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Grassland
+TileSets/FantasyHex/Tiles/Grassland444
   rotate: false
   xy: 302, 150
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Groundwater
+TileSets/FantasyHex/Tiles/Groundwater444
   rotate: false
   xy: 382, 104
   size: 32, 28
@@ -11905,14 +11905,14 @@ TileSets/FantasyHex/Tiles/Jellyfish
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Jungle
+TileSets/FantasyHex/Tiles/Jungle444
   rotate: false
   xy: 1192, 1191
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Lakes
+TileSets/FantasyHex/Tiles/Lakes444
   rotate: false
   xy: 1192, 1155
   size: 32, 28
@@ -11926,7 +11926,7 @@ TileSets/FantasyHex/Tiles/Mainframe AI Ruins
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Manufactory
+TileSets/FantasyHex/Tiles/Manufactory44
   rotate: false
   xy: 1374, 1620
   size: 32, 34
@@ -11947,28 +11947,28 @@ TileSets/FantasyHex/Tiles/Marine Plastics
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Metal
+TileSets/FantasyHex/Tiles/Metal444
   rotate: false
   xy: 1232, 1298
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Mine
+TileSets/FantasyHex/Tiles/Mine444
   rotate: false
   xy: 1272, 1191
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Mine-Hexlock
+TileSets/FantasyHex/Tiles/Mine-Hexlock444
   rotate: false
   xy: 1272, 1151
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Mining Pit
+TileSets/FantasyHex/Tiles/Mining Pit444
   rotate: false
   xy: 1312, 1281
   size: 32, 50
@@ -12003,7 +12003,7 @@ TileSets/FantasyHex/Tiles/Moisture trap-Hexlock
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Mountain
+TileSets/FantasyHex/Tiles/Mountain444
   rotate: false
   xy: 1446, 1716
   size: 32, 36
@@ -12031,21 +12031,21 @@ TileSets/FantasyHex/Tiles/Nuclear Waste Storage
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Oasis
+TileSets/FantasyHex/Tiles/Oasis444
   rotate: false
   xy: 1486, 1656
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Ocean
+TileSets/FantasyHex/Tiles/Ocean444
   rotate: false
   xy: 1526, 1656
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Ocean+Ice
+TileSets/FantasyHex/Tiles/Ocean+Ice444
   rotate: false
   xy: 1606, 1656
   size: 32, 28
@@ -12059,21 +12059,21 @@ TileSets/FantasyHex/Tiles/Oracle
   orig: 32, 36
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Outpost
+TileSets/FantasyHex/Tiles/Outpost444
   rotate: false
   xy: 1686, 1656
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Pasture+Goats
+TileSets/FantasyHex/Tiles/Pasture+Goats444
   rotate: false
   xy: 1846, 1648
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Pasture+Horses
+TileSets/FantasyHex/Tiles/Pasture+Horses444
   rotate: false
   xy: 1886, 1640
   size: 32, 32
@@ -12087,28 +12087,28 @@ TileSets/FantasyHex/Tiles/Permafrost
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Snow
+TileSets/FantasyHex/Tiles/Snow444
   rotate: false
   xy: 1966, 1655
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/PermafrostForest
+TileSets/FantasyHex/Tiles/PermafrostForest444
   rotate: false
   xy: 1926, 1615
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/PermafrostJungle
+TileSets/FantasyHex/Tiles/PermafrostJungle444
   rotate: false
   xy: 1966, 1615
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Plankton
+TileSets/FantasyHex/Tiles/Plankton444
   rotate: false
   xy: 1726, 1620
   size: 32, 28
@@ -12136,7 +12136,7 @@ TileSets/FantasyHex/Tiles/Research Facility
   orig: 32, 39
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Research site+Artifacts
+TileSets/FantasyHex/Tiles/Research site+Artifacts4444
   rotate: false
   xy: 1454, 1544
   size: 32, 32
@@ -12157,14 +12157,14 @@ TileSets/FantasyHex/Tiles/River-Bottom
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/River-BottomLeft
+TileSets/FantasyHex/Tiles/River-BottomLeft444
   rotate: false
   xy: 1494, 1501
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/River-BottomRight
+TileSets/FantasyHex/Tiles/River-BottomRight444
   rotate: false
   xy: 1534, 1508
   size: 32, 28
@@ -12241,14 +12241,14 @@ TileSets/FantasyHex/Tiles/Seminary
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Settlement
+TileSets/FantasyHex/Tiles/Settlement444
   rotate: false
   xy: 1694, 1474
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Settlement-Hexlock-Industrial era
+TileSets/FantasyHex/Tiles/Settlement-Hexlock-Industrial era444
   rotate: false
   xy: 1654, 1398
   size: 32, 30
@@ -12346,35 +12346,35 @@ TileSets/FantasyHex/Tiles/Tubers
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Tundra
+TileSets/FantasyHex/Tiles/Tundra123
   rotate: false
   xy: 1894, 1251
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Tundra+Tree plantation
+TileSets/FantasyHex/Tiles/Tundra+Tree plantation123
   rotate: false
   xy: 1934, 1248
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/TundraForest
+TileSets/FantasyHex/Tiles/TundraForest133
   rotate: false
   xy: 1974, 1507
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/TundraHillForest
+TileSets/FantasyHex/Tiles/TundraHillForest133
   rotate: false
   xy: 1974, 1467
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/TundraJungle
+TileSets/FantasyHex/Tiles/TundraJungle133
   rotate: false
   xy: 1974, 1427
   size: 32, 32
@@ -12409,21 +12409,21 @@ TileSets/FantasyHex/Tiles/Vault of Records
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Wasteland
+TileSets/FantasyHex/Tiles/Wasteland123
   rotate: false
   xy: 498, 756
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/WastelandForest
+TileSets/FantasyHex/Tiles/WastelandForest123
   rotate: false
   xy: 1344, 1416
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/WastelandJungle
+TileSets/FantasyHex/Tiles/WastelandJungle123
   rotate: false
   xy: 1344, 1376
   size: 32, 32
@@ -16594,105 +16594,105 @@ TileSets/FantasyHex/Tiles/Crab
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Desert+Desert Hill
+TileSets/FantasyHex/Tiles/Desert+Desert Hill123
   rotate: false
   xy: 1106, 169
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Desert+Desert Hill+Aluminum
+TileSets/FantasyHex/Tiles/Desert+Desert Hill+Aluminum123
   rotate: false
   xy: 1140, 169
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Desert+Desert Hill+Coal
+TileSets/FantasyHex/Tiles/Desert+Desert Hill+Coal123
   rotate: false
   xy: 1106, 136
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Desert+Desert Hill+Gems
+TileSets/FantasyHex/Tiles/Desert+Desert Hill+Gems223
   rotate: false
   xy: 1140, 136
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Desert+Desert Hill+Gold
+TileSets/FantasyHex/Tiles/Desert+Desert Hill+Gold123
   rotate: false
   xy: 1174, 158
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Desert+Desert Hill+Horses
+TileSets/FantasyHex/Tiles/Desert+Desert Hill+Horses123
   rotate: false
   xy: 1174, 125
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Desert+Desert Hill+Iron
+TileSets/FantasyHex/Tiles/Desert+Desert Hill+Iron123
   rotate: false
   xy: 1208, 143
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Desert+Desert Hill+Kasbah
+TileSets/FantasyHex/Tiles/Desert+Desert Hill+Kasbah123
   rotate: false
   xy: 1208, 110
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Desert+Desert Hill+Pasture
+TileSets/FantasyHex/Tiles/Desert+Desert Hill+Pasture123
   rotate: false
   xy: 1215, 583
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Desert+Desert Hill+Salt
+TileSets/FantasyHex/Tiles/Desert+Desert Hill+Salt123
   rotate: false
   xy: 1215, 550
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Desert+Desert Hill+Sheep
+TileSets/FantasyHex/Tiles/Desert+Desert Hill+Sheep123
   rotate: false
   xy: 1215, 517
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Desert+Desert Hill+Silver
+TileSets/FantasyHex/Tiles/Desert+Desert Hill+Silver123
   rotate: false
   xy: 1249, 584
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Desert+Desert Hill+Terrace Farm
+TileSets/FantasyHex/Tiles/Desert+Desert Hill+Terrace Farm123
   rotate: false
   xy: 1249, 551
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Desert+Desert Hill+Uranium
+TileSets/FantasyHex/Tiles/Desert+Desert Hill+Uranium123
   rotate: false
   xy: 1249, 518
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Desert+Flood plains+Kasbah
+TileSets/FantasyHex/Tiles/Desert+Flood plains+Kasbah133
   rotate: false
   xy: 1283, 585
   size: 32, 30
@@ -16706,21 +16706,21 @@ TileSets/FantasyHex/Tiles/Feitoria
   orig: 32, 35
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Grassland+Forest+Antiquity Site
+TileSets/FantasyHex/Tiles/Grassland+Forest+Antiquity Site123
   rotate: false
   xy: 1140, 103
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Grassland+Jungle+Brazilwood Camp
+TileSets/FantasyHex/Tiles/Grassland+Jungle+Brazilwood Camp444
   rotate: false
   xy: 1174, 92
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Hill+Forest+Antiquity Site
+TileSets/FantasyHex/Tiles/Hill+Forest+Antiquity Site444
   rotate: false
   xy: 1317, 587
   size: 32, 28
@@ -16755,7 +16755,7 @@ TileSets/FantasyHex/Tiles/Land Trade Route (Production)
   orig: 32, 34
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Plains+Forest+Antiquity Site
+TileSets/FantasyHex/Tiles/Plains+Forest+Antiquity Site123
   rotate: false
   xy: 1351, 546
   size: 32, 33
@@ -16804,7 +16804,7 @@ TileSets/FantasyHex/Tiles/Truffles
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Tundra+Forest+Antiquity Site
+TileSets/FantasyHex/Tiles/Tundra+Forest+Antiquity Site123
   rotate: false
   xy: 1487, 582
   size: 32, 32
@@ -18826,7 +18826,7 @@ TileSets/FantasyHex/FantasyHex/Tiles/Abyss
   orig: 32, 33
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Abyss
+TileSets/FantasyHex/Tiles/Abyss123
   rotate: false
   xy: 976, 52
   size: 32, 33
@@ -18847,7 +18847,7 @@ TileSets/FantasyHex/FantasyHex/Tiles/Graveyard
   orig: 32, 33
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Graveyard
+TileSets/FantasyHex/Tiles/Graveyard123
   rotate: false
   xy: 1614, 218
   size: 32, 33

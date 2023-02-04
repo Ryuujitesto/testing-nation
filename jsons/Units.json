@@ -58,6 +58,7 @@
 			"Consumes [4] [Titanium]",
                         "Consumes [1] [Ulframite]",
 			"Never appears as a Barbarian unit",
+                        "Limited to [1] per Civilization",
                         "Ignores terrain cost"
 		],
 		"promotions": [],
@@ -141,6 +142,7 @@
 			"Consumes [3] [Titanium]",
                         "Consumes [1] [Ulframite]",
 			"Never appears as a Barbarian unit",
+                        "Limited to [2] per Civilization",
                         "Ignores terrain cost"
 		],
 		"promotions": [],
@@ -181,6 +183,7 @@
 			"Consumes [3] [Titanium]",
                         "Consumes [1] [Ulframite]",
 			"Never appears as a Barbarian unit",
+                        "Limited to [2] per Civilization",
                         "Ignores terrain cost"
 		],
 		"promotions": [],
@@ -220,6 +223,7 @@
                         "Only available <in cities with a [Mechanized Unit Facility]>",
 			"Consumes [4] [Titanium]",
 			"Never appears as a Barbarian unit",
+                        "Limited to [2] per Civilization",
                         "Ignores terrain cost"
 		],
 		"promotions": [],
@@ -262,6 +266,7 @@
                         "Only available <in cities with a [Mechanized Unit Facility]>",
 			"Consumes [2] [Titanium]",
                         "Consumes [1] [Antimatter]",
+                        "Limited to [1] per Civilization",
 			"Never appears as a Barbarian unit",
                         "Ignores terrain cost"
 		],
@@ -347,6 +352,7 @@
                         "Consumes [2] [Titanium]",
 			"Consumes [1] [Antimatter]",
                         "Consumes [1] [Yairmite]",
+                        "Limited to [1] per Civilization",
 			"Never appears as a Barbarian unit",
                         "Ignores terrain cost"
 		],
@@ -394,6 +400,7 @@
                         "Consumes [2] [Titanium]",
 			"Consumes [1] [Ulframite]",
                         "Ignores terrain cost",
+                        "Limited to [2] per Civilization",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [],
@@ -489,6 +496,7 @@
 			"Consumes [1] [Gravitix]",
                         "Consumes [1] [Antimatter]",
                         "Consumes [1] [Yairmite]",
+                        "Limited to [1] per Civilization",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [],
@@ -533,6 +541,7 @@
                         "Consumes [1] [Antimatter]",
                         "Consumes [1] [Yairmite]",
                         "Consumes [1] [Gravitix]",
+                        "Limited to [1] per Civilization",
 			"Never appears as a Barbarian unit",
                         "Ignores terrain cost"
 		],
@@ -604,8 +613,7 @@
 		     	"Eliminates combat penalty for attacking across a coast",
                         "[+200]% Strength <vs cities>",
 			"[+200]% Strength <vs [Air] units>",
-			"[+25]% Strength <vs [Water] units>",
-                        "[+75]% Strength <vs [Land] units>",
+		        "[+100]% Strength <vs [Land] units>",
 			"Can carry [3] [Mass-effect Missile] units",
 			"Can carry [3] [Anti-Unit Missile] units",
                         "Can carry [3] [Anti-Satellite Missile] units",
@@ -779,9 +787,9 @@
 	        "cost": 250,
 		"requiredTech": "Cybernetics",
 		"uniques": [
-			"[+75]% Strength <vs [Land] units>",
-                        "[+50]% Strength <vs [Water] units>",
-                        "[+50]% Strength <vs [Air] units>",
+			"[+50]% Strength <vs [Land] units>",
+                        "[+25]% Strength <vs [Water] units>",
+                        "[+25]% Strength <vs [Air] units>",
                         "[+25]% Strength <vs [Infantry] units>",
                         "[+100]% Strength <when defending>",
                         "Never appears as a Barbarian unit"
@@ -840,18 +848,18 @@
 		"name": "Jaguar",
                 "uniqueTo": "Alliance of New Federation",
 		"unitType": "Armored",
-                "movement": 3,
-	        "strength": 60,
+                "movement": 4,
+	        "range": 4,
+		"strength": 45,
+		"rangedStrength": 55,
 		"cost": 350,
 		"requiredTech": "Alloy Microstructures",
 		"requiredResource": "Promethine",
 		"uniques": [
-			"[50]% chance to intercept air attacks",
-		        "[+50]% Strength <vs [Air] units>",
 			"[+200]% Strength <vs [Land] units>",
                         "[+25]% Strength <vs [Water] units>",
 			"[-100]% Strength <vs [Satellite] units> <when attacking>",
-		        "[+100]% Strength <when defending>",
+		        "[+50]% Strength <when defending>",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 		        "Consumes [2] [Titanium]",
 			"Never appears as a Barbarian unit"
@@ -1007,7 +1015,7 @@
 			"Blast radius [6]",
 			"[+3000]% Strength <when attacking>",
 			"[+3000]% Strength <when defending>",
-			"Limited to [3] per Civilization",
+			"Limited to [2] per Civilization",
                         "Consumes [5] [Titanium]",
 			"Consumes [1] [Ulframite]",
                         "Consumes [1] [Antimatter]",
@@ -1051,6 +1059,7 @@
                         "Consumes [1] [Antimatter]",
                         "Consumes [1] [Gravitix]",
                         "Consumes [1] [Yairmite]",
+                        "Limited to [1] per Civilization",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "ChargeUpBeam",
@@ -1144,6 +1153,7 @@
                         "[+25]% Strength <vs [Water] units>",
                         "[+25]% Strength <vs [Air] units>",
 		        "Consumes [10] [Vitamass]",
+                        "Limited to [2] per Civilization",
                         "Never appears as a Barbarian unit"
 		],
 		"promotions": [],
@@ -1228,6 +1238,7 @@
                         "[+50]% Strength <vs [Water] units>",
                         "[+100]% Strength <vs [Air] units>",
 			"Consumes [8] [Vitamass]",
+                        "Limited to [2] per Civilization",
                         "Never appears as a Barbarian unit"
 		],
 		"promotions": [],
@@ -1372,7 +1383,7 @@
                             "[+25]% Strength <vs [Land] units>",
                             "[+25]% Strength <vs [Water] units>",
                             "[+25]% Strength <vs [Air] units>",
-                            "[+50]% Strength <vs [Infantry] units>",
+                            "[+25]% Strength <vs [Infantry] units>",
                             "Never appears as a Barbarian unit"
 		],
 		"attackSound": "SniperShot",
@@ -1393,16 +1404,16 @@
 		"unitType": "Sniper",
                 "replaces": "Laser Trooper",
 		"movement": 2,
-		"range": 3,
+		"range": 2,
 		"strength": 20,
 		"rangedStrength": 30,
 		"cost": 200,
 		"requiredTech": "Next-Gen Armaments",
 		"uniques": [
                            "[+1] Sight",
-			   "[+50]% Strength <vs [Land] units>",
+			   "[+25]% Strength <vs [Land] units>",
                            "[+25]% Strength <vs [Water] units>",
-                           "[+50]% Strength <vs [Air] units>",
+                           "[+25]% Strength <vs [Air] units>",
                            "Never appears as a Barbarian unit"
 		],
 		"attackSound": "ChargeExplosion",
@@ -1459,7 +1470,7 @@
                         "[+1] Sight"
                         "Invisible to non-adjacent units",
                         "Can see invisible [Stealth Infantry] units",
-			"[+50]% Strength <vs [Land] units>",
+			"[+25]% Strength <vs [Land] units>",
                         "Never appears as a Barbarian unit"
 		],
 		"attackSound": "machinegun",
@@ -1483,8 +1494,8 @@
                 "replaces": "Corvette",
 		"movement": 5,
 		"range": 3,
-		"strength": 40,
-		"rangedStrength": 40,
+		"strength": 45,
+		"rangedStrength": 45,
 		"cost": 200,
 		"requiredTech": "Alloy Microstructures",
 		"requiredResource": "Titanium",
@@ -1492,7 +1503,7 @@
 			"[+2] Sight",
                         "[50]% chance to intercept air attacks",
                         "[+50]% Strength <vs [Air] units>",
-                        "[+100]% Strength <vs [Water] units>",
+                        "[+150]% Strength <vs [Water] units>",
                         "[+50]% Strength <when defending>",
 			"Only available <in cities with a [Naval Yard]>",
                         "Consumes [2] [Titanium]",

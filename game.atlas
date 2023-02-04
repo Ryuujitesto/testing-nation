@@ -8784,20 +8784,6 @@ NationIcons/New Star
   orig: 100, 100
   offset: 0, 0
   index: -1
-OtherIcons/ConvertGold12322
-  rotate: false
-  xy: 285, 1840
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-StatIcons/Gold7899763
-  rotate: false
-  xy: 285, 1840
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
 ReligionIcons/Capitalism
   rotate: false
   xy: 1408, 1508
@@ -9097,27 +9083,6 @@ ResourceIcons/Plankton
   xy: 1516, 212
   size: 100, 100
   orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Plastics
-  rotate: false
-  xy: 1732, 212
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Plastics Factory
-  rotate: false
-  xy: 1732, 212
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-StatIcons/Faith123444
-  rotate: false
-  xy: 493, 1840
-  size: 200, 200
-  orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Advanced Materials

@@ -13375,14 +13375,14 @@ TileSets/FantasyHex/Units/Great Administrator
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Great Engineer
+TileSets/FantasyHex/Units/Great Engineer1231
   rotate: false
   xy: 302, 42
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Great General
+TileSets/FantasyHex/Units/Great General1231
   rotate: false
   xy: 302, 6
   size: 32, 28
@@ -13410,7 +13410,7 @@ TileSets/FantasyHex/Units/Great Mad Scientist
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Great Merchant
+TileSets/FantasyHex/Units/Great Merchant131313
   rotate: false
   xy: 382, 176
   size: 32, 28
@@ -13438,7 +13438,7 @@ TileSets/FantasyHex/Units/Great Sage
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Great Scientist
+TileSets/FantasyHex/Units/Great Scientist6516161
   rotate: false
   xy: 342, 68
   size: 32, 28
@@ -14950,7 +14950,7 @@ TileSets/FantasyHex/Units/Work Boats-Hexlock
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Worker
+TileSets/FantasyHex/Units/Worker123
   rotate: false
   xy: 1384, 1374
   size: 32, 28
@@ -16804,7 +16804,7 @@ TileSets/FantasyHex/Units/Chronos
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Great Merchant
+TileSets/FantasyHex/Units/Great Merchant1232132
   rotate: false
   xy: 1283, 518
   size: 32, 28
@@ -20820,7 +20820,7 @@ TileSets/FantasyHex/Units/Great Artist-South American
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Great Engineer
+TileSets/FantasyHex/Units/Great Engineer131313
   rotate: false
   xy: 644, 763
   size: 32, 28
@@ -20981,7 +20981,7 @@ TileSets/FantasyHex/Units/Great General-South American
   orig: 32, 31
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Great Merchant
+TileSets/FantasyHex/Units/Great Merchant163161
   rotate: false
   xy: 604, 689
   size: 32, 28
@@ -21107,7 +21107,7 @@ TileSets/FantasyHex/Units/Great Prophet
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Great Scientist
+TileSets/FantasyHex/Units/Great Scientist1616161
   rotate: false
   xy: 284, 361
   size: 32, 28
@@ -24040,7 +24040,7 @@ TileSets/FantasyHex/Units/Work Boats-South American
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Worker
+TileSets/FantasyHex/Units/Worker1231
   rotate: false
   xy: 1364, 729
   size: 32, 28

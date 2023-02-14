@@ -27,6 +27,7 @@
 		             	"[Worker] units gain the [APD Center Kit] promotion",
 			            "[+3 Science] from all [Science] buildings",
                         "[+3 Culture] from all [Culture] buildings",
+                        "[+3 Production] from all [Culture] buildings",
                         "[-50]% Unhappiness from [Population] [in all cities]",
                           ],
               	"cities": [

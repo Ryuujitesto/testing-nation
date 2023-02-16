@@ -7,11 +7,11 @@
 			"Ocean",
 			"Lakes"
 		],
-		"culture": 2,
-		"science": 3,
+		"culture": 1,
+		"science": 4,
 		"production": 2,
-		"gold": 3,
-		"food": 5,
+		"gold": 2,
+		"food": 6,
 		"turnsToBuild": 5,
 		"techRequired": "Old Earth Knowledge",
 		"uniques": [
@@ -52,7 +52,7 @@
 			"Flood plains",
 			"Mycelium"
 		],
-		"gold": 2,
+		"gold": 3,
 		"production": 3,
 		"turnsToBuild": 5,
 		"techRequired": "Computing",

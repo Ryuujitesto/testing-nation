@@ -1269,7 +1269,7 @@
                         "Eliminates combat penalty for attacking over a river",
 		        "Eliminates combat penalty for attacking across a coast",
 		        "Normal vision when embarked",
-                   "May attack when embarked",
+                   "Can attack while embarked",
                         "[+25]% Strength <vs [Land] units>",
                     "Consumes [1] [Titanium]",
 			    "Never appears as a Barbarian unit"
